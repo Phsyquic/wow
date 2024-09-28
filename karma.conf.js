@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/pkm-app'),
+      dir: require('path').join(__dirname, './coverage/wowAPP'),
       subdir: '.',
       reporters: [
         { type: 'html' },
