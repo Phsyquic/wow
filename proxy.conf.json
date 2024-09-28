@@ -1,0 +1,8 @@
+{
+    "/simbot": {
+      "target": "https://www.raidbots.com",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }

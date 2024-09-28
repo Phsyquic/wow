@@ -1,0 +1,26 @@
+span {
+    display: inline-block;
+    margin-left: 10px;
+}
+.mainDiv {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+}
+
+select {
+    scale: 200%;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    float: right;
+    scale: 200%;
+    margin-right: 50px;
+}
+
