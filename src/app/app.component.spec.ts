@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'pkmAPP'`, () => {
+  it(`should have as title 'wowAPP'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('pkmAPP');
+    expect(app.title).toEqual('wowAPP');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('pkmAPP app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('wowAPP app is running!');
   });
 });
