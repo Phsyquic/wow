@@ -10,7 +10,7 @@ export class RaidbotsApiService {
   constructor(private http: HttpClient) {  }
 
   getDroptimizer(report: any): Observable<Object> {
-    const _url = `/simbot/${report}/data.json`;
+    const _url = `https://www.raidbots.com/simbot/${report}/data.json`;
     let header = new HttpHeaders()
     .set('Content-Type', 'application/json')
 
