@@ -77,10 +77,8 @@ export class MainComponent implements OnInit {
 
   getTxt() {
     this.LocalDataService.getDroptimizers().subscribe((data: any) => {
-      var str = data.split("\r");
+      var str = data.split(/[\r\n\s]+/);
       str.forEach((element: any) => {
-        var elementArray = element.split("Raidbots");
-        element = elementArray[0];
         this.getReports(element);
       });
       this.reports.forEach((report: any) => {    
