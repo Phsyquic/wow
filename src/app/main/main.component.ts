@@ -43,6 +43,7 @@ export class MainComponent implements OnInit {
   encounterLibrary: Boss [] = [];
   playersLibrary: any = [];
   actualIlvl: number = 0;
+  actualSpec: string = '';
   @ViewChildren('myselect') select: any; 
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
 
@@ -96,11 +97,12 @@ export class MainComponent implements OnInit {
 
   addPlayer(data: any) {
     var player = data.sim.players[0].name;
+    var spec = data.sim.players[0].specialization;
     var existe = this.playersLibrary.find((x: any) => x.name == player);
     var gear = data.sim.players[0].gear;
     var ilvl = this.calcularIlvl(gear);
     if (!existe) {
-      this.playersLibrary.push({name: player, ilvl: ilvl});
+      this.playersLibrary.push({name: player, ilvl: ilvl, spec: spec});
     } else {
       var existeIlvl = existe.ilvl;
       if (ilvl > existeIlvl) {
@@ -390,7 +392,7 @@ export class MainComponent implements OnInit {
   }
 
   generateColor(spec: any) {
-    if (spec == 'Devastation Evoker') {
+    if (spec == 'Devastation Evoker' || spec == 'Augmentation Evoker') {
       return '#33937f';
     }
     if (spec == 'Balance Druid' || spec == 'Feral Druid' || spec == 'Guardian Druid') {
@@ -436,7 +438,7 @@ export class MainComponent implements OnInit {
     if (slot == 'trinket' || slot == 'finger' || slot == 'main_hand' || slot == 'off_hand' || slot == 'back' || slot == 'neck') {
       return '';
     }
-    if (spec == 'Devastation Evoker') {
+    if (spec == 'Devastation Evoker' || spec == 'Augmentation Evoker') {
       return 'Mail';
     }
     if (spec == 'Balance Druid' || spec == 'Feral Druid' || spec == 'Guardian Druid') {
@@ -479,7 +481,7 @@ export class MainComponent implements OnInit {
   }
 
   getTier(spec: any) {
-    if (spec == 'Devastation Evoker') {
+    if (spec == 'Devastation Evoker' || spec == 'Augmentation Evoker') {
       return 0;
     }
     if (spec == 'Balance Druid' || spec == 'Feral Druid' || spec == 'Guardian Druid') {
@@ -621,11 +623,14 @@ export class MainComponent implements OnInit {
     this.select.forEach((element: any) => {
       element.nativeElement.value = '';
     });
+    this.actualIlvl = 0;
+    this.actualSpec = '';
   }
 
   cargarActualIlvl(player: any) {
     var obj = this.playersLibrary.find((x: { name: any; }) => x.name == player);
     this.actualIlvl = obj.ilvl;
+    this.actualSpec = obj.spec;
   }
 
   comprobarCatalyst(data : any) {

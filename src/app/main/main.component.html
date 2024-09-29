@@ -20,7 +20,7 @@
     <option value="">Players</option>
     <option [value]="player.name" *ngFor="let player of playersLibrary">{{capitalizeFirstLetter(player.name)}}</option>
   </select>
-  <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualIlvl}}</span>
+  <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualSpec}} {{actualIlvl}}</span>
   <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
   <button (click)="resetAll()">Reset</button>
   <div *ngFor="let slot of fitems">
