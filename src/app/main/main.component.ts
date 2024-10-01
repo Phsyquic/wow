@@ -31,32 +31,35 @@ export class MainComponent implements OnInit {
     main_hand: [],
     off_hand: [],
   };
-  listSlots = [ 'head','neck','shoulder','back', 'chest','wrist','hands','waist','legs','feet','finger','trinket','main_hand','off_hand'];
+  listSlots = ['head', 'neck', 'shoulder', 'back', 'chest', 'wrist', 'hands', 'waist', 'legs', 'feet', 'finger', 'trinket', 'main_hand', 'off_hand'];
   aitems: any[] = [];
   fitems: any[] = [];
   base_url = 'https://www.raidbots.com/simbot/report/';
   reports: string[] = [];
   listBosses: any[] = [];
-  itemsLibrary: ItemsLibrary [] = [];
+  itemsLibrary: ItemsLibrary[] = [];
   PH_image = 'https://wow.zamimg.com/images/wow/icons/large/inv_10_jewelcrafting_gem3primal_fire_cut_blue.jpg';
   base_img = 'https://wow.zamimg.com/images/wow/icons/large/';
-  encounterLibrary: Boss [] = [];
+  encounterLibrary: Boss[] = [];
   playersLibrary: any = [];
+  playerCargado: string = '';
+  checkDiv: boolean = false;
+  checkArray: any = [];
   actualIlvl: number = 0;
   actualSpec: string = '';
-  @ViewChildren('myselect') select: any; 
+  @ViewChildren('myselect') select: any;
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
 
-  constructor( 
+  constructor(
     private http: HttpClient,
     private RaidbotsApiService: RaidbotsApiService,
     private LocalDataService: LocalDataService,
     private DiscordApiService: DiscordApiService
-    ) { }
+  ) { }
 
-    public getJSON(url: any): Observable<any> {
-      return this.http.get(url);
-    }
+  public getJSON(url: any): Observable<any> {
+    return this.http.get(url);
+  }
 
   ngOnInit(): void {
     //this.getDiscord();
@@ -82,7 +85,7 @@ export class MainComponent implements OnInit {
       str.forEach((element: any) => {
         this.getReports(element);
       });
-      this.reports.forEach((report: any) => {    
+      this.reports.forEach((report: any) => {
         this.RaidbotsApiService.getDroptimizer(report).subscribe((data) => {
           if (this.encounterLibrary.length == 0) {
             this.getBossLibrary(data);
@@ -101,8 +104,9 @@ export class MainComponent implements OnInit {
     var existe = this.playersLibrary.find((x: any) => x.name == player);
     var gear = data.sim.players[0].gear;
     var ilvl = this.calcularIlvl(gear);
+    var gearIlvl = this.calcularGearIlvl(gear);
     if (!existe) {
-      this.playersLibrary.push({name: player, ilvl: ilvl, spec: spec});
+      this.playersLibrary.push({ name: player, ilvl: ilvl, spec: spec, gear: gearIlvl });
     } else {
       var existeIlvl = existe.ilvl;
       if (ilvl > existeIlvl) {
@@ -111,7 +115,15 @@ export class MainComponent implements OnInit {
     }
   }
 
-  calcularIlvl(gear: any) {  
+  calcularGearIlvl(gear: any) {
+    const resultado = Object.keys(gear).map(key => ({
+      name: key,
+      value: gear[key]['ilevel']
+    }));
+    return resultado;
+  }
+
+  calcularIlvl(gear: any) {
     var total = 0;
     var cont = 0;
     var temp = 0;
@@ -130,7 +142,7 @@ export class MainComponent implements OnInit {
 
   getBossLibrary(data: any) {
     var bosses = data.simbot.meta.itemLibrary[0].instance.encounters;
-    bosses.forEach((element: any)=> {
+    bosses.forEach((element: any) => {
       var boss = {
         id: element.id,
         name: element.name
@@ -185,7 +197,7 @@ export class MainComponent implements OnInit {
     results.forEach((element: any) => {
       this.getItem(element, player);
     });
-    
+
     this.aitems = Object.entries(this.items);
     this.aitems.forEach((element: any) => {
       this.comprobarDuplicados(element[1]);
@@ -196,14 +208,14 @@ export class MainComponent implements OnInit {
   }
 
   quitarVacios(slot: any) {
-    if (slot[1] && slot[1]=='') {
+    if (slot[1] && slot[1] == '') {
       return false;
     }
     return true;
   }
 
   getItem(item: any, player: any) {
-    var str = item.name.split("/",7);
+    var str = item.name.split("/", 7);
     var item_id = str[3];
     var item_boss = str[1];
     var item_slot: string = this.comprobarSlot(str[6]);
@@ -226,8 +238,8 @@ export class MainComponent implements OnInit {
       }
 
       type ObjectKey = keyof typeof this.items;
-      var allItems = this.items [item_slot as ObjectKey];
-      
+      var allItems = this.items[item_slot as ObjectKey];
+
 
       var existe = false;
       if (allItems) {
@@ -245,14 +257,14 @@ export class MainComponent implements OnInit {
               if (!element.sim) {
                 element.sim = [];
               }
-  
+
               element.sim.push(simC);
             }
-          }  
+          }
         });
       };
 
-      if (existe == false) {      
+      if (existe == false) {
         var item_descrip = {
           id: item_id,
           armor: item_armor,
@@ -292,8 +304,8 @@ export class MainComponent implements OnInit {
           if (!existe) {
             realSim.push(simC);
           }
-        });  
-        item.sim = realSim; 
+        });
+        item.sim = realSim;
       }
     });
   }
@@ -382,9 +394,9 @@ export class MainComponent implements OnInit {
   getCharOptions() {
     var barChartOptions = {
       plugins: {
-          legend: {
-              display: false,
-          },
+        legend: {
+          display: false,
+        },
       },
     };
 
@@ -532,6 +544,8 @@ export class MainComponent implements OnInit {
   filtrar(data: any) {
     this.actualIlvl = 0;
     var boss = data.target.value;
+    this.playerCargado = '';
+    this.checkDiv = false;
     if (boss) {
       //this.fitems = this.aitems;
       var titems: any[] = [];
@@ -544,7 +558,7 @@ export class MainComponent implements OnInit {
               tslot.push(item);
             }
           });
-          titems.push([element[0],tslot]);
+          titems.push([element[0], tslot]);
         }
       });
       this.fitems = titems;
@@ -556,6 +570,8 @@ export class MainComponent implements OnInit {
   filtrar2(data: any) {
     this.actualIlvl = 0;
     var slot = data.target.value;
+    this.playerCargado = '';
+    this.checkDiv = false;
     if (slot) {
       //this.fitems = this.aitems;
       var titems: any[] = [];
@@ -573,6 +589,7 @@ export class MainComponent implements OnInit {
   filtrar3(data: any) {
     var player = data.target.value;
     if (player) {
+      this.playerCargado = player;
       //this.fitems = this.aitems;
       var titems: any[] = [];
       this.fitems.forEach((element: any) => {
@@ -581,7 +598,7 @@ export class MainComponent implements OnInit {
           var sim = datos.sim;
           var existe = sim.find((x: { name: any; }) => x.name == player);
           if (existe) {
-            telement.push(datos); 
+            telement.push(datos);
           }
         });
         var tslot = [element[0], telement];
@@ -596,6 +613,7 @@ export class MainComponent implements OnInit {
   }
 
   filtrar4(data: any) {
+    this.checkDiv = false;
     var dps = parseInt(data.target.value);
     if (data) {
       //this.fitems = this.aitems;
@@ -604,7 +622,7 @@ export class MainComponent implements OnInit {
         var telement: any[] = [];
         element[1].forEach((datos: any) => {
           var sim = datos.sim;
-          var existe = sim.find((x: { dps: number; }) => x.dps >= dps );
+          var existe = sim.find((x: { dps: number; }) => x.dps >= dps);
           if (existe) {
             telement.push(datos);
           }
@@ -625,6 +643,43 @@ export class MainComponent implements OnInit {
     });
     this.actualIlvl = 0;
     this.actualSpec = '';
+    this.playerCargado = '';
+    this.checkDiv = false;
+  }
+
+  checkIlvl() {
+    var resultado = this.playersLibrary.filter((x: any) => x.name == this.playerCargado);
+    if (resultado.length > 1) {
+      const maxValues = resultado.reduce((acc: { [x: string]: number; }, curr: { [x: string]: number; }) => {
+        for (let key in curr) {
+          if (!acc[key]) {
+            acc[key] = curr[key];
+          } else {
+            acc[key] = Math.max(acc[key], curr[key]);
+          }
+        }
+        return acc;
+      }, {});
+      this.checkArray = maxValues;
+    } else {
+      this.checkArray = resultado[0];
+    }
+    this.checkDiv = true;
+  }
+
+  getArrayFromObject(obj: any): any[] {
+    return Object.entries(obj).map(([key, value]) => ({ name: key, value }));
+  }
+
+  checkStyleIlvl(ilvl: any) {
+    var value = parseInt(ilvl);
+    if (value < 610) {
+      return 'red';     // Menor que 610 -> rojo
+    } else if (value >= 610 && value < 619) {
+      return 'orange';  // Entre 610 y 619 -> naranja
+    } else {
+      return 'black';   // Mayor o igual que 619 -> negro
+    }
   }
 
   cargarActualIlvl(player: any) {
@@ -633,44 +688,44 @@ export class MainComponent implements OnInit {
     this.actualSpec = obj.spec;
   }
 
-  comprobarCatalyst(data : any) {
+  comprobarCatalyst(data: any) {
     var totalArray: any[] = [];
     data.forEach((element: any) => {
       var tempArray: any[] = [];
-      if (this.comprobarSlotCatalyst(element[0])){
-      element[1].forEach((item: any) => {
-        var existe = false;
-        if (item.armor != 'Tier') {
-          tempArray.forEach((value: any) => {
-            if (value) {
-              if ((value.armor == item.armor) && (value.boss == item.boss)) {
-                existe = true;
-                var existeSim = false;
-                value.sim.forEach((sim: any) => {
-                  item.sim.forEach((itemSim: any) => {
-                    if (sim.name == itemSim.name) {
-                      if (itemSim.dps > sim.dps) {
-                        sim.dps = itemSim.dps;
+      if (this.comprobarSlotCatalyst(element[0])) {
+        element[1].forEach((item: any) => {
+          var existe = false;
+          if (item.armor != 'Tier') {
+            tempArray.forEach((value: any) => {
+              if (value) {
+                if ((value.armor == item.armor) && (value.boss == item.boss)) {
+                  existe = true;
+                  var existeSim = false;
+                  value.sim.forEach((sim: any) => {
+                    item.sim.forEach((itemSim: any) => {
+                      if (sim.name == itemSim.name) {
+                        if (itemSim.dps > sim.dps) {
+                          sim.dps = itemSim.dps;
+                        }
+                        existeSim = true;
                       }
-                      existeSim = true;
-                    }
+                    });
                   });
-                });
-                if (!existeSim) {
-                  value.sim.push(item.sim[0]);
+                  if (!existeSim) {
+                    value.sim.push(item.sim[0]);
+                  }
                 }
               }
-            }
-          });
-        }
-        if (!existe) {
-          tempArray.push(item);
-        }
-      });
+            });
+          }
+          if (!existe) {
+            tempArray.push(item);
+          }
+        });
       } else {
         tempArray = element[1];
       }
-      totalArray.push([element[0],tempArray]);
+      totalArray.push([element[0], tempArray]);
     });
     return totalArray;
   }

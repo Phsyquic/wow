@@ -23,17 +23,24 @@
   <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualSpec}} {{actualIlvl}}</span>
   <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
   <button (click)="resetAll()">Reset</button>
-  <div *ngFor="let slot of fitems">
-    <div *ngIf="quitarVacios(slot)">
-      <div *ngFor="let item of slot[1]" class="mainDiv">
-        <img [src]="getImgLink(item.id)"><span>{{getBoss(item.boss)}} || {{item.armor}} {{capitalizeFirstLetter(slot[0])}}</span>
-          <canvas baseChart
-            [data]="getChartData(item.id)"
-            [options]="getCharOptions()"
-            [type]="'bar'">
+  <button *ngIf="playerCargado" (click)="checkIlvl()">CheckIlvl</button>
+  <div *ngIf="!checkDiv">
+    <div *ngFor="let slot of fitems">
+      <div *ngIf="quitarVacios(slot)">
+        <div *ngFor="let item of slot[1]" class="mainDiv">
+          <img [src]="getImgLink(item.id)"><span>{{getBoss(item.boss)}} || {{item.armor}}
+            {{capitalizeFirstLetter(slot[0])}}</span>
+          <canvas baseChart [data]="getChartData(item.id)" [options]="getCharOptions()" [type]="'bar'">
           </canvas>
+        </div>
       </div>
     </div>
   </div>
-</body>
+  <div *ngIf="checkDiv">
+    <div *ngFor="let slot of checkArray.gear" class="mainDiv">
+      <label [ngStyle]="{ 'color': checkStyleIlvl(slot.value) }">{{capitalizeFirstLetter(slot.name)}}: {{slot.value}}</label>
+    </div>
+  </div>
 
+
+</body>
