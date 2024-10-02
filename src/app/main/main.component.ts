@@ -606,6 +606,9 @@ export class MainComponent implements OnInit {
       });
       this.fitems = titems;
       this.cargarActualIlvl(player);
+      if (this.checkDiv) {
+        this.checkIlvl();
+      }
     } else {
       this.actualIlvl = 0;
       this.fitems = this.aitems;
