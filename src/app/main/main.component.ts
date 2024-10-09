@@ -103,10 +103,11 @@ export class MainComponent implements OnInit {
     var spec = data.sim.players[0].specialization;
     var existe = this.playersLibrary.find((x: any) => x.name == player);
     var gear = data.sim.players[0].gear;
+    //console.log(this.transformObjectGear(gear));
     var ilvl = this.calcularIlvl(gear);
     var gearIlvl = this.calcularGearIlvl(gear);
     if (!existe) {
-      this.playersLibrary.push({ name: player, ilvl: ilvl, spec: spec, gear: gearIlvl });
+      this.playersLibrary.push({ name: player, ilvl: ilvl, spec: spec, gear: gear, gearIlvl: gearIlvl });
     } else {
       var existeIlvl = existe.ilvl;
       if (ilvl > existeIlvl) {
@@ -114,6 +115,24 @@ export class MainComponent implements OnInit {
       }
     }
   }
+
+  transformObjectGear = (obj: Record<string, any>) => {
+    const transformed: Record<string, { id: number, ilevel: number }> = {};
+  
+    for (const key in obj) {
+      const { encoded_item, ilevel } = obj[key];
+  
+      // Extraer el ID usando una expresión regular
+      const idMatch = encoded_item.match(/id=(\d+)/);
+      const id = idMatch ? parseInt(idMatch[1], 10) : null;
+  
+      if (id) {
+        transformed[key] = { id, ilevel };
+      }
+    }
+  
+    return transformed;
+  };
 
   calcularGearIlvl(gear: any) {
     const resultado = Object.keys(gear).map(key => ({
