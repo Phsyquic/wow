@@ -43,12 +43,14 @@ export class MainComponent implements OnInit {
   encounterLibrary: Boss[] = [];
   playersLibrary: any = [];
   playerCargado: string = '';
+  bossCargado: string = '';
   checkDiv: boolean = false;
   checkArray: any = [];
   actualIlvl: number = 0;
   actualSpec: string = '';
   @ViewChildren('myselect') select: any;
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
+  allSimList: any = [];
 
   constructor(
     private http: HttpClient,
@@ -90,7 +92,8 @@ export class MainComponent implements OnInit {
           if (this.encounterLibrary.length == 0) {
             this.getBossLibrary(data);
           }
-          this.addPlayer(data);
+          this.addPlayer(data, report);
+          this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
           this.getItemsLibrary(data);
           this.getDroptimizer(data);
         });
@@ -98,7 +101,8 @@ export class MainComponent implements OnInit {
     });
   }
 
-  addPlayer(data: any) {
+  addPlayer(data: any, report: any) {
+    const _url = `https://www.raidbots.com/simbot/${report}/`;
     var player = data.sim.players[0].name;
     var spec = data.sim.players[0].specialization;
     var existe = this.playersLibrary.find((x: any) => x.name == player);
@@ -107,7 +111,7 @@ export class MainComponent implements OnInit {
     var ilvl = this.calcularIlvl(gear);
     var gearIlvl = this.calcularGearIlvl(gear);
     if (!existe) {
-      this.playersLibrary.push({ name: player, ilvl: ilvl, spec: spec, gear: gear, gearIlvl: gearIlvl });
+      this.playersLibrary.push({ name: player, ilvl: ilvl, spec: spec, gear: gear, gearIlvl: gearIlvl, report: _url });
     } else {
       var existeIlvl = existe.ilvl;
       if (ilvl > existeIlvl) {
@@ -118,19 +122,19 @@ export class MainComponent implements OnInit {
 
   transformObjectGear = (obj: Record<string, any>) => {
     const transformed: Record<string, { id: number, ilevel: number }> = {};
-  
+
     for (const key in obj) {
       const { encoded_item, ilevel } = obj[key];
-  
+
       // Extraer el ID usando una expresión regular
       const idMatch = encoded_item.match(/id=(\d+)/);
       const id = idMatch ? parseInt(idMatch[1], 10) : null;
-  
+
       if (id) {
         transformed[key] = { id, ilevel };
       }
     }
-  
+
     return transformed;
   };
 
@@ -561,28 +565,33 @@ export class MainComponent implements OnInit {
   }
 
   filtrar(data: any) {
-    this.actualIlvl = 0;
     var boss = data.target.value;
     this.playerCargado = '';
-    this.checkDiv = false;
-    if (boss) {
-      //this.fitems = this.aitems;
-      var titems: any[] = [];
-      this.fitems.forEach((element: any) => {
-        var tslot: any[] = [];
-        if (element[1]) {
-          var bosses = element[1];
-          bosses.forEach((item: any) => {
-            if (item.boss == boss) {
-              tslot.push(item);
-            }
-          });
-          titems.push([element[0], tslot]);
-        }
-      });
-      this.fitems = titems;
+    this.bossCargado = boss;
+    if (this.checkDiv) {
+      this.getRotation();
     } else {
-      this.fitems = this.aitems;
+      this.actualIlvl = 0;
+      this.checkDiv = false;
+      if (boss) {
+        //this.fitems = this.aitems;
+        var titems: any[] = [];
+        this.fitems.forEach((element: any) => {
+          var tslot: any[] = [];
+          if (element[1]) {
+            var bosses = element[1];
+            bosses.forEach((item: any) => {
+              if (item.boss == boss) {
+                tslot.push(item);
+              }
+            });
+            titems.push([element[0], tslot]);
+          }
+        });
+        this.fitems = titems;
+      } else {
+        this.fitems = this.aitems;
+      }
     }
   }
 
@@ -590,6 +599,7 @@ export class MainComponent implements OnInit {
     this.actualIlvl = 0;
     var slot = data.target.value;
     this.playerCargado = '';
+    this.bossCargado = '';
     this.checkDiv = false;
     if (slot) {
       //this.fitems = this.aitems;
@@ -609,6 +619,7 @@ export class MainComponent implements OnInit {
     var player = data.target.value;
     if (player) {
       this.playerCargado = player;
+      this.bossCargado = '';
       //this.fitems = this.aitems;
       var titems: any[] = [];
       this.fitems.forEach((element: any) => {
@@ -666,6 +677,7 @@ export class MainComponent implements OnInit {
     this.actualIlvl = 0;
     this.actualSpec = '';
     this.playerCargado = '';
+    this.bossCargado = '';
     this.checkDiv = false;
   }
 
@@ -776,5 +788,67 @@ export class MainComponent implements OnInit {
       var icon = this.base_img + item.icon + '.jpg';
       return icon;
     }
+  }
+
+  getRotation() {
+    this.checkDiv = true;
+    var idBoss = this.bossCargado;
+
+    //Extraigo todos los items con mejoras del boss
+    var titems: any[] = [];
+    this.aitems.forEach((element: any) => {
+      var tslot: any[] = [];
+      if (element[1]) {
+        var bosses = element[1];
+        bosses.forEach((item: any) => {
+          if (item.boss == idBoss) {
+            tslot.push(item);
+          }
+        });
+        titems.push([element[0], tslot]);
+      }
+    });
+    var allItems = titems;
+
+    //Cargo todas las mejoras
+    var playersSimList: { name: any; item: any; pos: number; }[] = [];
+    allItems.forEach((slot: any) => {
+      if (slot[1].length > 0) {
+        slot[1].forEach((element: any) => {
+          var simList = element.sim.sort((a: { dps: number; }, b: { dps: number; }) => b.dps - a.dps);
+          simList.forEach((sim: any, index: number) => {
+            var playerSim = {name: sim.name, item: element.id, pos: index + 1};
+            playersSimList.push(playerSim);
+          });
+        });
+      }
+    });
+
+    //Agrupo las mejoras por players
+    this.allSimList = [];
+    this.playersLibrary.forEach((player: any) => {
+      const resultados = playersSimList.filter(obj => obj.name === player.name);
+      if (resultados.length > 0) {
+        this.allSimList.push(resultados);
+      }
+    });
+  }
+
+  getColor(pos: any) {
+    if (pos == 1) {
+      return 'green';
+    }
+    if (pos == 2) {
+      return 'yellow';
+    }
+    if (pos == 3) {
+      return 'orange';
+    }
+    return '';
+  }
+
+  cargarRutaDroptimizer() {
+    const result = this.playersLibrary.filter((obj: { name: any; }) => obj.name === this.playerCargado);
+    window.open(result[0].report, '_blank');
   }
 }

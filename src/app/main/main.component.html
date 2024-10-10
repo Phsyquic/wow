@@ -3,11 +3,11 @@
     <option value="">Bosses</option>
     <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>
   </select>
-  <select #myselect name="Slots" id="slots" (change)="filtrar2($event)">
+  <select *ngIf="!checkDiv" #myselect name="Slots" id="slots" (change)="filtrar2($event)">
     <option value="">Slots</option>
     <option [value]="slot" *ngFor="let slot of listSlots">{{capitalizeFirstLetter(slot)}}</option>
   </select>
-  <select #myselect name="DPS" id="players" (change)="filtrar4($event)">
+  <select *ngIf="!checkDiv" #myselect name="DPS" id="players" (change)="filtrar4($event)">
     <option value="">DPS</option>
     <option value="500">500</option>
     <option value="1000">1000</option>
@@ -16,14 +16,15 @@
     <option value="6000">6000</option>
     <option value="8000">8000</option>
   </select>
-  <select #myselect name="Players" id="players" (change)="filtrar3($event)">
+  <select *ngIf="!checkDiv" #myselect name="Players" id="players" (change)="filtrar3($event)">
     <option value="">Players</option>
     <option [value]="player.name" *ngFor="let player of playersLibrary">{{capitalizeFirstLetter(player.name)}}</option>
   </select>
   <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualSpec}} {{actualIlvl}}</span>
   <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
   <button (click)="resetAll()">Reset</button>
-  <button *ngIf="playerCargado" (click)="checkIlvl()">CheckIlvl</button>
+  <button *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
+  <button *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
   <div *ngIf="!checkDiv">
     <div *ngFor="let slot of fitems">
       <div *ngIf="quitarVacios(slot)">
@@ -37,8 +38,8 @@
     </div>
   </div>
   <div *ngIf="checkDiv">
-    <div *ngFor="let slot of checkArray.gear" class="mainDiv">
-      <label [ngStyle]="{ 'color': checkStyleIlvl(slot.value) }">{{capitalizeFirstLetter(slot.name)}}: {{slot.value}}</label>
+    <div *ngFor="let player of allSimList" class="mainDiv" style="padding: 0px;">
+      <div *ngFor="let item of player" [ngStyle]="{ 'background-color': getColor(item.pos) }" style="padding:10px;"><img [src]="getImgLink(item.item)"><span>{{item.name}}</span></div>
     </div>
   </div>
 
