@@ -4,5 +4,11 @@
       "secure": true,
       "changeOrigin": true,
       "logLevel": "debug"
+    },
+    "/guide": {
+      "target": "https://www.wowhead.com/",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "debug"
     }
   }

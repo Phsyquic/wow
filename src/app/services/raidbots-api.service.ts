@@ -18,5 +18,12 @@ export class RaidbotsApiService {
       headers: header
      });
   }
+
+  getBisList(spec: any): Observable<any> {
+    spec = spec.toLowerCase();
+    var realSpec = spec.split(' ');
+    const _url = `https://www.wowhead.com/guide/classes/${realSpec[1]}/${realSpec[0]}/bis-gear`;
+    return this.http.get(_url, { responseType: 'text' });  // Receive raw text (HTML)
+  }
     
 }

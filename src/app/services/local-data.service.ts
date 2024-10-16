@@ -15,4 +15,9 @@ export class LocalDataService {
     var _url = this.jsonURL + 'droptimizers.txt';
     return this.http.get(_url, { responseType: 'text' });
   }
+
+  getBisListTxt(): Observable<any> {
+    var _url = this.jsonURL + 'bisList.txt';
+    return this.http.get(_url, { responseType: 'text' });
+  }
 }

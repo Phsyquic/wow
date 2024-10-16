@@ -1,4 +1,4 @@
-import { Component, OnChanges, OnInit, SimpleChanges, ViewChildren } from '@angular/core';
+import { Component, HostListener, OnChanges, OnInit, SimpleChanges, ViewChildren } from '@angular/core';
 import { Boss, Items, ItemsLibrary, Slot } from '../interfaces/items.interface';
 import { RaidbotsApiService } from '../services/raidbots-api.service';
 import { DiscordApiService } from '../services/discord-api.service';
@@ -51,6 +51,7 @@ export class MainComponent implements OnInit {
   @ViewChildren('myselect') select: any;
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
   allSimList: any = [];
+  allBisList: any = [];
 
   constructor(
     private http: HttpClient,
@@ -96,8 +97,11 @@ export class MainComponent implements OnInit {
           this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
           this.getItemsLibrary(data);
           this.getDroptimizer(data);
+          //Demon Lock esta bug
+          this.getBisListData();
         });
       });
+
     });
   }
 
@@ -107,7 +111,6 @@ export class MainComponent implements OnInit {
     var spec = data.sim.players[0].specialization;
     var existe = this.playersLibrary.find((x: any) => x.name == player);
     var gear = data.sim.players[0].gear;
-    //console.log(this.transformObjectGear(gear));
     var ilvl = this.calcularIlvl(gear);
     var gearIlvl = this.calcularGearIlvl(gear);
     if (!existe) {
@@ -192,6 +195,13 @@ export class MainComponent implements OnInit {
           stats: item.stats
         }
         this.itemsLibrary.push(itemReal);
+      } else {
+        if (this.comprobarTierItem(item)) {
+          const existingItem = this.itemsLibrary.find((element: any) => element.id === item.id);
+          if (existingItem) {
+            existingItem.boss = item.encounter.id;
+          }
+        }
       }
     });
   }
@@ -226,6 +236,7 @@ export class MainComponent implements OnInit {
       this.comprobarDuplicados(element[1]);
     });
     this.aitems = Object.entries(this.items);
+    
     this.aitems = this.comprobarCatalyst(this.aitems);
     this.fitems = this.aitems;
   }
@@ -333,6 +344,40 @@ export class MainComponent implements OnInit {
     });
   }
 
+  comprobarTierItem(item: any, slot?: any) {
+    if (item.icon.includes('helm') || slot == 'head') {
+      if (item.encounter && item.encounter.id == 2608 || item.boss == 2608) {
+        return true;
+      }
+    }
+
+    if (item.icon.includes('pant') || slot == 'legs') {
+      if (item.encounter && item.encounter.id == 2601 || item.boss == 2601) {
+        return true;
+      }
+    }
+
+    if (item.icon.includes('shoulder') || slot == 'shoulder') {
+      if (item.encounter && item.encounter.id == 2609 || item.boss == 2609) {
+        return true;
+      }
+    }
+
+    if (item.icon.includes('chest') || slot == 'chest') {
+      if (item.encounter && item.encounter.id == 2612 || item.boss == 2612) {
+        return true;
+      }
+    }
+
+    if (item.icon.includes('glove') || slot == 'hands') {
+      if (item.encounter && item.encounter.id == 2599 || item.boss == 2599) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
   comprobarTier(boss: any, slot: any, spec: any) {
     if (boss == '2601' && slot == 'legs') {
       return this.getTier(spec);
@@ -414,8 +459,72 @@ export class MainComponent implements OnInit {
     return barChartData;
   }
 
-  getCharOptions() {
+  quitarVacioSpec(spec: any) {
+    var palabras = spec.split(" ");
+    if (palabras.length > 2) {
+      if (palabras[0] == 'Beast') {
+        return 'Beast-Mastery Hunter';
+      }
+      var cadena = palabras[0] + " " + palabras[1] + "-" + palabras[2];
+      return cadena;
+    }
+    return spec;
+  }
+
+  buscarCatalyst(id: any) {
+    var idList = [id];
+    const result = this.aitems.flatMap((item: any) => item[1]).find((x: any) => x.exactID == id);
+    if (result !== undefined) {
+      idList.push(result.id);
+    }
+    const result2 = this.aitems.flatMap((item: any) => item[1]).find((x: any) => x.id == id);
+    if (result2 !== undefined) {
+      if (result2.exactID[0] !== undefined) {
+        idList.push(result2.exactID[0]);
+      }
+    }
+    return idList;
+  }
+
+  getCharOptions(item: any) {
+    var colors: any[] = [];
+    var id = item.id;
+    var sim = item.sim;
+
+    sim.forEach((element: any) => {
+      var spec = this.quitarVacioSpec(element.spec);
+      var bisList = this.allBisList.find((x: any[]) => x[0] == spec);
+      if (bisList) {
+        var idList = this.buscarCatalyst(id);
+        var existe = false;
+        idList.forEach((idUnica: any) => {
+          
+          existe = bisList[1].find((x: any[]) => x[0] == idUnica);
+        });
+        if (!existe) {
+          colors.push('red');
+        } else {
+          var ove = existe[1][0];
+          if (ove == ' true') {
+            colors.push('black');
+          } else {
+            colors.push('orange');
+          }
+        }
+      }
+    });
+
     var barChartOptions = {
+      scales: {
+        x: {
+          ticks: {
+            color: function (context: { index: any; }) {
+              const index = context.index;
+              return colors[index % colors.length];
+            }
+          }
+        }
+      },
       plugins: {
         legend: {
           display: false,
@@ -451,7 +560,7 @@ export class MainComponent implements OnInit {
     if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
       return '#69ccf0';
     }
-    if (spec == 'Windwalker Monk' || spec == 'Breawmaster Monk') {
+    if (spec == 'Windwalker Monk' || spec == 'Brewmaster Monk') {
       return '#00ff96';
     }
     if (spec == 'Fury Warrior' || spec == 'Arms Warrior' || spec == 'Protection Warrior') {
@@ -497,7 +606,7 @@ export class MainComponent implements OnInit {
     if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
       return 'Cloth';
     }
-    if (spec == 'Windwalker Monk' || spec == 'Breawmaster Monk') {
+    if (spec == 'Windwalker Monk' || spec == 'Brewmaster Monk') {
       return 'Leather';
     }
     if (spec == 'Fury Warrior' || spec == 'Arms Warrior' || spec == 'Protection Warrior') {
@@ -540,7 +649,7 @@ export class MainComponent implements OnInit {
     if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
       return 2;
     }
-    if (spec == 'Windwalker Monk' || spec == 'Breawmaster Monk') {
+    if (spec == 'Windwalker Monk' || spec == 'Brewmaster Monk') {
       return 0;
     }
     if (spec == 'Fury Warrior' || spec == 'Arms Warrior' || spec == 'Protection Warrior') {
@@ -602,7 +711,6 @@ export class MainComponent implements OnInit {
     this.bossCargado = '';
     this.checkDiv = false;
     if (slot) {
-      //this.fitems = this.aitems;
       var titems: any[] = [];
       this.fitems.forEach((element: any) => {
         if (element[0] == slot) {
@@ -748,6 +856,7 @@ export class MainComponent implements OnInit {
                   if (!existeSim) {
                     value.sim.push(item.sim[0]);
                   }
+                  value.exactID.push(item.id);
                 }
               }
             });
@@ -817,7 +926,7 @@ export class MainComponent implements OnInit {
         slot[1].forEach((element: any) => {
           var simList = element.sim.sort((a: { dps: number; }, b: { dps: number; }) => b.dps - a.dps);
           simList.forEach((sim: any, index: number) => {
-            var playerSim = {name: sim.name, item: element.id, pos: index + 1};
+            var playerSim = { name: sim.name, item: element.id, pos: index + 1 };
             playersSimList.push(playerSim);
           });
         });
@@ -851,4 +960,317 @@ export class MainComponent implements OnInit {
     const result = this.playersLibrary.filter((obj: { name: any; }) => obj.name === this.playerCargado);
     window.open(result[0].report, '_blank');
   }
+
+  getBisList(spec: any): Promise<any> {
+    return new Promise((resolve, reject) => {
+      this.RaidbotsApiService.getBisList(spec).subscribe(
+        (data) => {
+          try {
+            var idItems: any[] = [];
+            var separator = 'WH.Gatherer.addData';
+            data = data.split(separator);
+            separator = 'qualityTier';
+            data = data[2].split(separator);
+            separator = '\"';
+            var arrayItems: any[] = [];
+            data.forEach((element: any) => {
+
+              // Cada lista que esta incluida
+              if (element.includes("helm")) {
+                if (arrayItems.length > 1) {
+                  idItems.push(arrayItems);
+                }
+                arrayItems = [];
+              }
+
+              var dato = element.split(separator);
+              if (dato.length > 2) {
+                var final: any;
+                if (dato[2] == ':{') {
+                  final = parseInt(dato[1].replace('"', ''));
+                } else {
+                  final = parseInt(dato[2].replace('"', ''));
+                }
+                arrayItems.push({ id: final, slot: this.verSlot(element) });
+              }
+            });
+
+            idItems.push(arrayItems);
+            resolve(this.estructurarItems(idItems, spec)); // Resolviendo la promesa con el resultado final
+          } catch (error) {
+            reject(error); // En caso de error
+          }
+        },
+        (error) => {
+          reject(error); // En caso de error en la suscripción
+        }
+      );
+    });
+  }
+
+  estructurarItems(idItems: any, spec: any) {
+    var itemList: any[] = [];
+    idItems[0].forEach((element: any) => {
+      var obj: any = this.itemsLibrary.find((x) => x.id === element.id);
+      if (obj) {
+        if (!itemList[element.slot]) {
+          itemList[element.slot] = [];
+        }
+        var newObj = obj;
+        newObj.overall = this.comprobarOverall(newObj, itemList[element.slot], element.slot);
+        itemList[element.slot].push(newObj);
+      } else {
+        var newObj = element;
+        newObj.overall = false;
+        if (!itemList[newObj.slot]) {
+          itemList[newObj.slot] = [];
+        }
+        itemList[newObj.slot].push(newObj);
+      }
+    });
+    return itemList;
+  }
+
+  comprobarOverall(item: any, itemList: any, slot: any) {
+    const filteredItems = itemList.filter((item: any) => 'overall' in item);
+    if (slot == 'ring' || slot == 'trinket') {
+      if (filteredItems.length > 1) {
+        return false;
+      }
+    } else {
+      if (filteredItems.length > 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  verSlot(item: any) {
+    // Inicializa una variable para determinar el slot correspondiente
+    let slot = 'trinket';
+
+    if (item.includes("helm")) {
+      slot = 'head';
+    } else if (item.includes("neck")) {
+      slot = 'neck';
+    } else if (item.includes("shoulder")) {
+      slot = 'shoulder';
+    } else if (item.includes("cape")) {
+      slot = 'back';
+    } else if (item.includes("chest")) {
+      slot = 'chest';
+    } else if (item.includes("bracer")) {
+      slot = 'wrist';
+    } else if (item.includes("glove")) {
+      slot = 'hands';
+    } else if (item.includes("belt")) {
+      slot = 'waist';
+    } else if (item.includes("boot")) {
+      slot = 'feet';
+    } else if (item.includes("robe") || item.includes("pants") || item.includes("pant")) {
+      slot = 'legs';
+    } else if (item.includes("ring")) {
+      slot = 'ring';
+    } else if (item.includes("offhand")) {
+      slot = 'off_hand';
+    } else if ((item.includes("2h")) || (item.includes("1h"))) {
+      slot = 'main_hand';
+    }
+
+    return slot;
+  }
+
+  // Escucha los eventos keydown en toda la ventana
+  @HostListener('window:keydown', ['$event'])
+  onKeyPress(event: KeyboardEvent) {
+    if (event.key === 'b' || event.key === 'B') {
+      this.getALLBisList();
+    }
+  }
+
+  async getALLBisList() {
+    console.log(this.itemsLibrary);
+    this.allBisList = [];
+    const specs = [
+      'Devastation Evoker', 'Augmentation Evoker',
+      'Balance Druid', 'Feral Druid', 'Guardian Druid',
+      'Unholy Death-Knight', 'Frost Death-Knight', 'Blood Death-Knight',
+      'Havoc Demon-Hunter', 'Vengeance Demon-Hunter',
+      'Beast-Mastery Hunter', 'Marksmanship Hunter', 'Survival Hunter',
+      'Enhancement Shaman', 'Elemental Shaman',
+      'Assassination Rogue', 'Outlaw Rogue', 'Subtlety Rogue',
+      'Arcane Mage', 'Frost Mage', 'Fire Mage',
+      'Windwalker Monk', 'Brewmaster Monk',
+      'Fury Warrior', 'Arms Warrior', 'Protection Warrior',
+      'Affliction Warlock', 'Demonology Warlock', 'Destruction Warlock',
+      'Shadow Priest',
+      'Retribution Paladin', 'Protection Paladin'
+    ];
+
+    for (const element of specs) {
+      try {
+        const specBis = await this.getBisList(element);
+        this.allBisList.push([element, specBis]);
+      } catch (error) {
+        console.error(`Error obteniendo BIS para ${element}:`, error);
+      }
+    }
+
+    this.downloadTxtFile(this.allBisList);
+  }
+
+  downloadTxtFile(array: any) {
+    // Inicializar contenido como un string vacío
+    let content = '';
+
+    // Recorrer el array principal
+    for (const item of array) {
+      // Suponiendo que item es un array con [titulo, [objeto]]
+      const title = item[0]; // Título
+      const objects = item[1]; // Array que contiene un objeto
+
+      // Añadir el título al contenido
+      content += `${title}\n`;
+
+      // Asegurarse de que haya al menos un objeto en el array
+      if (typeof objects === 'object' && objects !== null) {
+        // Recorrer cada propiedad en el objeto
+        for (const [slot, items] of Object.entries(objects)) {
+          // Añadir el nombre de la propiedad (slot) al contenido
+          content += `${slot}\n`;
+
+          // Verificar si hay elementos en la propiedad
+          if (Array.isArray(items) && items.length > 0) {
+            // Recorrer cada elemento en el array
+            for (const item of items) {
+              const propertyValues: string[] = [];
+              const id = item.id;
+              const overall = item.overall;
+              const slotValue = item.slot ? item.slot : ''; // Propiedad Slot (opcional)
+
+              // Crear una línea con las propiedades deseadas
+              propertyValues.push(`${id}, ${overall}, ${slotValue}`);
+
+              // Unir todos los valores en una cadena separada por comas
+              const valuesLine = propertyValues.join(', ');
+              content += `${valuesLine}\n`; // Añadir la línea de valores
+            }
+          } else {
+            content += `Sin elementos\n`; // En caso de que no haya elementos
+          }
+        }
+      }
+
+      // Añadir un salto de línea adicional entre cada bloque
+      content += '\n';
+    }
+
+    // Crear un archivo Blob (Binary Large Object) con el contenido
+    const blob = new Blob([content], { type: 'text/plain' });
+
+    // Crear un enlace de descarga para ese Blob
+    const link = document.createElement('a');
+    link.href = window.URL.createObjectURL(blob);
+    link.download = 'output.txt'; // Nombre del archivo
+
+    // Simular un clic para descargar el archivo
+    link.click();
+
+    // Limpiar la URL del Blob después de la descarga
+    window.URL.revokeObjectURL(link.href);
+  }
+
+  getBisListData() {
+    this.LocalDataService.getBisListTxt().subscribe((data => {
+      var array = data.split(/\r?\n/);
+      array = this.splitArrayByEmpty(array);
+      var arr: any[] = [];
+      array.forEach((element: any) => {
+        element.forEach((dato: any) => {
+          var originalArray = dato.split(",");
+          // Luego, agrupamos los elementos en subarrays. Suponiendo que cada subarray debe tener 3 elementos
+          const groupedArray = [];
+          for (let i = 0; i < originalArray.length; i++) {
+            groupedArray.push(originalArray.slice(i, i + 1));
+          }
+
+          // Filtrar los subarrays
+          const cleanedArray = groupedArray.filter(subArray => {
+            // Verificar que todos los elementos no sean espacios en blanco
+            return subArray.every((item: string) => item !== ' ' && item !== ''); // También eliminamos elementos vacíos
+          });
+          arr.push(cleanedArray);
+        });
+      });
+      array = this.getSubArrayUntilEmpty(arr);
+      this.allBisList = [];
+      array.forEach((element: any) => {
+        var arr = this.limpiarArray(element);
+        this.allBisList.push(arr);
+      });
+    }));
+  }
+
+  limpiarArray(arr: any) {
+    var spec = arr[0];
+    var items: any[][] = [];
+    arr.forEach((element: any) => {
+      if (element.length > 1) {
+        items.push([element[0], element[1]]);
+      }
+    });
+    return [spec, items];
+  }
+
+  getSubArrayUntilEmpty(arr: any) {
+    // Inicializa un nuevo array para almacenar el resultado
+    var subArray = [];
+    var totalArray = [];
+    var cont = 0;
+    // Recorre cada elemento del array original
+    for (const element of arr) {
+      // Verifica si el elemento es un array y tiene length 1 y es igual a ' '
+      if (Array.isArray(element) && element.length == 1 && element[0][0].includes(' ')) {
+        if (cont == 0) {
+          cont++;
+          subArray.push(element);
+        } else {
+          totalArray.push(subArray);
+          subArray = [];
+          subArray.push(element);
+        }
+      } else {
+        subArray.push(element);
+      }
+    }
+
+    totalArray.push(subArray);
+    return totalArray;
+  }
+
+  splitArrayByEmpty(arr: any) {
+    const result = []; // Array que contendrá los grupos
+    let currentGroup = []; // Grupo actual que estamos construyendo
+
+    for (const item of arr) {
+      if (item === '') {
+        // Si encontramos un elemento vacío, añadimos el grupo actual al resultado
+        if (currentGroup.length > 0) {
+          result.push(currentGroup);
+          currentGroup = []; // Reiniciar el grupo actual
+        }
+      } else {
+        // Si no es un elemento vacío, lo añadimos al grupo actual
+        currentGroup.push(item);
+      }
+    }
+
+    // Añadir el último grupo si existe
+    if (currentGroup.length > 0) {
+      result.push(currentGroup);
+    }
+
+    return result;
+  }
+
 }

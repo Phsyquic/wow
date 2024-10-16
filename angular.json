@@ -65,11 +65,11 @@
           "configurations": {
             "production": {
               "browserTarget": "wowAPP:build:production",
-              "proxyConfig": "proxy.conf.json"
+              "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
               "browserTarget": "wowAPP:build:development",
-              "proxyConfig": "proxy.conf.json"
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

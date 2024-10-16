@@ -1,4 +1,4 @@
-<body>
+<body (keydown)="onKeyPress($event)">
   <select #myselect name="Bosses" id="bosses" (change)="filtrar($event)">
     <option value="">Bosses</option>
     <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>
@@ -22,6 +22,7 @@
   </select>
   <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualSpec}} {{actualIlvl}}</span>
   <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
+  <label *ngIf="checkDiv"><b>Verde 1º. Amarillo 2º. Naranja 3º</b></label>
   <button (click)="resetAll()">Reset</button>
   <button *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
   <button *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
@@ -31,7 +32,7 @@
         <div *ngFor="let item of slot[1]" class="mainDiv">
           <img [src]="getImgLink(item.id)"><span>{{getBoss(item.boss)}} || {{item.armor}}
             {{capitalizeFirstLetter(slot[0])}}</span>
-          <canvas baseChart [data]="getChartData(item.id)" [options]="getCharOptions()" [type]="'bar'">
+          <canvas baseChart [data]="getChartData(item.id)" [options]="getCharOptions(item)" [type]="'bar'">
           </canvas>
         </div>
       </div>
