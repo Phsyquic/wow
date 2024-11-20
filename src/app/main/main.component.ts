@@ -99,6 +99,12 @@ export class MainComponent implements OnInit {
           this.getDroptimizer(data);
           //Demon Lock esta bug
           this.getBisListData();
+          //Catalyst(Head, Shoulder, Chest, Hands, Legs);
+          this.catalyst(0);
+          this.catalyst(2);
+          this.catalyst(4);
+          this.catalyst(6);
+          this.catalyst(8);
         });
       });
 
@@ -1271,6 +1277,28 @@ export class MainComponent implements OnInit {
     }
 
     return result;
+  }
+
+  catalyst(slot: any) {
+    var head = this.fitems[slot][1];
+    var tiers = head.filter((item: any)=> item.armor === 'Tier');
+    var headItems =  head.filter((item: any)=> item.armor !== 'Tier');
+    headItems.forEach((element: any) => {
+      var sim = element.sim;
+      sim.forEach((simeo: any) => {
+        var nTier = this.getTier(simeo.spec);
+        var tierUnico = tiers.filter((item: any)=> item.tier === nTier);
+        var simUnico = tierUnico[0].sim.filter((item: any)=> item.name === simeo.name);
+        if (simUnico) {
+          if (simeo.dps < simUnico[0].dps) {
+            const found: any = Object.values(this.fitems[slot][1]).find((val) => val === element);
+            var simF = found.sim;
+            var simConcreto = simF.find((simbot: any) => simbot === simeo);
+            simConcreto.dps = simUnico[0].dps;
+          }
+        }
+      });
+    });
   }
 
 }
