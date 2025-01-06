@@ -1,4 +1,4 @@
-<body (keydown)="onKeyPress($event)">
+<body>
   <select #myselect name="Bosses" id="bosses" (change)="filtrar($event)">
     <option value="">Bosses</option>
     <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>

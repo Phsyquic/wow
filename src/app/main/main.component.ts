@@ -83,6 +83,7 @@ export class MainComponent implements OnInit {
 
 
   getTxt() {
+    this.getBisListData();
     this.LocalDataService.getDroptimizers().subscribe((data: any) => {
       var str = data.split(/[\r\n\s]+/);
       str.forEach((element: any) => {
@@ -501,22 +502,13 @@ export class MainComponent implements OnInit {
     sim.forEach((element: any) => {
       var spec = this.quitarVacioSpec(element.spec);
       var bisList = this.allBisList.find((x: any[]) => x[0] == spec);
-      //console.log(bisList);
       if (bisList) {
-        var idList = this.buscarCatalyst(id);
         var existe = false;
-        idList.forEach((idUnica: any) => {
-          existe = bisList[1].find((x: any[]) => x[0] == idUnica);
-        });
+        existe = bisList.find((x: any[]) => x == id);
         if (!existe) {
           colors.push('red');
         } else {
-          var ove = existe[1][0];
-          if (ove == ' true') {
-            colors.push('black');
-          } else {
-            colors.push('orange');
-          }
+          colors.push('black');
         }
       }
     });
@@ -1088,172 +1080,37 @@ export class MainComponent implements OnInit {
     return slot;
   }
 
-  // Escucha los eventos keydown en toda la ventana
-  @HostListener('window:keydown', ['$event'])
-  onKeyPress(event: KeyboardEvent) {
-    if (event.key === 'b' || event.key === 'B') {
-      this.getALLBisList();
-    }
-  }
-
-  async getALLBisList() {
-    console.log(this.itemsLibrary);
-    this.allBisList = [];
-    const specs = [
-      'Devastation Evoker', 'Augmentation Evoker',
-      'Balance Druid', 'Feral Druid', 'Guardian Druid',
-      'Unholy Death-Knight', 'Frost Death-Knight', 'Blood Death-Knight',
-      'Havoc Demon-Hunter', 'Vengeance Demon-Hunter',
-      'Beast-Mastery Hunter', 'Marksmanship Hunter', 'Survival Hunter',
-      'Enhancement Shaman', 'Elemental Shaman',
-      'Assassination Rogue', 'Outlaw Rogue', 'Subtlety Rogue',
-      'Arcane Mage', 'Frost Mage', 'Fire Mage',
-      'Windwalker Monk', 'Brewmaster Monk',
-      'Fury Warrior', 'Arms Warrior', 'Protection Warrior',
-      'Affliction Warlock', 'Demonology Warlock', 'Destruction Warlock',
-      'Shadow Priest',
-      'Retribution Paladin', 'Protection Paladin'
-    ];
-
-    for (const element of specs) {
-      try {
-        const specBis = await this.getBisList(element);
-        this.allBisList.push([element, specBis]);
-      } catch (error) {
-        console.error(`Error obteniendo BIS para ${element}:`, error);
-      }
-    }
-
-    this.downloadTxtFile(this.allBisList);
-  }
-
-  downloadTxtFile(array: any) {
-    // Inicializar contenido como un string vacío
-    let content = '';
-
-    // Recorrer el array principal
-    for (const item of array) {
-      // Suponiendo que item es un array con [titulo, [objeto]]
-      const title = item[0]; // Título
-      const objects = item[1]; // Array que contiene un objeto
-
-      // Añadir el título al contenido
-      content += `${title}\n`;
-
-      // Asegurarse de que haya al menos un objeto en el array
-      if (typeof objects === 'object' && objects !== null) {
-        // Recorrer cada propiedad en el objeto
-        for (const [slot, items] of Object.entries(objects)) {
-          // Añadir el nombre de la propiedad (slot) al contenido
-          content += `${slot}\n`;
-
-          // Verificar si hay elementos en la propiedad
-          if (Array.isArray(items) && items.length > 0) {
-            // Recorrer cada elemento en el array
-            for (const item of items) {
-              const propertyValues: string[] = [];
-              const id = item.id;
-              const overall = item.overall;
-              const slotValue = item.slot ? item.slot : ''; // Propiedad Slot (opcional)
-
-              // Crear una línea con las propiedades deseadas
-              propertyValues.push(`${id}, ${overall}, ${slotValue}`);
-
-              // Unir todos los valores en una cadena separada por comas
-              const valuesLine = propertyValues.join(', ');
-              content += `${valuesLine}\n`; // Añadir la línea de valores
-            }
-          } else {
-            content += `Sin elementos\n`; // En caso de que no haya elementos
-          }
-        }
-      }
-
-      // Añadir un salto de línea adicional entre cada bloque
-      content += '\n';
-    }
-
-    // Crear un archivo Blob (Binary Large Object) con el contenido
-    const blob = new Blob([content], { type: 'text/plain' });
-
-    // Crear un enlace de descarga para ese Blob
-    const link = document.createElement('a');
-    link.href = window.URL.createObjectURL(blob);
-    link.download = 'output.txt'; // Nombre del archivo
-
-    // Simular un clic para descargar el archivo
-    link.click();
-
-    // Limpiar la URL del Blob después de la descarga
-    window.URL.revokeObjectURL(link.href);
-  }
-
   getBisListData() {
     this.LocalDataService.getBisListTxt().subscribe((data => {
       var array = data.split(/\r?\n/);
       array = this.splitArrayByEmpty(array);
-      var arr: any[] = [];
-      array.forEach((element: any) => {
-        element.forEach((dato: any) => {
-          var originalArray = dato.split(",");
-          // Luego, agrupamos los elementos en subarrays. Suponiendo que cada subarray debe tener 3 elementos
-          const groupedArray = [];
-          for (let i = 0; i < originalArray.length; i++) {
-            groupedArray.push(originalArray.slice(i, i + 1));
-          }
-
-          // Filtrar los subarrays
-          const cleanedArray = groupedArray.filter(subArray => {
-            // Verificar que todos los elementos no sean espacios en blanco
-            return subArray.every((item: string) => item !== ' ' && item !== ''); // También eliminamos elementos vacíos
-          });
-          arr.push(cleanedArray);
-        });
-      });
-      array = this.getSubArrayUntilEmpty(arr);
       this.allBisList = [];
       array.forEach((element: any) => {
-        var arr = this.limpiarArray(element);
-        this.allBisList.push(arr);
+        var elementArray = [this.limpiarSpec(element[0])];
+        element.forEach((item: any)  => {
+          if (item = parseInt(item)) {
+            elementArray.push(item);
+          }
+        });
+        this.allBisList.push(elementArray);
       });
     }));
   }
 
-  limpiarArray(arr: any) {
-    var spec = arr[0];
-    var items: any[][] = [];
-    arr.forEach((element: any) => {
-      if (element.length > 1) {
-        items.push([element[0], element[1]]);
-      }
-    });
-    return [spec, items];
-  }
-
-  getSubArrayUntilEmpty(arr: any) {
-    // Inicializa un nuevo array para almacenar el resultado
-    var subArray = [];
-    var totalArray = [];
-    var cont = 0;
-    // Recorre cada elemento del array original
-    for (const element of arr) {
-      // Verifica si el elemento es un array y tiene length 1 y es igual a ' '
-      if (Array.isArray(element) && element.length == 1 && element[0][0].includes(' ')) {
-        if (cont == 0) {
-          cont++;
-          subArray.push(element);
-        } else {
-          totalArray.push(subArray);
-          subArray = [];
-          subArray.push(element);
-        }
-      } else {
-        subArray.push(element);
-      }
+  limpiarSpec(str: string): string {
+    const words = str.split(" "); // Divide la cadena en palabras
+    const lastWord = words.pop(); // Extrae la última palabra
+  
+    if (lastWord) {
+      words.unshift(lastWord); // Coloca la última palabra al principio
     }
-
-    totalArray.push(subArray);
-    return totalArray;
+  
+    // Si hay más de 2 palabras, cambiar los espacios a guiones entre las palabras restantes
+    if (words.length > 1) {
+      return [words[0], words.slice(1).join("-")].join(" "); // Únelo con guiones y coloca la última palabra al principio
+    }
+  
+    return words.join(" "); // Si es solo una palabra, devuélvela tal cual
   }
 
   splitArrayByEmpty(arr: any) {
