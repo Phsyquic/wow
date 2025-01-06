@@ -40,7 +40,13 @@
   </div>
   <div *ngIf="checkDiv">
     <div *ngFor="let player of allSimList" class="mainDiv" style="padding: 0px;">
-      <div *ngFor="let item of player" [ngStyle]="{ 'background-color': getColor(item.pos) }" style="padding:10px;"><img [src]="getImgLink(item.item)"><span>{{item.name}}</span></div>
+      <div *ngFor="let item of player" [ngStyle]="{
+       'background-color': getColor(item.pos),
+       'color': getRotacionBis(item) 
+     }" style="padding:10px;">
+        <img [src]="getImgLink(item.item)">
+        <span>{{item.name}}</span>
+      </div>
     </div>
   </div>
 

@@ -98,16 +98,8 @@ export class MainComponent implements OnInit {
           this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
           this.getItemsLibrary(data);
           this.getDroptimizer(data);
-          //Demon Lock esta bug
+          //Shaman Enh esta bug
           this.getBisListData();
-          //Catalyst(Head, Shoulder, Chest, Hands, Legs);
-          setTimeout(() => {
-            this.catalyst(0);
-            this.catalyst(2);
-            this.catalyst(4);
-            this.catalyst(6);
-            this.catalyst(8);
-          }, 2000); // Espera 2000ms (2 segundos)
         });
       });
     });
@@ -920,13 +912,14 @@ export class MainComponent implements OnInit {
     var allItems = titems;
 
     //Cargo todas las mejoras
-    var playersSimList: { name: any; item: any; pos: number; }[] = [];
+    var playersSimList: { name: any; item: any; pos: number; spec: any }[] = [];
     allItems.forEach((slot: any) => {
       if (slot[1].length > 0) {
         slot[1].forEach((element: any) => {
           var simList = element.sim.sort((a: { dps: number; }, b: { dps: number; }) => b.dps - a.dps);
           simList.forEach((sim: any, index: number) => {
-            var playerSim = { name: sim.name, item: element.id, pos: index + 1 };
+            var player = this.playersLibrary.filter((obj: any) => obj.name === sim.name)
+            var playerSim = { name: sim.name, item: element.id, pos: index + 1, spec: player[0].spec};
             playersSimList.push(playerSim);
           });
         });
@@ -954,6 +947,21 @@ export class MainComponent implements OnInit {
       return 'orange';
     }
     return '';
+  }
+
+  getRotacionBis(item: any) {
+    var bisList = this.allBisList.find((x: any[]) => x[0] == this.limpiarSpec2(item.spec));
+    var id: any = parseInt(item.item);
+    if (bisList) {
+      var existe = false;
+      existe = bisList.find((x: any[]) => x == id);
+      if (!existe) {
+        return 'red';
+      } else {
+        return 'black';
+      }
+    }
+    return 'black';
   }
 
   cargarRutaDroptimizer() {
@@ -1112,6 +1120,20 @@ export class MainComponent implements OnInit {
   
     return words.join(" "); // Si es solo una palabra, devuélvela tal cual
   }
+
+  limpiarSpec2(str: string): string {
+    const words = str.split(" "); // Divide la cadena en palabras
+    
+    if (words.length > 2) {
+      // Si hay más de 2 palabras, conservamos la primera y reemplazamos los espacios entre las demás por guiones
+      const firstWord = words[0]; // Conservamos la primera palabra
+      const remainingWords = words.slice(1).join("-"); // Unimos las palabras restantes con guiones
+      return `${firstWord} ${remainingWords}`; // Devolvemos el string con la primera palabra seguida por las demás unidas con guiones
+    }
+  
+    return str; // Si hay dos o menos palabras, devolvemos el string tal como está
+  }
+  
 
   splitArrayByEmpty(arr: any) {
     const result = []; // Array que contendrá los grupos

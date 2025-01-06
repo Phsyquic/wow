@@ -1,1358 +1,1165 @@
-Devastation Evoker
+Death Knight Blood
 head
-212029, true, 
+221146
 neck
-212448, false, 
-shoulder
-212027, true, 
-back
-225574, true, 
+225575
+shoulders
+212000
+cloak
+225574
 chest
-212032, true, 
+212005
 wrist
-221174, false, wrist
-225581, true, 
-hands
-212030, true, 
-waist
-225580, true, 
+222435
+gloves
+212003
+belt
+222431
 legs
-212435, true, 
-feet
-225586, false, 
+212001
+boots
+212443
 ring
-225578, true, 
-221136, false, ring
-212447, true, 
+225578
+ring
+228411
 trinket
-220202, true, 
-212451, true, 
-219314, false, trinket
-main_hand
-212397, true, 
-212394, false, 
-off_hand
-222566, false, off_hand
-212387, false, 
+219314
+trinket
+212454
+weapon
+212407
 
-Augmentation Evoker
+Death Knight Frost
 head
-178738, false, head
+222433
 neck
-178707, false, neck
-shoulder
-212027, true, 
-back
-212446, true, 
-133363, false, back
-225574, true, 
+178707
+shoulders
+212000
+cloak
+225574
 chest
-212032, true, 
+212005
 wrist
-221174, false, wrist
-hands
-212030, true, 
-waist
-219339, false, waist
+225587
+gloves
+212003
+belt
+221079
 legs
-212028, true, 
-feet
-159379, false, feet
+212001
+boots
+222429
 ring
-225578, true, 
-215133, false, ring
+228411
+ring
+225578
 trinket
-220202, true, 
-212454, false, 
-main_hand
-133303, false, main_hand
-212405, false, 
-221150, false, main_hand
-178709, false, main_hand
-off_hand
-221172, false, off_hand
+221023
+trinket
+220305
+weapon
+212401
+weapon
+222451
 
-Balance Druid
+Death Knight Unholy
 head
-221163, false, head
+178694
 neck
-225577, true, 
-shoulder
-212054, true, 
-back
-212446, true, 
+225577
+shoulders
+212000
+cloak
+222817
 chest
-212059, true, 
+212005
 wrist
-212438, true, 
-hands
-212057, true, 
-waist
-212425, false, 
+133306
+gloves
+212003
+belt
+221133
 legs
-212055, true, 
-feet
-221169, false, feet
-trinket
-225576, true, 
-219314, false, trinket
-220202, true, 
+212001
+boots
+225590
 ring
-225578, true, 
-main_hand
-212397, true, 
+225576
+ring
+228411
+trinket
+221023
+trinket
+220305
 
-Feral Druid
+Demon Hunter Havoc
 head
-212056, true, 
+212065
 neck
-178707, false, neck
-225577, true, 
-shoulder
-212054, true, 
-back
-221088, false, back
-225574, true, 
+178707
+shoulders
+212063
+cloak
+225574
 chest
-212059, true, 
+212068
 wrist
-212438, true, 
-221142, false, wrist
-hands
-221180, false, hands
-212432, false, 
-waist
-221134, false, waist
-225583, false, 
+212438
+gloves
+219333
+belt
+221134
 legs
-212055, true, 
-feet
-221169, false, feet
-212445, true, 
+212064
+boots
+221169
 ring
-225578, true, 
-133299, false, ring
-133286, false, ring
-219312, false, ring
-215133, false, ring
-222870, false, ring
+225578
+ring
+228411
 trinket
-225576, true, 
-133282, false, trinket
-212454, false, 
-221023, false, 
-219314, false, trinket
-159623, false, trinket
-220305, false, 
-212456, false, 
-215174, false, trinket
-225657, false, trinket
-225649, false, trinket
-212449, false, 
-218713, false, trinket
-211296, false, trinket
-226024, false, trinket
-213770, false, trinket
-222584, false, trinket
-main_hand
-221159, false, main_hand
-212413, true, 
-215178, false, main_hand
+221023
+trinket
+212454
 
-Guardian Druid
+Demon Hunter Vengeance
 head
-212417, true, 
+221081
 neck
-225577, true, 
-shoulder
-212054, true, 
-back
-225574, true, 
+212448
+shoulders
+212063
+cloak
+225574
 chest
-212059, true, 
+212068
 wrist
-225588, true, 
-hands
-212057, true, 
-waist
-212425, false, 
+221142
+gloves
+212066
+belt
+219502
 legs
-212055, true, 
-feet
-225591, true, 
+212064
+boots
+159320
 ring
-212447, true, 
-225578, true, 
-trinket
-212454, false, 
-219314, false, trinket
-212456, false, 
-main_hand
-221159, false, main_hand
-212389, false, 
+225578
+ring
+159461
+ring
+228411
+weapon
+178742
+weapon
+212456
 
-Unholy Death-Knight
+Druid Balance
 head
-178694, false, head
+221163
 neck
-225577, true, 
-shoulder
-212000, true, 
-back
-221667, false, back
+225577
+shoulders
+212054
+cloak
+212446
 chest
-212005, true, 
+212059
 wrist
-133306, false, wrist
-hands
-212003, true, 
-waist
-221133, false, waist
+212438
+gloves
+212057
+belt
+212425
 legs
-212001, true, 
-feet
-225590, true, 
-trinket
-225576, true, 
-221023, false, 
-220305, false, 
+212055
+boots
+221169
 ring
-133299, false, ring
-main_hand
-222447, false, main_hand
+228411
+ring
+225578
+trinket
+221023
+trinket
+220202
+staff
+212397
 
-Frost Death-Knight
+Druid Feral
 head
-222433, false, head
+212056
 neck
-178707, false, neck
-shoulder
-212000, true, 
-back
-225574, true, 
+178707
+shoulders
+212054
+cloak
+221088
 chest
-212005, true, 
+212059
 wrist
-225587, false, 
-hands
-212003, true, 
-waist
-221079, false, waist
+212438
+gloves
+221180
+belt
+221134
 legs
-212001, true, 
-feet
-222429, false, feet
+212055
+boots
+221169
 ring
-225578, true, 
-162541, false, ring
+225578
+ring
+228411
 trinket
-221023, false, 
-219314, false, trinket
-main_hand
-212401, true, 
-222451, false, main_hand
+133282
+trinket
+212454
+weapon
+221159
 
-Blood Death-Knight
+Druid Guardian
 head
-221146, false, head
+212417
 neck
-225575, true, 
-shoulder
-212000, true, 
-back
-225574, true, 
+225577
+shoulders
+212054
+cloak
+225574
 chest
-212005, true, 
+212059
 wrist
-222435, false, wrist
-hands
-212003, true, 
-waist
-222431, false, waist
+225588
+gloves
+212057
+belt
+212425
 legs
-212001, true, 
-feet
-212443, false, 
-ring
-225578, true, 
-178781, false, ring
-trinket
-219314, false, trinket
-212454, false, 
-main_hand
-212407, false, 
+212055
+boots
+225591
+weapon
+228411
 
-Havoc Demon-Hunter
+Druid Restoration
 head
-212065, true, 
+178691
 neck
-178707, false, neck
-212448, false, 
-shoulder
-212063, true, 
-back
-225574, true, 
+225577
+shoulders
+212054
+cloak
+225574
 chest
-212068, true, 
+212059
 wrist
-212438, true, 
-hands
-219333, false, hands
-212432, false, 
-waist
-221134, false, waist
-225583, false, 
+212438
+gloves
+212057
+belt
+225583
 legs
-212064, true, 
-feet
-221169, false, feet
-212445, true, 
+212055
+boots
+212445
 ring
-225578, true, 
-162542, false, ring
-212447, true, 
+212447
+ring
+228411
 trinket
-221023, false, 
-212454, false, 
-main_hand
-219877, false, 
-222441, false, main_hand
-212391, false, 
+220202
+trinket
+133304
 
-Vengeance Demon-Hunter
+Evoker Devastation
 head
-221081, false, head
+212029
 neck
-212448, false, 
-shoulder
-212063, true, 
-back
-225574, true, 
+212448
+shoulders
+212027
+cloak
+225574
 chest
-212068, true, 
+212032
 wrist
-221142, false, wrist
-hands
-212066, true, 
-waist
-219502, false, waist
-219331, false, waist
+221174
+gloves
+212030
+belt
+225580
 legs
-212064, true, 
-feet
-159320, false, feet
+212435
+boots
+225586
 ring
-225578, true, 
-159461, false, ring
+228411
+ring
+221136
 trinket
-178742, false, trinket
-212456, false, 
-212450, false, 
-219915, false, 
-219497, false, trinket
-222587, false, trinket
-main_hand
-219877, false, 
-222440, false, main_hand
+220202
+offhand
+212451
 
-Beast-Mastery Hunter
+Evoker Preservation
 head
-212020, true, 
+212029
 neck
-225577, true, 
-178707, false, neck
-shoulder
-212018, true, 
-back
-225574, true, 
-212446, true, 
-212015, false, 
+178707
+shoulders
+212027
+cloak
+212446
 chest
-212023, false, 
+212032
 wrist
-219342, false, wrist
-225581, true, 
-221174, false, wrist
-hands
-219341, false, hands
-212436, false, 
-221080, false, hands
-waist
-212017, true, 
-221075, false, waist
+212415
+gloves
+212436
+belt
+221168
 legs
-212019, true, 
-feet
-212022, true, 
-159379, false, feet
+212028
+boots
+225586
 ring
-225578, true, 
-212447, true, 
-221136, false, ring
-162542, false, ring
-219312, false, ring
-222870, false, ring
+225578
+ring
+228411
 trinket
-133282, false, trinket
-219314, false, trinket
-225576, true, 
-212454, false, 
-212456, false, 
-178715, false, trinket
-159623, false, trinket
-225649, false, trinket
-225638, false, trinket
-178742, false, trinket
-219317, false, trinket
-219319, false, trinket
-221023, false, 
-225654, false, trinket
-211296, false, trinket
-222587, false, trinket
-222593, false, trinket
-222584, false, trinket
-226024, false, trinket
-213770, false, trinket
-main_hand
-212400, true, 
-212399, true, 
-221143, false, main_hand
+220202
+trinket
+178708
+trinket
+133304
 
-Marksmanship Hunter
+Evoker Augmentation
 head
-178738, false, head
+221156
 neck
-212448, false, 
-shoulder
-212018, true, 
-back
-222817, false, back
+225577
+shoulders
+212027
+cloak
+221088
 chest
-212023, false, 
+212032
 wrist
-219342, false, wrist
-hands
-212021, true, 
-waist
-225580, true, 
+219342
+gloves
+212030
+belt
+221168
 legs
-212019, true, 
-feet
-225586, false, 
+212028
+boots
+159379
 ring
-225578, true, 
-162542, false, ring
-219312, false, ring
+228411
+ring
+225578
 trinket
-221023, false, 
-133282, false, trinket
-212454, false, 
-main_hand
-212399, true, 
+220202
+trinket
+212454
 
-Survival Hunter
+Hunter Beast Mastery
 head
-212020, true, 
+212020
 neck
-178707, false, neck
-212448, false, 
-225575, true, 
-shoulder
-212018, true, 
-back
-222817, false, back
-212446, true, 
-221088, false, back
-133363, false, back
+225577
+shoulders
+212018
+cloak
+225574
 chest
-212421, true, 
-212023, false, 
+212023
 wrist
-212016, true, 
-225581, true, 
-212415, true, 
-221174, false, wrist
-219342, false, wrist
-hands
-212021, true, 
-212436, false, 
-221162, false, hands
-waist
-225580, true, 
-221075, false, waist
-221168, false, waist
+219342
+gloves
+219341
+belt
+212017
 legs
-212019, true, 
-219336, false, legs
-feet
-221202, false, feet
-225586, false, 
-133293, false, feet
-159379, false, feet
-ring
-225578, true, 
-162542, false, ring
-178781, false, ring
-221141, false, ring
-219312, false, ring
-219301, false, ring
-trinket
-225576, true, 
-133282, false, trinket
-212454, false, 
-212449, false, 
-212456, false, 
-219314, false, trinket
-159623, false, trinket
-220305, false, 
-225649, false, trinket
-178742, false, trinket
-219317, false, trinket
-225654, false, trinket
-221023, false, 
-219319, false, trinket
-178715, false, trinket
-180417, false, trinket
-215174, false, trinket
-225638, false, trinket
-226539, false, trinket
-226024, false, trinket
-211296, false, trinket
-219506, false, trinket
-main_hand
-222448, false, main_hand
-212389, false, 
-221159, false, main_hand
-215178, false, main_hand
-221137, false, main_hand
-212413, true, 
-221078, false, main_hand
-222443, false, main_hand
-222567, false, main_hand
-off_hand
-215169, false, off_hand
+212019
+boots
+212022
+weapon
+225578
 
-Enhancement Shaman
+Hunter Marksmanship
 head
-212011, true, 
+178738
 neck
-225577, true, 
-shoulder
-212009, true, 
-back
-222817, false, back
-212446, true, 
+212448
+shoulders
+212018
+cloak
+222817
 chest
-212421, true, 
+212023
 wrist
-212415, true, 
-hands
-212012, true, 
-waist
-221075, false, waist
-212414, true, 
+219342
+gloves
+212021
+belt
+225580
 legs
-212010, true, 
-feet
-221152, false, feet
-225586, false, 
-ring
-225578, true, 
-212447, true, 
-219312, false, ring
-212398, false, 
-trinket
-219314, false, trinket
-133282, false, trinket
-221023, false, 
-220305, false, 
-212456, false, 
-main_hand
-219877, false, 
-222446, false, main_hand
-221090, false, main_hand
+212019
+boots
+225586
+weapon
+225578
 
-Elemental Shaman
+Hunter Survival
 head
-212428, true, 
+212020
 neck
-225577, true, 
-shoulder
-212009, true, 
-back
-225574, true, 
+178707
+shoulders
+212018
+cloak
+222817
 chest
-212014, true, 
+212023
 wrist
-225581, true, 
-hands
-212012, true, 
-waist
-212414, true, 
+212016
+gloves
+212021
+belt
+225580
 legs
-212010, true, 
-feet
-219335, false, feet
-225586, false, 
+157615
+boots
+221202
 ring
-225578, true, 
-178736, false, ring
-212447, true, 
+225578
+ring
+228411
 trinket
-219314, false, trinket
-220202, true, 
-225576, true, 
-220305, false, 
-main_hand
-222439, false, main_hand
-225579, false, 
-212394, false, 
+133282
+trinket
+212454
+weapon
+222448
 
-Assassination Rogue
+Mage Arcane
 head
-212038, true, 
+178693
 neck
-225577, true, 
-221077, false, neck
-shoulder
-212036, true, 
-back
-225574, true, 
-133363, false, back
+225577
+shoulders
+212090
+cloak
+212087
 chest
-212041, true, 
+212095
 wrist
-219334, false, wrist
-225588, true, 
-221157, false, wrist
-hands
-212039, true, 
-waist
-219331, false, waist
-225583, false, 
-133353, false, waist
+222815
+gloves
+212093
+belt
+212430
 legs
-212037, true, 
-feet
-212445, true, 
-225591, true, 
-221169, false, feet
+212091
+boots
+221082
 ring
-225578, true, 
-162542, false, ring
-56444, false, ring
-219312, false, ring
-222870, false, ring
-215133, false, ring
+225578
+ring
+228411
 trinket
-159623, false, trinket
-133282, false, trinket
-225576, true, 
-221023, false, 
-212456, false, 
-212454, false, 
-219314, false, trinket
-220305, false, 
-212449, false, 
-188265, false, trinket
-225638, false, trinket
-226539, false, trinket
-226024, false, trinket
-211296, false, trinket
-219506, false, trinket
-213768, false, trinket
-222591, false, trinket
-213770, false, trinket
-main_hand
-225636, true, 
-212395, true, 
-221183, false, main_hand
-221138, false, main_hand
-215178, false, main_hand
-222438, false, main_hand
-222463, false, main_hand
+219314
+trinket
+220202
+offhand
+212394
 
-Outlaw Rogue
+Mage Fire
 head
-212038, true, 
+221801
 neck
-221181, false, neck
-212448, false, 
-shoulder
-212036, true, 
-back
-225574, true, 
-221154, false, back
+225577
+shoulders
+212090
+cloak
+221088
 chest
-212041, true, 
+212095
 wrist
-219334, false, wrist
-225588, true, 
-221142, false, wrist
-hands
-212039, true, 
-waist
-178699, false, waist
-225583, false, 
+225584
+gloves
+212093
+belt
+222816
 legs
-219332, false, legs
-212423, false, 
-133354, false, legs
-feet
-178731, false, feet
-212445, true, 
+212091
+boots
+221082
 ring
-178736, false, ring
-221189, false, ring
-225578, true, 
-212447, true, 
-219301, false, ring
+228411
+ring
+212447
 trinket
-212456, false, 
-219314, false, trinket
-212454, false, 
-159623, false, trinket
-212449, false, 
-226539, false, trinket
-220305, false, 
-178715, false, trinket
-178742, false, trinket
-225638, false, trinket
-211296, false, trinket
-222581, false, trinket
-main_hand
-219877, false, 
-212395, true, 
-221144, false, main_hand
-221183, false, main_hand
+219314
+trinket
+220202
+staff
+212397
+offhand
+212394
 
-Subtlety Rogue
+Mage Frost
 head
-221163, false, head
+212092
 neck
-225575, true, 
-shoulder
-212036, true, 
-back
-133292, false, back
+225577
+shoulders
+212090
+cloak
+212446
 chest
-212041, true, 
+212095
 wrist
-219334, false, wrist
-hands
-212039, true, 
-waist
-212425, false, 
+225584
+gloves
+212093
+belt
+225585
 legs
-212037, true, 
-feet
-225591, true, 
+212434
+boots
+222814
 ring
-215135, false, ring
-221141, false, ring
+225578
+ring
+228411
 trinket
-212454, false, 
-221023, false, 
-main_hand
-212395, true, 
-178743, false, main_hand
+219314
+trinket
+220202
+staff
+222568
 
-Arcane Mage
+Monk Brewmaster
 head
-178693, false, head
+212047
 neck
-225577, true, 
-shoulder
-212090, true, 
-back
-212087, true, 
+225575
+shoulders
+212045
+cloak
+225574
 chest
-212095, true, 
+212050
 wrist
-222815, false, wrist
-hands
-212093, true, 
-waist
-225585, true, 
+225588
+gloves
+219333
+belt
+219502
 legs
-212091, true, 
-feet
-212094, true, 
+212046
+boots
+225591
 ring
-225578, true, 
-trinket
-225576, true, 
-219314, false, trinket
-220202, true, 
-main_hand
-212394, false, 
-off_hand
-222566, false, off_hand
+225578
+ring
+228411
 
-Frost Mage
+Monk Mistweaver
 head
-212092, true, 
+212047
 neck
-225577, true, 
+225577
 shoulder
-212090, true, 
+212444
 back
-212446, true, 
+133292
 chest
-212095, true, 
+212050
 wrist
-225584, true, 
+221142
 hands
-212093, true, 
+212048
 waist
-225585, true, 
+225583
 legs
-212434, true, 
+212046
 feet
-222814, false, feet
-225582, true, 
-ring
-225578, true, 
-221189, false, ring
-212447, true, 
-trinket
-219314, false, trinket
-220202, true, 
-220305, false, 
-main_hand
-222568, false, main_hand
-212394, false, 
-212397, true, 
-off_hand
-222566, false, off_hand
-212387, false, 
+159320
 
-Fire Mage
+Monk Windwalker
 head
-212440, true, 
+178691
 neck
-225577, true, 
-shoulder
-212090, true, 
-back
-221088, false, back
-225574, true, 
+225577
+shoulders
+212045
+cloak
+225574
 chest
-212095, true, 
+212050
 wrist
-225584, true, 
-hands
-212093, true, 
-waist
-221666, false, waist
-225585, true, 
+178741
+gloves
+212048
+belt
+178699
 legs
-212091, true, 
-feet
-221082, false, feet
-225582, true, 
+212046
+boots
+212445
 ring
-225578, true, 
-212447, true, 
+228411
+ring
+178736
 trinket
-219314, false, trinket
-220202, true, 
-225576, true, 
-220305, false, 
-main_hand
-212397, true, 
-212394, false, 
-off_hand
-222566, false, off_hand
-212387, false, 
+212413
+trinket
+219877
 
-Windwalker Monk
+Paladin Holy
 head
-178691, false, head
+211993
 neck
-225577, true, 
-shoulder
-212045, true, 
-back
-225574, true, 
+225577
+shoulders
+221185
+cloak
+225574
 chest
-212050, true, 
+211996
 wrist
-178741, false, wrist
-hands
-212048, true, 
-waist
-178699, false, waist
+212437
+gloves
+211994
+belt
+225589
 legs
-212046, true, 
-feet
-212445, true, 
+211992
+boots
+159428
 ring
-221189, false, ring
-178736, false, ring
-main_hand
-212413, true, 
-219877, false, 
-221090, false, main_hand
+228411
+ring
+225578
 trinket
-221023, false, 
-212456, false, 
+219312
+trinket
+133304
+shield
+178737
 
-Brewmaster Monk
+Paladin Protection
 head
-212047, true, 
+178694
 neck
-225575, true, 
-221181, false, neck
-shoulder
-212045, true, 
-back
-225574, true, 
-56126, false, back
-222817, false, back
+225577
+shoulders
+211991
+cloak
+225574
 chest
-212050, true, 
+211996
 wrist
-225588, true, 
-178702, false, wrist
-219511, false, wrist
-hands
-219333, false, hands
-212432, false, 
-221180, false, hands
-219513, false, hands
-trinket
-219506, false, trinket
-222596, false, trinket
-212454, false, 
-212456, false, 
-219915, false, 
-225576, true, 
-219314, false, trinket
-56440, false, trinket
-212449, false, 
-178742, false, trinket
-220305, false, 
-212450, false, 
-133291, false, trinket
-225638, false, trinket
-213770, false, trinket
-213777, false, trinket
-211296, false, trinket
-224069, false, trinket
-waist
-219502, false, waist
-212425, false, 
-221134, false, waist
+133306
+gloves
+211994
+belt
+221133
 legs
-212046, true, 
-219512, false, legs
-feet
-225591, true, 
-159320, false, feet
-219489, false, feet
+211992
+boots
+225590
 ring
-225578, true, 
-178781, false, ring
-215172, false, ring
-212398, false, 
-56445, false, ring
-219312, false, ring
-219315, false, ring
-218126, false, ring
-215133, false, ring
-main_hand
-221159, false, main_hand
-219877, false, 
-221144, false, main_hand
-212389, false, 
-159648, false, main_hand
+228411
+ring
+225578
+shield
+178730
 
-Fury Warrior
+Paladin Retribution
 head
-178777, false, head
+211993
 neck
-221077, false, neck
-shoulder
-211982, false, 
-133294, false, shoulder
-back
-221088, false, back
-221667, false, back
+225577
+shoulders
+211991
+cloak
+212446
 chest
-211987, true, 
-221161, false, chest
+211996
 wrist
-222435, false, wrist
-221167, false, wrist
-hands
-211985, true, 
-159429, false, hands
-waist
-221133, false, waist
+222435
+gloves
+211994
+belt
+221133
 legs
-211983, true, 
-178701, false, legs
-feet
-225590, true, 
-159428, false, feet
+221092
+boots
+225590
 ring
-225578, true, 
-133286, false, ring
-221141, false, ring
+225578
+ring
+228411
 trinket
-225576, true, 
-221023, false, 
-212454, false, 
-219314, false, trinket
-133298, false, trinket
-219300, false, trinket
-main_hand
-222447, false, main_hand
+133300
+trinket
+219314
+weapon
+222443
 
-Arms Warrior
+Priest Discipline
 head
-211984, true, 
+212440
 neck
-225577, true, 
-shoulder
-211982, false, 
-back
-222817, false, back
+225577
+shoulders
+212081
+cloak
+225574
 chest
-211987, true, 
+212086
 wrist
-222435, false, wrist
-hands
-212418, false, 
-waist
-221079, false, waist
+221182
+gloves
+212084
+belt
+221158
 legs
-211983, true, 
-feet
-225590, true, 
+212082
+boots
+221082
 ring
-225578, true, 
-159461, false, ring
+212447
+ring
+228411
 trinket
-212454, false, 
-221023, false, 
-219314, false, trinket
-main_hand
-221184, false, main_hand
-222447, false, main_hand
+220202
+trinket
+56462
+staff
+221166
 
-Protection Warrior
+Priest Holy
 head
-211984, true, 
+212083
 neck
-225577, true, 
-221077, false, neck
-shoulder
-178749, false, shoulder
-217849, false, shoulder
-211982, false, 
-back
-225574, true, 
-221088, false, back
+178707
+shoulders
+212081
+cloak
+212446
 chest
-211987, true, 
-main_hand
-217848, false, main_hand
-212392, false, 
-225579, false, 
-221145, false, main_hand
-178712, false, main_hand
-222432, false, main_hand
-222459, false, main_hand
-hands
-211985, true, 
-legs
-211983, true, 
-feet
-211986, true, 
-212443, false, 
-221178, false, feet
-222458, false, feet
-ring
-221136, false, ring
-225578, true, 
-212447, true, 
-159461, false, ring
-222873, false, ring
-222870, false, ring
-trinket
-219314, false, trinket
-212454, false, 
-212449, false, 
-178751, false, trinket
-56458, false, trinket
-219318, false, trinket
-219316, false, trinket
-221023, false, 
-210816, false, trinket
-212450, false, 
-225654, false, trinket
-211296, false, trinket
-222587, false, trinket
-213770, false, trinket
+212419
 wrist
-212437, true, 
-221167, false, wrist
-waist
-225589, false, 
-221133, false, waist
-
-Affliction Warlock
-head
-212074, true, 
-neck
-225577, true, 
-221077, false, neck
-shoulder
-212072, true, 
-back
-225574, true, 
-221088, false, back
-205025, false, back
+178782
+gloves
+212084
+belt
+225585
 legs
-212077, true, 
-212073, false, 
-wrist
-225584, true, 
-133295, false, wrist
-198332, false, wrist
-204704, false, wrist
-hands
-212075, true, 
-waist
-225585, true, 
-221158, false, waist
-feet
-222814, false, feet
-212416, false, 
-221149, false, feet
-193466, false, feet
-193461, false, feet
+212082
+boots
+221149
 ring
-221136, false, ring
-225578, true, 
-212447, true, 
-133299, false, ring
-219312, false, ring
-201409, false, ring
-198238, false, ring
-198233, false, ring
-222870, false, ring
-193946, false, ring
-trinket
-220202, true, 
-212454, false, 
-219314, false, trinket
-178708, false, trinket
-219317, false, trinket
-159622, false, trinket
-178772, false, trinket
-220305, false, 
-133304, false, trinket
-211296, false, trinket
-226024, false, trinket
-219506, false, trinket
-193555, false, trinket
-198255, false, trinket
-213770, false, trinket
-main_hand
-212394, false, 
-212397, true, 
-221085, false, main_hand
-222568, false, main_hand
-off_hand
-222566, false, off_hand
-
-Demonology Warlock
-trinket
-226024, false, trinket
-219506, false, trinket
-
-Destruction Warlock
-head
-212074, true, 
-neck
-225577, true, 
-shoulder
-212072, true, 
-back
-225574, true, 
-legs
-212077, true, 
-212073, false, 
-wrist
-225584, true, 
-hands
-212075, true, 
-waist
-225585, true, 
-feet
-222814, false, feet
+225578
 ring
-221136, false, ring
-225578, true, 
+228411
 trinket
-220202, true, 
-212454, false, 
-main_hand
-212394, false, 
-212397, true, 
-off_hand
-222566, false, off_hand
+178708
+trinket
+219917
+staff
+56137
 
-Shadow Priest
+Priest Shadow
 head
-212083, false, head
+212083
 neck
-225577, true, 
-221077, false, neck
-shoulder
-212081, false, shoulder
-back
-225574, true, 
-221088, false, back
+225577
+shoulders
+212081
+cloak
+225574
 chest
-212086, false, chest
+212086
 wrist
-225584, true, 
-133295, false, wrist
-222833, false, wrist
-222815, false, wrist
-hands
-178748, false, hands
-212441, false, 
-waist
-225585, true, 
-221158, false, waist
+225584
+gloves
+178748
+belt
+225585
 legs
-212082, false, legs
-feet
-225582, true, 
-221149, false, feet
+212082
+boots
+225582
 ring
-212447, true, 
-225578, true, 
-219312, false, ring
-221136, false, ring
-133299, false, ring
-222873, false, ring
-215133, false, ring
-222870, false, ring
-193946, false, ring
+225576
+ring
+228411
 trinket
-220202, true, 
-220305, false, 
-219314, false, trinket
-178708, false, trinket
-56462, false, trinket
-221023, false, 
-159622, false, trinket
-178772, false, trinket
-211296, false, trinket
-219506, false, trinket
-226024, false, trinket
-226030, false, trinket
-226033, false, trinket
-219497, false, trinket
-222584, false, trinket
-213770, false, trinket
-main_hand
-212397, true, 
-221085, false, main_hand
-212394, false, 
-off_hand
-222566, false, off_hand
-
-Retribution Paladin
-head
-211993, true, 
-neck
-225577, true, 
-221077, false, neck
-shoulder
-211991, true, 
-back
-212446, true, 
-221088, false, back
-chest
-211996, true, 
-wrist
-222435, false, wrist
-225587, false, 
-133306, false, wrist
-hands
-211994, true, 
-212418, false, 
-waist
-221133, false, waist
-225589, false, 
-legs
-221092, false, legs
-211992, true, 
-feet
-225590, true, 
-159428, false, feet
-ring
-225578, true, 
-133286, false, ring
-162541, false, ring
-222870, false, ring
+220202
 trinket
-225576, true, 
-133300, false, trinket
-219314, false, trinket
-212453, false, 
-212454, false, 
-133298, false, trinket
-219300, false, trinket
-178751, false, trinket
-219318, false, trinket
-221023, false, 
-220305, false, 
-219311, false, trinket
-225649, false, trinket
-210816, false, trinket
-211296, false, trinket
-222584, false, trinket
-219834, false, trinket
-226024, false, trinket
-219506, false, trinket
-213770, false, trinket
-main_hand
-222443, false, main_hand
-212407, false, 
-215178, false, main_hand
+219312
+staff
+212397
 
-Protection Paladin
+Rogue Assassination
 head
-178694, false, head
+212038
 neck
-225577, true, 
-shoulder
-211991, true, 
-back
-225574, true, 
+225577
+shoulders
+212036
+cloak
+225574
 chest
-211996, true, 
+212041
 wrist
-133306, false, wrist
-hands
-211994, true, 
-waist
-221133, false, waist
+219334
+gloves
+212039
+belt
+219331
 legs
-211992, true, 
-feet
-225590, true, 
+212037
+boots
+212445
 ring
-212447, true, 
-225578, true, 
-main_hand
-178730, false, main_hand
-178712, false, main_hand
+225578
+ring
+228411
+trinket
+159623
+trinket
+133282
+
+Rogue Outlaw
+head
+212038
+neck
+221181
+shoulders
+212036
+cloak
+225574
+chest
+212041
+wrist
+219334
+gloves
+212039
+belt
+178699
+legs
+219332
+boots
+178731
+ring
+228411
+ring
+221189
+trinket
+212456
+trinket
+219314
+
+Rogue Subtlety
+head
+221163
+neck
+225575
+shoulders
+212036
+cloak
+133292
+chest
+212041
+wrist
+219334
+gloves
+212039
+belt
+212425
+legs
+212037
+boots
+225591
+ring
+225578
+ring
+228411
+trinket
+212456
+trinket
+221023
+
+Shaman Elemental
+head
+212011
+neck
+225577
+shoulders
+212009
+cloak
+225574
+chest
+212421
+wrist
+219342
+gloves
+212012
+belt
+221075
+legs
+212010
+boots
+212013
+ring
+225578
+ring
+228411
+trinket
+219314
+trinket
+220202
+
+Shaman Enhancement
+head
+212011
+
+Shaman Restoration
+head
+212011
+neck
+212448
+shoulders
+212009
+cloak
+225574
+chest
+212014
+wrist
+225581
+gloves
+212012
+belt
+225580
+legs
+212435
+boots
+178745
+ring
+228411
+ring
+225578
+trinket
+220202
+trinket
+56462
+staff
+221083
+
+Warlock Affliction
+head
+212074
+neck
+225577
+shoulders
+212072
+cloak
+225574
+chest
+212077
+wrist
+225584
+gloves
+212075
+belt
+225585
+legs
+212073
+boots
+222814
+ring
+228411
+ring
+225578
+trinket
+220202
+trinket
+212454
+staff
+212394
+
+Warlock Demonology
+head
+212440
+neck
+225577
+shoulders
+212072
+cloak
+225574
+chest
+212077
+wrist
+225584
+gloves
+212075
+belt
+225585
+legs
+212073
+boots
+222814
+ring
+212447
+ring
+228411
+trinket
+220202
+trinket
+219312
+staff
+212394
+
+Warlock Destruction
+head
+212074
+neck
+225577
+shoulders
+212072
+cloak
+225574
+chest
+212077
+wrist
+225584
+gloves
+212075
+belt
+225585
+legs
+221076
+boots
+222814
+ring
+228411
+ring
+225578
+trinket
+220202
+trinket
+212454
+staff
+212394
+
+Warrior Arms
+head
+211984
+neck
+225577
+shoulders
+211982
+cloak
+222817
+chest
+211987
+bracers
+222435
+gloves
+212418
+belt
+221079
+legs
+211983
+boots
+225590
+ring
+225578
+ring
+228411
+trinket
+212454
+trinket
+221023
+mainhand
+221184
+
+Warrior Fury
+head
+178777
+neck
+221077
+shoulders
+211982
+cloak
+221088
+chest
+211987
+bracers
+222435
+gloves
+211985
+belt
+221133
+legs
+211983
+boots
+225590
+ring
+225578
+ring
+228411
+ring
+225576
+trinket
+221023
+trinket
+219314
+mainhand
+133298
+offhand
+222447
+
+Warrior Protection
+head
+211984
+neck
+225577
+shoulders
+178749
+cloak
+225574
+chest
+211987
+wrist
+222435
+gloves
+211985
+belt
+222431
+legs
+211983
+boots
+211986
+ring
+228411
+ring
+225578
+trinket
+219314
+trinket
+212454
+weapon
+212392
+shield
+225579
