@@ -1,4 +1,4 @@
-death knight blood
+Death Knight Blood
 head
 221146,
 neck
@@ -30,7 +30,7 @@ trinket
 weapon
 212407,
 
-death knight frost
+Death Knight Frost
 head
 222433,
 neck
@@ -64,7 +64,7 @@ weapon
 weapon
 222451,
 
-death knight unholy
+Death Knight Unholy
 head
 178694,
 neck
@@ -94,7 +94,7 @@ trinket
 trinket
 220305,
 
-demon hunter havoc
+Demon Hunter Havoc
 head
 212065,
 neck
@@ -124,7 +124,7 @@ trinket
 trinket
 212454,
 
-demon hunter vengeance
+Demon Hunter Vengeance
 head
 221081,
 neck
@@ -156,7 +156,7 @@ weapon
 weapon
 212456,
 
-druid balance
+Druid Balance
 head
 221163,
 neck
@@ -188,7 +188,7 @@ trinket
 staff
 212397,
 
-druid feral
+Druid Feral
 head
 212056,
 neck
@@ -220,7 +220,7 @@ trinket
 weapon
 221159,
 
-druid guardian
+Druid Guardian
 head
 212417,
 neck
@@ -244,7 +244,7 @@ boots
 weapon
 228411,
 
-druid restoration
+Druid Restoration
 head
 178691,
 neck
@@ -274,7 +274,7 @@ trinket
 trinket
 133304,
 
-evoker devastation
+Evoker Devastation
 head
 212029,
 neck
@@ -304,7 +304,7 @@ trinket
 offhand
 212451,
 
-evoker preservation
+Evoker Preservation
 head
 212029,
 neck
@@ -336,7 +336,7 @@ trinket
 trinket
 133304,
 
-evoker augmentation
+Evoker Augmentation
 head
 221156,
 neck
@@ -366,7 +366,7 @@ trinket
 trinket
 212454,
 
-hunter beast mastery
+Hunter Beast Mastery
 head
 212020,
 neck
@@ -390,7 +390,7 @@ boots
 weapon
 225578,
 
-hunter marksmanship
+Hunter Marksmanship
 head
 178738,
 neck
@@ -414,7 +414,7 @@ boots
 weapon
 225578,
 
-hunter survival
+Hunter Survival
 head
 212020,
 neck
@@ -446,7 +446,7 @@ trinket
 weapon
 222448,
 
-mage arcane
+Mage Arcane
 head
 178693,
 neck
@@ -478,7 +478,7 @@ trinket
 offhand
 212394,
 
-mage fire
+Mage Fire
 head
 221801,
 neck
@@ -512,7 +512,7 @@ staff
 offhand
 212394,
 
-mage frost
+Mage Frost
 head
 212092,
 neck
@@ -544,7 +544,7 @@ trinket
 staff
 222568,
 
-monk brewmaster
+Monk Brewmaster
 head
 212047,
 neck
@@ -570,7 +570,7 @@ ring
 ring
 228411,
 
-monk mistweaver
+Monk Mistweaver
 head
 212047,
 neck
@@ -592,7 +592,7 @@ legs
 feet
 159320,
 
-monk windwalker
+Monk Windwalker
 head
 178691,
 neck
@@ -622,7 +622,7 @@ trinket
 trinket
 219877,
 
-paladin holy
+Paladin Holy
 head
 211993,
 neck
@@ -654,7 +654,7 @@ trinket
 shield
 178737,
 
-paladin protection
+Paladin Protection
 head
 178694,
 neck
@@ -682,7 +682,7 @@ ring
 shield
 178730,
 
-paladin retribution
+Paladin Retribution
 head
 211993,
 neck
@@ -714,7 +714,7 @@ trinket
 weapon
 222443,
 
-priest discipline
+Priest Discipline
 head
 212440,
 neck
@@ -746,7 +746,7 @@ trinket
 staff
 221166,
 
-priest holy
+Priest Holy
 head
 212083,
 neck
@@ -778,7 +778,7 @@ trinket
 staff
 56137,
 
-priest shadow
+Priest Shadow
 head
 212083,
 neck
@@ -810,7 +810,7 @@ trinket
 staff
 212397,
 
-rogue assassination
+Rogue Assassination
 head
 212038,
 neck
@@ -840,7 +840,7 @@ trinket
 trinket
 133282,
 
-rogue outlaw
+Rogue Outlaw
 head
 212038,
 neck
@@ -870,7 +870,7 @@ trinket
 trinket
 219314,
 
-rogue subtlety
+Rogue Subtlety
 head
 221163,
 neck
@@ -900,7 +900,7 @@ trinket
 trinket
 221023,
 
-shaman elemental
+Shaman Elemental
 head
 212011,
 neck
@@ -930,11 +930,11 @@ trinket
 trinket
 220202,
 
-shaman enhancement
+Shaman Enhancement
 head
 212011,
 
-shaman restoration
+Shaman Restoration
 head
 212011,
 neck
@@ -966,7 +966,7 @@ trinket
 staff
 221083,
 
-warlock affliction
+Warlock Affliction
 head
 212074,
 neck
@@ -998,7 +998,7 @@ trinket
 staff
 212394,
 
-warlock demonology
+Warlock Demonology
 head
 212440,
 neck
@@ -1030,7 +1030,7 @@ trinket
 staff
 212394,
 
-warlock destruction
+Warlock Destruction
 head
 212074,
 neck
@@ -1062,7 +1062,7 @@ trinket
 staff
 212394,
 
-warrior arms
+Warrior Arms
 head
 211984,
 neck
@@ -1094,7 +1094,7 @@ trinket
 mainhand
 221184,
 
-warrior fury
+Warrior Fury
 head
 178777,
 neck
@@ -1130,7 +1130,7 @@ mainhand
 offhand
 222447,
 
-warrior protection
+Warrior Protection
 head
 211984,
 neck
