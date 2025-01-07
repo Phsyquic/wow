@@ -52,6 +52,7 @@ export class MainComponent implements OnInit {
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
   allSimList: any = [];
   allBisList: any = [];
+  tierSlots: any[] = [];
 
   constructor(
     private http: HttpClient,
@@ -100,6 +101,7 @@ export class MainComponent implements OnInit {
           this.getDroptimizer(data);
           //Shaman Enh esta bug
           this.getBisListData();
+          this.cargarTiersPlayer();
         });
       });
     });
@@ -919,7 +921,7 @@ export class MainComponent implements OnInit {
           var simList = element.sim.sort((a: { dps: number; }, b: { dps: number; }) => b.dps - a.dps);
           simList.forEach((sim: any, index: number) => {
             var player = this.playersLibrary.filter((obj: any) => obj.name === sim.name)
-            var playerSim = { name: sim.name, item: element.id, pos: index + 1, spec: player[0].spec};
+            var playerSim = { name: sim.name, item: element.id, pos: index + 1, spec: player[0].spec };
             playersSimList.push(playerSim);
           });
         });
@@ -1095,7 +1097,7 @@ export class MainComponent implements OnInit {
       this.allBisList = [];
       array.forEach((element: any) => {
         var elementArray = [this.limpiarSpec(element[0])];
-        element.forEach((item: any)  => {
+        element.forEach((item: any) => {
           if (item = parseInt(item)) {
             elementArray.push(item);
           }
@@ -1108,32 +1110,32 @@ export class MainComponent implements OnInit {
   limpiarSpec(str: string): string {
     const words = str.split(" "); // Divide la cadena en palabras
     const lastWord = words.pop(); // Extrae la última palabra
-  
+
     if (lastWord) {
       words.unshift(lastWord); // Coloca la última palabra al principio
     }
-  
+
     // Si hay más de 2 palabras, cambiar los espacios a guiones entre las palabras restantes
     if (words.length > 1) {
       return [words[0], words.slice(1).join("-")].join(" "); // Únelo con guiones y coloca la última palabra al principio
     }
-  
+
     return words.join(" "); // Si es solo una palabra, devuélvela tal cual
   }
 
   limpiarSpec2(str: string): string {
     const words = str.split(" "); // Divide la cadena en palabras
-    
+
     if (words.length > 2) {
       // Si hay más de 2 palabras, conservamos la primera y reemplazamos los espacios entre las demás por guiones
       const firstWord = words[0]; // Conservamos la primera palabra
       const remainingWords = words.slice(1).join("-"); // Unimos las palabras restantes con guiones
       return `${firstWord} ${remainingWords}`; // Devolvemos el string con la primera palabra seguida por las demás unidas con guiones
     }
-  
+
     return str; // Si hay dos o menos palabras, devolvemos el string tal como está
   }
-  
+
 
   splitArrayByEmpty(arr: any) {
     const result = []; // Array que contendrá los grupos
@@ -1160,26 +1162,64 @@ export class MainComponent implements OnInit {
     return result;
   }
 
-  catalyst(slot: any) {
-    var head = this.fitems[slot][1];
-    var tiers = head.filter((item: any) => item.armor === 'Tier');
-    var headItems = head.filter((item: any) => item.armor !== 'Tier');
-    headItems.forEach((element: any) => {
-      var sim = element.sim;
-      sim.forEach((simeo: any) => {
-        var nTier = this.getTier(simeo.spec);
-        var tierUnico = tiers.filter((item: any) => item.tier === nTier);
-        var simUnico = tierUnico[0].sim.filter((item: any) => item.name === simeo.name);
-        if (simUnico && simUnico[0]) {
-          if (simeo.dps < simUnico[0].dps) {
-            const found: any = Object.values(this.fitems[slot][1]).find((val) => val === element);
-            var simF = found.sim;
-            var simConcreto = simF.find((simbot: any) => simbot === simeo);
-            simConcreto.dps = simUnico[0].dps;
+  cargarTiersPlayer() {
+    this.tierSlots = [];
+    this.playersLibrary.forEach((element: any) => {
+      var player = element.name;
+      this.bossCargado = '';
+      var titems: any[] = [];
+      this.aitems.forEach((element: any) => {
+        var telement: any[] = [];
+        element[1].forEach((datos: any) => {
+          var sim = datos.sim;
+          var existe = sim.find((x: { name: any; }) => x.name.toLowerCase() == player.toLowerCase());
+          if (existe) {
+            telement.push(datos);
           }
+        });
+        var tslot = [element[0], telement];
+        titems.push(tslot);
+      });
+      titems.forEach((slot: any) => {
+        if ((slot[0] == 'head' || slot[0] == 'shoulder' || slot[0] == 'chest' || slot[0] == 'hands' || slot[0] == 'legs') && (slot[1].length > 0)) {
+          var gearSims = slot[1];
+          gearSims.forEach((item: any) => {
+            if (item.armor == 'Tier') {
+              this.tierSlots.push({
+                name: player,
+                armor: this.getArmor(element.spec, 'head'),
+                tier: [{
+                    slot: slot[0],
+                    sim: item.sim
+                }]
+            });
+            }
+          });
         }
       });
     });
+    this.aitems.forEach((slot: any) => { 
+      if ((slot[0] === 'head' || slot[0] === 'shoulder' || slot[0] === 'chest' || slot[0] === 'hands' || slot[0] === 'legs') && (slot[1].length > 0)) {
+        var gearSims = slot[1];
+        gearSims.forEach((item: any) => {
+          if (item.armor !== 'Tier') {
+            item.sim = item.sim.map((sim: any) => this.catalyst(slot[0], sim));
+          }
+        });
+      }
+    });
+  }
+
+  catalyst(slot: any, sim: any) {
+    var player = sim.name;
+    const results = this.tierSlots.find((x: { name: any; }) => x.name.toLowerCase() === player.toLowerCase());
+    const tierResults = results.tier.find((x: {slot : any; }) => x.slot === slot);
+    var tierSim = tierResults.sim[0];
+    var newSim = sim;
+    if (tierSim.dps > sim.dps) {
+      newSim.dps = tierSim.dps;
+    }
+    return newSim;
   }
 
 }
