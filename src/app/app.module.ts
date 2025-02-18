@@ -7,11 +7,13 @@ import { NgChartsModule } from 'ng2-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
+import { BisesComponent } from './bises/bises.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
+    BisesComponent,
   ],
   imports: [
     BrowserModule,

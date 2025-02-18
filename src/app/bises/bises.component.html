@@ -1,0 +1,10 @@
+<body>
+    <div *ngFor="let item of tableBisList" class="mainDiv">
+        <img *ngIf="item.img" [src]="item.img" alt="Item Image">
+        <span><b>{{ item.boss ? item.boss : item.instance }} ||
+        {{capitalizeFirstLetter(item.name)}}</b></span>
+        <div *ngFor="let spec of item.spec">
+            <span [ngStyle]="{'color': generateColor(spec)}">{{spec}}</span>
+        </div>
+    </div>
+</body>

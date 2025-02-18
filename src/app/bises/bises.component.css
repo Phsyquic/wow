@@ -1,0 +1,38 @@
+span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.mainDiv {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+
+    height: 133px;
+    /* Altura fija inicial */
+    overflow: hidden;
+    /* Oculta contenido que se desborde */
+    transition: height 0.3s ease-in-out;
+    /* Transición suave */
+}
+
+.mainDiv:hover {
+    height: auto;
+    /* Se expande al tamaño necesario */
+}
+
+select {
+    scale: 200%;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    float: right;
+    scale: 200%;
+    margin-right: 50px;
+}

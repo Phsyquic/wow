@@ -5,6 +5,7 @@ import { DiscordApiService } from '../services/discord-api.service';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { LocalDataService } from '../services/local-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -58,7 +59,8 @@ export class MainComponent implements OnInit {
     private http: HttpClient,
     private RaidbotsApiService: RaidbotsApiService,
     private LocalDataService: LocalDataService,
-    private DiscordApiService: DiscordApiService
+    private DiscordApiService: DiscordApiService,
+    private router: Router
   ) { }
 
   public getJSON(url: any): Observable<any> {
@@ -1098,7 +1100,7 @@ export class MainComponent implements OnInit {
       array.forEach((element: any) => {
         var elementArray = [this.limpiarSpec(element[0])];
         element.forEach((item: any) => {
-          if (item = parseInt(item)) {
+          if (typeof item === 'number' || !isNaN(Number(item))) {
             elementArray.push(item);
           }
         });
@@ -1220,6 +1222,10 @@ export class MainComponent implements OnInit {
       newSim.dps = tierSim.dps;
     }
     return newSim;
+  }
+
+  goBises() {
+    this.router.navigate(['/bises']);
   }
 
 }

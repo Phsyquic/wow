@@ -24,6 +24,7 @@
   <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
   <label *ngIf="checkDiv"><b>Verde 1º. Amarillo 2º. Naranja 3º</b></label>
   <button (click)="resetAll()">Reset</button>
+  <button (click)="goBises()">Bises</button>
   <button *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
   <button *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
   <div *ngIf="!checkDiv">
