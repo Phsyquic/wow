@@ -19,9 +19,15 @@ export class BisesComponent implements OnInit {
   PH_image1 = 'https://wow.zamimg.com/images/wow/icons/large/inv_10_jewelcrafting_gem3primal_fire_cut_red.jpg';
   allBisList: any = [];
   tableBisList: any = [];
+  tableBisList_full: any = [];
   instances: any = [];
   itemList: any = [];
   itemList_full: any = [];
+  instancesLibrary: any[] = [];
+  encounterLibrary: any[] = [];
+  specsLibrary: any[] = [];
+  slotsLibrary: any[] = [];
+  encounterFlag = -1;
 
   constructor(
     private http: HttpClient,
@@ -184,7 +190,7 @@ export class BisesComponent implements OnInit {
     return new Promise((resolve, reject) => {
       this.blizzardService.getItemMedia(id).subscribe(
         (response) => {
-          var imageUrl = response.assets.find((asset: any) => asset.key === 'icon')?.value || null;
+          var imageUrl = response.data.assets.find((asset: any) => asset.key === 'icon')?.value || null;
           resolve(imageUrl);
         },
         (error) => {
@@ -367,6 +373,8 @@ export class BisesComponent implements OnInit {
       var itemEncontrado = this.itemList.find((item: any) => itemID === item.id);
       if (itemEncontrado) {
         var item = {};
+        var iType = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
+        iType = iType.inventoryType;
         if (itemEncontrado.instance.type == "dungeon") {
           item = {
             id: itemID,
@@ -374,6 +382,7 @@ export class BisesComponent implements OnInit {
             img: element.img,
             name: element.name,
             instance: itemEncontrado.instance.name,
+            iType: iType
           }
           realTableBistList.push(item);
         } else if (itemEncontrado.instance.type == "raid") {
@@ -383,7 +392,8 @@ export class BisesComponent implements OnInit {
             img: element.img,
             name: element.name,
             instance: itemEncontrado.instance.name,
-            boss: itemEncontrado.boss
+            boss: itemEncontrado.boss,
+            iType: iType
           }
           realTableBistList.push(item);
         } else if (itemEncontrado.instance.type.includes("profession")) {
@@ -393,6 +403,7 @@ export class BisesComponent implements OnInit {
             img: element.img,
             name: element.name,
             instance: 'Crafted',
+            iType: iType
           }
           realTableBistList.push(item);
         } else if (itemEncontrado.instance.type == "catalyst") {
@@ -405,6 +416,7 @@ export class BisesComponent implements OnInit {
               img: element.img,
               name: element.name,
               instance: 'Catalyst',
+              iType: iType,
             }
             realTableBistList.push(item);
           } else {
@@ -414,6 +426,7 @@ export class BisesComponent implements OnInit {
               img: this.getTierImg(bossTier[1]),
               name: bossTier[2],
               instance: 'Tier',
+              iType: iType
             }
             realTableBistList.push(item);
           }
@@ -424,6 +437,7 @@ export class BisesComponent implements OnInit {
             img: element.img,
             name: element.name,
             instance: 'Desconocido',
+            iType: iType
           }
           realTableBistList.push(item);
         }
@@ -441,10 +455,48 @@ export class BisesComponent implements OnInit {
 
     realTableBistList = this.juntarTiers(realTableBistList);
     realTableBistList = this.ordenarTabla(realTableBistList);
-    console.log(realTableBistList);
 
     this.tableBisList = realTableBistList;
+    this.tableBisList_full = realTableBistList;
+    this.cargarDrops(this.tableBisList);
   }
+
+  cargarDrops(bisList: any[]) {
+    //Cargar filtro instances
+    var iRaid = this.instances.filter((i: any) => (i.type === "raid"));
+    this.instancesLibrary = ['M+ Dungeons', 'Catalyst', 'Crafted', 'Tier'];
+    iRaid.forEach((element: any) => {
+      this.instancesLibrary.push(element.name);
+    });
+
+    //Cargar filtro encounters
+    var bossLibrary = [...new Set(
+      bisList
+        .map(item => item.boss) // Extrae la propiedad 'boss'
+        .filter(boss => boss) // Filtra valores nulos o indefinidos
+    )];
+    var iLibrary = [...new Set(
+      bisList
+        .map(item => item.instance) // Extrae la propiedad 'instance'
+        .filter((instance: any) => instance) // Filtra valores nulos o indefinidos
+    )];
+    var mDungeons = iLibrary.filter(
+      (i: any) => !this.instancesLibrary.includes(i) && i !== "Desconocido"
+    );
+    this.encounterLibrary = [bossLibrary, mDungeons];
+
+    // Cargar filtro specs
+    this.specsLibrary = [...new Set(
+      bisList
+        .flatMap(item => item.spec)  // Aplana todos los arrays de 'spec'
+        .filter(spec => spec)        // Filtra valores nulos o indefinidos
+    )]
+      .sort((a, b) => a.localeCompare(b)); // Ordena alfabéticamente de forma ascendente
+
+    //Cargar filtro slot
+    this.slotsLibrary = ['head', 'neck', 'shoulder', 'back', 'chest', 'waist', 'legs', 'feet', 'wrist', 'hands', 'finger', 'trinket', 'main_hand', 'off_hand'];
+  }
+
 
   ordenarTabla(tableBisList: any) {
     tableBisList.sort((a: any, b: any) => {
@@ -455,7 +507,7 @@ export class BisesComponent implements OnInit {
       if (a.instance > b.instance) {
         return 1; // b debe ir antes que a
       }
-  
+
       // Si las propiedades "instance" son iguales, comparamos "boss"
       if (a.boss && b.boss) {
         if (a.boss < b.boss) {
@@ -465,15 +517,15 @@ export class BisesComponent implements OnInit {
           return 1; // b debe ir antes que a
         }
       }
-  
+
       // Si ambos son iguales, no cambiamos el orden
       return 0;
     });
-  
+
     return tableBisList; // Devuelve el array ordenado
   }
-  
-  
+
+
 
   getTierImg(tier: any) {
     switch (tier) {
@@ -524,7 +576,7 @@ export class BisesComponent implements OnInit {
     return new Promise((resolve, reject) => {
       this.blizzardService.getJournalEncounter(id).subscribe({
         next: (data) => {
-          resolve(data.name); // Resolvemos la promesa con el nombre del encounter
+          resolve(data.data.name); // Resolvemos la promesa con el nombre del encounter
         },
         error: (err) => {
           console.error('Error fetching journal encounter data', err);
@@ -595,6 +647,82 @@ export class BisesComponent implements OnInit {
       return 3;
     }
     return -1;
+  }
+
+  resetFiltros() {
+    // Restablecer el valor de todos los filtros (usando los ids de los selects)
+    const selects = document.querySelectorAll('select');
+    selects.forEach((select: any) => {
+      select.value = ''; // Restablecer el valor de cada select a vacío
+    });
+    this.tableBisList = this.tableBisList_full;
+    this.encounterFlag = -1;
+  }
+
+  filtrar(filtro: any, data: any) {
+    var data = data.target.value
+    if (data == '') {
+      this.resetFiltros();
+      return;
+    }
+    this.tableBisList = this.tableBisList_full;
+    var dataFiltrada = [];
+    console.log(this.tableBisList);
+    switch (filtro) {
+      //Filtro Instances
+      case 0:
+        if (data != 'M+ Dungeons') {
+          dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
+          if (data == this.instancesLibrary.at(-1)) {
+            this.encounterFlag = 0;
+          } else {
+            this.encounterFlag = -1;
+          }
+        } else {
+          var mDungeons = this.encounterLibrary[1];
+          dataFiltrada = this.tableBisList.filter((i: any) => mDungeons.includes(i.instance));
+          this.encounterFlag = 1;
+        }
+        break;
+
+      //Filtro Encounters
+      case 1:
+        if (this.encounterFlag == 0) {
+          dataFiltrada = this.tableBisList.filter((i: any) => (i.boss === data));
+        } else {
+          dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
+        }
+        break;
+
+      //Filtro Specs
+      case 2:
+        dataFiltrada = this.tableBisList.filter((i: any) => i.spec.includes(data));
+        break;
+
+      //Filtro Slots
+      case 3:
+        dataFiltrada = this.tableBisList.filter((i: any) => (i.iType === parseInt(data) + 1));
+        //Casos especiales
+        if (data == 3) {
+          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 16));
+          dataFiltrada = [...dataFiltrada, ...additionalData];
+        } else if (data == 4) {
+          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 20));
+          dataFiltrada = [...dataFiltrada, ...additionalData];
+        } else if (data == 12) {
+          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 17));
+          dataFiltrada = [...dataFiltrada, ...additionalData];
+        }
+        break;
+      default:
+        this.resetFiltros();
+    }
+    console.log(dataFiltrada);
+    this.tableBisList = dataFiltrada;
+  }
+
+  goMain() {
+    this.router.navigate(['/']);
   }
 
 

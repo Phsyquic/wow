@@ -1,8 +1,30 @@
 <body>
+    <div class="filters-container">
+        <select name="Instances" id="instances" (change)="filtrar(0, $event)">
+            <option value="">Instances</option>
+            <option [value]="instance" *ngFor="let instance of instancesLibrary">{{instance}}</option>
+        </select>
+        <select *ngIf="encounterFlag != -1" name="Bosses" id="bosses" (change)="filtrar(1, $event)">
+            <option *ngIf="encounterFlag == 0" value="">Bosses</option>
+            <option *ngIf="encounterFlag == 1" value="">Dungeons</option>
+            <option [value]="boss" *ngFor="let boss of encounterLibrary[encounterFlag]">{{boss}}</option>
+        </select>
+        <select name="Specs" id="specs" (change)="filtrar(2, $event)">
+            <option value="">Specs</option>
+            <option [value]="spec" *ngFor="let spec of specsLibrary">{{spec}}</option>
+        </select>
+        <select name="Slots" id="slots" (change)="filtrar(3, $event)">
+            <option value="">Slots</option>
+            <option [value]="i" *ngFor="let slot of slotsLibrary; let i = index">{{capitalizeFirstLetter(slot)}}
+            </option>
+        </select>
+        <button *ngIf="tableBisList != tableBisList_full" (click)="resetFiltros()">Reset</button>
+        <button (click)="goMain()">Main</button>
+    </div>
     <div *ngFor="let item of tableBisList" class="mainDiv">
         <img *ngIf="item.img" [src]="item.img" alt="Item Image">
         <span><b>{{ item.boss ? item.boss : item.instance }} ||
-        {{capitalizeFirstLetter(item.name)}}</b></span>
+                {{capitalizeFirstLetter(item.name)}}</b></span>
         <div *ngFor="let spec of item.spec">
             <span [ngStyle]="{'color': generateColor(spec)}">{{spec}}</span>
         </div>

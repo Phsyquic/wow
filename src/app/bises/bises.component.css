@@ -24,15 +24,43 @@ span {
     /* Se expande al tamaño necesario */
 }
 
-select {
-    scale: 200%;
-    margin-left: 70px;
-    margin-right: 100px;
-    margin-bottom: 20px;
+/* Contenedor de los filtros */
+.filters-container {
+    display: flex;            /* Flexbox para alinear los select en fila */
+    justify-content: flex-start; /* Alineación a la izquierda */
+    margin-top: 20px;         /* Espaciado superior */
+    margin-bottom: 20px;      /* Espaciado inferior */
+    padding: 10px;            /* Espaciado interno */
+    background-color: #f2f2f2; /* Fondo para separar la fila */
+    width: 100%;              /* Asegura que ocupe todo el ancho */
+    box-sizing: border-box;   /* Para que el padding no afecte el ancho total */
+    align-items: center;      /* Asegura que los elementos estén centrados verticalmente */
 }
 
+/* Estilo para los selectores */
+select {
+    margin-right: 20px;       /* Espaciado entre los selectores */
+    padding: 10px;            /* Espaciado interno */
+    font-size: 1em;         /* Tamaño de fuente */
+    height: 40px;             /* Altura fija para todos los selectores */
+}
+
+/* Estilo para los botones */
 button {
-    float: right;
-    scale: 200%;
-    margin-right: 50px;
+    padding: 10px 20px;       /* Espaciado interno para los botones */
+    font-size: 1.2em;         /* Tamaño de fuente para los botones */
+    height: 40px;             /* Altura similar a los selectores */
+    scale: 1;                 /* Cambia el tamaño de los botones proporcionalmente */
+    cursor: pointer;         /* Añadir cursor pointer para los botones */
+    background-color: #4CAF50; /* Fondo verde para los botones */
+    color: white;             /* Texto en blanco */
+    border: none;             /* Quitar borde por defecto */
+    border-radius: 5px;       /* Bordes redondeados */
+    transition: background-color 0.3s ease-in-out; /* Transición suave al pasar el ratón */
+    margin-left: 10px;        /* Espaciado entre los botones */
+}
+
+/* Cambia el color del fondo del botón al pasar el ratón */
+button:hover {
+    background-color: #45a049;
 }
