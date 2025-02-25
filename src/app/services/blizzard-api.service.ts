@@ -6,7 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class BlizzardApiService {
-  private serverUrl = 'http://localhost:3000'; // Servidor Express
+  //private serverUrl = 'http://localhost:3000'; // Servidor Express
+  private serverUrl = 'https://soft-south-winterberry.glitch.me';
 
   constructor(private http: HttpClient) {}
 
