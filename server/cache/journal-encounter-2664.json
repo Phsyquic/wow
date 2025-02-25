@@ -1,0 +1,259 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2664?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 2664,
+  "name": "Bael'Gar",
+  "description": "The monstrous molten giant Bael'Gar lumbers across the Dark Iron Highway, a stunning feat of dwarven engineering carved into Blackrock Depths. Ragnaros pulled the giant from the heart of the Firelands to guard a massive sealed door at one end of the highway. According to legend, only the Firelord and the Dark Iron clan's highest-ranking members know what lies beyond the mysterious gate.",
+  "creatures": [
+    {
+      "id": 5807,
+      "name": "Bael'Gar",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120759?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120759
+      }
+    },
+    {
+      "id": 5808,
+      "name": "Spawn of Bael'Gar",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122126
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44818,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231409?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Force of Magma",
+        "id": 231409
+      }
+    },
+    {
+      "id": 44819,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231411?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Sash of the Burning Heart",
+        "id": 231411
+      }
+    },
+    {
+      "id": 44820,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231447?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Bloodclot Band",
+        "id": 231447
+      }
+    },
+    {
+      "id": 44821,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231458?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Insolent Dark Iron's Vest",
+        "id": 231458
+      }
+    },
+    {
+      "id": 44822,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231408?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Lavacrest Leggings",
+        "id": 231408
+      }
+    },
+    {
+      "id": 44823,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231461?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Magma Giant's Crown",
+        "id": 231461
+      }
+    },
+    {
+      "id": 44824,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231410?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Rubidium Hammer",
+        "id": 231410
+      }
+    },
+    {
+      "id": 44825,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231462?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Molten Furnace",
+        "id": 231462
+      }
+    },
+    {
+      "id": 44826,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231463?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Arbiter's Blade",
+        "id": 231463
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30732,
+      "title": "Overview",
+      "body_text": "Bael'Gar's Hspell:462974[Giant Strike] inflicts enormous damage in a cone in front of him with every swing. Damage is split between players struck.\r\n\r\nHspell:463890[Rockfall] causes large boulders and small rocks to fall from the ceiling that players must avoid. Players will need to seek cover when Bael'Gar casts Hspell:463143[Molten Furnace]. Any boulders that remain when Bael'Gar casts Hspell:462972[Shatter] will inflict significant additional damage to the entire raid.\r\n\r\nWhenever a boulder is destroyed, several Spawns of Bael'Gar are created. When a Spawn of Bael'Gar is killed, its Hspell:462968[Molten Heart] inflicts damage over time to a random player.",
+      "sections": [
+        {
+          "id": 30733,
+          "title": "Tanks",
+          "body_text": "$bullet; Tanks will need to split the damage of Hspell:462974[Giant Strike] in order to survive.\r\n$bullet; The large boulders created by Hspell:463890[Rockfall] inflict higher damage the nearer players are to the point of impact.\r\n$bullet; Any boulders that remain when Bael'Gar casts Hspell:462972[Shatter] have the potential to make its damage lethal.\r\n$bullet; When a boulder is destroyed several Spawns of Bael'Gar will be created and attack nearby players."
+        },
+        {
+          "id": 30734,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; The large boulders created by Hspell:463890[Rockfall] inflict higher damage the nearer players are to the point of impact.\r\n$bullet; Hspell:463143[Molten Furnace] inflicts lethal damage to players that are not behind cover.\r\n$bullet; Any boulders that remain when Bael'Gar casts Hspell:462972[Shatter] have the potential to make its damage lethal.\r\n$bullet; When a boulder is destroyed several Spawns of Bael'Gar will be created and attack nearby players."
+        },
+        {
+          "id": 30735,
+          "title": "Healers",
+          "body_text": "$bullet; Tanks will need to split the damage of Hspell:462974[Giant Strike] in order to survive.\r\n$bullet; The large boulders created by Hspell:463890[Rockfall] inflict higher damage the nearer players are to the point of impact.\r\n$bullet; Hspell:463143[Molten Furnace] inflicts lethal damage to players that are not behind cover.\r\n$bullet; Any boulders that remain when Bael'Gar casts Hspell:462972[Shatter] have the potential to make its damage lethal.\r\n$bullet; When Spawns of Bael'Gar are killed they will deal damage over time to a random player with Hspell:462968[Molten Heart]."
+        }
+      ]
+    },
+    {
+      "id": 30736,
+      "title": "Giant Strike",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/462974?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Giant Strike",
+        "id": 462974
+      }
+    },
+    {
+      "id": 30737,
+      "title": "Rockfall",
+      "sections": [
+        {
+          "id": 30947,
+          "title": "Boulder",
+          "body_text": "Boulders can be used to hide from Molten Furnace and release Spawns of Bael'Gar when destroyed.",
+          "sections": [
+            {
+              "id": 30740,
+              "title": "Spawn of Bael'Gar",
+              "sections": [
+                {
+                  "id": 30946,
+                  "title": "Molten Heart",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/462968?namespace=static-11.0.7_57788-us"
+                    },
+                    "name": "Molten Heart",
+                    "id": 462968
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.0.7_57788-us"
+                },
+                "id": 122126
+              }
+            }
+          ]
+        },
+        {
+          "id": 30948,
+          "title": "Crumbling Ceiling",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463891?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Crumbling Ceiling",
+            "id": 463891
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463890?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Rockfall",
+        "id": 463890
+      }
+    },
+    {
+      "id": 30738,
+      "title": "Molten Furnace",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463143?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Molten Furnace",
+        "id": 463143
+      }
+    },
+    {
+      "id": 30739,
+      "title": "Shatter",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/462972?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Shatter",
+        "id": 462972
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

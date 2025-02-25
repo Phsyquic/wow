@@ -1,0 +1,256 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/225586?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 225586,
+  "name": "Rasha'nan's Grotesque Talons",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/225586?namespace=static-11.0.7_57788-us"
+    },
+    "id": 225586
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": "Feet"
+  },
+  "purchase_price": 3478732,
+  "sell_price": 695746,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/225586?namespace=static-11.0.7_57788-us"
+      },
+      "id": 225586
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Rasha'nan's Grotesque Talons",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/225586?namespace=static-11.0.7_57788-us"
+      },
+      "id": 225586
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": "Feet"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2814,
+      "display": {
+        "display_string": "2,814 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1510,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,510 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 737,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+737 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 313,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+313 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 694130,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "69",
+        "silver": "41",
+        "copper": "30"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 80,
+      "display_string": "Durability 80 / 80"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92098?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92098
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92134?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92134
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92122?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92122
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92158?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92158
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92134?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92134
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92098?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92098
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92122?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92122
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92158?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92158
+    }
+  ]
+}

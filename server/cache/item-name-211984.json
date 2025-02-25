@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/211984?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 211984,
+  "name": "Warsculptor's Barbute",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/211984?namespace=static-11.0.7_57788-us"
+    },
+    "id": 211984
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3795409,
+  "sell_price": 759081,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/211984?namespace=static-11.0.7_57788-us"
+      },
+      "id": 211984
+    },
+    "context": 0,
+    "bonus_list": [
+      10371
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Warsculptor's Barbute",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/211984?namespace=static-11.0.7_57788-us"
+      },
+      "id": 211984
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 5079,
+      "display": {
+        "display_string": "5,079 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 2014,
+        "display": {
+          "display_string": "+2,014 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 2014,
+        "is_negated": true,
+        "display": {
+          "display_string": "+2,014 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 8949,
+        "display": {
+          "display_string": "+8,949 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 997,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+997 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 404,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+404 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 757318,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "75",
+        "silver": "73",
+        "copper": "18"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warrior",
+            "id": 1
+          }
+        ],
+        "display_string": "Classes: Warrior"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1684?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Warsculptor's Masterwork",
+        "id": 1684
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211987?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warsculptor's Furred Plastron",
+            "id": 211987
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211985?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warsculptor's Crushers",
+            "id": 211985
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211984?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warsculptor's Barbute",
+            "id": 211984
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211983?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warsculptor's Cuisses",
+            "id": 211983
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211982?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Warsculptor's Horned Spaulders",
+            "id": 211982
+          }
+        }
+      ],
+      "display_string": "Warsculptor's Masterwork (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92403?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92403
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92451?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92451
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92424?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92424
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92460?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92460
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92415?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92415
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92427?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92427
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92463?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92463
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92448?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92448
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92436?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92436
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92412?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92412
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92472?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92472
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92439?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92439
+    }
+  ]
+}

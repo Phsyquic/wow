@@ -28,6 +28,7 @@ export class BisesComponent implements OnInit {
   specsLibrary: any[] = [];
   slotsLibrary: any[] = [];
   encounterFlag = -1;
+  isLoading: boolean = true;
 
   constructor(
     private http: HttpClient,
@@ -42,7 +43,11 @@ export class BisesComponent implements OnInit {
       // Después de que getBisListData haya terminado, llama a getBosses()
       this.getBosses();
     }).catch((error) => {
+      // Manejo de error si la promesa se rechaza
       console.error("Hubo un error al cargar la bis list:", error);
+    }).finally(() => {
+      // Este bloque siempre se ejecutará después de que la promesa se haya resuelto o rechazado
+      this.isLoading = false;  // Cambiar isLoading a false cuando se haya completado el proceso
     });
   }
 
@@ -190,7 +195,7 @@ export class BisesComponent implements OnInit {
     return new Promise((resolve, reject) => {
       this.blizzardService.getItemMedia(id).subscribe(
         (response) => {
-          var imageUrl = response.data.assets.find((asset: any) => asset.key === 'icon')?.value || null;
+          var imageUrl = response.assets.find((asset: any) => asset.key === 'icon')?.value || null;
           resolve(imageUrl);
         },
         (error) => {
@@ -204,8 +209,8 @@ export class BisesComponent implements OnInit {
   getItemName(id: any): Promise<string> {
     return new Promise((resolve, reject) => {
       this.blizzardService.getItemName(id).subscribe(
-        (name) => {
-          resolve(name);
+        (data) => {
+          resolve(data.name);
         },
         (error) => {
           console.error('Error fetching item name', error);
@@ -576,7 +581,7 @@ export class BisesComponent implements OnInit {
     return new Promise((resolve, reject) => {
       this.blizzardService.getJournalEncounter(id).subscribe({
         next: (data) => {
-          resolve(data.data.name); // Resolvemos la promesa con el nombre del encounter
+          resolve(data.name); // Resolvemos la promesa con el nombre del encounter
         },
         error: (err) => {
           console.error('Error fetching journal encounter data', err);

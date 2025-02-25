@@ -1,0 +1,258 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/225574?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 225574,
+  "name": "Wings of Shattered Sorrow",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/225574?namespace=static-11.0.7_57788-us"
+    },
+    "id": 225574
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CLOAK",
+    "name": "Back"
+  },
+  "purchase_price": 3585742,
+  "sell_price": 717148,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/225574?namespace=static-11.0.7_57788-us"
+      },
+      "id": 225574
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Wings of Shattered Sorrow",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/225574?namespace=static-11.0.7_57788-us"
+      },
+      "id": 225574
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CLOAK",
+      "name": "Back"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 1222,
+      "display": {
+        "display_string": "1,222 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1133,
+        "display": {
+          "display_string": "+1,133 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1133,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,133 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 1133,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,133 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 5034,
+        "display": {
+          "display_string": "+5,034 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 563,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+563 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 225,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+225 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/457489?namespace=static-11.0.7_57788-us"
+          },
+          "name": "Wings of Shattered Sorrow",
+          "id": 457489
+        },
+        "description": "Equip: Taking damage greater than 25% of your health grants you 1,801 Avoidance and increases healing taken by 10% for 10 sec. This effect may only occur every 90 sec.\r\n\r\nFalling damage reduced."
+      }
+    ],
+    "sell_price": {
+      "value": 715482,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "71",
+        "silver": "54",
+        "copper": "82"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91896?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91896
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91900?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91900
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91898?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91898
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91894?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91894
+    }
+  ]
+}

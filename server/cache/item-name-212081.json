@@ -1,0 +1,336 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212081?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212081,
+  "name": "Living Luster's Dominion",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212081?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212081
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3477889,
+  "sell_price": 695577,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212081?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212081
+    },
+    "context": 0,
+    "bonus_list": [
+      10369
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Living Luster's Dominion",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212081?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212081
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 1222,
+      "display": {
+        "display_string": "1,222 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 701,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+701 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 350,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+350 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 695577,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "69",
+        "silver": "55",
+        "copper": "77"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Priest",
+            "id": 5
+          }
+        ],
+        "display_string": "Classes: Priest"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1688?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Shards of Living Luster",
+        "id": 1688
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212084?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Luster's Touch",
+            "id": 212084
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212083?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Luster's Semblance",
+            "id": 212083
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212082?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Luster's Trousers",
+            "id": 212082
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212086?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Luster's Raiment",
+            "id": 212086
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212081?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Luster's Dominion",
+            "id": 212081
+          }
+        }
+      ],
+      "display_string": "Shards of Living Luster (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92546?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92546
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92548?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92548
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92553?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92553
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92549?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92549
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92552?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92552
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92554?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92554
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92544?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92544
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92551?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92551
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92555?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92555
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92547?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92547
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92545?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92545
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92550?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92550
+    }
+  ]
+}

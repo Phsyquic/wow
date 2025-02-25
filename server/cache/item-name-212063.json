@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212063?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212063,
+  "name": "War-Mantle of the Hypogeal Nemesis",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212063?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212063
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3771393,
+  "sell_price": 754278,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212063?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212063
+    },
+    "context": 0,
+    "bonus_list": [
+      10369
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "War-Mantle of the Hypogeal Nemesis",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212063?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212063
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2099,
+      "display": {
+        "display_string": "2,099 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1510,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,510 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 742,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+742 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 309,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+309 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 754278,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "75",
+        "silver": "42",
+        "copper": "78"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Demon Hunter",
+            "id": 12
+          }
+        ],
+        "display_string": "Classes: Demon Hunter"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1695?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Husk of the Hypogeal Nemesis",
+        "id": 1695
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212068?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Chestguard of the Hypogeal Nemesis",
+            "id": 212068
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212066?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Claws of the Hypogeal Nemesis",
+            "id": 212066
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212065?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Impalers of the Hypogeal Nemesis",
+            "id": 212065
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212064?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Pantaloons of the Hypogeal Nemesis",
+            "id": 212064
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212063?namespace=static-11.0.7_57788-us"
+            },
+            "name": "War-Mantle of the Hypogeal Nemesis",
+            "id": 212063
+          }
+        }
+      ],
+      "display_string": "Husk of the Hypogeal Nemesis (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91832?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91832
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91872?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91872
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91858?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91858
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91880?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91880
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91850?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91850
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91883?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91883
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91861?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91861
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91829?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91829
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91891?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91891
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91840?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91840
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91869?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91869
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91821?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91821
+    }
+  ]
+}

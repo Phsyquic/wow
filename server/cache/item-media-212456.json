@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212456?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_10_inscription2_repcontracts_trade_archaeology_apexisscroll_uprez_color4.jpg",
+      "file_data_id": 4549178
+    }
+  ],
+  "id": 212456
+}

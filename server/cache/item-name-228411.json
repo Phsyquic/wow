@@ -1,0 +1,135 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/228411?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 228411,
+  "name": "Cyrce's Circlet",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 619,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228411?namespace=static-11.0.7_57788-us"
+    },
+    "id": 228411
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": "Finger"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 1,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "Sea dogs and tale spinners tell stories of a mythical siren that could lure even the stubbornest sailors to a watery grave.",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/228411?namespace=static-11.0.7_57788-us"
+      },
+      "id": 228411
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "SINGING_THUNDER"
+        }
+      },
+      {
+        "socket_type": {
+          "type": "SINGING_SEA"
+        }
+      },
+      {
+        "socket_type": {
+          "type": "SINGING_WIND"
+        }
+      }
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Cyrce's Circlet",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228411?namespace=static-11.0.7_57788-us"
+      },
+      "id": 228411
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": "Finger"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique",
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 10359,
+        "display": {
+          "display_string": "+10,359 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "description": "Sea dogs and tale spinners tell stories of a mythical siren that could lure even the stubbornest sailors to a watery grave.",
+    "level": {
+      "value": 619,
+      "display_string": "Item Level 619"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

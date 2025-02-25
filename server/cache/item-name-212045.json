@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212045?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212045,
+  "name": "Gatecrasher's Enduring Effigy",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212045?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212045
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3798174,
+  "sell_price": 759634,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212045?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212045
+    },
+    "context": 0,
+    "bonus_list": [
+      10369
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Gatecrasher's Enduring Effigy",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212045?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212045
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2099,
+      "display": {
+        "display_string": "2,099 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1510,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,510 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 346,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+346 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 705,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+705 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 759634,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "75",
+        "silver": "96",
+        "copper": "34"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Monk",
+            "id": 10
+          }
+        ],
+        "display_string": "Classes: Monk"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1690?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Gatecrasher's Fortitude",
+        "id": 1690
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212050?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Gatecrasher's Gi",
+            "id": 212050
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212048?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Gatecrasher's Protectors",
+            "id": 212048
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212047?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Gatecrasher's Horns",
+            "id": 212047
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212046?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Gatecrasher's Kilt",
+            "id": 212046
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212045?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Gatecrasher's Enduring Effigy",
+            "id": 212045
+          }
+        }
+      ],
+      "display_string": "Gatecrasher's Fortitude (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92182?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92182
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92222?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92222
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92210?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92210
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92230?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92230
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92202?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92202
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92192?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92192
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92212?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92212
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92180?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92180
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92200?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92200
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92190?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92190
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92220?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92220
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92172?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92172
+    }
+  ]
+}

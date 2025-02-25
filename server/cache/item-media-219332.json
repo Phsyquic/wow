@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219332?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_leather_outdoorarathor_d_01_pant.jpg",
+      "file_data_id": 5648242
+    }
+  ],
+  "id": 219332
+}

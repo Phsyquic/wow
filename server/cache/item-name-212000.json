@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212000?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212000,
+  "name": "Exhumed Centurion's Spikes",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212000?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212000
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3732669,
+  "sell_price": 746533,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212000?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212000
+    },
+    "context": 0,
+    "bonus_list": [
+      10369
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Exhumed Centurion's Spikes",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212000?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212000
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 4655,
+      "display": {
+        "display_string": "4,655 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 1510,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,510 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 739,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+739 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 312,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+312 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 746533,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "74",
+        "silver": "65",
+        "copper": "33"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Death Knight",
+            "id": 6
+          }
+        ],
+        "display_string": "Classes: Death Knight"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1696?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Exhumed Centurion's Relics",
+        "id": 1696
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212005?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Exhumed Centurion's Breastplate",
+            "id": 212005
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212003?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Exhumed Centurion's Gauntlets",
+            "id": 212003
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212002?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Exhumed Centurion's Galea",
+            "id": 212002
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212001?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Exhumed Centurion's Chausses",
+            "id": 212001
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212000?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Exhumed Centurion's Spikes",
+            "id": 212000
+          }
+        }
+      ],
+      "display_string": "Exhumed Centurion's Relics (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91503?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91503
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91533?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91533
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91531?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91531
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91541?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91541
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91523?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91523
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91513?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91513
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91543?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91543
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91501?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91501
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91521?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91521
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91511?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91511
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91551?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91551
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91493?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91493
+    }
+  ]
+}

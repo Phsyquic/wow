@@ -1,0 +1,416 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2669?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 2669,
+  "name": "Ambassador Flamelash",
+  "description": "For his unwavering service to Ragnaros, Flamelash ascended to the rank of ambassador to the Dark Iron clan. This depraved being initially despised his dwarven allies, but he has come to respect their penchant for destruction.",
+  "creatures": [
+    {
+      "id": 5790,
+      "name": "Ambassador Flamelash",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120761?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120761
+      }
+    },
+    {
+      "id": 5820,
+      "name": "Flamewaker",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122591?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122591
+      }
+    },
+    {
+      "id": 5821,
+      "name": "Firestarter",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122593?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122593
+      }
+    },
+    {
+      "id": 5819,
+      "name": "Burning Spirit",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122592?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122592
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44809,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231415?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Cape of the Fire Salamander",
+        "id": 231415
+      }
+    },
+    {
+      "id": 44810,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231413?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flame Wrath",
+        "id": 231413
+      }
+    },
+    {
+      "id": 44811,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231416?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Molten Fists",
+        "id": 231416
+      }
+    },
+    {
+      "id": 44812,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231412?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Circle of Flame",
+        "id": 231412
+      }
+    },
+    {
+      "id": 44813,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231484?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Fireguard's Lava-Dipped Cleaver",
+        "id": 231484
+      }
+    },
+    {
+      "id": 44814,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231485?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flamewalker Scale Spaulders",
+        "id": 231485
+      }
+    },
+    {
+      "id": 44815,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231483?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flamelash's Fiery Spike",
+        "id": 231483
+      }
+    },
+    {
+      "id": 44816,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231424?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Burst of Knowledge",
+        "id": 231424
+      }
+    },
+    {
+      "id": 44817,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231486?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Burning Spirit Tender's Mitts",
+        "id": 231486
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30859,
+      "title": "Overview",
+      "body_text": "Ambassador Flamelash calls upon the denizens of the Firelands to incinerate his foes. When Ambassador Flamelash casts Hspell:464372[Open Firelands Portals], players must quickly spread in order to defeat Burning Spirits and destroy portal anchors. If too many spirits successfully cast Hspell:464769[Fury of the Firelands], the damage from Ambassador Flamelash will become overwhelming. Until all portal anchors are destroyed, Hspell:464999[Unstable Portal] will continue to inflict damage to the entire raid.\r\n\r\nWhen Ambassador Flamelash reaches maximum energy, he casts Hspell:470203[Cremate], which must be split between multiple players. The Hspell:470363[Cremation] left behind by Hspell:470203[Cremate] should be quickly dispelled or will overwhelm the raid.",
+      "sections": [
+        {
+          "id": 30860,
+          "title": "Tanks",
+          "body_text": "$bullet;  Tanks will need to split the damage of Hspell:470203[Cremate] in order to survive, and the Hspell:470207[Flamelash] it leaves behind makes a player more susceptible to Fire damage until it fades.\r\n$bullet;  Firestarter's Hspell:464918[Explosive Impact] inflicts heavy Physical damage.\r\n$bullet;  Flamewalkers are a powerful melee combatant that is also capable of casting Hspell:470164[Magma Infusion]."
+        },
+        {
+          "id": 30861,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Firestarters should be lured away from the raid. The explosion from Hspell:464983[Torch] is large and inflicts high damage.\r\n$bullet; Flamewalkers cast Hspell:470164[Magma Infusion] until they are defeated, making it more difficult to navigate the Iron Hall.\r\n$bullet; Players should destroy portal anchors as quickly as possible while ensuring Burning Spirits do not successfully cast Hspell:464769[Fury of the Firelands]."
+        },
+        {
+          "id": 30862,
+          "title": "Healers",
+          "body_text": "$bullet; Healers should quickly dispel Hspell:470363[Cremation] from players that split the damage of Hspell:470203[Cremate].\r\n$bullet; Tanks afflicted by Hspell:470207[Flamelash] will suffer increased Fire damage.\r\n$bullet; When a Flamewalker is killed, it will depart with an Hspell:470330[Explosive Demise].\r\n$bullet; Incoming damage can quickly become overwhelming during Hspell:464372[Open Firelands Portals] unless the raid manages every threat successfully."
+        }
+      ]
+    },
+    {
+      "id": 30976,
+      "title": "Cremate",
+      "sections": [
+        {
+          "id": 30978,
+          "title": "Flamelash",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470207?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Flamelash",
+            "id": 470207
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/470203?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Cremate",
+        "id": 470203
+      }
+    },
+    {
+      "id": 30979,
+      "title": "Magma Infusion",
+      "sections": [
+        {
+          "id": 30980,
+          "title": "Magma Sweep",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464379?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Magma Sweep",
+            "id": 464379
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/470164?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Magma Infusion",
+        "id": 470164
+      }
+    },
+    {
+      "id": 30890,
+      "title": "Summon Firestarters",
+      "sections": [
+        {
+          "id": 30896,
+          "title": "Firestarter",
+          "sections": [
+            {
+              "id": 30981,
+              "title": "Fixate",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464981?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Fixate",
+                "id": 464981
+              }
+            },
+            {
+              "id": 30982,
+              "title": "Explosive Impact",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464382?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Explosive Impact",
+                "id": 464382
+              }
+            },
+            {
+              "id": 30983,
+              "title": "Torch",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464983?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Torch",
+                "id": 464983
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122593?namespace=static-11.0.7_57788-us"
+            },
+            "id": 122593
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/470244?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Summon Firestarters",
+        "id": 470244
+      }
+    },
+    {
+      "id": 30984,
+      "title": "Summon Flamewalker",
+      "sections": [
+        {
+          "id": 30894,
+          "title": "Flamewalker",
+          "sections": [
+            {
+              "id": 30895,
+              "title": "Magma Infusion",
+              "sections": [
+                {
+                  "id": 30985,
+                  "title": "Magma Sweep",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/464379?namespace=static-11.0.7_57788-us"
+                    },
+                    "name": "Magma Sweep",
+                    "id": 464379
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470164?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Magma Infusion",
+                "id": 470164
+              }
+            },
+            {
+              "id": 31073,
+              "title": "Explosive Demise",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470330?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Explosive Demise",
+                "id": 470330
+              }
+            },
+            {
+              "id": 30986,
+              "title": "Superheat",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/408509?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Superheat",
+                "id": 408509
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122591?namespace=static-11.0.7_57788-us"
+            },
+            "id": 122591
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/464377?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Summon Flamewalker",
+        "id": 464377
+      }
+    },
+    {
+      "id": 30887,
+      "title": "Open Firelands Portals",
+      "sections": [
+        {
+          "id": 30889,
+          "title": "Unstable Portal",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464998?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Unstable Portal",
+            "id": 464998
+          }
+        },
+        {
+          "id": 30898,
+          "title": "Burning Spirit",
+          "sections": [
+            {
+              "id": 30899,
+              "title": "Fury of the Firelands",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464769?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Fury of the Firelands",
+                "id": 464769
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122592?namespace=static-11.0.7_57788-us"
+            },
+            "id": 122592
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/464372?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Open Firelands Portals",
+        "id": 464372
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

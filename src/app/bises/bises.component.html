@@ -21,12 +21,17 @@
         <button *ngIf="tableBisList != tableBisList_full" (click)="resetFiltros()">Reset</button>
         <button (click)="goMain()">Main</button>
     </div>
-    <div *ngFor="let item of tableBisList" class="mainDiv">
-        <img *ngIf="item.img" [src]="item.img" alt="Item Image">
-        <span><b>{{ item.boss ? item.boss : item.instance }} ||
-                {{capitalizeFirstLetter(item.name)}}</b></span>
-        <div *ngFor="let spec of item.spec">
-            <span [ngStyle]="{'color': generateColor(spec)}">{{spec}}</span>
+    <ng-container *ngIf="!isLoading">
+        <div *ngFor="let item of tableBisList" class="mainDiv">
+            <img *ngIf="item.img" [src]="item.img" alt="Item Image">
+            <span><b>{{ item.boss ? item.boss : item.instance }} ||
+                    {{capitalizeFirstLetter(item.name)}}</b></span>
+            <div *ngFor="let spec of item.spec">
+                <span [ngStyle]="{'color': generateColor(spec)}">{{spec}}</span>
+            </div>
         </div>
+    </ng-container>
+    <div *ngIf="isLoading" class="loading-message">
+        <p>Procesando...</p>
     </div>
 </body>

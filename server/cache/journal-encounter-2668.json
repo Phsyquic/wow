@@ -1,0 +1,641 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2668?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 2668,
+  "name": "General Angerforge",
+  "description": "Through a lifetime of study, General Angerforge has become an expert on dwarven military history and tactics. He recently incurred Emperor Dagran Thaurissan's fury by writing a scathing treatise on his clan's failures in past conflicts. This political blunder aside, Angerforge is a Dark Iron to his core. He will bleed--and die, if necessary--to protect his people and his emperor.",
+  "creatures": [
+    {
+      "id": 5791,
+      "name": "General Angerforge",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120763
+      }
+    },
+    {
+      "id": 5827,
+      "name": "Harbinger of Flames",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122942
+      }
+    },
+    {
+      "id": 5830,
+      "name": "Shadowforge Flame Keeper",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122970?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122970
+      }
+    },
+    {
+      "id": 5826,
+      "name": "Anvilrage Artillerist",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122948
+      }
+    },
+    {
+      "id": 5824,
+      "name": "Anvilrage Dragoon",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122950
+      }
+    },
+    {
+      "id": 5823,
+      "name": "Anvilrage Officer",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122954
+      }
+    },
+    {
+      "id": 5822,
+      "name": "Anvilrage Medic",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122952?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122952
+      }
+    },
+    {
+      "id": 5829,
+      "name": "Anvilrage Rogue",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122956
+      }
+    },
+    {
+      "id": 5828,
+      "name": "Anvilrage Sapper",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122958?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122958
+      }
+    },
+    {
+      "id": 5825,
+      "name": "Anvilrage Soldier",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122960
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44837,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231435?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Guiding Stave of Wisdom",
+        "id": 231435
+      }
+    },
+    {
+      "id": 44838,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231482?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Dragoon's Volley Gun",
+        "id": 231482
+      }
+    },
+    {
+      "id": 44839,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231440?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Ebonsteel Spaulders",
+        "id": 231440
+      }
+    },
+    {
+      "id": 44840,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231422?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Warstrife Leggings",
+        "id": 231422
+      }
+    },
+    {
+      "id": 44841,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231421?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Royal Decorated Armor",
+        "id": 231421
+      }
+    },
+    {
+      "id": 44842,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231479?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Anvilrage Rogue's Belt of Knives",
+        "id": 231479
+      }
+    },
+    {
+      "id": 44843,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231477?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Anvilrage Medic's Boots",
+        "id": 231477
+      }
+    },
+    {
+      "id": 44844,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231414?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Force of Will",
+        "id": 231414
+      }
+    },
+    {
+      "id": 44845,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231418?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Angerforge's Battle Axe",
+        "id": 231418
+      }
+    },
+    {
+      "id": 44846,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231480?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Anvilrage Dragoon's Trousers",
+        "id": 231480
+      }
+    },
+    {
+      "id": 44847,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231481?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Sapper's Waistplate",
+        "id": 231481
+      }
+    },
+    {
+      "id": 44848,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231419?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Lord General's Sword",
+        "id": 231419
+      }
+    },
+    {
+      "id": 44849,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231478?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flamekeeper's Handwraps",
+        "id": 231478
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30773,
+      "title": "Overview",
+      "body_text": "General Angerforge commands an army within the Lyceum in defense of the Imperial Throne. Players will need to overcome an array of firepower in order to reach the general.\r\n\r\nHarbingers of Flame channel Hspell:467394[World In Flames], wreathing all players within the Lyceum in intensifying Fire damage. The Harbingers of Flame cannot be damage until the Shadowforge Braziers are lit using the Shadowforge Torches carried by the Shadowforge Flame Keepers.\r\n\r\nAfter both Shadowforge Braziers are lit, the burning barriers protecting General Angerforge will fall, opening the general up to attack directly.",
+      "sections": [
+        {
+          "id": 30774,
+          "title": "Tanks",
+          "body_text": "$bullet; The Hspell:467394[Commanding Aura] of General Angerforge and Anvilrage Officers drastically increases the combat prowess of nearby Dark Iron.\r\n$bullet; General Angerforge and Anvilrage Officers cast Hspell:466107[Shatter Armor]. It will not be removed until the end of the encounter.\r\n$bullet; Your allies will need to be protected from many different Dark Iron soldiers in order to succeed."
+        },
+        {
+          "id": 30775,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Anvilrage Medics will attempt to Hspell:466096[Heal] their allies.\r\n$bullet; Anvilrage Rogues Hspell:466259[Fixate] a player until death.\r\n$bullet; Anvilrage Sappers will Hspell:466273[Detonate] upon reaching a player, inflicting high Physical damage.\r\n$bullet; General Angerforge's Hspell:467415[Fireburst Grenade] can be avoided by taking cover behind a column."
+        },
+        {
+          "id": 30776,
+          "title": "Healers",
+          "body_text": "$bullet; Hspell:467394[World In Flames] will continue to deal increasing Fire damage. Defeating a Harbinger of Flames will slow incoming damage.\r\n$bullet; Anvilrage Rogues Hspell:466259[Fixate] a player until death.\r\n$bullet; Anvilrage Sappers will Hspell:466273[Detonate] upon reaching a player, inflicting high Physical damage.\r\n$bullet; The pillars within the Lyceum can be used to avoid Hspell:467423[Firing Lines] and Hspell:467415[Fireburst Grenade], but will also make it challenging to heal players who move on their own."
+        }
+      ]
+    },
+    {
+      "id": 30828,
+      "title": "General Angerforge",
+      "sections": [
+        {
+          "id": 30844,
+          "title": "Commanding Aura",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Commanding Aura",
+            "id": 464425
+          }
+        },
+        {
+          "id": 30845,
+          "title": "Shatter Armor",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Shatter Armor",
+            "id": 466107
+          }
+        },
+        {
+          "id": 30839,
+          "title": "Dark Iron Bombs",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466265?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Dark Iron Bombs",
+            "id": 466265
+          }
+        },
+        {
+          "id": 30846,
+          "title": "Fireburst Grenade",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467415?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Fireburst Grenade",
+            "id": 467415
+          }
+        },
+        {
+          "id": 30847,
+          "title": "Deploy Mole Machine",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467758?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Deploy Mole Machine",
+            "id": 467758
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120763
+      }
+    },
+    {
+      "id": 30835,
+      "title": "Harbinger of Flames",
+      "sections": [
+        {
+          "id": 30848,
+          "title": "World in Flames",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467394?namespace=static-11.0.7_57788-us"
+            },
+            "name": "World in Flames",
+            "id": 467394
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122942
+      }
+    },
+    {
+      "id": 30836,
+      "title": "Shadowforge Flame Keeper",
+      "sections": [
+        {
+          "id": 30849,
+          "title": "Keeper's Flame",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464417?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Keeper's Flame",
+            "id": 464417
+          }
+        },
+        {
+          "id": 30850,
+          "title": "Rings of Fire",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467464?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Rings of Fire",
+            "id": 467464
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122972?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122972
+      }
+    },
+    {
+      "id": 30831,
+      "title": "Anvilrage Officer",
+      "sections": [
+        {
+          "id": 30838,
+          "title": "Commanding Aura",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Commanding Aura",
+            "id": 464425
+          }
+        },
+        {
+          "id": 30851,
+          "title": "Shatter Armor",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Shatter Armor",
+            "id": 466107
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122954
+      }
+    },
+    {
+      "id": 30830,
+      "title": "Anvilrage Medic",
+      "sections": [
+        {
+          "id": 30852,
+          "title": "Heal",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466096?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Heal",
+            "id": 466096
+          }
+        },
+        {
+          "id": 30853,
+          "title": "Mind Blast",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466086?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Mind Blast",
+            "id": 466086
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122953?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122953
+      }
+    },
+    {
+      "id": 30834,
+      "title": "Anvilrage Soldier",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122960
+      }
+    },
+    {
+      "id": 30832,
+      "title": "Anvilrage Rogue",
+      "sections": [
+        {
+          "id": 30854,
+          "title": "Stealth",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466234?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Stealth",
+            "id": 466234
+          }
+        },
+        {
+          "id": 30855,
+          "title": "Sinister Strike",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466109?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Sinister Strike",
+            "id": 466109
+          }
+        },
+        {
+          "id": 30856,
+          "title": "Crippling Poison",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466111?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Crippling Poison",
+            "id": 466111
+          }
+        },
+        {
+          "id": 30857,
+          "title": "Shadowstep",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466254?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Shadowstep",
+            "id": 466254
+          }
+        },
+        {
+          "id": 30843,
+          "title": "Fixate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466259?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Fixate",
+            "id": 466259
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122956
+      }
+    },
+    {
+      "id": 30833,
+      "title": "Anvilrage Sapper",
+      "sections": [
+        {
+          "id": 30840,
+          "title": "Detonate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466273?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Detonate",
+            "id": 466273
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122959?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122959
+      }
+    },
+    {
+      "id": 30777,
+      "title": "Anvilrage Artillerist",
+      "sections": [
+        {
+          "id": 30841,
+          "title": "Artillery Barrage",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467424?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Artillery Barrage",
+            "id": 467424
+          }
+        },
+        {
+          "id": 30858,
+          "title": "Mortar",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467505?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Mortar",
+            "id": 467505
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122948
+      }
+    },
+    {
+      "id": 30829,
+      "title": "Anvilrage Dragoon",
+      "sections": [
+        {
+          "id": 30842,
+          "title": "Firing Line",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467423?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Firing Line",
+            "id": 467423
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122950
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/159428?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 159428,
+  "name": "Ballast Sinkers",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 59,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/159428?namespace=static-11.0.7_57788-us"
+    },
+    "id": 159428
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": "Feet"
+  },
+  "purchase_price": 1934062,
+  "sell_price": 386812,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/159428?namespace=static-11.0.7_57788-us"
+      },
+      "id": 159428
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Ballast Sinkers",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/159428?namespace=static-11.0.7_57788-us"
+      },
+      "id": 159428
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": "Feet"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 13,
+      "display": {
+        "display_string": "13 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 5,
+        "display": {
+          "display_string": "+5 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 5,
+        "is_negated": true,
+        "display": {
+          "display_string": "+5 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+4 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+5 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1102,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "11",
+        "copper": "2"
+      }
+    },
+    "level": {
+      "value": 59,
+      "display_string": "Item Level 59"
+    },
+    "durability": {
+      "value": 65,
+      "display_string": "Durability 65 / 65"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/36631?namespace=static-11.0.7_57788-us"
+      },
+      "id": 36631
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212447?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_nerubian_ring_02_color5.jpg",
+      "file_data_id": 5948174
+    }
+  ],
+  "id": 212447
+}

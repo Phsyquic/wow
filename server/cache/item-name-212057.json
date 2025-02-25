@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212057?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212057,
+  "name": "Eviscerators of the Greatlynx",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212057?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212057
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": "Hands"
+  },
+  "purchase_price": 2479727,
+  "sell_price": 495945,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212057?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212057
+    },
+    "context": 0,
+    "bonus_list": [
+      10372
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Eviscerators of the Greatlynx",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212057?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212057
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": "Hands"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 1717,
+      "display": {
+        "display_string": "1,717 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1510,
+        "display": {
+          "display_string": "+1,510 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1510,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,510 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6712,
+        "display": {
+          "display_string": "+6,712 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 700,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+700 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 351,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+351 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 495945,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "49",
+        "silver": "59",
+        "copper": "45"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Druid",
+            "id": 11
+          }
+        ],
+        "display_string": "Classes: Druid"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1694?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Mane of the Greatlynx",
+        "id": 1694
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212059?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Hide of the Greatlynx",
+            "id": 212059
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212057?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Eviscerators of the Greatlynx",
+            "id": 212057
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212056?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Mask of the Greatlynx",
+            "id": 212056
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212055?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Leggings of the Greatlynx",
+            "id": 212055
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/212054?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Maw of the Greatlynx",
+            "id": 212054
+          }
+        }
+      ],
+      "display_string": "Mane of the Greatlynx (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91575?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91575
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91611?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91611
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91623?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91623
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91611?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91611
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91623?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91623
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91599?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91599
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91587?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91587
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91563?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91563
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91599?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91599
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91575?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91575
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91587?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91587
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91563?namespace=static-11.0.7_57788-us"
+      },
+      "id": 91563
+    }
+  ]
+}

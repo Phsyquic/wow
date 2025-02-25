@@ -1,0 +1,148 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/220202?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 220202,
+  "name": "Spymaster's Web",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/220202?namespace=static-11.0.7_57788-us"
+    },
+    "id": 220202
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4288154,
+  "sell_price": 857630,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/220202?namespace=static-11.0.7_57788-us"
+      },
+      "id": 220202
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Spymaster's Web",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/220202?namespace=static-11.0.7_57788-us"
+      },
+      "id": 220202
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 1001,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,001 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/444958?namespace=static-11.0.7_57788-us"
+          },
+          "name": "Spymaster's Web",
+          "id": 444958
+        },
+        "description": "Equip: Your damaging spells dispatch a spider to spy on your foes, increasing your Intellect by 56 per report received. Stacks up to 40 times. This effect may only occur every 6 sec.\r\n\r\n"
+      },
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/444959?namespace=static-11.0.7_57788-us"
+          },
+          "name": "Spymaster's Web",
+          "id": 444959
+        },
+        "description": "Use: Use your accumulated knowledge to strike when the time is right, granting 514 Intellect per report for 20 sec and consuming their passive effect. (20 Sec Cooldown)"
+      }
+    ],
+    "sell_price": {
+      "value": 855638,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "85",
+        "silver": "56",
+        "copper": "38"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

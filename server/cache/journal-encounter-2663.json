@@ -1,0 +1,383 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2663?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 2663,
+  "name": "Lord Roccor",
+  "description": "Lord Roccor loathes the scheming and backstabbing of his fellow fire elementals. To avoid serving alongside his kind in the Molten Core, the mighty being purposefully angered the Firelord. Roccor's risky gambit paid off: he was expelled from the core and forced to guard Blackrock Depths in isolation.",
+  "creatures": [
+    {
+      "id": 5784,
+      "name": "Lord Roccor",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120758?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120758
+      }
+    },
+    {
+      "id": 5812,
+      "name": "Son of Roccor",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122010
+      }
+    },
+    {
+      "id": 5809,
+      "name": "Greater Obsidian Elemental",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122011
+      }
+    },
+    {
+      "id": 5813,
+      "name": "Obsidian Elemental",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122012
+      }
+    },
+    {
+      "id": 5810,
+      "name": "Lesser Obsidian Elemental",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122013
+      }
+    },
+    {
+      "id": 5811,
+      "name": "Living Magma",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122014?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122014
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44857,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231457?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Bottled Magma",
+        "id": 231457
+      }
+    },
+    {
+      "id": 44858,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231449?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Leggings of Frenzied Magic",
+        "id": 231449
+      }
+    },
+    {
+      "id": 44859,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231397?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Rubicund Armguards",
+        "id": 231397
+      }
+    },
+    {
+      "id": 44860,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231445?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Mantle of Lost Hope",
+        "id": 231445
+      }
+    },
+    {
+      "id": 44861,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231394?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Stoneshell Guard",
+        "id": 231394
+      }
+    },
+    {
+      "id": 44862,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231395?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Earthslag Shoulders",
+        "id": 231395
+      }
+    },
+    {
+      "id": 44863,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231455?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Embershard Pendant",
+        "id": 231455
+      }
+    },
+    {
+      "id": 44864,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231453?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Shard Splinter",
+        "id": 231453
+      }
+    },
+    {
+      "id": 44865,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231454?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Magma-Shot Boomstick",
+        "id": 231454
+      }
+    },
+    {
+      "id": 44866,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231456?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Heart of Roccor",
+        "id": 231456
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30722,
+      "title": "Overview",
+      "body_text": "Lord Roccor casts Hspell:462351[Roiling Magma] on his target, inflicting damage and providing the raw material to Hspell:463674[Crystallize] his obsidian progeny.\r\n\r\nWhen Lord Roccor reaches 95% health and every 20% damage suffered thereafter, he will cast Hspell:462322[Eruption], filling the room with Hspell:462351[Roiling Magma]. Each Hspell:462346[Living Magma] that reaches its destination will increase the power of the elemental created by Hspell:462320[Igneous Crystallization].\r\n\r\nUpon reaching 100 energy, Roccor casts Hspell:462317[Volcanic Upheaval], inflicting huge damage to all players.",
+      "sections": [
+        {
+          "id": 30726,
+          "title": "Tanks",
+          "body_text": "$bullet; Hspell:462351[Roiling Magma] is cast on Lord Roccor's primary target and inflicts Fire damage to enemies in the area.\r\n$bullet; Stepping on a Hspell:462346[Living Magma] will destroy it and inflict damage over time to the player.\r\n$bullet; When crystallized, Obsidian Elementals attack nearby players.\r\n$bullet; Hspell:462317[Volcanic Upheaval] inflicts significant damage to all players."
+        },
+        {
+          "id": 30727,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Stepping on a Hspell:462346[Living Magma] will destroy it and inflict damage over time to the player.\r\n$bullet; When crystallized, Obsidian Elementals attack nearby players.\r\n$bullet; Hspell:462317[Volcanic Upheaval] inflicts significant damage to all players."
+        },
+        {
+          "id": 30728,
+          "title": "Healers",
+          "body_text": "$bullet; Hspell:462351[Roiling Magma] is cast on Lord Roccor's primary target and inflicts Fire damage to enemies in the area.\r\n$bullet; Stepping on a Hspell:462346[Living Magma] will destroy it and inflict damage over time to the player.\r\n$bullet; Hspell:462317[Volcanic Upheaval] inflicts significant damage to all players."
+        }
+      ]
+    },
+    {
+      "id": 30706,
+      "title": "Roiling Magma",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/462351?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Roiling Magma",
+        "id": 462351
+      }
+    },
+    {
+      "id": 30703,
+      "title": "Crystallize",
+      "sections": [
+        {
+          "id": 31040,
+          "title": "Son of Roccor",
+          "sections": [
+            {
+              "id": 31045,
+              "title": "Slag Armor",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Slag Armor",
+                "id": 400279
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+            },
+            "id": 122010
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463674?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Crystallize",
+        "id": 463674
+      }
+    },
+    {
+      "id": 30704,
+      "title": "Eruption",
+      "sections": [
+        {
+          "id": 30702,
+          "title": "Living Magma",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/462346?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Living Magma",
+            "id": 462346
+          }
+        },
+        {
+          "id": 30705,
+          "title": "Igneous Crystallization",
+          "sections": [
+            {
+              "id": 31041,
+              "title": "Son of Roccor",
+              "sections": [
+                {
+                  "id": 31046,
+                  "title": "Slag Armor",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                    },
+                    "name": "Slag Armor",
+                    "id": 400279
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+                },
+                "id": 122010
+              }
+            },
+            {
+              "id": 31042,
+              "title": "Greater Obsidian Elemental",
+              "sections": [
+                {
+                  "id": 31047,
+                  "title": "Slag Armor",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                    },
+                    "name": "Slag Armor",
+                    "id": 400279
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.0.7_57788-us"
+                },
+                "id": 122011
+              }
+            },
+            {
+              "id": 31043,
+              "title": "Obsidian Elemental",
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.0.7_57788-us"
+                },
+                "id": 122012
+              }
+            },
+            {
+              "id": 31044,
+              "title": "Lesser Obsidian Elemental",
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.0.7_57788-us"
+                },
+                "id": 122013
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/462320?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Igneous Crystallization",
+            "id": 462320
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/462322?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Eruption",
+        "id": 462322
+      }
+    },
+    {
+      "id": 30707,
+      "title": "Volcanic Upheaval",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/462317?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Volcanic Upheaval",
+        "id": 462317
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

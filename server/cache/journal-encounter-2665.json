@@ -1,0 +1,245 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2665?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 2665,
+  "name": "Lord Incendius",
+  "description": "Baron Geddon taught Incendius to harness his destructive powers, but the baron never expected his protege to grow so lethally efficient. Increasingly wary that Incendius might usurp him, Geddon sent the blazing elemental out of the Molten Core to guard the Dark Iron dwarves' fabled Black Anvil.",
+  "creatures": [
+    {
+      "id": 5806,
+      "name": "Lord Incendius",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120760?namespace=static-11.0.7_57788-us"
+        },
+        "id": 120760
+      }
+    },
+    {
+      "id": 5805,
+      "name": "Flame Geyser",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.0.7_57788-us"
+        },
+        "id": 122227
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44850,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231406?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flameweave Cuffs",
+        "id": 231406
+      }
+    },
+    {
+      "id": 44851,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231467?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flamelord's Emberstaff",
+        "id": 231467
+      }
+    },
+    {
+      "id": 44852,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231404?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Cinderhide Armsplints",
+        "id": 231404
+      }
+    },
+    {
+      "id": 44853,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231468?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flamekeeper's Fire Blanket",
+        "id": 231468
+      }
+    },
+    {
+      "id": 44854,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231405?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Pyremail Wristguards",
+        "id": 231405
+      }
+    },
+    {
+      "id": 44855,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231464?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Flame-Tempered Skinner",
+        "id": 231464
+      }
+    },
+    {
+      "id": 44856,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231407?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Emberplate Armguards",
+        "id": 231407
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30741,
+      "title": "Overview",
+      "body_text": "Lord Incendius summons powerful Flame Geysers that will inflict deadly damage until they are brought under control. Even in defeat, a Hspell:463486[Flame Geyser] casts Hspell:463472[Dying Flare] which can hurl players off the bridge and inflict high damage.\r\n\r\nLord Incendius will attempt to force players off the bridge with Hspell:463495[Scorching Wind]. Tanks will need to work together to prevent Hspell:463499[Blowback] from throwing them off the bridge.\r\n\r\nFlame Geysers that remain when Lord Incendius casts Hspell:463495[Scorching Wind] may become extremely deadly.",
+      "sections": [
+        {
+          "id": 30742,
+          "title": "Tanks",
+          "body_text": "$bullet; Flame Geysers become more deadly the longer they are left alive. Each cast of Hspell:463471[Blaze] becomes successively faster.\r\n$bullet; When a Flame Geyser is defeated, players must split the damage caused by Hspell:463472[Dying Flare].\r\n$bullet; Taunt Lord Incendius to prevent the other tank from being pushed off the bridge by Hspell:463499[Blowback].\r\n$bullet; Be wary of being pushed off the bridge by Hspell:463472[Dying Flare] or Hspell:463495[Scorching Wind]."
+        },
+        {
+          "id": 30743,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Flame Geysers become more deadly the longer they are left alive. Each cast of Hspell:463471[Blaze] becomes successively faster.\r\n$bullet; When a Flame Geyser is defeated, players must split the damage caused by Hspell:463472[Dying Flare].\r\n$bullet; Be wary of being pushed off the bridge by Hspell:463472[Dying Flare] or Hspell:463495[Scorching Wind]."
+        },
+        {
+          "id": 30744,
+          "title": "Healers",
+          "body_text": "$bullet; Hspell:463503[Consumptive Flames] inflicts a short burst of high damage.\r\n$bullet; Flame Geysers have the potential to inflict high damage to the entire raid until they are brought under control and defeated.\r\n$bullet; It will be difficult to stop and cast during Hspell:463495[Scorching Wind].\r\n$bullet; Be wary of being pushed off the bridge by Hspell:463472[Dying Flare] or Hspell:463495[Scorching Wind]."
+        }
+      ]
+    },
+    {
+      "id": 30745,
+      "title": "Firewall",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463487?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Firewall",
+        "id": 463487
+      }
+    },
+    {
+      "id": 30746,
+      "title": "Consumptive Flames",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463503?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Consumptive Flames",
+        "id": 463503
+      }
+    },
+    {
+      "id": 30747,
+      "title": "Summon Flame Geyser",
+      "sections": [
+        {
+          "id": 30969,
+          "title": "Flame Geyser",
+          "sections": [
+            {
+              "id": 30748,
+              "title": "Blaze",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/463471?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Blaze",
+                "id": 463471
+              }
+            },
+            {
+              "id": 30749,
+              "title": "Dying Flare",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/463472?namespace=static-11.0.7_57788-us"
+                },
+                "name": "Dying Flare",
+                "id": 463472
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.0.7_57788-us"
+            },
+            "id": 122227
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463486?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Summon Flame Geyser",
+        "id": 463486
+      }
+    },
+    {
+      "id": 30750,
+      "title": "Scorching Wind",
+      "sections": [
+        {
+          "id": 30970,
+          "title": "Blowback",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463499?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Blowback",
+            "id": 463499
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463495?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Scorching Wind",
+        "id": 463495
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

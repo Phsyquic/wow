@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/211993?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 211993,
+  "name": "Entombed Seraph's Casque",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/211993?namespace=static-11.0.7_57788-us"
+    },
+    "id": 211993
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3543756,
+  "sell_price": 708751,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/211993?namespace=static-11.0.7_57788-us"
+      },
+      "id": 211993
+    },
+    "context": 0,
+    "bonus_list": [
+      10371
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Entombed Seraph's Casque",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/211993?namespace=static-11.0.7_57788-us"
+      },
+      "id": 211993
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 5079,
+      "display": {
+        "display_string": "5,079 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 2014,
+        "display": {
+          "display_string": "+2,014 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 2014,
+        "is_negated": true,
+        "display": {
+          "display_string": "+2,014 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 8949,
+        "display": {
+          "display_string": "+8,949 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 463,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+463 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 938,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+938 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 708751,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "70",
+        "silver": "87",
+        "copper": "51"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Paladin",
+            "id": 2
+          }
+        ],
+        "display_string": "Classes: Paladin"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1689?namespace=static-11.0.7_57788-us"
+        },
+        "name": "Entombed Seraph's Radiance",
+        "id": 1689
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211996?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Entombed Seraph's Breastplate",
+            "id": 211996
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211994?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Entombed Seraph's Castigation",
+            "id": 211994
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211993?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Entombed Seraph's Casque",
+            "id": 211993
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211992?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Entombed Seraph's Greaves",
+            "id": 211992
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/211991?namespace=static-11.0.7_57788-us"
+            },
+            "name": "Entombed Seraph's Plumes",
+            "id": 211991
+          }
+        }
+      ],
+      "display_string": "Entombed Seraph's Radiance (0/5)"
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92027?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92027
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92071?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92071
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92058?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92058
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92080?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92080
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92049?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92049
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92082?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92082
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92060?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92060
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92047?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92047
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92091?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92091
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92036?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92036
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92069?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92069
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/92038?namespace=static-11.0.7_57788-us"
+      },
+      "id": 92038
+    }
+  ]
+}

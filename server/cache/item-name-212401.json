@@ -1,0 +1,223 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/212401?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 212401,
+  "name": "Ansurek's Final Judgment",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/212401?namespace=static-11.0.7_57788-us"
+    },
+    "id": 212401
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Axe",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": "One-Hand"
+  },
+  "purchase_price": 6678955,
+  "sell_price": 1335791,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/212401?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212401
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Ansurek's Final Judgment",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/212401?namespace=static-11.0.7_57788-us"
+      },
+      "id": 212401
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Axe",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": "One-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 1934,
+        "max_value": 4018,
+        "display_string": "1,934 - 4,018 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": "Speed 2.60"
+      },
+      "dps": {
+        "value": 1144.423,
+        "display_string": "(1,144 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 1007,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,007 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 4475,
+        "display": {
+          "display_string": "+4,475 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 498,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+498 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 202,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+202 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1332687,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "133",
+        "silver": "26",
+        "copper": "87"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "durability": {
+      "value": 110,
+      "display_string": "Durability 110 / 110"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/93226?namespace=static-11.0.7_57788-us"
+      },
+      "id": 93226
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/93225?namespace=static-11.0.7_57788-us"
+      },
+      "id": 93225
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/93227?namespace=static-11.0.7_57788-us"
+      },
+      "id": 93227
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/93224?namespace=static-11.0.7_57788-us"
+      },
+      "id": 93224
+    }
+  ]
+}

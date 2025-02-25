@@ -1,0 +1,222 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/222568?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 222568,
+  "name": "Vagabond's Bounding Baton",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222568?namespace=static-11.0.7_57788-us"
+    },
+    "id": 222568
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Staff",
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "TWOHWEAPON",
+    "name": "Two-Hand"
+  },
+  "purchase_price": 8745296,
+  "sell_price": 1749059,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/222568?namespace=static-11.0.7_57788-us"
+      },
+      "id": 222568
+    },
+    "context": 0,
+    "bonus_list": [
+      10421,
+      9633,
+      8902
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Vagabond's Bounding Baton",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222568?namespace=static-11.0.7_57788-us"
+      },
+      "id": 222568
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Staff",
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "TWOHWEAPON",
+      "name": "Two-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 2846,
+        "max_value": 3852,
+        "display_string": "2,846 - 3,852 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 3600,
+        "display_string": "Speed 3.60"
+      },
+      "dps": {
+        "value": 930.13885,
+        "display_string": "(930.1 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10989,
+        "display": {
+          "display_string": "+10,989 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 12583,
+        "display": {
+          "display_string": "+12,583 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 801,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+801 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 801,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+801 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1749059,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "174",
+        "silver": "90",
+        "copper": "59"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 593,
+      "display_string": "Item Level 593"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
+      },
+      {
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": "Versatility"
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90929?namespace=static-11.0.7_57788-us"
+      },
+      "id": 90929
+    }
+  ]
+}

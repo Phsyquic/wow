@@ -1,0 +1,129 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/220305?namespace=static-11.0.7_57788-us"
+    }
+  },
+  "id": 220305,
+  "name": "Ovi'nax's Mercurial Egg",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 571,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/220305?namespace=static-11.0.7_57788-us"
+    },
+    "id": 220305
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4025647,
+  "sell_price": 805129,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/220305?namespace=static-11.0.7_57788-us"
+      },
+      "id": 220305
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Ovi'nax's Mercurial Egg",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/220305?namespace=static-11.0.7_57788-us"
+      },
+      "id": 220305
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.0.7_57788-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/445066?namespace=static-11.0.7_57788-us"
+          },
+          "name": "Ovi'nax's Mercurial Egg",
+          "id": 445066
+        },
+        "description": "Equip: Carefully balance the Egg's incubation. While stationary, gain 100 Intellect every 1 sec, up to 30 times. Diminishes while moving. While moving, gain 113 of your highest secondary stat every 1 sec, up to 30 times. Diminishes while stationary. \r\n\r\nAdditional stacks above 20 grant 60% reduced benefit. \r\n\r\n"
+      },
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/445560?namespace=static-11.0.7_57788-us"
+          },
+          "name": "Suspended Incubation",
+          "id": 445560
+        },
+        "description": "Use: Suspend the Egg's incubation state for 20 sec. (2 Min Cooldown)"
+      }
+    ],
+    "sell_price": {
+      "value": 803259,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "80",
+        "silver": "32",
+        "copper": "59"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 571,
+      "display_string": "Item Level 571"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}
