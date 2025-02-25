@@ -1,13 +1,17 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "dist/wowAPP/**",
-      "use": "@vercel/static"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/wowAPP"
+      }
     }
   ],
   "routes": [
     {
-      "src": "/wow/(.*)",
+      "src": "/(.*)",
       "dest": "/dist/wowAPP/$1"
     }
   ]
