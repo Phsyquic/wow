@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2607?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2607?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2607,
@@ -13,7 +13,7 @@
       "name": "Ulgrax the Devourer",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117772?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117772?namespace=static-11.1.0_59095-us"
         },
         "id": 117772
       }
@@ -23,7 +23,7 @@
       "name": "Ravenous Spawn",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115708?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115708?namespace=static-11.1.0_59095-us"
         },
         "id": 115708
       }
@@ -31,20 +31,10 @@
   ],
   "items": [
     {
-      "id": 44326,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/219915?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Foul Behemoth's Chelicera",
-        "id": 219915
-      }
-    },
-    {
       "id": 44512,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212424?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212424?namespace=static-11.1.0_59095-us"
         },
         "name": "Seasoned Earthen Boulderplates",
         "id": 212424
@@ -54,7 +44,7 @@
       "id": 44513,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212426?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212426?namespace=static-11.1.0_59095-us"
         },
         "name": "Crunchy Intruder's Wristband",
         "id": 212426
@@ -64,7 +54,7 @@
       "id": 44514,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212425?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212425?namespace=static-11.1.0_59095-us"
         },
         "name": "Devourer's Taut Innards",
         "id": 212425
@@ -74,7 +64,7 @@
       "id": 44515,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212446?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212446?namespace=static-11.1.0_59095-us"
         },
         "name": "Royal Emblem of Nerub-ar",
         "id": 212446
@@ -84,7 +74,7 @@
       "id": 44516,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212388?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212388?namespace=static-11.1.0_59095-us"
         },
         "name": "Ulgrax's Morsel-Masher",
         "id": 212388
@@ -94,7 +84,7 @@
       "id": 44517,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212419?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212419?namespace=static-11.1.0_59095-us"
         },
         "name": "Bile-Soaked Harness",
         "id": 212419
@@ -104,7 +94,7 @@
       "id": 44518,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212386?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212386?namespace=static-11.1.0_59095-us"
         },
         "name": "Husk of Swallowing Darkness",
         "id": 212386
@@ -114,7 +104,7 @@
       "id": 44519,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212442?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212442?namespace=static-11.1.0_59095-us"
         },
         "name": "Greatbelt of the Hungerer",
         "id": 212442
@@ -124,7 +114,7 @@
       "id": 44520,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212409?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212409?namespace=static-11.1.0_59095-us"
         },
         "name": "Venom-Etched Claw",
         "id": 212409
@@ -134,7 +124,7 @@
       "id": 44521,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212423?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212423?namespace=static-11.1.0_59095-us"
         },
         "name": "Rebel's Drained Marrowslacks",
         "id": 212423
@@ -144,7 +134,7 @@
       "id": 44522,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212428?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212428?namespace=static-11.1.0_59095-us"
         },
         "name": "Final Meal's Horns",
         "id": 212428
@@ -154,10 +144,20 @@
       "id": 44523,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212431?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212431?namespace=static-11.1.0_59095-us"
         },
         "name": "Undermoth-Lined Footpads",
         "id": 212431
+      }
+    },
+    {
+      "id": 44326,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219915?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Foul Behemoth's Chelicera",
+        "id": 219915
       }
     }
   ],
@@ -202,7 +202,7 @@
               "title": "Devour",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440904?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440904?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Devour",
                 "id": 440904
@@ -213,7 +213,7 @@
               "title": "Battered and Bruised",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/455847?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/455847?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Battered and Bruised",
                 "id": 455847
@@ -224,7 +224,7 @@
               "title": "Contemptful Rage",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440849?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440849?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Contemptful Rage",
                 "id": 440849
@@ -233,7 +233,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/434776?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/434776?namespace=static-11.1.0_59095-us"
             },
             "name": "Carnivorous Contest",
             "id": 434776
@@ -248,7 +248,7 @@
               "title": "Stalker's Netting",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/439419?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439419?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Stalker's Netting",
                 "id": 439419
@@ -259,7 +259,7 @@
               "title": "Hardened Netting",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/455831?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/455831?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Hardened Netting",
                 "id": 455831
@@ -268,7 +268,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/441451?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/441451?namespace=static-11.1.0_59095-us"
             },
             "name": "Stalker's Webbing",
             "id": 441451
@@ -279,7 +279,7 @@
           "title": "Digestive Acid",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435138?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435138?namespace=static-11.1.0_59095-us"
             },
             "name": "Digestive Acid",
             "id": 435138
@@ -290,7 +290,7 @@
           "title": "Venomous Lash",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435136?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435136?namespace=static-11.1.0_59095-us"
             },
             "name": "Venomous Lash",
             "id": 435136
@@ -305,7 +305,7 @@
               "title": "Tenderized",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/434705?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/434705?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Tenderized",
                 "id": 434705
@@ -314,7 +314,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/434697?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/434697?namespace=static-11.1.0_59095-us"
             },
             "name": "Brutal Crush",
             "id": 434697
@@ -325,7 +325,7 @@
           "title": "Hulking Crash",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435341?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435341?namespace=static-11.1.0_59095-us"
             },
             "name": "Hulking Crash",
             "id": 435341
@@ -350,7 +350,7 @@
                   "title": "Insatiable Rage",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438041?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438041?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Insatiable Rage",
                     "id": 438041
@@ -359,7 +359,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438012?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438012?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Hungering Bellows",
                 "id": 438012
@@ -368,7 +368,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/440177?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/440177?namespace=static-11.1.0_59095-us"
             },
             "name": "Ready to Feed",
             "id": 440177
@@ -379,7 +379,7 @@
           "title": "Juggernaut Charge",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/436255?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/436255?namespace=static-11.1.0_59095-us"
             },
             "name": "Juggernaut Charge",
             "id": 436255
@@ -395,7 +395,7 @@
               "title": "Disembowel",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/439037?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439037?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Disembowel",
                 "id": 439037
@@ -410,7 +410,7 @@
                   "title": "Feed",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438324?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438324?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Feed",
                     "id": 438324
@@ -419,7 +419,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438657?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438657?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Chunky Viscera",
                 "id": 438657
@@ -428,7 +428,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115708?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115708?namespace=static-11.1.0_59095-us"
             },
             "id": 115708
           }
@@ -442,7 +442,7 @@
               "title": "Bioactive Spines",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/455870?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/455870?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Bioactive Spines",
                 "id": 455870
@@ -453,7 +453,7 @@
               "title": "Disembowel",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/439037?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439037?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Disembowel",
                 "id": 439037
@@ -468,7 +468,7 @@
                   "title": "Feed",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438324?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438324?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Feed",
                     "id": 438324
@@ -477,7 +477,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438657?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438657?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Chunky Viscera",
                 "id": 438657
@@ -486,7 +486,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116480?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116480?namespace=static-11.1.0_59095-us"
             },
             "id": 116480
           }
@@ -500,7 +500,7 @@
               "title": "Stalker's Netting",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/439419?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439419?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Stalker's Netting",
                 "id": 439419
@@ -511,7 +511,7 @@
               "title": "Hardened Netting",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/455831?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/455831?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Hardened Netting",
                 "id": 455831
@@ -520,7 +520,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/441451?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/441451?namespace=static-11.1.0_59095-us"
             },
             "name": "Stalker's Webbing",
             "id": 441451
@@ -531,7 +531,7 @@
           "title": "Swallowing Darkness",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/443842?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/443842?namespace=static-11.1.0_59095-us"
             },
             "name": "Swallowing Darkness",
             "id": 443842
@@ -542,7 +542,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

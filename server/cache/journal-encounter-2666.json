@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2666?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2666?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2666,
@@ -13,7 +13,7 @@
       "name": "Golem Lord Argelmach",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.1.0_59095-us"
         },
         "id": 120762
       }
@@ -23,7 +23,7 @@
       "name": "Magmatron Mk. II",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.1.0_59095-us"
         },
         "id": 122309
       }
@@ -33,7 +33,7 @@
       "name": "Arcanotron Mk. II",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.1.0_59095-us"
         },
         "id": 122310
       }
@@ -43,7 +43,7 @@
       "name": "Toxitron Mk. II",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.1.0_59095-us"
         },
         "id": 122311
       }
@@ -53,7 +53,7 @@
       "name": "Electron Mk. II",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.1.0_59095-us"
         },
         "id": 122312
       }
@@ -64,7 +64,7 @@
       "id": 44801,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231389?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231389?namespace=static-11.1.0_59095-us"
         },
         "name": "Luminary Robe",
         "id": 231389
@@ -74,7 +74,7 @@
       "id": 44802,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231396?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231396?namespace=static-11.1.0_59095-us"
         },
         "name": "Naglering",
         "id": 231396
@@ -84,7 +84,7 @@
       "id": 44803,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231470?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231470?namespace=static-11.1.0_59095-us"
         },
         "name": "Spare Golem Frame",
         "id": 231470
@@ -94,7 +94,7 @@
       "id": 44804,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231472?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231472?namespace=static-11.1.0_59095-us"
         },
         "name": "Argelmach's Breaking Bar",
         "id": 231472
@@ -104,7 +104,7 @@
       "id": 44805,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231471?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231471?namespace=static-11.1.0_59095-us"
         },
         "name": "Golem Gearbox",
         "id": 231471
@@ -114,7 +114,7 @@
       "id": 44806,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231423?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231423?namespace=static-11.1.0_59095-us"
         },
         "name": "Omnicast Boots",
         "id": 231423
@@ -124,7 +124,7 @@
       "id": 44807,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231420?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231420?namespace=static-11.1.0_59095-us"
         },
         "name": "Second Wind",
         "id": 231420
@@ -134,7 +134,7 @@
       "id": 44808,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231469?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231469?namespace=static-11.1.0_59095-us"
         },
         "name": "Spare Golem Pauldrons",
         "id": 231469
@@ -173,7 +173,7 @@
           "title": "Chain Lightning",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463821?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463821?namespace=static-11.1.0_59095-us"
             },
             "name": "Chain Lightning",
             "id": 463821
@@ -184,7 +184,7 @@
           "title": "Possessed",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/464938?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/464938?namespace=static-11.1.0_59095-us"
             },
             "name": "Possessed",
             "id": 464938
@@ -193,7 +193,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.1.0_59095-us"
         },
         "id": 120762
       }
@@ -207,7 +207,7 @@
           "title": "Arcane Overcharge",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470014?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470014?namespace=static-11.1.0_59095-us"
             },
             "name": "Arcane Overcharge",
             "id": 470014
@@ -218,7 +218,7 @@
           "title": "Power Generator",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470073?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470073?namespace=static-11.1.0_59095-us"
             },
             "name": "Power Generator",
             "id": 470073
@@ -227,7 +227,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.1.0_59095-us"
         },
         "id": 122310
       }
@@ -245,7 +245,7 @@
               "title": "Melt Armor",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470655?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470655?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Melt Armor",
                 "id": 470655
@@ -254,7 +254,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467919?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467919?namespace=static-11.1.0_59095-us"
             },
             "name": "Flamethrower",
             "id": 467919
@@ -265,7 +265,7 @@
           "title": "Incineration",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463823?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463823?namespace=static-11.1.0_59095-us"
             },
             "name": "Incineration",
             "id": 463823
@@ -274,7 +274,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.1.0_59095-us"
         },
         "id": 122309
       }
@@ -292,7 +292,7 @@
               "title": "Chemical Pool",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/464489?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464489?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Chemical Pool",
                 "id": 464489
@@ -303,7 +303,7 @@
               "title": "Chemical Explosion",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/464485?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464485?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Chemical Explosion",
                 "id": 464485
@@ -312,7 +312,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463829?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463829?namespace=static-11.1.0_59095-us"
             },
             "name": "Chemical Bomb",
             "id": 463829
@@ -327,7 +327,7 @@
               "title": "Poison-Soaked",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/467918?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467918?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Poison-Soaked",
                 "id": 467918
@@ -336,7 +336,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463837?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463837?namespace=static-11.1.0_59095-us"
             },
             "name": "Poison Mist",
             "id": 463837
@@ -345,7 +345,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.1.0_59095-us"
         },
         "id": 122311
       }
@@ -359,7 +359,7 @@
           "title": "Chain Lightning",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463820?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463820?namespace=static-11.1.0_59095-us"
             },
             "name": "Chain Lightning",
             "id": 463820
@@ -374,7 +374,7 @@
               "title": "Electrical Discharge",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/467930?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467930?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Electrical Discharge",
                 "id": 467930
@@ -383,7 +383,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467926?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467926?namespace=static-11.1.0_59095-us"
             },
             "name": "Livewire",
             "id": 467926
@@ -394,7 +394,7 @@
           "title": "Lethal Attraction",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463847?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463847?namespace=static-11.1.0_59095-us"
             },
             "name": "Lethal Attraction",
             "id": 463847
@@ -403,7 +403,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.1.0_59095-us"
         },
         "id": 122312
       }
@@ -413,7 +413,7 @@
       "title": "Golem Overdrive",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463852?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463852?namespace=static-11.1.0_59095-us"
         },
         "name": "Golem Overdrive",
         "id": 463852
@@ -424,7 +424,7 @@
       "title": "Shared Health",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/470654?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/470654?namespace=static-11.1.0_59095-us"
         },
         "name": "Shared Health",
         "id": 470654
@@ -433,7 +433,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301

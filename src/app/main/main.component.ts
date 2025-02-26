@@ -350,31 +350,31 @@ export class MainComponent implements OnInit {
 
   comprobarTierItem(item: any, slot?: any) {
     if (item.icon.includes('helm') || slot == 'head') {
-      if (item.encounter && item.encounter.id == 2608 || item.boss == 2608) {
+      if (item.encounter && item.encounter.id == 2644 || item.boss == 2644) {
         return true;
       }
     }
 
     if (item.icon.includes('pant') || slot == 'legs') {
-      if (item.encounter && item.encounter.id == 2601 || item.boss == 2601) {
+      if (item.encounter && item.encounter.id == 2642 || item.boss == 2642) {
         return true;
       }
     }
 
     if (item.icon.includes('shoulder') || slot == 'shoulder') {
-      if (item.encounter && item.encounter.id == 2609 || item.boss == 2609) {
+      if (item.encounter && item.encounter.id == 2641 || item.boss == 2641) {
         return true;
       }
     }
 
     if (item.icon.includes('chest') || slot == 'chest') {
-      if (item.encounter && item.encounter.id == 2612 || item.boss == 2612) {
+      if (item.encounter && item.encounter.id == 2653 || item.boss == 2653) {
         return true;
       }
     }
 
     if (item.icon.includes('glove') || slot == 'hands') {
-      if (item.encounter && item.encounter.id == 2599 || item.boss == 2599) {
+      if (item.encounter && item.encounter.id == 2640 || item.boss == 2640) {
         return true;
       }
     }
@@ -383,19 +383,19 @@ export class MainComponent implements OnInit {
   }
 
   comprobarTier(boss: any, slot: any, spec: any) {
-    if (boss == '2601' && slot == 'legs') {
+    if (boss == '2642' && slot == 'legs') {
       return this.getTier(spec);
     }
-    if ((boss == '2612') && slot == 'chest') {
+    if ((boss == '2653') && slot == 'chest') {
       return this.getTier(spec);
     }
-    if (boss == '2599' && slot == 'hands') {
+    if (boss == '2640' && slot == 'hands') {
       return this.getTier(spec);
     }
-    if (boss == '2609' && slot == 'shoulder') {
+    if (boss == '2641' && slot == 'shoulder') {
       return this.getTier(spec);
     }
-    if (boss == '2608' && slot == 'head') {
+    if (boss == '2644' && slot == 'head') {
       return this.getTier(spec);
     }
     return -1;
@@ -550,7 +550,7 @@ export class MainComponent implements OnInit {
       return '#0070de';
     }
     if (spec == 'Assassination Rogue' || spec == 'Outlaw Rogue' || spec == 'Subtlety Rogue') {
-      return '#fff569';
+      return '#e6d600';
     }
     if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
       return '#69ccf0';

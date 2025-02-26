@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 219502,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.1.0_59095-us"
     },
     "id": 219502
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
     },
     "name": "Leather",
     "id": 2
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.1.0_59095-us"
       },
       "id": 219502
     },
@@ -62,20 +62,20 @@
     "name": "Adrenal Surge Clasp",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.1.0_59095-us"
       },
       "id": 219502
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
       },
       "name": "Leather",
       "id": 2
@@ -190,7 +190,7 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/443762?namespace=static-11.0.7_57788-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/443762?namespace=static-11.1.0_59095-us"
           },
           "name": "Adrenal Surge",
           "id": 443762
@@ -226,7 +226,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91161?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91161?namespace=static-11.1.0_59095-us"
       },
       "id": 91161
     }

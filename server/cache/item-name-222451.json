@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 222451,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
     },
     "id": 222451
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
     },
     "name": "Weapon",
     "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
     },
     "name": "Axe",
     "id": 0
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
       },
       "id": 222451
     },
@@ -61,20 +61,20 @@
     "name": "Charged Slicer",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
       },
       "id": 222451
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
       },
       "name": "Weapon",
       "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
       },
       "name": "Axe",
       "id": 0
@@ -159,13 +159,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
         },
         "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Haste",
+          "display_string": "+401 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -176,13 +176,13 @@
       },
       {
         "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
         "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Mastery",
+          "display_string": "+401 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -217,9 +217,9 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
       },
       {
         "id": 36,
@@ -232,7 +232,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90910?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90910?namespace=static-11.1.0_59095-us"
       },
       "id": 90910
     }

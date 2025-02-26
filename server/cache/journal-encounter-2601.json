@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2601?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2601?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2601,
@@ -13,7 +13,7 @@
       "name": "Nexus-Princess Ky'veza",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117946?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117946?namespace=static-11.1.0_59095-us"
         },
         "id": 117946
       }
@@ -21,50 +21,10 @@
   ],
   "items": [
     {
-      "id": 44328,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/221023?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Treacherous Transmitter",
-        "id": 221023
-      }
-    },
-    {
-      "id": 44329,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212456?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Void Reaper's Contract",
-        "id": 212456
-      }
-    },
-    {
-      "id": 44331,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/219877?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Void Reaper's Warp Blade",
-        "id": 219877
-      }
-    },
-    {
-      "id": 44602,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/223048?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Plans: Siphoning Stiletto",
-        "id": 223048
-      }
-    },
-    {
       "id": 44489,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225629?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225629?namespace=static-11.1.0_59095-us"
         },
         "name": "Zenith Slayer's Icon",
         "id": 225629
@@ -74,7 +34,7 @@
       "id": 44490,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225581?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225581?namespace=static-11.1.0_59095-us"
         },
         "name": "Ky'veza's Covert Clasps",
         "id": 225581
@@ -84,7 +44,7 @@
       "id": 44491,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225628?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225628?namespace=static-11.1.0_59095-us"
         },
         "name": "Venerated Slayer's Icon",
         "id": 225628
@@ -94,7 +54,7 @@
       "id": 44492,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225591?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225591?namespace=static-11.1.0_59095-us"
         },
         "name": "Fleeting Massacre Footpads",
         "id": 225591
@@ -104,7 +64,7 @@
       "id": 44493,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225636?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225636?namespace=static-11.1.0_59095-us"
         },
         "name": "Regicide",
         "id": 225636
@@ -114,7 +74,7 @@
       "id": 44494,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225589?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225589?namespace=static-11.1.0_59095-us"
         },
         "name": "Nether Bounty's Greatbelt",
         "id": 225589
@@ -124,7 +84,7 @@
       "id": 44495,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212400?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212400?namespace=static-11.1.0_59095-us"
         },
         "name": "Shade-Touched Silencer",
         "id": 212400
@@ -134,7 +94,7 @@
       "id": 44496,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212441?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212441?namespace=static-11.1.0_59095-us"
         },
         "name": "Bindings of the Starless Night",
         "id": 212441
@@ -144,7 +104,7 @@
       "id": 44497,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225626?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225626?namespace=static-11.1.0_59095-us"
         },
         "name": "Dreadful Slayer's Icon",
         "id": 225626
@@ -154,10 +114,50 @@
       "id": 44498,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225627?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225627?namespace=static-11.1.0_59095-us"
         },
         "name": "Mystic Slayer's Icon",
         "id": 225627
+      }
+    },
+    {
+      "id": 44328,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221023?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Treacherous Transmitter",
+        "id": 221023
+      }
+    },
+    {
+      "id": 44329,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212456?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Void Reaper's Contract",
+        "id": 212456
+      }
+    },
+    {
+      "id": 44331,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219877?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Void Reaper's Warp Blade",
+        "id": 219877
+      }
+    },
+    {
+      "id": 44602,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223048?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Plans: Siphoning Stiletto",
+        "id": 223048
       }
     }
   ],
@@ -197,7 +197,7 @@
               "title": "Queensbane",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Queensbane",
                 "id": 437343
@@ -212,7 +212,7 @@
                   "title": "Dark Viscera",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/439409?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/439409?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Dark Viscera",
                     "id": 439409
@@ -221,7 +221,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Queensbane",
                 "id": 437343
@@ -241,7 +241,7 @@
                       "title": "Atomized",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/437786?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/437786?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Atomized",
                         "id": 437786
@@ -250,7 +250,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/437620?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/437620?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Nether Rift",
                     "id": 437620
@@ -261,7 +261,7 @@
                   "title": "Nexus Daggers",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/439576?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/439576?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Nexus Daggers",
                     "id": 439576
@@ -272,7 +272,7 @@
                   "title": "Stalking Shadows",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/436950?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/436950?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Stalking Shadows",
                     "id": 436950
@@ -281,7 +281,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117465?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117465?namespace=static-11.1.0_59095-us"
                 },
                 "id": 117465
               }
@@ -289,7 +289,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/436867?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/436867?namespace=static-11.1.0_59095-us"
             },
             "name": "Assassination",
             "id": 436867
@@ -304,7 +304,7 @@
               "title": "Death Cloak",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447174?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447174?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Death Cloak",
                 "id": 447174
@@ -313,7 +313,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/448364?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/448364?namespace=static-11.1.0_59095-us"
             },
             "name": "Death Masks",
             "id": 448364
@@ -328,7 +328,7 @@
               "title": "Queensbane",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Queensbane",
                 "id": 437343
@@ -343,7 +343,7 @@
                   "title": "Dark Viscera",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/439409?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/439409?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Dark Viscera",
                     "id": 439409
@@ -352,7 +352,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/437343?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Queensbane",
                 "id": 437343
@@ -361,7 +361,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/438245?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/438245?namespace=static-11.1.0_59095-us"
             },
             "name": "Twilight Massacre",
             "id": 438245
@@ -376,7 +376,7 @@
               "title": "Atomized",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/437786?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/437786?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Atomized",
                 "id": 437786
@@ -385,7 +385,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/437620?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/437620?namespace=static-11.1.0_59095-us"
             },
             "name": "Nether Rift",
             "id": 437620
@@ -396,7 +396,7 @@
           "title": "Nexus Daggers",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439576?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439576?namespace=static-11.1.0_59095-us"
             },
             "name": "Nexus Daggers",
             "id": 439576
@@ -407,7 +407,7 @@
           "title": "Reaper",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/436749?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/436749?namespace=static-11.1.0_59095-us"
             },
             "name": "Reaper",
             "id": 436749
@@ -422,7 +422,7 @@
               "title": "Chasmal Gash",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440576?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440576?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Chasmal Gash",
                 "id": 440576
@@ -431,7 +431,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/440377?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/440377?namespace=static-11.1.0_59095-us"
             },
             "name": "Void Shredders",
             "id": 440377
@@ -452,7 +452,7 @@
               "title": "Eternal Night",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/442278?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/442278?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Eternal Night",
                 "id": 442278
@@ -461,7 +461,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435414?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435414?namespace=static-11.1.0_59095-us"
             },
             "name": "Starless Night",
             "id": 435414
@@ -472,7 +472,7 @@
           "title": "Regicide",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435486?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435486?namespace=static-11.1.0_59095-us"
             },
             "name": "Regicide",
             "id": 435486
@@ -483,7 +483,7 @@
           "title": "Eclipse",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/434645?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/434645?namespace=static-11.1.0_59095-us"
             },
             "name": "Eclipse",
             "id": 434645
@@ -494,7 +494,7 @@
           "title": "Reaper",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/436749?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/436749?namespace=static-11.1.0_59095-us"
             },
             "name": "Reaper",
             "id": 436749
@@ -505,7 +505,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

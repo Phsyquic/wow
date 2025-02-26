@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2635?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2635?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2635,
@@ -13,7 +13,7 @@
       "name": "Aggregation of Horrors",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119659?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119659?namespace=static-11.1.0_59095-us"
         },
         "id": 119659
       }
@@ -23,7 +23,7 @@
       "name": "Fractured Skardyn",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-11.1.0_59095-us"
         },
         "id": 117974
       }
@@ -34,7 +34,7 @@
       "id": 44578,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225734?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225734?namespace=static-11.1.0_59095-us"
         },
         "name": "Sturdy Chitinous Striders",
         "id": 225734
@@ -44,7 +44,7 @@
       "id": 44579,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225735?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225735?namespace=static-11.1.0_59095-us"
         },
         "name": "Dornish Warden's Coat",
         "id": 225735
@@ -54,7 +54,7 @@
       "id": 44580,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225733?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225733?namespace=static-11.1.0_59095-us"
         },
         "name": "Abyssal Tendril Tights",
         "id": 225733
@@ -64,7 +64,7 @@
       "id": 44581,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225731?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225731?namespace=static-11.1.0_59095-us"
         },
         "name": "Lightseeker's Robes",
         "id": 225731
@@ -74,7 +74,7 @@
       "id": 44582,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225745?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225745?namespace=static-11.1.0_59095-us"
         },
         "name": "Crystal Star Cuisses",
         "id": 225745
@@ -84,7 +84,7 @@
       "id": 44583,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225732?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225732?namespace=static-11.1.0_59095-us"
         },
         "name": "Deep Dweller's Tabi",
         "id": 225732
@@ -94,7 +94,7 @@
       "id": 44584,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225746?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225746?namespace=static-11.1.0_59095-us"
         },
         "name": "Girdle of the Gleaming Dawn",
         "id": 225746
@@ -104,7 +104,7 @@
       "id": 44585,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225749?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225749?namespace=static-11.1.0_59095-us"
         },
         "name": "Seal of the Void-Touched",
         "id": 225749
@@ -114,7 +114,7 @@
       "id": 44586,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225730?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225730?namespace=static-11.1.0_59095-us"
         },
         "name": "Stone Gaze Ceinture",
         "id": 225730
@@ -149,7 +149,7 @@
       "title": "Crystalline Barrage",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/452210?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/452210?namespace=static-11.1.0_59095-us"
         },
         "name": "Crystalline Barrage",
         "id": 452210
@@ -165,7 +165,7 @@
           "body_text": "Skardyn fractured from the Aggregation of Horrors' body.",
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-11.1.0_59095-us"
             },
             "id": 117974
           }
@@ -173,7 +173,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/453271?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/453271?namespace=static-11.1.0_59095-us"
         },
         "name": "Dark Awakening",
         "id": 453271
@@ -184,7 +184,7 @@
       "title": "Voidquake",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/452981?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/452981?namespace=static-11.1.0_59095-us"
         },
         "name": "Voidquake",
         "id": 452981
@@ -195,7 +195,7 @@
       "title": "Crystal Strike",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/453294?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/453294?namespace=static-11.1.0_59095-us"
         },
         "name": "Crystal Strike",
         "id": 453294
@@ -206,7 +206,7 @@
       "title": "Annihilation Barrage",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/456148?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/456148?namespace=static-11.1.0_59095-us"
         },
         "name": "Annihilation Barrage",
         "id": 456148
@@ -215,7 +215,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.1.0_59095-us"
     },
     "name": "Khaz Algar",
     "id": 1278

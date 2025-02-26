@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2612?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2612?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2612,
@@ -13,7 +13,7 @@
       "name": "Broodtwister Ovi'nax",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118963?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118963?namespace=static-11.1.0_59095-us"
         },
         "id": 118963
       }
@@ -23,7 +23,7 @@
       "name": "Colossal Spider",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.1.0_59095-us"
         },
         "id": 112446
       }
@@ -33,7 +33,7 @@
       "name": "Voracious Worm",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.1.0_59095-us"
         },
         "id": 115007
       }
@@ -43,7 +43,7 @@
       "name": "Blood Parasite",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119696?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119696?namespace=static-11.1.0_59095-us"
         },
         "id": 119696
       }
@@ -51,40 +51,10 @@
   ],
   "items": [
     {
-      "id": 44319,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212452?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Gruesome Syringe",
-        "id": 212452
-      }
-    },
-    {
-      "id": 44320,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/220305?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Ovi'nax's Mercurial Egg",
-        "id": 220305
-      }
-    },
-    {
-      "id": 44605,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/226190?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Recipe: Sticky Sweet Treat",
-        "id": 226190
-      }
-    },
-    {
       "id": 44558,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225576?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225576?namespace=static-11.1.0_59095-us"
         },
         "name": "Writhing Ringworm",
         "id": 225576
@@ -94,7 +64,7 @@
       "id": 44559,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212387?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212387?namespace=static-11.1.0_59095-us"
         },
         "name": "Broodtwister's Grim Catalyst",
         "id": 212387
@@ -104,7 +74,7 @@
       "id": 44560,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212418?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212418?namespace=static-11.1.0_59095-us"
         },
         "name": "Black Blood Injectors",
         "id": 212418
@@ -114,7 +84,7 @@
       "id": 44561,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225616?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225616?namespace=static-11.1.0_59095-us"
         },
         "name": "Venerated Blasphemer's Effigy",
         "id": 225616
@@ -124,7 +94,7 @@
       "id": 44562,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225615?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225615?namespace=static-11.1.0_59095-us"
         },
         "name": "Mystic Blasphemer's Effigy",
         "id": 225615
@@ -134,7 +104,7 @@
       "id": 44563,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212389?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212389?namespace=static-11.1.0_59095-us"
         },
         "name": "Spire of Transfused Horrors",
         "id": 212389
@@ -144,7 +114,7 @@
       "id": 44564,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225580?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225580?namespace=static-11.1.0_59095-us"
         },
         "name": "Accelerated Ascension Coil",
         "id": 225580
@@ -154,7 +124,7 @@
       "id": 44565,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225588?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225588?namespace=static-11.1.0_59095-us"
         },
         "name": "Sanguine Experiment's Bandages",
         "id": 225588
@@ -164,7 +134,7 @@
       "id": 44566,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225617?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225617?namespace=static-11.1.0_59095-us"
         },
         "name": "Zenith Blasphemer's Effigy",
         "id": 225617
@@ -174,7 +144,7 @@
       "id": 44567,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225614?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225614?namespace=static-11.1.0_59095-us"
         },
         "name": "Dreadful Blasphemer's Effigy",
         "id": 225614
@@ -184,10 +154,40 @@
       "id": 44568,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225582?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225582?namespace=static-11.1.0_59095-us"
         },
         "name": "Assimilated Eggshell Slippers",
         "id": 225582
+      }
+    },
+    {
+      "id": 44319,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212452?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Gruesome Syringe",
+        "id": 212452
+      }
+    },
+    {
+      "id": 44320,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/220305?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Ovi'nax's Mercurial Egg",
+        "id": 220305
+      }
+    },
+    {
+      "id": 44605,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/226190?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Recipe: Sticky Sweet Treat",
+        "id": 226190
       }
     }
   ],
@@ -219,7 +219,7 @@
       "title": "Experimental Dosage",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.1.0_59095-us"
         },
         "name": "Experimental Dosage",
         "id": 442526
@@ -230,7 +230,7 @@
       "title": "Experimental Dosage",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.1.0_59095-us"
         },
         "name": "Experimental Dosage",
         "id": 442526
@@ -253,7 +253,7 @@
                   "title": "Mutation: Necrotic",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Mutation: Necrotic",
                     "id": 446694
@@ -268,7 +268,7 @@
                       "title": "Necrotic Wound",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/458212?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/458212?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Necrotic Wound",
                         "id": 458212
@@ -277,7 +277,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438807?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438807?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Vicious Bite",
                     "id": 438807
@@ -286,7 +286,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.1.0_59095-us"
                 },
                 "id": 112446
               }
@@ -294,7 +294,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122087?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122087?namespace=static-11.1.0_59095-us"
             },
             "id": 122087
           }
@@ -312,7 +312,7 @@
                   "title": "Mutation: Ravenous",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Mutation: Ravenous",
                     "id": 446690
@@ -323,7 +323,7 @@
                   "title": "Poison Burst",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/446700?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446700?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Poison Burst",
                     "id": 446700
@@ -332,7 +332,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.1.0_59095-us"
                 },
                 "id": 115007
               }
@@ -340,7 +340,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122088?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122088?namespace=static-11.1.0_59095-us"
             },
             "id": 122088
           }
@@ -358,7 +358,7 @@
                   "title": "Mutation: Accelerated",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Mutation: Accelerated",
                     "id": 442263
@@ -373,7 +373,7 @@
                       "title": "Infest",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/442257?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/442257?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Infest",
                         "id": 442257
@@ -382,7 +382,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/442251?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/442251?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Fixate",
                     "id": 442251
@@ -391,7 +391,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112726?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112726?namespace=static-11.1.0_59095-us"
                 },
                 "id": 112726
               }
@@ -399,7 +399,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122089?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122089?namespace=static-11.1.0_59095-us"
             },
             "id": 122089
           }
@@ -419,7 +419,7 @@
               "title": "Vile Discharge",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441612?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441612?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Vile Discharge",
                 "id": 441612
@@ -428,7 +428,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/450362?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/450362?namespace=static-11.1.0_59095-us"
             },
             "name": "Unstable Infusion",
             "id": 450362
@@ -443,7 +443,7 @@
               "title": "Mutation: Accelerated",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Mutation: Accelerated",
                 "id": 442263
@@ -454,7 +454,7 @@
               "title": "Mutation: Necrotic",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Mutation: Necrotic",
                 "id": 446694
@@ -465,7 +465,7 @@
               "title": "Mutation: Ravenous",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Mutation: Ravenous",
                 "id": 446690
@@ -474,7 +474,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/452802?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/452802?namespace=static-11.1.0_59095-us"
             },
             "name": "Catalyze Mutation",
             "id": 452802
@@ -483,7 +483,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442430?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442430?namespace=static-11.1.0_59095-us"
         },
         "name": "Ingest Black Blood",
         "id": 442430
@@ -498,7 +498,7 @@
           "title": "Caustic Reaction",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/450661?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/450661?namespace=static-11.1.0_59095-us"
             },
             "name": "Caustic Reaction",
             "id": 450661
@@ -507,7 +507,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442799?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442799?namespace=static-11.1.0_59095-us"
         },
         "name": "Sanguine Overflow",
         "id": 442799
@@ -522,7 +522,7 @@
           "title": "Web Eruption",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/446351?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/446351?namespace=static-11.1.0_59095-us"
             },
             "name": "Web Eruption",
             "id": 446351
@@ -531,7 +531,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/446349?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/446349?namespace=static-11.1.0_59095-us"
         },
         "name": "Sticky Web",
         "id": 446349
@@ -542,7 +542,7 @@
       "title": "Volatile Concoction",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/441362?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/441362?namespace=static-11.1.0_59095-us"
         },
         "name": "Volatile Concoction",
         "id": 441362
@@ -551,7 +551,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

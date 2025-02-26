@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2608?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2608?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2608,
@@ -13,7 +13,7 @@
       "name": "Anub'arash",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.1.0_59095-us"
         },
         "id": 118997
       }
@@ -23,7 +23,7 @@
       "name": "Skeinspinner Takazj",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119005?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119005?namespace=static-11.1.0_59095-us"
         },
         "id": 119005
       }
@@ -33,7 +33,7 @@
       "name": "Shattershell Scarab",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.1.0_59095-us"
         },
         "id": 116538
       }
@@ -41,40 +41,10 @@
   ],
   "items": [
     {
-      "id": 44324,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/220202?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Spymaster's Web",
-        "id": 220202
-      }
-    },
-    {
-      "id": 44325,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212450?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Swarmlord's Authority",
-        "id": 212450
-      }
-    },
-    {
-      "id": 44604,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/223094?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Design: Magnificent Jeweler's Setting",
-        "id": 223094
-      }
-    },
-    {
       "id": 44524,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212397?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212397?namespace=static-11.1.0_59095-us"
         },
         "name": "Takazj's Entropic Edict",
         "id": 212397
@@ -84,7 +54,7 @@
       "id": 44525,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225584?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225584?namespace=static-11.1.0_59095-us"
         },
         "name": "Skeinspinner's Duplicitous Cuffs",
         "id": 225584
@@ -94,7 +64,7 @@
       "id": 44526,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212407?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212407?namespace=static-11.1.0_59095-us"
         },
         "name": "Anub'arash's Colossal Mandible",
         "id": 212407
@@ -104,7 +74,7 @@
       "id": 44527,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212443?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212443?namespace=static-11.1.0_59095-us"
         },
         "name": "Shattershell Greaves",
         "id": 212443
@@ -114,7 +84,7 @@
       "id": 44528,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225624?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225624?namespace=static-11.1.0_59095-us"
         },
         "name": "Venerated Conniver's Badge",
         "id": 225624
@@ -124,7 +94,7 @@
       "id": 44529,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212429?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212429?namespace=static-11.1.0_59095-us"
         },
         "name": "Whispering Voidlight Spaulders",
         "id": 212429
@@ -134,7 +104,7 @@
       "id": 44530,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212432?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212432?namespace=static-11.1.0_59095-us"
         },
         "name": "Thousand-Scar Impalers",
         "id": 212432
@@ -144,7 +114,7 @@
       "id": 44531,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225622?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225622?namespace=static-11.1.0_59095-us"
         },
         "name": "Dreadful Conniver's Badge",
         "id": 225622
@@ -154,7 +124,7 @@
       "id": 44532,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225575?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225575?namespace=static-11.1.0_59095-us"
         },
         "name": "Silken Advisor's Favor",
         "id": 225575
@@ -164,7 +134,7 @@
       "id": 44533,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225623?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225623?namespace=static-11.1.0_59095-us"
         },
         "name": "Mystic Conniver's Badge",
         "id": 225623
@@ -174,10 +144,40 @@
       "id": 44534,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225625?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225625?namespace=static-11.1.0_59095-us"
         },
         "name": "Zenith Conniver's Badge",
         "id": 225625
+      }
+    },
+    {
+      "id": 44324,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/220202?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spymaster's Web",
+        "id": 220202
+      }
+    },
+    {
+      "id": 44325,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212450?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Swarmlord's Authority",
+        "id": 212450
+      }
+    },
+    {
+      "id": 44604,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223094?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Design: Magnificent Jeweler's Setting",
+        "id": 223094
       }
     }
   ],
@@ -221,7 +221,7 @@
                   "title": "Void Degeneration",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460359?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460359?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Void Degeneration",
                     "id": 460359
@@ -230,7 +230,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460357?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460357?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Mote of Overwrought Paranoia",
                 "id": 460357
@@ -239,7 +239,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/455849?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/455849?namespace=static-11.1.0_59095-us"
             },
             "name": "Mark of Paranoia",
             "id": 455849
@@ -258,7 +258,7 @@
                   "title": "Burning Rage",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460281?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460281?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Burning Rage",
                     "id": 460281
@@ -267,7 +267,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460263?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460263?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Mote of Unrelenting Rage",
                 "id": 460263
@@ -276,7 +276,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/455850?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/455850?namespace=static-11.1.0_59095-us"
             },
             "name": "Mark of Rage",
             "id": 455850
@@ -287,7 +287,7 @@
           "title": "Mark of Death",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/455863?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/455863?namespace=static-11.1.0_59095-us"
             },
             "name": "Mark of Death",
             "id": 455863
@@ -296,7 +296,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/455796?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/455796?namespace=static-11.1.0_59095-us"
         },
         "name": "Whispers of The Silken Court",
         "id": 455796
@@ -307,7 +307,7 @@
       "title": "Queen's Proclamation",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/455363?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/455363?namespace=static-11.1.0_59095-us"
         },
         "name": "Queen's Proclamation",
         "id": 455363
@@ -326,7 +326,7 @@
               "title": "Reckless Charge",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440158?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440158?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Reckless Charge",
                 "id": 440158
@@ -337,7 +337,7 @@
               "title": "Burrowed Eruption",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460360?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460360?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Burrowed Eruption",
                 "id": 460360
@@ -356,7 +356,7 @@
                       "title": "Harden Carapace",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/438706?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/438706?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Harden Carapace",
                         "id": 438706
@@ -367,7 +367,7 @@
                       "title": "Shattered Shell",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/438773?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/438773?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Shattered Shell",
                         "id": 438773
@@ -378,7 +378,7 @@
                       "title": "Scarab Lord's Perseverance",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/455080?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/455080?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Scarab Lord's Perseverance",
                         "id": 455080
@@ -387,7 +387,7 @@
                   ],
                   "creature_display": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.1.0_59095-us"
                     },
                     "id": 116538
                   }
@@ -395,7 +395,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438801?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438801?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Call of the Swarm",
                 "id": 438801
@@ -410,7 +410,7 @@
                   "title": "Impaled",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Impaled",
                     "id": 449857
@@ -419,7 +419,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440504?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440504?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Impaling Eruption",
                 "id": 440504
@@ -430,7 +430,7 @@
               "title": "Piercing Strike",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Piercing Strike",
                 "id": 438218
@@ -439,7 +439,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.1.0_59095-us"
             },
             "id": 118997
           }
@@ -461,7 +461,7 @@
                       "title": "Entangled",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Entangled",
                         "id": 440179
@@ -470,7 +470,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Binding Webs",
                     "id": 440001
@@ -479,7 +479,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/439992?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439992?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Web Bomb",
                 "id": 439992
@@ -490,7 +490,7 @@
               "title": "Venomous Rain",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438656?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438656?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Venomous Rain",
                 "id": 438656
@@ -501,7 +501,7 @@
               "title": "Skittering Leap",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450045?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450045?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Skittering Leap",
                 "id": 450045
@@ -512,7 +512,7 @@
               "title": "Poison Bolt",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438200?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438200?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Poison Bolt",
                 "id": 438200
@@ -521,7 +521,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.1.0_59095-us"
             },
             "id": 115753
           }
@@ -545,7 +545,7 @@
                   "title": "Entropic Vulnerability",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Entropic Vulnerability",
                     "id": 463461
@@ -554,7 +554,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Entropic Barrage",
                 "id": 460600
@@ -563,7 +563,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/450980?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/450980?namespace=static-11.1.0_59095-us"
             },
             "name": "Shatter Existence",
             "id": 450980
@@ -588,7 +588,7 @@
                   "title": "Stinging Burst",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/449993?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/449993?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Stinging Burst",
                     "id": 449993
@@ -599,7 +599,7 @@
                   "title": "Stinging Delirium",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/456235?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/456235?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Stinging Delirium",
                     "id": 456235
@@ -608,7 +608,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438677?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438677?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Stinging Swarm",
                 "id": 438677
@@ -623,7 +623,7 @@
                   "title": "Impaled",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Impaled",
                     "id": 449857
@@ -632,7 +632,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440504?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440504?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Impaling Eruption",
                 "id": 440504
@@ -651,7 +651,7 @@
                       "title": "Harden Carapace",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/438706?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/438706?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Harden Carapace",
                         "id": 438706
@@ -662,7 +662,7 @@
                       "title": "Shattered Shell",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/438773?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/438773?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Shattered Shell",
                         "id": 438773
@@ -673,7 +673,7 @@
                       "title": "Scarab Lord's Perseverance",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/455080?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/455080?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Scarab Lord's Perseverance",
                         "id": 455080
@@ -682,7 +682,7 @@
                   ],
                   "creature_display": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116538?namespace=static-11.1.0_59095-us"
                     },
                     "id": 116538
                   }
@@ -690,7 +690,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438801?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438801?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Call of the Swarm",
                 "id": 438801
@@ -701,7 +701,7 @@
               "title": "Piercing Strike",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Piercing Strike",
                 "id": 438218
@@ -710,7 +710,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.1.0_59095-us"
             },
             "id": 118997
           }
@@ -732,7 +732,7 @@
                       "title": "Entropic Vulnerability",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Entropic Vulnerability",
                         "id": 463461
@@ -741,7 +741,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Entropic Barrage",
                     "id": 460600
@@ -750,7 +750,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438355?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438355?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cataclysmic Entropy",
                 "id": 438355
@@ -769,7 +769,7 @@
                       "title": "Entangled",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Entangled",
                         "id": 440179
@@ -778,7 +778,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Binding Webs",
                     "id": 440001
@@ -787,7 +787,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441634?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441634?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Web Vortex",
                 "id": 441634
@@ -798,7 +798,7 @@
               "title": "Entropic Desolation",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450129?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450129?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Entropic Desolation",
                 "id": 450129
@@ -809,7 +809,7 @@
               "title": "Strands of Reality",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441782?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441782?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Strands of Reality",
                 "id": 441782
@@ -820,7 +820,7 @@
               "title": "Void Step",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450483?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450483?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Void Step",
                 "id": 450483
@@ -831,7 +831,7 @@
               "title": "Void Bolt",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441772?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441772?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Void Bolt",
                 "id": 441772
@@ -840,7 +840,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.1.0_59095-us"
             },
             "id": 115753
           }
@@ -860,7 +860,7 @@
               "title": "Impaled",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Impaled",
                 "id": 449857
@@ -875,7 +875,7 @@
                   "title": "Seismic Vulnerability",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/463464?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/463464?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Seismic Vulnerability",
                     "id": 463464
@@ -884,7 +884,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460364?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460364?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Seismic Upheaval",
                 "id": 460364
@@ -893,7 +893,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/451277?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/451277?namespace=static-11.1.0_59095-us"
             },
             "name": "Spike Storm",
             "id": 451277
@@ -918,7 +918,7 @@
                   "title": "Stinging Burst",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/449993?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/449993?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Stinging Burst",
                     "id": 449993
@@ -929,7 +929,7 @@
                   "title": "Stinging Delirium",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/456235?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/456235?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Stinging Delirium",
                     "id": 456235
@@ -938,7 +938,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438677?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438677?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Stinging Swarm",
                 "id": 438677
@@ -949,7 +949,7 @@
               "title": "Reckless Charge",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/440246?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440246?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Reckless Charge",
                 "id": 440246
@@ -960,7 +960,7 @@
               "title": "Burrowed Eruption",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460360?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460360?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Burrowed Eruption",
                 "id": 460360
@@ -975,7 +975,7 @@
                   "title": "Impaled",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/449857?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Impaled",
                     "id": 449857
@@ -984,7 +984,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443092?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443092?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Spike Eruption",
                 "id": 443092
@@ -995,7 +995,7 @@
               "title": "Unleashed Swarm",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443063?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443063?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Unleashed Swarm",
                 "id": 443063
@@ -1006,7 +1006,7 @@
               "title": "Piercing Strike",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438218?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Piercing Strike",
                 "id": 438218
@@ -1015,7 +1015,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118997?namespace=static-11.1.0_59095-us"
             },
             "id": 118997
           }
@@ -1037,7 +1037,7 @@
                       "title": "Entangled",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/440179?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Entangled",
                         "id": 440179
@@ -1046,7 +1046,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/440001?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Binding Webs",
                     "id": 440001
@@ -1055,7 +1055,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441634?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441634?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Web Vortex",
                 "id": 441634
@@ -1074,7 +1074,7 @@
                       "title": "Entropic Vulnerability",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/463461?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Entropic Vulnerability",
                         "id": 463461
@@ -1083,7 +1083,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460600?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Entropic Barrage",
                     "id": 460600
@@ -1092,7 +1092,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438355?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438355?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cataclysmic Entropy",
                 "id": 438355
@@ -1103,7 +1103,7 @@
               "title": "Entropic Desolation",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450129?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450129?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Entropic Desolation",
                 "id": 450129
@@ -1114,7 +1114,7 @@
               "title": "Strands of Reality",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441782?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441782?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Strands of Reality",
                 "id": 441782
@@ -1125,7 +1125,7 @@
               "title": "Void Step",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450483?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450483?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Void Step",
                 "id": 450483
@@ -1136,7 +1136,7 @@
               "title": "Void Bolt",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441772?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441772?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Void Bolt",
                 "id": 441772
@@ -1145,7 +1145,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115753?namespace=static-11.1.0_59095-us"
             },
             "id": 115753
           }
@@ -1155,7 +1155,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

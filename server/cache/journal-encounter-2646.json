@@ -1,0 +1,1981 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2646?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2646,
+  "name": "Chrome King Gallywix",
+  "description": "Having taken a 'strategic retreat,' Jastor Gallywix holed up in the halls of the Gallagio. Whatever Gallywix has been working on, it's guaranteed to be powerful, deadly, and capable of crushing any who oppose him.",
+  "creatures": [
+    {
+      "id": 5856,
+      "name": "Chrome King Gallywix",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/125492?namespace=static-11.1.0_59095-us"
+        },
+        "id": 125492
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45124,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
+      }
+    },
+    {
+      "id": 45125,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
+      }
+    },
+    {
+      "id": 45126,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
+      }
+    },
+    {
+      "id": 45127,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
+      }
+    },
+    {
+      "id": 44708,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228899?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Gallywix's Iron Thumb",
+        "id": 228899
+      }
+    },
+    {
+      "id": 44709,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228848?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Darkfuse Racketeer's Tricorne",
+        "id": 228848
+      }
+    },
+    {
+      "id": 44710,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228887?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Cutthroat Competition Stompers",
+        "id": 228887
+      }
+    },
+    {
+      "id": 44711,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228877?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dealer's Covetous Chain",
+        "id": 228877
+      }
+    },
+    {
+      "id": 44712,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231265?namespace=static-11.1.0_59095-us"
+        },
+        "name": "The Jastor Diamond",
+        "id": 231265
+      }
+    },
+    {
+      "id": 44713,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228881?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Illicit Bankroll Bracers",
+        "id": 228881
+      }
+    },
+    {
+      "id": 44714,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/230198?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Eye of Kezan",
+        "id": 230198
+      }
+    },
+    {
+      "id": 44715,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228819?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Excessively Bejeweled Curio",
+        "id": 228819
+      }
+    },
+    {
+      "id": 44716,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228889?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Titan of Industry",
+        "id": 228889
+      }
+    },
+    {
+      "id": 44717,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228866?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Deep-Pocketed Pantaloons",
+        "id": 228866
+      }
+    },
+    {
+      "id": 44718,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228855?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Paydirt Pauldrons",
+        "id": 228855
+      }
+    },
+    {
+      "id": 44719,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/230029?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Chromebustible Bomb Suit",
+        "id": 230029
+      }
+    },
+    {
+      "id": 44720,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228891?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Capital Punisher",
+        "id": 228891
+      }
+    },
+    {
+      "id": 44721,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228872?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Golden Handshakers",
+        "id": 228872
+      }
+    },
+    {
+      "id": 44722,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228864?namespace=static-11.1.0_59095-us"
+        },
+        "name": "\"Streamlined\" Cartel Uniform",
+        "id": 228864
+      }
+    },
+    {
+      "id": 45112,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/236960?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Prototype A.S.M.R.",
+        "id": 236960
+      }
+    },
+    {
+      "id": 45053,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/235626?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Keys to the Big G",
+        "id": 235626
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30486,
+      "title": "Overview",
+      "body_text": "Gallywix gains energy over time, activating The House of Chrome's Hspell:469286[Giga Coils] at max capacity. Hspell:469362[Charged Giga Bomb]s brought to Giga Controls trigger a Hspell:469767[Giga Bomb Detonation]. This causes a Hspell:1220846[Control Meltdown] which interrupts Gallywix's Hspell:469286[Giga Coils]. Upon losing both Giga Controls a Hspell:1215209[Sabotage Zone] forms.\r\n\r\nAdditionally, throughout the encounter Gallywix calls in the most overpaid Darkfuse Cronies to aid him.\r\n\r\nAs the battle rages on Gallywix alters and augments his arsenal bringing maniacal mayhem.",
+      "sections": [
+        {
+          "id": 30487,
+          "title": "Tanks",
+          "body_text": "\r\n$bullet;Hspell:466340[Scatterblast Canisters] and Hspell:1214607[Bigger Badder Bomb Blast] affect players in Gallywix's frontal direction.\r\n$bullet;Dying Darkfuse Technicians drop Giga Bombs that go Hspell:1223905[Giga BOOM!] after 40 sec. Gallywix's Hspell:469327[Giga Blast] detonates these immediately.\r\n$bullet;Gallywix release all Hspell:1220290[Trick Shots] upon reaching 10 stacks or when changing primary targets."
+        },
+        {
+          "id": 30488,
+          "title": "Healers",
+          "body_text": "$bullet;Player affected by Hspell:1220761[Mechengineer's Canisters] detonate on consumption or expiration causing a Hspell:474447[Canister Detonation].\r\n$bullet;Dying Darkfuse Technicians drop Giga Bombs that go Hspell:1223905[Giga BOOM!] after 40 sec. Gallywix's Hspell:469327[Giga Blast] detonates these immediately.\r\n$bullet;Hspell:469362[Charged Giga Bomb]s brought to Giga Controls trigger a Hspell:469767[Giga Bomb Detonation] causing Hspell:1220846[Control Meltdown] which interrupts Gallywix's Hspell:469286[Giga Coils].\r\n$bullet;Hspell:469286[Giga Coils], Hspell:466338[Zagging Zizzler], and Hspell:1214369[TOTAL DESTRUCTION!!!] inflict significant damage."
+        },
+        {
+          "id": 30489,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Hspell:465952[Big Bad Buncha Bombs] and Hspell:1214607[Bigger Badder Bomb Blast] additionally trigger Hspell:466158[Sapper's Satchel] and Hspell:1214755[Overloaded Rockets].\r\n$bullet;Dying Darkfuse Technicians drop Giga Bombs that go Hspell:1223905[Giga BOOM!] after 40 sec. Gallywix's Hspell:469327[Giga Blast] detonates these immediately.\r\n$bullet;Hspell:469362[Charged Giga Bomb]s brought to Giga Controls trigger a Hspell:469767[Giga Bomb Detonation] causing Hspell:1220846[Control Meltdown] which interrupts Gallywix's Hspell:469286[Giga Coils].\r\n"
+        }
+      ]
+    },
+    {
+      "id": 30490,
+      "title": "Stage One: The House of Chrome",
+      "body_text": "\"Take a good look at what gold and goblins can getcha.\"\r\n\r\nCornered in The House of Chrome Gallywix stands ready to blast foes.",
+      "sections": [
+        {
+          "id": 30555,
+          "title": "Gallywix",
+          "sections": [
+            {
+              "id": 30562,
+              "title": "Scatterblast Canisters",
+              "sections": [
+                {
+                  "id": 30563,
+                  "title": "Mechengineer's Canisters",
+                  "sections": [
+                    {
+                      "id": 30940,
+                      "title": "Canister Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/474447?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Canister Detonation",
+                        "id": 474447
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220761?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mechengineer's Canisters",
+                    "id": 1220761
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466340?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Scatterblast Canisters",
+                "id": 466340
+              }
+            },
+            {
+              "id": 30556,
+              "title": "Big Bad Buncha Bombs",
+              "sections": [
+                {
+                  "id": 30557,
+                  "title": "Blast Burns",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466154?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Blast Burns",
+                    "id": 466154
+                  }
+                },
+                {
+                  "id": 30558,
+                  "title": "Bad Belated Boom",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466153?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Bad Belated Boom",
+                    "id": 466153
+                  }
+                },
+                {
+                  "id": 30559,
+                  "title": "Sapper's Satchel",
+                  "sections": [
+                    {
+                      "id": 31383,
+                      "title": "Another in the Bag",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1217290?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Another in the Bag",
+                        "id": 1217290
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466158?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sapper's Satchel",
+                    "id": 466158
+                  }
+                },
+                {
+                  "id": 31391,
+                  "title": "1500-Pound \"Dud\"",
+                  "sections": [
+                    {
+                      "id": 31392,
+                      "title": "Focused Detonation",
+                      "sections": [
+                        {
+                          "id": 31393,
+                          "title": "Time-Release Crackle",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1217292?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Time-Release Crackle",
+                            "id": 1217292
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/466246?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Focused Detonation",
+                        "id": 466246
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466165?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "1500-Pound \"Dud\"",
+                    "id": 466165
+                  }
+                },
+                {
+                  "id": 30561,
+                  "title": "Zagging Zizzler",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466338?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Zagging Zizzler",
+                    "id": 466338
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465952?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Big Bad Buncha Bombs",
+                "id": 465952
+              }
+            },
+            {
+              "id": 30612,
+              "title": "Suppression",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467182?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Suppression",
+                "id": 467182
+              }
+            },
+            {
+              "id": 30573,
+              "title": "Venting Heat",
+              "sections": [
+                {
+                  "id": 30576,
+                  "title": "Overheating",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466753?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overheating",
+                    "id": 466753
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466751?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Venting Heat",
+                "id": 466751
+              }
+            },
+            {
+              "id": 31609,
+              "title": "Greedy Goblin's Armaments",
+              "sections": [
+                {
+                  "id": 31025,
+                  "title": "Gatling Cannon",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/471225?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Gatling Cannon",
+                    "id": 471225
+                  }
+                },
+                {
+                  "id": 31577,
+                  "title": "Trick Shots",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220290?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Trick Shots",
+                    "id": 1220290
+                  }
+                }
+              ]
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/125492?namespace=static-11.1.0_59095-us"
+            },
+            "id": 125492
+          }
+        }
+      ]
+    },
+    {
+      "id": 30497,
+      "title": "Stage Two: Mechanical Maniac",
+      "body_text": "\"Supply and demand! Deal with it!\"\r\n\r\nGallywix moves about The House of Chrome calling in Darkfuse cronies.",
+      "sections": [
+        {
+          "id": 30564,
+          "title": "Gallywix",
+          "sections": [
+            {
+              "id": 31210,
+              "title": "Giga Coils",
+              "sections": [
+                {
+                  "id": 31211,
+                  "title": "Giga Blast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469327?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga Blast",
+                    "id": 469327
+                  }
+                },
+                {
+                  "id": 31212,
+                  "title": "Giga BOOM!",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga BOOM!",
+                    "id": 469404
+                  }
+                },
+                {
+                  "id": 31214,
+                  "title": "Sabotaged Controls",
+                  "sections": [
+                    {
+                      "id": 31619,
+                      "title": "Control Meltdown",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1220846?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Control Meltdown",
+                        "id": 1220846
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469297?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotaged Controls",
+                    "id": 469297
+                  }
+                },
+                {
+                  "id": 31215,
+                  "title": "Sabotage Zone",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1215209?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotage Zone",
+                    "id": 1215209
+                  }
+                },
+                {
+                  "id": 31545,
+                  "title": "Overloaded Bolts",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219313?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overloaded Bolts",
+                    "id": 1219313
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/469286?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Giga Coils",
+                "id": 469286
+              }
+            },
+            {
+              "id": 30571,
+              "title": "Fused Canisters",
+              "sections": [
+                {
+                  "id": 30572,
+                  "title": "Mechengineer's Canisters",
+                  "sections": [
+                    {
+                      "id": 30941,
+                      "title": "Canister Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/474447?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Canister Detonation",
+                        "id": 474447
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220761?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mechengineer's Canisters",
+                    "id": 1220761
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466341?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Fused Canisters",
+                "id": 466341
+              }
+            },
+            {
+              "id": 30565,
+              "title": "Big Bad Buncha Bombs",
+              "sections": [
+                {
+                  "id": 30566,
+                  "title": "Blast Burns",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466154?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Blast Burns",
+                    "id": 466154
+                  }
+                },
+                {
+                  "id": 30567,
+                  "title": "Bad Belated Boom",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466153?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Bad Belated Boom",
+                    "id": 466153
+                  }
+                },
+                {
+                  "id": 30568,
+                  "title": "Sapper's Satchel",
+                  "sections": [
+                    {
+                      "id": 31385,
+                      "title": "Another in the Bag",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1217290?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Another in the Bag",
+                        "id": 1217290
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466158?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sapper's Satchel",
+                    "id": 466158
+                  }
+                },
+                {
+                  "id": 31395,
+                  "title": "1500-Pound \"Dud\"",
+                  "sections": [
+                    {
+                      "id": 31396,
+                      "title": "Focused Detonation",
+                      "sections": [
+                        {
+                          "id": 31397,
+                          "title": "Time-Release Crackle",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1217292?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Time-Release Crackle",
+                            "id": 1217292
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/466246?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Focused Detonation",
+                        "id": 466246
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466165?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "1500-Pound \"Dud\"",
+                    "id": 466165
+                  }
+                },
+                {
+                  "id": 30570,
+                  "title": "Zagging Zizzler",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466338?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Zagging Zizzler",
+                    "id": 466338
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465952?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Big Bad Buncha Bombs",
+                "id": 465952
+              }
+            },
+            {
+              "id": 30613,
+              "title": "Suppression",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467182?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Suppression",
+                "id": 467182
+              }
+            },
+            {
+              "id": 30574,
+              "title": "Venting Heat",
+              "sections": [
+                {
+                  "id": 30577,
+                  "title": "Overheating",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466753?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overheating",
+                    "id": 466753
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466751?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Venting Heat",
+                "id": 466751
+              }
+            },
+            {
+              "id": 31610,
+              "title": "Greedy Goblin's Armaments",
+              "sections": [
+                {
+                  "id": 31026,
+                  "title": "Gatling Cannon",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/471225?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Gatling Cannon",
+                    "id": 471225
+                  }
+                },
+                {
+                  "id": 31578,
+                  "title": "Trick Shots",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220290?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Trick Shots",
+                    "id": 1220290
+                  }
+                }
+              ]
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/125492?namespace=static-11.1.0_59095-us"
+            },
+            "id": 125492
+          }
+        },
+        {
+          "id": 31481,
+          "title": "Darkfuse Cronies",
+          "sections": [
+            {
+              "id": 31482,
+              "title": "Darkfuse Technician",
+              "body_text": "Upon death drops a Giga Bomb.",
+              "sections": [
+                {
+                  "id": 31483,
+                  "title": "Charged Giga Bomb",
+                  "sections": [
+                    {
+                      "id": 31484,
+                      "title": "Fling Giga Bomb",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469363?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Fling Giga Bomb",
+                        "id": 469363
+                      }
+                    },
+                    {
+                      "id": 31485,
+                      "title": "Giga Bomb Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469767?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga Bomb Detonation",
+                        "id": 469767
+                      }
+                    },
+                    {
+                      "id": 31987,
+                      "title": "Giga BOOM!",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga BOOM!",
+                        "id": 469404
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469362?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Charged Giga Bomb",
+                    "id": 469362
+                  }
+                },
+                {
+                  "id": 31486,
+                  "title": "Juice It!",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/471352?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Juice It!",
+                    "id": 471352
+                  }
+                },
+                {
+                  "id": 31975,
+                  "title": "Party Crashing Rocket",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1223126?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Party Crashing Rocket",
+                    "id": 1223126
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121698?namespace=static-11.1.0_59095-us"
+                },
+                "id": 121698
+              }
+            },
+            {
+              "id": 31487,
+              "title": "Sharpshot Sentry",
+              "sections": [
+                {
+                  "id": 31488,
+                  "title": "Shock Barrage",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466834?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Shock Barrage",
+                    "id": 466834
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-11.1.0_59095-us"
+                },
+                "id": 121758
+              }
+            },
+            {
+              "id": 31489,
+              "title": "Darkfuse Wrenchmonger",
+              "sections": [
+                {
+                  "id": 31490,
+                  "title": "Wrench",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1216845?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Wrench",
+                    "id": 1216845
+                  }
+                },
+                {
+                  "id": 31491,
+                  "title": "Lumbering Rage",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1216852?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Lumbering Rage",
+                    "id": 1216852
+                  }
+                },
+                {
+                  "id": 31976,
+                  "title": "Party Crashing Rocket",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1223126?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Party Crashing Rocket",
+                    "id": 1223126
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122517?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122517
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31558,
+      "title": "Intermission: Docked and Loaded",
+      "body_text": "Upon reaching 50% health Gallywix drops into the arena Hspell:1214226[Cratering] any in his way, gaining Hspell:1214229[Armageddon-class Plating] and then casts Hspell:1214369[Total Destruction!!!] until interrupted.",
+      "sections": [
+        {
+          "id": 31559,
+          "title": "Cratering",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214226?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cratering",
+            "id": 1214226
+          }
+        },
+        {
+          "id": 31560,
+          "title": "Armageddon-class Plating",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214229?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Armageddon-class Plating",
+            "id": 1214229
+          }
+        },
+        {
+          "id": 31561,
+          "title": "Radiant Electricity",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219319?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Radiant Electricity",
+            "id": 1219319
+          }
+        },
+        {
+          "id": 31562,
+          "title": "Gallybux Pest Eliminator",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219278?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Gallybux Pest Eliminator",
+            "id": 1219278
+          }
+        },
+        {
+          "id": 31563,
+          "title": "TOTAL DESTRUCTION!!!",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214369?namespace=static-11.1.0_59095-us"
+            },
+            "name": "TOTAL DESTRUCTION!!!",
+            "id": 1214369
+          }
+        }
+      ]
+    },
+    {
+      "id": 31445,
+      "title": "Stage Three: What an Arsenal!",
+      "body_text": "\"You certainly don't get your likeness carved into the side of a mountain by letting others push you around\"\r\n\r\nGallywix continues to pummel his enemies with his upgraded arsenal.",
+      "sections": [
+        {
+          "id": 31446,
+          "title": "Gallywix",
+          "sections": [
+            {
+              "id": 31447,
+              "title": "Bigger Badder Bomb Blast",
+              "sections": [
+                {
+                  "id": 31448,
+                  "title": "Blast Burns",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466154?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Blast Burns",
+                    "id": 466154
+                  }
+                },
+                {
+                  "id": 31449,
+                  "title": "Bad Belated Boom",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466153?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Bad Belated Boom",
+                    "id": 466153
+                  }
+                },
+                {
+                  "id": 31450,
+                  "title": "Overloaded Rockets",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1214755?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overloaded Rockets",
+                    "id": 1214755
+                  }
+                },
+                {
+                  "id": 31451,
+                  "title": "1500-Pound \"Dud\"",
+                  "sections": [
+                    {
+                      "id": 31452,
+                      "title": "Focused Detonation",
+                      "sections": [
+                        {
+                          "id": 31453,
+                          "title": "Time-Release Crackle",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1217292?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Time-Release Crackle",
+                            "id": 1217292
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/466246?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Focused Detonation",
+                        "id": 466246
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466165?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "1500-Pound \"Dud\"",
+                    "id": 466165
+                  }
+                },
+                {
+                  "id": 31455,
+                  "title": "Zagging Zizzler",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466338?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Zagging Zizzler",
+                    "id": 466338
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214607?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Bigger Badder Bomb Blast",
+                "id": 1214607
+              }
+            },
+            {
+              "id": 31456,
+              "title": "Tick-Tock Canisters",
+              "sections": [
+                {
+                  "id": 31457,
+                  "title": "Mechengineer's Canisters",
+                  "sections": [
+                    {
+                      "id": 31458,
+                      "title": "Canister Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/474447?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Canister Detonation",
+                        "id": 474447
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220761?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mechengineer's Canisters",
+                    "id": 1220761
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466342?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Tick-Tock Canisters",
+                "id": 466342
+              }
+            },
+            {
+              "id": 31459,
+              "title": "Giga Coils",
+              "sections": [
+                {
+                  "id": 31460,
+                  "title": "Giga Blast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469327?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga Blast",
+                    "id": 469327
+                  }
+                },
+                {
+                  "id": 31461,
+                  "title": "Giga BOOM!",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga BOOM!",
+                    "id": 469404
+                  }
+                },
+                {
+                  "id": 31463,
+                  "title": "Sabotaged Controls",
+                  "sections": [
+                    {
+                      "id": 31620,
+                      "title": "Control Meltdown",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1220846?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Control Meltdown",
+                        "id": 1220846
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220669?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotaged Controls",
+                    "id": 1220669
+                  }
+                },
+                {
+                  "id": 31464,
+                  "title": "Sabotage Zone",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1215209?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotage Zone",
+                    "id": 1215209
+                  }
+                },
+                {
+                  "id": 31546,
+                  "title": "Overloaded Bolts",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219313?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overloaded Bolts",
+                    "id": 1219313
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/469286?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Giga Coils",
+                "id": 469286
+              }
+            },
+            {
+              "id": 31465,
+              "title": "Suppression",
+              "sections": [
+                {
+                  "id": 31549,
+                  "title": "Gallybux Finale Blast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219333?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Gallybux Finale Blast",
+                    "id": 1219333
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467182?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Suppression",
+                "id": 467182
+              }
+            },
+            {
+              "id": 31468,
+              "title": "Venting Heat",
+              "sections": [
+                {
+                  "id": 31469,
+                  "title": "Overheating",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466753?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overheating",
+                    "id": 466753
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466751?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Venting Heat",
+                "id": 466751
+              }
+            },
+            {
+              "id": 31611,
+              "title": "Greedy Goblin's Armaments",
+              "sections": [
+                {
+                  "id": 31614,
+                  "title": "Ego Check",
+                  "sections": [
+                    {
+                      "id": 31615,
+                      "title": "Checked Ego",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/467064?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Checked Ego",
+                        "id": 467064
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466958?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Ego Check",
+                    "id": 466958
+                  }
+                }
+              ]
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/125492?namespace=static-11.1.0_59095-us"
+            },
+            "id": 125492
+          }
+        },
+        {
+          "id": 31471,
+          "title": "Darkfuse Cronies",
+          "sections": [
+            {
+              "id": 31472,
+              "title": "Darkfuse Technician",
+              "body_text": "Upon death drops a Giga Bomb.",
+              "sections": [
+                {
+                  "id": 31473,
+                  "title": "Charged Giga Bomb",
+                  "sections": [
+                    {
+                      "id": 31474,
+                      "title": "Fling Giga Bomb",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469363?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Fling Giga Bomb",
+                        "id": 469363
+                      }
+                    },
+                    {
+                      "id": 31475,
+                      "title": "Giga Bomb Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469767?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga Bomb Detonation",
+                        "id": 469767
+                      }
+                    },
+                    {
+                      "id": 31988,
+                      "title": "Giga BOOM!",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga BOOM!",
+                        "id": 469404
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469362?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Charged Giga Bomb",
+                    "id": 469362
+                  }
+                },
+                {
+                  "id": 31476,
+                  "title": "Juice It!",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/471352?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Juice It!",
+                    "id": 471352
+                  }
+                },
+                {
+                  "id": 32295,
+                  "title": "Party Crashing Rocket",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1223126?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Party Crashing Rocket",
+                    "id": 1223126
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121698?namespace=static-11.1.0_59095-us"
+                },
+                "id": 121698
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31173,
+      "title": "Intermission: Docked and Loaded",
+      "body_text": "Gallywix drops into the arena Hspell:1214226[Cratering] any in his way, gaining Hspell:1214229[Armageddon-class Plating] and then casts Hspell:1214369[Total Destruction!!!] until interrupted.",
+      "sections": [
+        {
+          "id": 31174,
+          "title": "Cratering",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214226?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cratering",
+            "id": 1214226
+          }
+        },
+        {
+          "id": 31175,
+          "title": "Armageddon-class Plating",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214229?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Armageddon-class Plating",
+            "id": 1214229
+          }
+        },
+        {
+          "id": 31548,
+          "title": "Radiant Electricity",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219319?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Radiant Electricity",
+            "id": 1219319
+          }
+        },
+        {
+          "id": 31543,
+          "title": "Gallybux Pest Eliminator",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219278?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Gallybux Pest Eliminator",
+            "id": 1219278
+          }
+        },
+        {
+          "id": 31176,
+          "title": "TOTAL DESTRUCTION!!!",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1214369?namespace=static-11.1.0_59095-us"
+            },
+            "name": "TOTAL DESTRUCTION!!!",
+            "id": 1214369
+          }
+        }
+      ]
+    },
+    {
+      "id": 30498,
+      "title": "Stage One: What an Arsenal!",
+      "body_text": "\"You certainly don't get your likeness carved into the side of a mountain by letting others push you around\"\r\n\r\nGallywix pummels his enemies with his upgraded arsenal.",
+      "sections": [
+        {
+          "id": 30491,
+          "title": "Gallywix",
+          "sections": [
+            {
+              "id": 30492,
+              "title": "Bigger Badder Bomb Blast",
+              "sections": [
+                {
+                  "id": 30493,
+                  "title": "Blast Burns",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466154?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Blast Burns",
+                    "id": 466154
+                  }
+                },
+                {
+                  "id": 30494,
+                  "title": "Bad Belated Boom",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466153?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Bad Belated Boom",
+                    "id": 466153
+                  }
+                },
+                {
+                  "id": 30495,
+                  "title": "Overloaded Rockets",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1214755?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overloaded Rockets",
+                    "id": 1214755
+                  }
+                },
+                {
+                  "id": 30560,
+                  "title": "1500-Pound \"Dud\"",
+                  "sections": [
+                    {
+                      "id": 31388,
+                      "title": "Focused Detonation",
+                      "sections": [
+                        {
+                          "id": 31390,
+                          "title": "Time-Release Crackle",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1217292?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Time-Release Crackle",
+                            "id": 1217292
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/466246?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Focused Detonation",
+                        "id": 466246
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466165?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "1500-Pound \"Dud\"",
+                    "id": 466165
+                  }
+                },
+                {
+                  "id": 30502,
+                  "title": "Zagging Zizzler",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466338?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Zagging Zizzler",
+                    "id": 466338
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214607?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Bigger Badder Bomb Blast",
+                "id": 1214607
+              }
+            },
+            {
+              "id": 31477,
+              "title": "Combination Canisters",
+              "sections": [
+                {
+                  "id": 31478,
+                  "title": "Mechengineer's Canisters",
+                  "sections": [
+                    {
+                      "id": 31479,
+                      "title": "Canister Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/474447?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Canister Detonation",
+                        "id": 474447
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1220761?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mechengineer's Canisters",
+                    "id": 1220761
+                  }
+                },
+                {
+                  "id": 31480,
+                  "title": "Fused Canisters",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466341?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Fused Canisters",
+                    "id": 466341
+                  }
+                },
+                {
+                  "id": 30503,
+                  "title": "Tick-Tock Canisters",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466342?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Tick-Tock Canisters",
+                    "id": 466342
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1217987?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Combination Canisters",
+                "id": 1217987
+              }
+            },
+            {
+              "id": 30953,
+              "title": "Giga Blast",
+              "sections": [
+                {
+                  "id": 31541,
+                  "title": "Giga Blast Residue",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1218504?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga Blast Residue",
+                    "id": 1218504
+                  }
+                },
+                {
+                  "id": 30954,
+                  "title": "Giga BOOM!",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Giga BOOM!",
+                    "id": 469404
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/469327?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Giga Blast",
+                "id": 469327
+              }
+            },
+            {
+              "id": 30952,
+              "title": "Giga Coils",
+              "sections": [
+                {
+                  "id": 30967,
+                  "title": "Sabotaged Controls",
+                  "sections": [
+                    {
+                      "id": 31621,
+                      "title": "Control Meltdown",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1220846?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Control Meltdown",
+                        "id": 1220846
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/469297?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotaged Controls",
+                    "id": 469297
+                  }
+                },
+                {
+                  "id": 31216,
+                  "title": "Sabotage Zone",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1215209?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Sabotage Zone",
+                    "id": 1215209
+                  }
+                },
+                {
+                  "id": 31547,
+                  "title": "Overloaded Bolts",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219313?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overloaded Bolts",
+                    "id": 1219313
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/469286?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Giga Coils",
+                "id": 469286
+              }
+            },
+            {
+              "id": 30614,
+              "title": "Suppression",
+              "sections": [
+                {
+                  "id": 31550,
+                  "title": "Gallybux Finale Blast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219333?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Gallybux Finale Blast",
+                    "id": 1219333
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467182?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Suppression",
+                "id": 467182
+              }
+            },
+            {
+              "id": 30575,
+              "title": "Venting Heat",
+              "sections": [
+                {
+                  "id": 30578,
+                  "title": "Overheating",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466753?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Overheating",
+                    "id": 466753
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466751?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Venting Heat",
+                "id": 466751
+              }
+            },
+            {
+              "id": 31612,
+              "title": "Greedy Goblin's Armaments",
+              "sections": [
+                {
+                  "id": 31616,
+                  "title": "Ego Check",
+                  "sections": [
+                    {
+                      "id": 31617,
+                      "title": "Checked Ego",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/467064?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Checked Ego",
+                        "id": 467064
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466958?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Ego Check",
+                    "id": 466958
+                  }
+                }
+              ]
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/125492?namespace=static-11.1.0_59095-us"
+            },
+            "id": 125492
+          }
+        },
+        {
+          "id": 31028,
+          "title": "Darkfuse Cronies",
+          "sections": [
+            {
+              "id": 31029,
+              "title": "Giga-Juiced Technician",
+              "body_text": "Upon death drops a Discharged Giga Bomb.",
+              "sections": [
+                {
+                  "id": 31537,
+                  "title": "Discharged Giga Bomb",
+                  "sections": [
+                    {
+                      "id": 31606,
+                      "title": "Auto-Locking Cuff Bomb",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1220784?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Auto-Locking Cuff Bomb",
+                        "id": 1220784
+                      }
+                    },
+                    {
+                      "id": 31031,
+                      "title": "Fling Giga Bomb",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469363?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Fling Giga Bomb",
+                        "id": 469363
+                      }
+                    },
+                    {
+                      "id": 31032,
+                      "title": "Giga Bomb Detonation",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469767?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga Bomb Detonation",
+                        "id": 469767
+                      }
+                    },
+                    {
+                      "id": 31989,
+                      "title": "Giga BOOM!",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/469404?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Giga BOOM!",
+                        "id": 469404
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1218992?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Discharged Giga Bomb",
+                    "id": 1218992
+                  }
+                },
+                {
+                  "id": 31540,
+                  "title": "Ionization",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219039?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Ionization",
+                    "id": 1219039
+                  }
+                },
+                {
+                  "id": 31033,
+                  "title": "Static Zap",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219041?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Static Zap",
+                    "id": 1219041
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121716?namespace=static-11.1.0_59095-us"
+                },
+                "id": 121716
+              }
+            },
+            {
+              "id": 31036,
+              "title": "Darkfuse Wrenchmonger",
+              "sections": [
+                {
+                  "id": 31357,
+                  "title": "Wrench",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1216845?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Wrench",
+                    "id": 1216845
+                  }
+                },
+                {
+                  "id": 31358,
+                  "title": "Lumbering Rage",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1216852?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Lumbering Rage",
+                    "id": 1216852
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122517?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122517
+              }
+            },
+            {
+              "id": 31977,
+              "title": "Party Crashing Rocket",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1223126?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Party Crashing Rocket",
+                "id": 1223126
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1296?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Liberation of Undermine",
+    "id": 1296
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2609?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2609?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2609,
@@ -13,7 +13,7 @@
       "name": "Rasha'nan",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118404?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118404?namespace=static-11.1.0_59095-us"
         },
         "id": 118404
       }
@@ -23,7 +23,7 @@
       "name": "Infested Spawn",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116084?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116084?namespace=static-11.1.0_59095-us"
         },
         "id": 116084
       }
@@ -31,30 +31,10 @@
   ],
   "items": [
     {
-      "id": 44323,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212453?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Skyterror's Corrosive Organ",
-        "id": 212453
-      }
-    },
-    {
-      "id": 44601,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/224435?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Pattern: Duskthread Lining",
-        "id": 224435
-      }
-    },
-    {
       "id": 44535,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225632?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225632?namespace=static-11.1.0_59095-us"
         },
         "name": "Venerated Obscenity's Idol",
         "id": 225632
@@ -64,7 +44,7 @@
       "id": 44536,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212437?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212437?namespace=static-11.1.0_59095-us"
         },
         "name": "Ravaged Lamplighter's Manacles",
         "id": 212437
@@ -74,7 +54,7 @@
       "id": 44537,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212391?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212391?namespace=static-11.1.0_59095-us"
         },
         "name": "Predator's Feasthooks",
         "id": 212391
@@ -84,7 +64,7 @@
       "id": 44538,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225631?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225631?namespace=static-11.1.0_59095-us"
         },
         "name": "Mystic Obscenity's Idol",
         "id": 225631
@@ -94,7 +74,7 @@
       "id": 44539,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212398?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212398?namespace=static-11.1.0_59095-us"
         },
         "name": "Bludgeons of Blistering Wind",
         "id": 212398
@@ -104,7 +84,7 @@
       "id": 44540,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225583?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225583?namespace=static-11.1.0_59095-us"
         },
         "name": "Behemoth's Eroded Cinch",
         "id": 225583
@@ -114,7 +94,7 @@
       "id": 44541,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225630?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225630?namespace=static-11.1.0_59095-us"
         },
         "name": "Dreadful Obscenity's Idol",
         "id": 225630
@@ -124,7 +104,7 @@
       "id": 44542,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212440?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212440?namespace=static-11.1.0_59095-us"
         },
         "name": "Devotee's Discarded Headdress",
         "id": 212440
@@ -134,7 +114,7 @@
       "id": 44543,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212448?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212448?namespace=static-11.1.0_59095-us"
         },
         "name": "Locket of Broken Memories",
         "id": 212448
@@ -144,7 +124,7 @@
       "id": 44544,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225633?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225633?namespace=static-11.1.0_59095-us"
         },
         "name": "Zenith Obscenity's Idol",
         "id": 225633
@@ -154,7 +134,7 @@
       "id": 44545,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225586?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225586?namespace=static-11.1.0_59095-us"
         },
         "name": "Rasha'nan's Grotesque Talons",
         "id": 225586
@@ -164,10 +144,30 @@
       "id": 44546,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225574?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225574?namespace=static-11.1.0_59095-us"
         },
         "name": "Wings of Shattered Sorrow",
         "id": 225574
+      }
+    },
+    {
+      "id": 44323,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212453?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Skyterror's Corrosive Organ",
+        "id": 212453
+      }
+    },
+    {
+      "id": 44601,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/224435?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pattern: Duskthread Lining",
+        "id": 224435
       }
     }
   ],
@@ -203,7 +203,7 @@
           "title": "Corrosion",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439785?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439785?namespace=static-11.1.0_59095-us"
             },
             "name": "Corrosion",
             "id": 439785
@@ -214,7 +214,7 @@
           "title": "Acidic Stupor",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439787?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439787?namespace=static-11.1.0_59095-us"
             },
             "name": "Acidic Stupor",
             "id": 439787
@@ -225,7 +225,7 @@
           "title": "Acid Pools",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.1.0_59095-us"
             },
             "name": "Acid Pools",
             "id": 439776
@@ -234,7 +234,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439789?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439789?namespace=static-11.1.0_59095-us"
         },
         "name": "Rolling Acid",
         "id": 439789
@@ -253,7 +253,7 @@
               "title": "Tacky Threads",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460789?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460789?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Tacky Threads",
                 "id": 460789
@@ -262,7 +262,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439778?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439778?namespace=static-11.1.0_59095-us"
             },
             "name": "Spinneret's Websnap",
             "id": 439778
@@ -273,7 +273,7 @@
           "title": "Sticky Webs",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439780?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439780?namespace=static-11.1.0_59095-us"
             },
             "name": "Sticky Webs",
             "id": 439780
@@ -282,7 +282,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439784?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439784?namespace=static-11.1.0_59095-us"
         },
         "name": "Spinneret's Strands",
         "id": 439784
@@ -297,7 +297,7 @@
           "title": "Infested Bite",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/455287?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/455287?namespace=static-11.1.0_59095-us"
             },
             "name": "Infested Bite",
             "id": 455287
@@ -306,14 +306,14 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439815?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439815?namespace=static-11.1.0_59095-us"
         },
         "name": "Infested Spawn",
         "id": 439815
       },
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116084?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116084?namespace=static-11.1.0_59095-us"
         },
         "id": 116084
       }
@@ -323,7 +323,7 @@
       "title": "Enveloping Webs",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/454989?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/454989?namespace=static-11.1.0_59095-us"
         },
         "name": "Enveloping Webs",
         "id": 454989
@@ -338,7 +338,7 @@
           "title": "Savage Wound",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/458067?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/458067?namespace=static-11.1.0_59095-us"
             },
             "name": "Savage Wound",
             "id": 458067
@@ -347,7 +347,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/444687?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/444687?namespace=static-11.1.0_59095-us"
         },
         "name": "Savage Assault",
         "id": 444687
@@ -358,7 +358,7 @@
       "title": "Web Reave",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439795?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439795?namespace=static-11.1.0_59095-us"
         },
         "name": "Web Reave",
         "id": 439795
@@ -373,7 +373,7 @@
           "title": "Lingering Erosion",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/440193?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/440193?namespace=static-11.1.0_59095-us"
             },
             "name": "Lingering Erosion",
             "id": 440193
@@ -384,7 +384,7 @@
           "title": "Acid Pools",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.1.0_59095-us"
             },
             "name": "Acid Pools",
             "id": 439776
@@ -393,7 +393,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439811?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439811?namespace=static-11.1.0_59095-us"
         },
         "name": "Erosive Spray",
         "id": 439811
@@ -408,7 +408,7 @@
           "title": "Acidic Carapace",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/457877?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/457877?namespace=static-11.1.0_59095-us"
             },
             "name": "Acidic Carapace",
             "id": 457877
@@ -417,7 +417,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/452806?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/452806?namespace=static-11.1.0_59095-us"
         },
         "name": "Acidic Eruption",
         "id": 452806
@@ -432,7 +432,7 @@
           "title": "Acid Pools",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439776?namespace=static-11.1.0_59095-us"
             },
             "name": "Acid Pools",
             "id": 439776
@@ -441,7 +441,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/444094?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/444094?namespace=static-11.1.0_59095-us"
         },
         "name": "Caustic Hail",
         "id": 444094
@@ -452,7 +452,7 @@
       "title": "Tacky Burst",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439792?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439792?namespace=static-11.1.0_59095-us"
         },
         "name": "Tacky Burst",
         "id": 439792
@@ -461,7 +461,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2670?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2670?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2670,
@@ -13,7 +13,7 @@
       "name": "Emperor Dagran Thaurissan",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.1.0_59095-us"
         },
         "id": 120764
       }
@@ -23,7 +23,7 @@
       "name": "Moira Bronzebeard",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.1.0_59095-us"
         },
         "id": 120765
       }
@@ -33,7 +33,7 @@
       "name": "Avatar of Ragnaros",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.1.0_59095-us"
         },
         "id": 122739
       }
@@ -43,7 +43,7 @@
       "name": "Dark Iron Imperial Guard",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.1.0_59095-us"
         },
         "id": 122759
       }
@@ -53,7 +53,7 @@
       "name": "Twilight's Hammer Ambassador",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.1.0_59095-us"
         },
         "id": 122741
       }
@@ -63,7 +63,7 @@
       "name": "Fireguard Destroyer",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.1.0_59095-us"
         },
         "id": 122758
       }
@@ -73,7 +73,7 @@
       "name": "Fireling",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.1.0_59095-us"
         },
         "id": 122772
       }
@@ -84,7 +84,7 @@
       "id": 44827,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231438?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231438?namespace=static-11.1.0_59095-us"
         },
         "name": "Swiftwalker Boots",
         "id": 231438
@@ -94,7 +94,7 @@
       "id": 44828,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231442?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231442?namespace=static-11.1.0_59095-us"
         },
         "name": "Sash of the Grand Hunt",
         "id": 231442
@@ -104,7 +104,7 @@
       "id": 44829,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231398?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231398?namespace=static-11.1.0_59095-us"
         },
         "name": "Molten Ironfoe",
         "id": 231398
@@ -114,7 +114,7 @@
       "id": 44830,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231429?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231429?namespace=static-11.1.0_59095-us"
         },
         "name": "Robes of the Royal Crown",
         "id": 231429
@@ -124,7 +124,7 @@
       "id": 44831,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231417?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231417?namespace=static-11.1.0_59095-us"
         },
         "name": "Hand of Justice",
         "id": 231417
@@ -134,7 +134,7 @@
       "id": 44832,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231433?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231433?namespace=static-11.1.0_59095-us"
         },
         "name": "Thaurissan's Royal Scepter",
         "id": 231433
@@ -144,7 +144,7 @@
       "id": 44833,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231437?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231437?namespace=static-11.1.0_59095-us"
         },
         "name": "Emperor's Seal",
         "id": 231437
@@ -154,7 +154,7 @@
       "id": 44834,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231439?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231439?namespace=static-11.1.0_59095-us"
         },
         "name": "Hands of the Exalted Herald",
         "id": 231439
@@ -164,7 +164,7 @@
       "id": 44835,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231436?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231436?namespace=static-11.1.0_59095-us"
         },
         "name": "Imperial Jewel",
         "id": 231436
@@ -174,7 +174,7 @@
       "id": 44836,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231487?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231487?namespace=static-11.1.0_59095-us"
         },
         "name": "Helm of the Molten Avatar",
         "id": 231487
@@ -213,7 +213,7 @@
           "title": "Ironfoe",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465060?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465060?namespace=static-11.1.0_59095-us"
             },
             "name": "Ironfoe",
             "id": 465060
@@ -224,7 +224,7 @@
           "title": "Hand of Thaurissan",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465066?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465066?namespace=static-11.1.0_59095-us"
             },
             "name": "Hand of Thaurissan",
             "id": 465066
@@ -235,7 +235,7 @@
           "title": "Magma Clap",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465065?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465065?namespace=static-11.1.0_59095-us"
             },
             "name": "Magma Clap",
             "id": 465065
@@ -250,7 +250,7 @@
               "title": "Iron Brand",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/465070?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465070?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Iron Brand",
                 "id": 465070
@@ -261,7 +261,7 @@
               "title": "Molten Hand",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/466493?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466493?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Molten Hand",
                 "id": 466493
@@ -272,7 +272,7 @@
               "title": "Magma Shock",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470658?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470658?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Magma Shock",
                 "id": 470658
@@ -283,7 +283,7 @@
               "title": "Magma Shower",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/465072?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465072?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Magma Shower",
                 "id": 465072
@@ -292,7 +292,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465069?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465069?namespace=static-11.1.0_59095-us"
             },
             "name": "Avatar of Flame",
             "id": 465069
@@ -311,7 +311,7 @@
                   "title": "Shrapnel Blast",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/465089?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465089?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Shrapnel Blast",
                     "id": 465089
@@ -320,7 +320,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122759
               }
@@ -328,7 +328,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465077?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465077?namespace=static-11.1.0_59095-us"
             },
             "name": "Call Imperial Guard",
             "id": 465077
@@ -347,7 +347,7 @@
                   "title": "Pyroblast",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/465091?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465091?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Pyroblast",
                     "id": 465091
@@ -358,7 +358,7 @@
                   "title": "Moment of Twilight",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/466371?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466371?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Moment of Twilight",
                     "id": 466371
@@ -367,7 +367,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122741
               }
@@ -375,7 +375,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465079?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465079?namespace=static-11.1.0_59095-us"
             },
             "name": "Call Twilight's Hammer Ambassador",
             "id": 465079
@@ -386,7 +386,7 @@
           "title": "Beseech the Firelord",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466332?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466332?namespace=static-11.1.0_59095-us"
             },
             "name": "Beseech the Firelord",
             "id": 466332
@@ -395,7 +395,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.1.0_59095-us"
         },
         "id": 120764
       }
@@ -409,7 +409,7 @@
           "title": "Mind Blast",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465086?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465086?namespace=static-11.1.0_59095-us"
             },
             "name": "Mind Blast",
             "id": 465086
@@ -420,7 +420,7 @@
           "title": "Shadow Word: Nemesis",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466504?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466504?namespace=static-11.1.0_59095-us"
             },
             "name": "Shadow Word: Nemesis",
             "id": 466504
@@ -435,7 +435,7 @@
               "title": "Necrotic Blast",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470602?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470602?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Necrotic Blast",
                 "id": 470602
@@ -450,7 +450,7 @@
                   "title": "Festering Necrosis",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/470624?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/470624?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Festering Necrosis",
                     "id": 470624
@@ -459,7 +459,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470603?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470603?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Lingering Necrosis",
                 "id": 470603
@@ -468,7 +468,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470599?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470599?namespace=static-11.1.0_59095-us"
             },
             "name": "Shadow Word: Necrosis",
             "id": 470599
@@ -479,7 +479,7 @@
           "title": "Mind Shattering Screams",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470609?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470609?namespace=static-11.1.0_59095-us"
             },
             "name": "Mind Shattering Screams",
             "id": 470609
@@ -494,7 +494,7 @@
               "title": "Radiant Burn",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470608?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470608?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Radiant Burn",
                 "id": 470608
@@ -503,7 +503,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470605?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470605?namespace=static-11.1.0_59095-us"
             },
             "name": "Radiant Infusion",
             "id": 470605
@@ -512,7 +512,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.1.0_59095-us"
         },
         "id": 120765
       }
@@ -530,7 +530,7 @@
               "title": "Volcanic Stone",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/470646?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470646?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Volcanic Stone",
                 "id": 470646
@@ -539,7 +539,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465225?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465225?namespace=static-11.1.0_59095-us"
             },
             "name": "Volcanic Blast",
             "id": 465225
@@ -550,7 +550,7 @@
           "title": "Volcanic Volley",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/470649?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/470649?namespace=static-11.1.0_59095-us"
             },
             "name": "Volcanic Volley",
             "id": 470649
@@ -569,7 +569,7 @@
                   "title": "Fire Nova",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/465093?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465093?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Fire Nova",
                     "id": 465093
@@ -584,7 +584,7 @@
                       "title": "Fireling",
                       "creature_display": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.1.0_59095-us"
                         },
                         "id": 122772
                       }
@@ -592,7 +592,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/465268?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465268?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Fiery Demise",
                     "id": 465268
@@ -601,7 +601,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122758
               }
@@ -609,7 +609,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/465099?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/465099?namespace=static-11.1.0_59095-us"
             },
             "name": "Summon Fireguard Destroyer",
             "id": 465099
@@ -618,7 +618,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.1.0_59095-us"
         },
         "id": 122739
       }
@@ -626,7 +626,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301

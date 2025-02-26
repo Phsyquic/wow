@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2668?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2668?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2668,
@@ -13,7 +13,7 @@
       "name": "General Angerforge",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.1.0_59095-us"
         },
         "id": 120763
       }
@@ -23,7 +23,7 @@
       "name": "Harbinger of Flames",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.1.0_59095-us"
         },
         "id": 122942
       }
@@ -33,7 +33,7 @@
       "name": "Shadowforge Flame Keeper",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122970?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122970?namespace=static-11.1.0_59095-us"
         },
         "id": 122970
       }
@@ -43,7 +43,7 @@
       "name": "Anvilrage Artillerist",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.1.0_59095-us"
         },
         "id": 122948
       }
@@ -53,7 +53,7 @@
       "name": "Anvilrage Dragoon",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.1.0_59095-us"
         },
         "id": 122950
       }
@@ -63,7 +63,7 @@
       "name": "Anvilrage Officer",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.1.0_59095-us"
         },
         "id": 122954
       }
@@ -73,7 +73,7 @@
       "name": "Anvilrage Medic",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122952?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122952?namespace=static-11.1.0_59095-us"
         },
         "id": 122952
       }
@@ -83,7 +83,7 @@
       "name": "Anvilrage Rogue",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.1.0_59095-us"
         },
         "id": 122956
       }
@@ -93,7 +93,7 @@
       "name": "Anvilrage Sapper",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122958?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122958?namespace=static-11.1.0_59095-us"
         },
         "id": 122958
       }
@@ -103,7 +103,7 @@
       "name": "Anvilrage Soldier",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.1.0_59095-us"
         },
         "id": 122960
       }
@@ -114,7 +114,7 @@
       "id": 44837,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231435?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231435?namespace=static-11.1.0_59095-us"
         },
         "name": "Guiding Stave of Wisdom",
         "id": 231435
@@ -124,7 +124,7 @@
       "id": 44838,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231482?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231482?namespace=static-11.1.0_59095-us"
         },
         "name": "Dragoon's Volley Gun",
         "id": 231482
@@ -134,7 +134,7 @@
       "id": 44839,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231440?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231440?namespace=static-11.1.0_59095-us"
         },
         "name": "Ebonsteel Spaulders",
         "id": 231440
@@ -144,7 +144,7 @@
       "id": 44840,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231422?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231422?namespace=static-11.1.0_59095-us"
         },
         "name": "Warstrife Leggings",
         "id": 231422
@@ -154,7 +154,7 @@
       "id": 44841,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231421?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231421?namespace=static-11.1.0_59095-us"
         },
         "name": "Royal Decorated Armor",
         "id": 231421
@@ -164,7 +164,7 @@
       "id": 44842,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231479?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231479?namespace=static-11.1.0_59095-us"
         },
         "name": "Anvilrage Rogue's Belt of Knives",
         "id": 231479
@@ -174,7 +174,7 @@
       "id": 44843,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231477?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231477?namespace=static-11.1.0_59095-us"
         },
         "name": "Anvilrage Medic's Boots",
         "id": 231477
@@ -184,7 +184,7 @@
       "id": 44844,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231414?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231414?namespace=static-11.1.0_59095-us"
         },
         "name": "Force of Will",
         "id": 231414
@@ -194,7 +194,7 @@
       "id": 44845,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231418?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231418?namespace=static-11.1.0_59095-us"
         },
         "name": "Angerforge's Battle Axe",
         "id": 231418
@@ -204,7 +204,7 @@
       "id": 44846,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231480?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231480?namespace=static-11.1.0_59095-us"
         },
         "name": "Anvilrage Dragoon's Trousers",
         "id": 231480
@@ -214,7 +214,7 @@
       "id": 44847,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231481?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231481?namespace=static-11.1.0_59095-us"
         },
         "name": "Sapper's Waistplate",
         "id": 231481
@@ -224,7 +224,7 @@
       "id": 44848,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231419?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231419?namespace=static-11.1.0_59095-us"
         },
         "name": "Lord General's Sword",
         "id": 231419
@@ -234,7 +234,7 @@
       "id": 44849,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231478?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231478?namespace=static-11.1.0_59095-us"
         },
         "name": "Flamekeeper's Handwraps",
         "id": 231478
@@ -273,7 +273,7 @@
           "title": "Commanding Aura",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.1.0_59095-us"
             },
             "name": "Commanding Aura",
             "id": 464425
@@ -284,7 +284,7 @@
           "title": "Shatter Armor",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.1.0_59095-us"
             },
             "name": "Shatter Armor",
             "id": 466107
@@ -295,7 +295,7 @@
           "title": "Dark Iron Bombs",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466265?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466265?namespace=static-11.1.0_59095-us"
             },
             "name": "Dark Iron Bombs",
             "id": 466265
@@ -306,7 +306,7 @@
           "title": "Fireburst Grenade",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467415?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467415?namespace=static-11.1.0_59095-us"
             },
             "name": "Fireburst Grenade",
             "id": 467415
@@ -317,7 +317,7 @@
           "title": "Deploy Mole Machine",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467758?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467758?namespace=static-11.1.0_59095-us"
             },
             "name": "Deploy Mole Machine",
             "id": 467758
@@ -326,7 +326,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120763?namespace=static-11.1.0_59095-us"
         },
         "id": 120763
       }
@@ -340,7 +340,7 @@
           "title": "World in Flames",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467394?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467394?namespace=static-11.1.0_59095-us"
             },
             "name": "World in Flames",
             "id": 467394
@@ -349,7 +349,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122942?namespace=static-11.1.0_59095-us"
         },
         "id": 122942
       }
@@ -363,7 +363,7 @@
           "title": "Keeper's Flame",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/464417?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/464417?namespace=static-11.1.0_59095-us"
             },
             "name": "Keeper's Flame",
             "id": 464417
@@ -374,7 +374,7 @@
           "title": "Rings of Fire",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467464?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467464?namespace=static-11.1.0_59095-us"
             },
             "name": "Rings of Fire",
             "id": 467464
@@ -383,7 +383,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122972?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122972?namespace=static-11.1.0_59095-us"
         },
         "id": 122972
       }
@@ -397,7 +397,7 @@
           "title": "Commanding Aura",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/464425?namespace=static-11.1.0_59095-us"
             },
             "name": "Commanding Aura",
             "id": 464425
@@ -408,7 +408,7 @@
           "title": "Shatter Armor",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466107?namespace=static-11.1.0_59095-us"
             },
             "name": "Shatter Armor",
             "id": 466107
@@ -417,7 +417,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122954?namespace=static-11.1.0_59095-us"
         },
         "id": 122954
       }
@@ -431,7 +431,7 @@
           "title": "Heal",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466096?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466096?namespace=static-11.1.0_59095-us"
             },
             "name": "Heal",
             "id": 466096
@@ -442,7 +442,7 @@
           "title": "Mind Blast",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466086?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466086?namespace=static-11.1.0_59095-us"
             },
             "name": "Mind Blast",
             "id": 466086
@@ -451,7 +451,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122953?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122953?namespace=static-11.1.0_59095-us"
         },
         "id": 122953
       }
@@ -461,7 +461,7 @@
       "title": "Anvilrage Soldier",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122960?namespace=static-11.1.0_59095-us"
         },
         "id": 122960
       }
@@ -475,7 +475,7 @@
           "title": "Stealth",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466234?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466234?namespace=static-11.1.0_59095-us"
             },
             "name": "Stealth",
             "id": 466234
@@ -486,7 +486,7 @@
           "title": "Sinister Strike",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466109?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466109?namespace=static-11.1.0_59095-us"
             },
             "name": "Sinister Strike",
             "id": 466109
@@ -497,7 +497,7 @@
           "title": "Crippling Poison",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466111?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466111?namespace=static-11.1.0_59095-us"
             },
             "name": "Crippling Poison",
             "id": 466111
@@ -508,7 +508,7 @@
           "title": "Shadowstep",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466254?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466254?namespace=static-11.1.0_59095-us"
             },
             "name": "Shadowstep",
             "id": 466254
@@ -519,7 +519,7 @@
           "title": "Fixate",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466259?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466259?namespace=static-11.1.0_59095-us"
             },
             "name": "Fixate",
             "id": 466259
@@ -528,7 +528,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122956?namespace=static-11.1.0_59095-us"
         },
         "id": 122956
       }
@@ -542,7 +542,7 @@
           "title": "Detonate",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/466273?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/466273?namespace=static-11.1.0_59095-us"
             },
             "name": "Detonate",
             "id": 466273
@@ -551,7 +551,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122959?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122959?namespace=static-11.1.0_59095-us"
         },
         "id": 122959
       }
@@ -565,7 +565,7 @@
           "title": "Artillery Barrage",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467424?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467424?namespace=static-11.1.0_59095-us"
             },
             "name": "Artillery Barrage",
             "id": 467424
@@ -576,7 +576,7 @@
           "title": "Mortar",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467505?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467505?namespace=static-11.1.0_59095-us"
             },
             "name": "Mortar",
             "id": 467505
@@ -585,7 +585,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122948?namespace=static-11.1.0_59095-us"
         },
         "id": 122948
       }
@@ -599,7 +599,7 @@
           "title": "Firing Line",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/467423?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/467423?namespace=static-11.1.0_59095-us"
             },
             "name": "Firing Line",
             "id": 467423
@@ -608,7 +608,7 @@
       ],
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122950?namespace=static-11.1.0_59095-us"
         },
         "id": 122950
       }
@@ -616,7 +616,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301

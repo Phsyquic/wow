@@ -27,7 +27,7 @@ export class RaidbotsApiService {
   }
 
   getInstances(): Observable<Object> {
-    const _url = `https://www.raidbots.com/static/data/live/instances.json`;
+    const _url = 'https://www.raidbots.com/static/data/live/instances.json';
     let header = new HttpHeaders()
     .set('Content-Type', 'application/json')
 
@@ -37,17 +37,7 @@ export class RaidbotsApiService {
   }
 
   getItemList(): Observable<Object> {
-    const _url = `https://www.raidbots.com/static/data/live/encounter-items.json`;
-    let header = new HttpHeaders()
-    .set('Content-Type', 'application/json')
-
-     return this.http.get(_url, {
-      headers: header
-     });
-  }
-
-  getMetadata(): Observable<Object> {
-    const _url = `https://www.raidbots.com/static/data/live/encounter-names.json`;
+    const _url = 'https://www.raidbots.com/static/data/live/encounter-items.json';
     let header = new HttpHeaders()
     .set('Content-Type', 'application/json')
 

@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2611?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2611?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2611,
@@ -13,7 +13,7 @@
       "name": "The Bloodbound Horror",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117669?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117669?namespace=static-11.1.0_59095-us"
         },
         "id": 117669
       }
@@ -23,7 +23,7 @@
       "name": "Lost Watcher",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/27849?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/27849?namespace=static-11.1.0_59095-us"
         },
         "id": 27849
       }
@@ -33,7 +33,7 @@
       "name": "Forgotten Harbinger",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/90742?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/90742?namespace=static-11.1.0_59095-us"
         },
         "id": 90742
       }
@@ -43,7 +43,7 @@
       "name": "Blood Horror",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/92232?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/92232?namespace=static-11.1.0_59095-us"
         },
         "id": 92232
       }
@@ -51,30 +51,10 @@
   ],
   "items": [
     {
-      "id": 44321,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/219917?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Creeping Coagulum",
-        "id": 219917
-      }
-    },
-    {
-      "id": 44322,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212451?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Aberrant Spellforge",
-        "id": 212451
-      }
-    },
-    {
       "id": 44547,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212417?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212417?namespace=static-11.1.0_59095-us"
         },
         "name": "Beyond's Dark Visage",
         "id": 212417
@@ -84,7 +64,7 @@
       "id": 44548,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212447?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212447?namespace=static-11.1.0_59095-us"
         },
         "name": "Key to the Unseeming",
         "id": 212447
@@ -94,7 +74,7 @@
       "id": 44549,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212422?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212422?namespace=static-11.1.0_59095-us"
         },
         "name": "Bloodbound Horror's Legplates",
         "id": 212422
@@ -104,7 +84,7 @@
       "id": 44550,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212430?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212430?namespace=static-11.1.0_59095-us"
         },
         "name": "Shattered Eye Cincture",
         "id": 212430
@@ -114,7 +94,7 @@
       "id": 44551,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212438?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212438?namespace=static-11.1.0_59095-us"
         },
         "name": "Polluted Spectre's Wraps",
         "id": 212438
@@ -124,7 +104,7 @@
       "id": 44552,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212395?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212395?namespace=static-11.1.0_59095-us"
         },
         "name": "Blood-Kissed Kukri",
         "id": 212395
@@ -134,7 +114,7 @@
       "id": 44553,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225590?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225590?namespace=static-11.1.0_59095-us"
         },
         "name": "Boots of the Black Bulwark",
         "id": 225590
@@ -144,7 +124,7 @@
       "id": 44554,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212439?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212439?namespace=static-11.1.0_59095-us"
         },
         "name": "Beacons of the False Dawn",
         "id": 212439
@@ -154,7 +134,7 @@
       "id": 44555,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212414?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212414?namespace=static-11.1.0_59095-us"
         },
         "name": "Lost Watcher's Remains",
         "id": 212414
@@ -164,7 +144,7 @@
       "id": 44556,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212404?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212404?namespace=static-11.1.0_59095-us"
         },
         "name": "Scepter of Manifested Miasma",
         "id": 212404
@@ -174,10 +154,30 @@
       "id": 44557,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212421?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212421?namespace=static-11.1.0_59095-us"
         },
         "name": "Goresplattered Membrane",
         "id": 212421
+      }
+    },
+    {
+      "id": 44321,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219917?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Creeping Coagulum",
+        "id": 219917
+      }
+    },
+    {
+      "id": 44322,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212451?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Aberrant Spellforge",
+        "id": 212451
       }
     }
   ],
@@ -221,7 +221,7 @@
                   "title": "Black Bulwark",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/451288?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/451288?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Black Bulwark",
                     "id": 451288
@@ -232,7 +232,7 @@
                   "title": "Spectral Slam",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/445016?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/445016?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Spectral Slam",
                     "id": 445016
@@ -241,7 +241,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/27849?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/27849?namespace=static-11.1.0_59095-us"
                 },
                 "id": 27849
               }
@@ -263,7 +263,7 @@
                           "title": "Blood Pact",
                           "spell": {
                             "key": {
-                              "href": "https://us.api.blizzard.com/data/wow/spell/445257?namespace=static-11.0.7_57788-us"
+                              "href": "https://us.api.blizzard.com/data/wow/spell/445257?namespace=static-11.1.0_59095-us"
                             },
                             "name": "Blood Pact",
                             "id": 445257
@@ -272,7 +272,7 @@
                       ],
                       "creature_display": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/92232?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/92232?namespace=static-11.1.0_59095-us"
                         },
                         "id": 92232
                       }
@@ -280,7 +280,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/445174?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/445174?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Manifest Horror",
                     "id": 445174
@@ -289,7 +289,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/90742?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/90742?namespace=static-11.1.0_59095-us"
                 },
                 "id": 90742
               }
@@ -299,7 +299,7 @@
               "title": "Unseeming Blight",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445570?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445570?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Unseeming Blight",
                 "id": 445570
@@ -308,7 +308,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/462306?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/462306?namespace=static-11.1.0_59095-us"
             },
             "name": "The Unseeming",
             "id": 462306
@@ -317,7 +317,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/444363?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/444363?namespace=static-11.1.0_59095-us"
         },
         "name": "Gruesome Disgorge",
         "id": 444363
@@ -328,7 +328,7 @@
       "title": "Bloodcurdle",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/452237?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/452237?namespace=static-11.1.0_59095-us"
         },
         "name": "Bloodcurdle",
         "id": 452237
@@ -339,7 +339,7 @@
       "title": "Spewing Hemorrhage",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/445936?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/445936?namespace=static-11.1.0_59095-us"
         },
         "name": "Spewing Hemorrhage",
         "id": 445936
@@ -354,7 +354,7 @@
           "title": "Seeping Transfusion",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/461876?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/461876?namespace=static-11.1.0_59095-us"
             },
             "name": "Seeping Transfusion",
             "id": 461876
@@ -363,7 +363,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442530?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442530?namespace=static-11.1.0_59095-us"
         },
         "name": "Goresplatter",
         "id": 442530
@@ -374,7 +374,7 @@
       "title": "Crimson Rain",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/443305?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/443305?namespace=static-11.1.0_59095-us"
         },
         "name": "Crimson Rain",
         "id": 443305
@@ -385,7 +385,7 @@
       "title": "Grasp From Beyond",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/443042?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/443042?namespace=static-11.1.0_59095-us"
         },
         "name": "Grasp From Beyond",
         "id": 443042
@@ -396,7 +396,7 @@
       "title": "Black Sepsis",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/438696?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/438696?namespace=static-11.1.0_59095-us"
         },
         "name": "Black Sepsis",
         "id": 438696
@@ -405,7 +405,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

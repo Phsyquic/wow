@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222447?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222447?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 222447,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222447?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222447?namespace=static-11.1.0_59095-us"
     },
     "id": 222447
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
     },
     "name": "Weapon",
     "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-us"
     },
     "name": "Sword",
     "id": 8
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222447?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222447?namespace=static-11.1.0_59095-us"
       },
       "id": 222447
     },
@@ -61,20 +61,20 @@
     "name": "Charged Claymore",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222447?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222447?namespace=static-11.1.0_59095-us"
       },
       "id": 222447
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
       },
       "name": "Weapon",
       "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-11.1.0_59095-us"
       },
       "name": "Sword",
       "id": 8
@@ -215,7 +215,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/84693?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/84693?namespace=static-11.1.0_59095-us"
       },
       "id": 84693
     }

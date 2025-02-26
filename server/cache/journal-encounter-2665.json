@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2665?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2665?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2665,
@@ -13,7 +13,7 @@
       "name": "Lord Incendius",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120760?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120760?namespace=static-11.1.0_59095-us"
         },
         "id": 120760
       }
@@ -23,7 +23,7 @@
       "name": "Flame Geyser",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.1.0_59095-us"
         },
         "id": 122227
       }
@@ -34,7 +34,7 @@
       "id": 44850,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231406?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231406?namespace=static-11.1.0_59095-us"
         },
         "name": "Flameweave Cuffs",
         "id": 231406
@@ -44,7 +44,7 @@
       "id": 44851,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231467?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231467?namespace=static-11.1.0_59095-us"
         },
         "name": "Flamelord's Emberstaff",
         "id": 231467
@@ -54,7 +54,7 @@
       "id": 44852,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231404?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231404?namespace=static-11.1.0_59095-us"
         },
         "name": "Cinderhide Armsplints",
         "id": 231404
@@ -64,7 +64,7 @@
       "id": 44853,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231468?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231468?namespace=static-11.1.0_59095-us"
         },
         "name": "Flamekeeper's Fire Blanket",
         "id": 231468
@@ -74,7 +74,7 @@
       "id": 44854,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231405?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231405?namespace=static-11.1.0_59095-us"
         },
         "name": "Pyremail Wristguards",
         "id": 231405
@@ -84,7 +84,7 @@
       "id": 44855,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231464?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231464?namespace=static-11.1.0_59095-us"
         },
         "name": "Flame-Tempered Skinner",
         "id": 231464
@@ -94,7 +94,7 @@
       "id": 44856,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231407?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231407?namespace=static-11.1.0_59095-us"
         },
         "name": "Emberplate Armguards",
         "id": 231407
@@ -129,7 +129,7 @@
       "title": "Firewall",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463487?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463487?namespace=static-11.1.0_59095-us"
         },
         "name": "Firewall",
         "id": 463487
@@ -140,7 +140,7 @@
       "title": "Consumptive Flames",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463503?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463503?namespace=static-11.1.0_59095-us"
         },
         "name": "Consumptive Flames",
         "id": 463503
@@ -159,7 +159,7 @@
               "title": "Blaze",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/463471?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/463471?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Blaze",
                 "id": 463471
@@ -170,7 +170,7 @@
               "title": "Dying Flare",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/463472?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/463472?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Dying Flare",
                 "id": 463472
@@ -179,7 +179,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122227?namespace=static-11.1.0_59095-us"
             },
             "id": 122227
           }
@@ -187,7 +187,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463486?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463486?namespace=static-11.1.0_59095-us"
         },
         "name": "Summon Flame Geyser",
         "id": 463486
@@ -202,7 +202,7 @@
           "title": "Blowback",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463499?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463499?namespace=static-11.1.0_59095-us"
             },
             "name": "Blowback",
             "id": 463499
@@ -211,7 +211,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463495?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463495?namespace=static-11.1.0_59095-us"
         },
         "name": "Scorching Wind",
         "id": 463495
@@ -220,7 +220,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301

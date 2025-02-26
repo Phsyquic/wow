@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 219331,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
     },
     "id": 219331
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
     },
     "name": "Leather",
     "id": 2
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
       },
       "id": 219331
     },
@@ -61,20 +61,20 @@
     "name": "Rune-Branded Waistband",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
       },
       "id": 219331
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
       },
       "name": "Leather",
       "id": 2
@@ -151,13 +151,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Haste",
+          "display_string": "+601 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -168,13 +168,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+601 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -209,14 +209,14 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
       },
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
       }
     ]
   },
@@ -224,7 +224,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.1.0_59095-us"
       },
       "id": 85147
     }

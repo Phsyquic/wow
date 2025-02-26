@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 222431,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.1.0_59095-us"
     },
     "id": 222431
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
     },
     "name": "Plate",
     "id": 4
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.1.0_59095-us"
       },
       "id": 222431
     },
@@ -61,20 +61,20 @@
     "name": "Everforged Greatbelt",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.1.0_59095-us"
       },
       "id": 222431
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
       },
       "name": "Plate",
       "id": 4
@@ -168,13 +168,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Haste",
+          "display_string": "+601 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -209,14 +209,14 @@
     },
     "modified_crafting_stat": [
       {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
+      },
+      {
         "id": 32,
         "type": "CRIT_RATING",
         "name": "Critical Strike"
-      },
-      {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
       }
     ]
   },
@@ -224,7 +224,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85202?namespace=static-11.0.7_57788-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85202?namespace=static-11.1.0_59095-us"
       },
       "id": 85202
     }

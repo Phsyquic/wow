@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2599?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2599?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2599,
@@ -13,7 +13,7 @@
       "name": "Sikran",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116257?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116257?namespace=static-11.1.0_59095-us"
         },
         "id": 116257
       }
@@ -21,30 +21,10 @@
   ],
   "items": [
     {
-      "id": 44330,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212449?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Sikran's Endless Arsenal",
-        "id": 212449
-      }
-    },
-    {
-      "id": 44600,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/223097?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Pattern: Adrenal Surge Clasp",
-        "id": 223097
-      }
-    },
-    {
       "id": 44476,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212392?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212392?namespace=static-11.1.0_59095-us"
         },
         "name": "Duelist's Dancing Steel",
         "id": 212392
@@ -54,7 +34,7 @@
       "id": 44477,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212416?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212416?namespace=static-11.1.0_59095-us"
         },
         "name": "Cosmic-Tinged Treads",
         "id": 212416
@@ -64,7 +44,7 @@
       "id": 44478,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212405?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212405?namespace=static-11.1.0_59095-us"
         },
         "name": "Flawless Phase Blade",
         "id": 212405
@@ -74,7 +54,7 @@
       "id": 44479,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212413?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212413?namespace=static-11.1.0_59095-us"
         },
         "name": "Honored Executioner's Perforator",
         "id": 212413
@@ -84,7 +64,7 @@
       "id": 44480,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225577?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225577?namespace=static-11.1.0_59095-us"
         },
         "name": "Sureki Zealot's Insignia",
         "id": 225577
@@ -94,7 +74,7 @@
       "id": 44481,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225619?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225619?namespace=static-11.1.0_59095-us"
         },
         "name": "Mystic Stalwart's Emblem",
         "id": 225619
@@ -104,7 +84,7 @@
       "id": 44482,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225620?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225620?namespace=static-11.1.0_59095-us"
         },
         "name": "Venerated Stalwart's Emblem",
         "id": 225620
@@ -114,7 +94,7 @@
       "id": 44483,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212399?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212399?namespace=static-11.1.0_59095-us"
         },
         "name": "Splintershot Silkbow",
         "id": 212399
@@ -124,7 +104,7 @@
       "id": 44484,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212427?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212427?namespace=static-11.1.0_59095-us"
         },
         "name": "Visor of the Ascended Captain",
         "id": 212427
@@ -134,7 +114,7 @@
       "id": 44485,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212445?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212445?namespace=static-11.1.0_59095-us"
         },
         "name": "Chitin-Spiked Jackboots",
         "id": 212445
@@ -144,7 +124,7 @@
       "id": 44486,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225618?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225618?namespace=static-11.1.0_59095-us"
         },
         "name": "Dreadful Stalwart's Emblem",
         "id": 225618
@@ -154,7 +134,7 @@
       "id": 44487,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225621?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225621?namespace=static-11.1.0_59095-us"
         },
         "name": "Zenith Stalwart's Emblem",
         "id": 225621
@@ -164,10 +144,30 @@
       "id": 44488,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212415?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212415?namespace=static-11.1.0_59095-us"
         },
         "name": "Throne Defender's Bangles",
         "id": 212415
+      }
+    },
+    {
+      "id": 44330,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212449?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sikran's Endless Arsenal",
+        "id": 212449
+      }
+    },
+    {
+      "id": 44600,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223097?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pattern: Adrenal Surge Clasp",
+        "id": 223097
       }
     }
   ],
@@ -207,7 +207,7 @@
               "title": "Cosmic Shards",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/459273?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459273?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cosmic Shards",
                 "id": 459273
@@ -218,7 +218,7 @@
               "title": "Cosmic Residue",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/459785?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459785?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cosmic Residue",
                 "id": 459785
@@ -229,7 +229,7 @@
               "title": "Collapsing Nova",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/461401?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/461401?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Collapsing Nova",
                 "id": 461401
@@ -238,7 +238,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/458272?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/458272?namespace=static-11.1.0_59095-us"
             },
             "name": "Cosmic Simulacrum",
             "id": 458272
@@ -247,7 +247,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/433475?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/433475?namespace=static-11.1.0_59095-us"
         },
         "name": "Phase Blades",
         "id": 433475
@@ -258,7 +258,7 @@
       "title": "Decimate",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/442428?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/442428?namespace=static-11.1.0_59095-us"
         },
         "name": "Decimate",
         "id": 442428
@@ -269,7 +269,7 @@
       "title": "Shattering Sweep",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/456420?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/456420?namespace=static-11.1.0_59095-us"
         },
         "name": "Shattering Sweep",
         "id": 456420
@@ -284,7 +284,7 @@
           "title": "Expose",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/435401?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/435401?namespace=static-11.1.0_59095-us"
             },
             "name": "Expose",
             "id": 435401
@@ -295,7 +295,7 @@
           "title": "Phase Lunge",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/432969?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/432969?namespace=static-11.1.0_59095-us"
             },
             "name": "Phase Lunge",
             "id": 432969
@@ -304,7 +304,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439511?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439511?namespace=static-11.1.0_59095-us"
         },
         "name": "Captain's Flourish",
         "id": 439511
@@ -315,7 +315,7 @@
       "title": "Rain of Arrows",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/439559?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/439559?namespace=static-11.1.0_59095-us"
         },
         "name": "Rain of Arrows",
         "id": 439559
@@ -324,7 +324,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

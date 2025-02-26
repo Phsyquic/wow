@@ -251,7 +251,7 @@ export class BisesComponent implements OnInit {
       return '#0070de';
     }
     if (spec == 'Assassination Rogue' || spec == 'Outlaw Rogue' || spec == 'Subtlety Rogue') {
-      return '#fff569';
+      return '#e6d600';
     }
     if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
       return '#69ccf0';
@@ -339,7 +339,7 @@ export class BisesComponent implements OnInit {
             realItemList.push(item);
           } else {
             // Aquí usamos 'await' para esperar a que 'getEncounter' se resuelva antes de continuar
-            const encounterName = await this.getEncounter(element.drop.encounterId);
+            var encounterName = await this.getEncounter(element.drop.encounterId);
             item = {
               id: element.id,
               instance: ins,
@@ -431,7 +431,8 @@ export class BisesComponent implements OnInit {
               img: this.getTierImg(bossTier[1]),
               name: bossTier[2],
               instance: 'Tier',
-              iType: iType
+              iType: iType,
+              iTier: bossTier[1]
             }
             realTableBistList.push(item);
           }
@@ -443,7 +444,7 @@ export class BisesComponent implements OnInit {
             name: element.name,
             instance: 'Desconocido',
             iType: iType
-          }
+          }   
           realTableBistList.push(item);
         }
       } else {
@@ -562,14 +563,14 @@ export class BisesComponent implements OnInit {
   }
 
   filtrarTiers(tableBisList: any, num: any, slot: any) {
-    const filteredList = tableBisList.filter((item: any) => item.instance === "Tier " + num && item.name === slot);
+    const filteredList = tableBisList.filter((item: any) => item.instance === "Tier" && item.name === slot && item.iTier === num);
 
     if (filteredList.length > 0) {
       const mergedItem = { ...filteredList[0] }; // Clona el primer objeto encontrado
       mergedItem.spec = [...new Set(filteredList.flatMap((item: any) => item.spec))]; // Combina y elimina duplicados
 
       // Reemplaza los elementos filtrados con el objeto mergeado
-      tableBisList = tableBisList.filter((item: any) => !(item.instance === "Tier " + num && item.name === slot));
+      tableBisList = tableBisList.filter((item: any) => !(item.instance === "Tier" && item.name === slot && item.iTier === num));
 
       // Añade el objeto mergeado a la lista
       tableBisList.push(mergedItem);
@@ -593,19 +594,19 @@ export class BisesComponent implements OnInit {
 
   comprobarTier(slot: any, spec: any) {
     if (slot == 7) {
-      return [2601, this.getTier(spec), 'Hands'];
+      return [2640, this.getTier(spec), 'Hands'];
     }
     if (slot == 5 || slot == 20) {
-      return [2612, this.getTier(spec), 'Chest'];
+      return [2653, this.getTier(spec), 'Chest'];
     }
     if (slot == 10) {
-      return [2599, this.getTier(spec), 'Legs'];
+      return [2642, this.getTier(spec), 'Legs'];
     }
     if (slot == 3) {
-      return [2609, this.getTier(spec), 'Shoulder'];
+      return [2641, this.getTier(spec), 'Shoulder'];
     }
     if (slot == 1) {
-      return [2608, this.getTier(spec), 'Head'];
+      return [2644, this.getTier(spec), 'Head'];
     }
     return [-1, -1, ''];
   }
@@ -672,13 +673,12 @@ export class BisesComponent implements OnInit {
     }
     this.tableBisList = this.tableBisList_full;
     var dataFiltrada = [];
-    console.log(this.tableBisList);
     switch (filtro) {
       //Filtro Instances
       case 0:
         if (data != 'M+ Dungeons') {
           dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
-          if (data == this.instancesLibrary.at(-1)) {
+          if (data == "Liberation of Undermine") {
             this.encounterFlag = 0;
           } else {
             this.encounterFlag = -1;
@@ -722,7 +722,6 @@ export class BisesComponent implements OnInit {
       default:
         this.resetFiltros();
     }
-    console.log(dataFiltrada);
     this.tableBisList = dataFiltrada;
   }
 

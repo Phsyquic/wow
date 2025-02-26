@@ -18,7 +18,7 @@ belt
 legs
 229252
 boots
-159679
+168972
 ring
 231265
 ring
@@ -26,7 +26,7 @@ ring
 trinket
 230198
 trinket
-178808
+219309
 weapon
 232526
 
@@ -490,7 +490,7 @@ legs
 boots
 229300
 ring
-231265
+228843
 ring
 228411
 
@@ -678,7 +678,7 @@ ring
 trinket
 230198
 trinket
-230192
+230186
 
 Priest Shadow
 head
@@ -942,35 +942,65 @@ staff
 
 Warrior Arms
 head
-229235
-neck
-221060
-shoulders
-229233
-cloak
-228844
-chest
-229238
-bracers
 222435
-gloves
+bracers
 229236
+gloves
+229232
 belt
-221040
+229234
 legs
-221034
+228887
 boots
-221123
-ring
 228411
 ring
 231265
-trinket
-232485
+ring
+230027
 trinket
 230198
-mainhand
+trinket
 232526
+mainhand
+221100
+helm
+221060
+neck
+159415
+shoulders
+159287
+cloak
+221069
+chest
+221064
+bracers
+168980
+gloves
+234505
+belt
+178800
+legs
+159679
+boots
+178871
+ring
+178872
+ring
+232541
+trinket
+178811
+trinket
+178866
+mainhand
+229235
+helm
+228841
+neck
+229233
+shoulders
+228839
+cloak
+228851
 
 Warrior Fury
 head

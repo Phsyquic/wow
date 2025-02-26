@@ -1,0 +1,157 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 232541,
+  "name": "Improvised Seaforium Pacemaker",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 636,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-11.1.0_59095-us"
+    },
+    "id": 232541
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4578036,
+  "sell_price": 915607,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "It's just crazy enough to work...",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-11.1.0_59095-us"
+      },
+      "id": 232541
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Improvised Seaforium Pacemaker",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-11.1.0_59095-us"
+      },
+      "id": 232541
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3508,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,508 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 3508,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,508 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1218714?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Improvised Seaforium Pacemaker",
+          "id": 1218714
+        },
+        "description": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 2,915 Critical Strike for 15 sec.\r\n\r\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times."
+      }
+    ],
+    "sell_price": {
+      "value": 915607,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "91",
+        "silver": "56",
+        "copper": "7"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "description": "It's just crazy enough to work...",
+    "level": {
+      "value": 636,
+      "display_string": "Item Level 636"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

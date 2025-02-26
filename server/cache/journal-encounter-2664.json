@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2664?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2664?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2664,
@@ -13,7 +13,7 @@
       "name": "Bael'Gar",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120759?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120759?namespace=static-11.1.0_59095-us"
         },
         "id": 120759
       }
@@ -23,7 +23,7 @@
       "name": "Spawn of Bael'Gar",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.1.0_59095-us"
         },
         "id": 122126
       }
@@ -34,7 +34,7 @@
       "id": 44818,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231409?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231409?namespace=static-11.1.0_59095-us"
         },
         "name": "Force of Magma",
         "id": 231409
@@ -44,7 +44,7 @@
       "id": 44819,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231411?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231411?namespace=static-11.1.0_59095-us"
         },
         "name": "Sash of the Burning Heart",
         "id": 231411
@@ -54,7 +54,7 @@
       "id": 44820,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231447?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231447?namespace=static-11.1.0_59095-us"
         },
         "name": "Bloodclot Band",
         "id": 231447
@@ -64,7 +64,7 @@
       "id": 44821,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231458?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231458?namespace=static-11.1.0_59095-us"
         },
         "name": "Insolent Dark Iron's Vest",
         "id": 231458
@@ -74,7 +74,7 @@
       "id": 44822,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231408?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231408?namespace=static-11.1.0_59095-us"
         },
         "name": "Lavacrest Leggings",
         "id": 231408
@@ -84,7 +84,7 @@
       "id": 44823,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231461?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231461?namespace=static-11.1.0_59095-us"
         },
         "name": "Magma Giant's Crown",
         "id": 231461
@@ -94,7 +94,7 @@
       "id": 44824,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231410?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231410?namespace=static-11.1.0_59095-us"
         },
         "name": "Rubidium Hammer",
         "id": 231410
@@ -104,7 +104,7 @@
       "id": 44825,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231462?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231462?namespace=static-11.1.0_59095-us"
         },
         "name": "Molten Furnace",
         "id": 231462
@@ -114,7 +114,7 @@
       "id": 44826,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231463?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231463?namespace=static-11.1.0_59095-us"
         },
         "name": "Arbiter's Blade",
         "id": 231463
@@ -149,7 +149,7 @@
       "title": "Giant Strike",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/462974?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/462974?namespace=static-11.1.0_59095-us"
         },
         "name": "Giant Strike",
         "id": 462974
@@ -173,7 +173,7 @@
                   "title": "Molten Heart",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/462968?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/462968?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Molten Heart",
                     "id": 462968
@@ -182,7 +182,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122126?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122126
               }
@@ -194,7 +194,7 @@
           "title": "Crumbling Ceiling",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/463891?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/463891?namespace=static-11.1.0_59095-us"
             },
             "name": "Crumbling Ceiling",
             "id": 463891
@@ -203,7 +203,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463890?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463890?namespace=static-11.1.0_59095-us"
         },
         "name": "Rockfall",
         "id": 463890
@@ -214,7 +214,7 @@
       "title": "Molten Furnace",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463143?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463143?namespace=static-11.1.0_59095-us"
         },
         "name": "Molten Furnace",
         "id": 463143
@@ -225,7 +225,7 @@
       "title": "Shatter",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/462972?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/462972?namespace=static-11.1.0_59095-us"
         },
         "name": "Shatter",
         "id": 462972
@@ -234,7 +234,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301

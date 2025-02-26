@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2602?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2602?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2602,
@@ -13,7 +13,7 @@
       "name": "Queen Ansurek",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118481?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118481?namespace=static-11.1.0_59095-us"
         },
         "id": 118481
       }
@@ -23,7 +23,7 @@
       "name": "Ascended Voidspeaker",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119348?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119348?namespace=static-11.1.0_59095-us"
         },
         "id": 119348
       }
@@ -33,7 +33,7 @@
       "name": "Devoted Worshipper",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119403?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119403?namespace=static-11.1.0_59095-us"
         },
         "id": 119403
       }
@@ -43,7 +43,7 @@
       "name": "Chamber Guardian",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119373?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119373?namespace=static-11.1.0_59095-us"
         },
         "id": 119373
       }
@@ -53,7 +53,7 @@
       "name": "Chamber Expeller",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119968?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119968?namespace=static-11.1.0_59095-us"
         },
         "id": 119968
       }
@@ -63,7 +63,7 @@
       "name": "Caustic Skitterer",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.1.0_59095-us"
         },
         "id": 122689
       }
@@ -73,7 +73,7 @@
       "name": "Summoned Acolyte",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.1.0_59095-us"
         },
         "id": 122687
       }
@@ -83,7 +83,7 @@
       "name": "Gloom Hatchling",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118605?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118605?namespace=static-11.1.0_59095-us"
         },
         "id": 118605
       }
@@ -91,30 +91,10 @@
   ],
   "items": [
     {
-      "id": 44327,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212454?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Mad Queen's Mandate",
-        "id": 212454
-      }
-    },
-    {
-      "id": 44603,
-      "item": {
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.0.7_57788-us"
-        },
-        "name": "Formula: Enchant Weapon - Authority of the Depths",
-        "id": 223144
-      }
-    },
-    {
       "id": 44499,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225579?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225579?namespace=static-11.1.0_59095-us"
         },
         "name": "Crest of the Caustic Despot",
         "id": 225579
@@ -124,7 +104,7 @@
       "id": 44500,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212394?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212394?namespace=static-11.1.0_59095-us"
         },
         "name": "Sovereign's Disdain",
         "id": 212394
@@ -134,7 +114,7 @@
       "id": 44501,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212436?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212436?namespace=static-11.1.0_59095-us"
         },
         "name": "Clutches of Paranoia",
         "id": 212436
@@ -144,7 +124,7 @@
       "id": 44502,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212420?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212420?namespace=static-11.1.0_59095-us"
         },
         "name": "Queensguard Carapace",
         "id": 212420
@@ -154,7 +134,7 @@
       "id": 44503,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225578?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225578?namespace=static-11.1.0_59095-us"
         },
         "name": "Seal of the Poisoned Pact",
         "id": 225578
@@ -164,7 +144,7 @@
       "id": 44504,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212433?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212433?namespace=static-11.1.0_59095-us"
         },
         "name": "Omnivore's Venomous Camouflage",
         "id": 212433
@@ -174,7 +154,7 @@
       "id": 44505,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212434?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212434?namespace=static-11.1.0_59095-us"
         },
         "name": "Voidspoken Sarong",
         "id": 212434
@@ -184,7 +164,7 @@
       "id": 44506,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212401?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212401?namespace=static-11.1.0_59095-us"
         },
         "name": "Ansurek's Final Judgment",
         "id": 212401
@@ -194,7 +174,7 @@
       "id": 44507,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225634?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225634?namespace=static-11.1.0_59095-us"
         },
         "name": "Web-Wrapped Curio",
         "id": 225634
@@ -204,7 +184,7 @@
       "id": 44508,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225585?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225585?namespace=static-11.1.0_59095-us"
         },
         "name": "Acrid Ascendant's Sash",
         "id": 225585
@@ -214,7 +194,7 @@
       "id": 44509,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212444?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212444?namespace=static-11.1.0_59095-us"
         },
         "name": "Frame of Felled Insurgents",
         "id": 212444
@@ -224,7 +204,7 @@
       "id": 44510,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/212435?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/212435?namespace=static-11.1.0_59095-us"
         },
         "name": "Liquified Defector's Leggings",
         "id": 212435
@@ -234,7 +214,7 @@
       "id": 44511,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/225587?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/225587?namespace=static-11.1.0_59095-us"
         },
         "name": "Devoted Offering's Irons",
         "id": 225587
@@ -244,7 +224,7 @@
       "id": 44596,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/224147?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/224147?namespace=static-11.1.0_59095-us"
         },
         "name": "Reins of the Sureki Skyrazor",
         "id": 224147
@@ -254,10 +234,30 @@
       "id": 44597,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/224151?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/224151?namespace=static-11.1.0_59095-us"
         },
         "name": "Reins of the Ascendant Skyrazor",
         "id": 224151
+      }
+    },
+    {
+      "id": 44327,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212454?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Mad Queen's Mandate",
+        "id": 212454
+      }
+    },
+    {
+      "id": 44603,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
       }
     }
   ],
@@ -331,7 +331,7 @@
                       "title": "Reaction Trauma",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/464628?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/464628?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Reaction Trauma",
                         "id": 464628
@@ -340,7 +340,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/451278?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/451278?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Concentrated Toxin",
                     "id": 451278
@@ -355,7 +355,7 @@
                       "title": "Lingering Toxin",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/464643?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/464643?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Lingering Toxin",
                         "id": 464643
@@ -364,7 +364,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/464638?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/464638?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Frothy Toxin",
                     "id": 464638
@@ -375,7 +375,7 @@
                   "title": "Toxic Reaction",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460133?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460133?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Toxic Reaction",
                     "id": 460133
@@ -386,7 +386,7 @@
                   "title": "Toxic Waves",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438481?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438481?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Toxic Waves",
                     "id": 438481
@@ -397,7 +397,7 @@
                   "title": "Acid",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Acid",
                     "id": 437078
@@ -408,7 +408,7 @@
                   "title": "Toxic Waves",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/438481?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438481?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Toxic Waves",
                     "id": 438481
@@ -417,7 +417,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/438846?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438846?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Reactive Froth",
                 "id": 438846
@@ -426,7 +426,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/437592?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/437592?namespace=static-11.1.0_59095-us"
             },
             "name": "Reactive Toxin",
             "id": 437592
@@ -441,7 +441,7 @@
               "title": "Reaction Vapor",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441556?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441556?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Reaction Vapor",
                 "id": 441556
@@ -450,7 +450,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/437417?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/437417?namespace=static-11.1.0_59095-us"
             },
             "name": "Venom Nova",
             "id": 437417
@@ -465,7 +465,7 @@
               "title": "Grasping Silk",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Grasping Silk",
                 "id": 441958
@@ -474,7 +474,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439814?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439814?namespace=static-11.1.0_59095-us"
             },
             "name": "Silken Tomb",
             "id": 439814
@@ -493,7 +493,7 @@
                   "title": "Acid",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Acid",
                     "id": 437078
@@ -502,7 +502,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441084?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441084?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acid Explosion",
                 "id": 441084
@@ -517,7 +517,7 @@
                   "title": "Acid",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/437078?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Acid",
                     "id": 437078
@@ -526,7 +526,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441084?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441084?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acid Explosion",
                 "id": 441084
@@ -535,7 +535,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/440899?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/440899?namespace=static-11.1.0_59095-us"
             },
             "name": "Liquefy",
             "id": 440899
@@ -546,7 +546,7 @@
           "title": "Feast",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/437093?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/437093?namespace=static-11.1.0_59095-us"
             },
             "name": "Feast",
             "id": 437093
@@ -557,7 +557,7 @@
           "title": "Feast",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/437093?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/437093?namespace=static-11.1.0_59095-us"
             },
             "name": "Feast",
             "id": 437093
@@ -568,7 +568,7 @@
           "title": "Web Blades",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439299?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439299?namespace=static-11.1.0_59095-us"
             },
             "name": "Web Blades",
             "id": 439299
@@ -579,7 +579,7 @@
           "title": "Acrid Presence",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/440607?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/440607?namespace=static-11.1.0_59095-us"
             },
             "name": "Acrid Presence",
             "id": 440607
@@ -601,7 +601,7 @@
               "title": "Predation Threads",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Predation Threads",
                 "id": 447170
@@ -612,7 +612,7 @@
               "title": "Predation Threads",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Predation Threads",
                 "id": 447170
@@ -627,7 +627,7 @@
                   "title": "Paralyzing Waves",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/451607?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/451607?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Paralyzing Waves",
                     "id": 451607
@@ -636,7 +636,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447456?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447456?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Paralyzing Venom",
                 "id": 447456
@@ -651,7 +651,7 @@
                   "title": "Grasping Silk",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Grasping Silk",
                     "id": 441958
@@ -660,7 +660,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447411?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447411?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Wrest",
                 "id": 447411
@@ -671,7 +671,7 @@
               "title": "Devour",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447240?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447240?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Devour",
                 "id": 447240
@@ -680,7 +680,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/447076?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/447076?namespace=static-11.1.0_59095-us"
             },
             "name": "Predation",
             "id": 447076
@@ -706,7 +706,7 @@
                   "title": "Gloom Blast",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Blast",
                     "id": 447983
@@ -717,7 +717,7 @@
                   "title": "Gloom",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom",
                     "id": 443403
@@ -726,7 +726,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/464056?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464056?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Gloom Touch",
                 "id": 464056
@@ -737,7 +737,7 @@
               "title": "Shadowy Distortion",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/460218?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460218?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Shadowy Distortion",
                 "id": 460218
@@ -746,7 +746,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/460366?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/460366?namespace=static-11.1.0_59095-us"
             },
             "name": "Shadowgate",
             "id": 460366
@@ -761,7 +761,7 @@
               "title": "Acid Bolt",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/448660?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/448660?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acid Bolt",
                 "id": 448660
@@ -776,7 +776,7 @@
                   "title": "Predation Threads",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Predation Threads",
                     "id": 447170
@@ -787,7 +787,7 @@
                   "title": "Predation Threads",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/447170?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Predation Threads",
                     "id": 447170
@@ -798,7 +798,7 @@
                   "title": "Grasping Silk",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/441958?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Grasping Silk",
                     "id": 441958
@@ -807,7 +807,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/450191?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/450191?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Wrest",
                 "id": 450191
@@ -818,7 +818,7 @@
               "title": "Acidic Apocalypse",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/449940?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/449940?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acidic Apocalypse",
                 "id": 449940
@@ -827,7 +827,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118481?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118481?namespace=static-11.1.0_59095-us"
             },
             "id": 118481
           }
@@ -841,7 +841,7 @@
               "title": "Shadowblast",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447950?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447950?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Shadowblast",
                 "id": 447950
@@ -856,7 +856,7 @@
                   "title": "Gloom Orbs",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/448176?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/448176?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Orbs",
                     "id": 448176
@@ -871,7 +871,7 @@
                       "title": "Gloom",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Gloom",
                         "id": 443403
@@ -880,7 +880,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/448046?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/448046?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Eruption",
                     "id": 448046
@@ -889,7 +889,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447999?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447999?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Radiating Gloom",
                 "id": 447999
@@ -900,7 +900,7 @@
               "title": "Echoing Connection",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/448300?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/448300?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Echoing Connection",
                 "id": 448300
@@ -909,7 +909,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119348?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119348?namespace=static-11.1.0_59095-us"
             },
             "id": 119348
           }
@@ -927,7 +927,7 @@
                   "title": "Gloom Blast",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Blast",
                     "id": 447983
@@ -936,7 +936,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447965?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447965?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Gloom Touch",
                 "id": 447965
@@ -951,7 +951,7 @@
                   "title": "Gloom Blast",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/447983?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Blast",
                     "id": 447983
@@ -962,7 +962,7 @@
                   "title": "Gloom",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom",
                     "id": 443403
@@ -971,7 +971,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/447965?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/447965?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Gloom Touch",
                 "id": 447965
@@ -982,7 +982,7 @@
               "title": "Worshipper's Protection",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/448488?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/448488?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Worshipper's Protection",
                 "id": 448488
@@ -997,7 +997,7 @@
                   "title": "Gloom",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom",
                     "id": 443403
@@ -1006,7 +1006,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/448458?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/448458?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cosmic Apocalypse",
                 "id": 448458
@@ -1015,7 +1015,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119403?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119403?namespace=static-11.1.0_59095-us"
             },
             "id": 119403
           }
@@ -1033,7 +1033,7 @@
                   "title": "Ousting Fragments",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/460315?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460315?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Ousting Fragments",
                     "id": 460315
@@ -1042,7 +1042,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/448147?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/448147?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Oust",
                 "id": 448147
@@ -1053,7 +1053,7 @@
               "title": "Echoing Connection",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/462692?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/462692?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Echoing Connection",
                 "id": 462692
@@ -1062,7 +1062,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119373?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119373?namespace=static-11.1.0_59095-us"
             },
             "id": 119373
           }
@@ -1076,7 +1076,7 @@
               "title": "Expulsion Beam",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/451600?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/451600?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Expulsion Beam",
                 "id": 451600
@@ -1087,7 +1087,7 @@
               "title": "Echoing Connection",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/462693?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/462693?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Echoing Connection",
                 "id": 462693
@@ -1096,7 +1096,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119968?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119968?namespace=static-11.1.0_59095-us"
             },
             "id": 119968
           }
@@ -1110,7 +1110,7 @@
               "title": "Dark Detonation",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/455374?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/455374?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Dark Detonation",
                 "id": 455374
@@ -1119,7 +1119,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122690?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122690?namespace=static-11.1.0_59095-us"
             },
             "id": 122690
           }
@@ -1133,7 +1133,7 @@
               "title": "Caustic Fangs",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/449235?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/449235?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Caustic Fangs",
                 "id": 449235
@@ -1142,7 +1142,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.1.0_59095-us"
             },
             "id": 122689
           }
@@ -1153,7 +1153,7 @@
           "body_text": "Caustic Skitterers land and attack nearby players.",
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122689?namespace=static-11.1.0_59095-us"
             },
             "id": 122689
           }
@@ -1178,7 +1178,7 @@
                   "title": "Abyssal Reverberation",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/455387?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/455387?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Abyssal Reverberation",
                     "id": 455387
@@ -1189,7 +1189,7 @@
                   "title": "Conduit Ejections",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/444507?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/444507?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Conduit Ejections",
                     "id": 444507
@@ -1204,7 +1204,7 @@
                       "title": "Conduit Ejections",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/444507?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/444507?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Conduit Ejections",
                         "id": 444507
@@ -1215,7 +1215,7 @@
                       "title": "Gloom",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Gloom",
                         "id": 443403
@@ -1224,7 +1224,7 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/444502?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/444502?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Conduit Collapse",
                     "id": 444502
@@ -1233,7 +1233,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443915?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443915?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Abyssal Conduit",
                 "id": 443915
@@ -1242,7 +1242,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/443888?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/443888?namespace=static-11.1.0_59095-us"
             },
             "name": "Abyssal Infusion",
             "id": 443888
@@ -1257,7 +1257,7 @@
               "title": "Glutton Threads",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445623?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445623?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Glutton Threads",
                 "id": 445623
@@ -1268,7 +1268,7 @@
               "title": "Froth Vapor",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445877?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445877?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Froth Vapor",
                 "id": 445877
@@ -1279,7 +1279,7 @@
               "title": "Froth Vapor",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445877?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445877?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Froth Vapor",
                 "id": 445877
@@ -1290,7 +1290,7 @@
               "title": "Consume",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/461408?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/461408?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Consume",
                 "id": 461408
@@ -1299,7 +1299,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/445422?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/445422?namespace=static-11.1.0_59095-us"
             },
             "name": "Frothing Gluttony",
             "id": 445422
@@ -1318,7 +1318,7 @@
                   "title": "Essence Scarred",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/446012?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446012?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Essence Scarred",
                     "id": 446012
@@ -1327,7 +1327,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445152?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445152?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acolyte's Essence",
                 "id": 445152
@@ -1338,7 +1338,7 @@
               "title": "Dark Barrier",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445013?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445013?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Dark Barrier",
                 "id": 445013
@@ -1349,7 +1349,7 @@
               "title": "Null Detonation",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445021?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445021?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Null Detonation",
                 "id": 445021
@@ -1358,14 +1358,14 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/444829?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/444829?namespace=static-11.1.0_59095-us"
             },
             "name": "Queen's Summons",
             "id": 444829
           },
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.1.0_59095-us"
             },
             "id": 122687
           }
@@ -1383,7 +1383,7 @@
                   "title": "Essence Scarred",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/446012?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446012?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Essence Scarred",
                     "id": 446012
@@ -1392,7 +1392,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445152?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445152?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Acolyte's Essence",
                 "id": 445152
@@ -1403,7 +1403,7 @@
               "title": "Dark Barrier",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445013?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445013?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Dark Barrier",
                 "id": 445013
@@ -1414,7 +1414,7 @@
               "title": "Null Detonation",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/445021?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/445021?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Null Detonation",
                 "id": 445021
@@ -1423,14 +1423,14 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/444829?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/444829?namespace=static-11.1.0_59095-us"
             },
             "name": "Queen's Summons",
             "id": 444829
           },
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122687?namespace=static-11.1.0_59095-us"
             },
             "id": 122687
           }
@@ -1448,7 +1448,7 @@
                   "title": "Royal Cocoon",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/441872?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/441872?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Royal Cocoon",
                     "id": 441872
@@ -1457,7 +1457,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/441865?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441865?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Royal Shackles",
                 "id": 441865
@@ -1466,7 +1466,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/438976?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/438976?namespace=static-11.1.0_59095-us"
             },
             "name": "Royal Condemnation",
             "id": 438976
@@ -1489,7 +1489,7 @@
                       "title": "Gloom",
                       "spell": {
                         "key": {
-                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                          "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                         },
                         "name": "Gloom",
                         "id": 443403
@@ -1498,14 +1498,14 @@
                   ],
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/443720?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/443720?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom Hatchling",
                     "id": 443720
                   },
                   "creature_display": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118605?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118605?namespace=static-11.1.0_59095-us"
                     },
                     "id": 118605
                   }
@@ -1513,7 +1513,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443667?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443667?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Infested Gloomburst",
                 "id": 443667
@@ -1522,7 +1522,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/443325?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/443325?namespace=static-11.1.0_59095-us"
             },
             "name": "Infest",
             "id": 443325
@@ -1537,7 +1537,7 @@
               "title": "Gloom Splatter",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443396?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443396?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Gloom Splatter",
                 "id": 443396
@@ -1546,7 +1546,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/443336?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/443336?namespace=static-11.1.0_59095-us"
             },
             "name": "Gorge",
             "id": 443336
@@ -1565,7 +1565,7 @@
                   "title": "Gloom",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/443403?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Gloom",
                     "id": 443403
@@ -1574,7 +1574,7 @@
               ],
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/443396?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/443396?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Gloom Splatter",
                 "id": 443396
@@ -1583,7 +1583,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/443336?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/443336?namespace=static-11.1.0_59095-us"
             },
             "name": "Gorge",
             "id": 443336
@@ -1594,7 +1594,7 @@
           "title": "Web Blades",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/439299?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/439299?namespace=static-11.1.0_59095-us"
             },
             "name": "Web Blades",
             "id": 439299
@@ -1609,7 +1609,7 @@
               "title": "Cataclysmic Evolution",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/451832?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/451832?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Cataclysmic Evolution",
                 "id": 451832
@@ -1618,7 +1618,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/445268?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/445268?namespace=static-11.1.0_59095-us"
             },
             "name": "Dreadful Presence",
             "id": 445268
@@ -1629,7 +1629,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
     },
     "name": "Nerub-ar Palace",
     "id": 1273

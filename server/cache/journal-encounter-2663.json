@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2663?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2663?namespace=static-11.1.0_59095-us"
     }
   },
   "id": 2663,
@@ -13,7 +13,7 @@
       "name": "Lord Roccor",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120758?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120758?namespace=static-11.1.0_59095-us"
         },
         "id": 120758
       }
@@ -23,7 +23,7 @@
       "name": "Son of Roccor",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.1.0_59095-us"
         },
         "id": 122010
       }
@@ -33,7 +33,7 @@
       "name": "Greater Obsidian Elemental",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.1.0_59095-us"
         },
         "id": 122011
       }
@@ -43,7 +43,7 @@
       "name": "Obsidian Elemental",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.1.0_59095-us"
         },
         "id": 122012
       }
@@ -53,7 +53,7 @@
       "name": "Lesser Obsidian Elemental",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.1.0_59095-us"
         },
         "id": 122013
       }
@@ -63,7 +63,7 @@
       "name": "Living Magma",
       "creature_display": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122014?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122014?namespace=static-11.1.0_59095-us"
         },
         "id": 122014
       }
@@ -74,7 +74,7 @@
       "id": 44857,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231457?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231457?namespace=static-11.1.0_59095-us"
         },
         "name": "Bottled Magma",
         "id": 231457
@@ -84,7 +84,7 @@
       "id": 44858,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231449?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231449?namespace=static-11.1.0_59095-us"
         },
         "name": "Leggings of Frenzied Magic",
         "id": 231449
@@ -94,7 +94,7 @@
       "id": 44859,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231397?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231397?namespace=static-11.1.0_59095-us"
         },
         "name": "Rubicund Armguards",
         "id": 231397
@@ -104,7 +104,7 @@
       "id": 44860,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231445?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231445?namespace=static-11.1.0_59095-us"
         },
         "name": "Mantle of Lost Hope",
         "id": 231445
@@ -114,7 +114,7 @@
       "id": 44861,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231394?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231394?namespace=static-11.1.0_59095-us"
         },
         "name": "Stoneshell Guard",
         "id": 231394
@@ -124,7 +124,7 @@
       "id": 44862,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231395?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231395?namespace=static-11.1.0_59095-us"
         },
         "name": "Earthslag Shoulders",
         "id": 231395
@@ -134,7 +134,7 @@
       "id": 44863,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231455?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231455?namespace=static-11.1.0_59095-us"
         },
         "name": "Embershard Pendant",
         "id": 231455
@@ -144,7 +144,7 @@
       "id": 44864,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231453?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231453?namespace=static-11.1.0_59095-us"
         },
         "name": "Shard Splinter",
         "id": 231453
@@ -154,7 +154,7 @@
       "id": 44865,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231454?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231454?namespace=static-11.1.0_59095-us"
         },
         "name": "Magma-Shot Boomstick",
         "id": 231454
@@ -164,7 +164,7 @@
       "id": 44866,
       "item": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/231456?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/item/231456?namespace=static-11.1.0_59095-us"
         },
         "name": "Heart of Roccor",
         "id": 231456
@@ -199,7 +199,7 @@
       "title": "Roiling Magma",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/462351?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/462351?namespace=static-11.1.0_59095-us"
         },
         "name": "Roiling Magma",
         "id": 462351
@@ -218,7 +218,7 @@
               "title": "Slag Armor",
               "spell": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.1.0_59095-us"
                 },
                 "name": "Slag Armor",
                 "id": 400279
@@ -227,7 +227,7 @@
           ],
           "creature_display": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.1.0_59095-us"
             },
             "id": 122010
           }
@@ -235,7 +235,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/463674?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/463674?namespace=static-11.1.0_59095-us"
         },
         "name": "Crystallize",
         "id": 463674
@@ -250,7 +250,7 @@
           "title": "Living Magma",
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/462346?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/462346?namespace=static-11.1.0_59095-us"
             },
             "name": "Living Magma",
             "id": 462346
@@ -269,7 +269,7 @@
                   "title": "Slag Armor",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Slag Armor",
                     "id": 400279
@@ -278,7 +278,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122010?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122010
               }
@@ -292,7 +292,7 @@
                   "title": "Slag Armor",
                   "spell": {
                     "key": {
-                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.0.7_57788-us"
+                      "href": "https://us.api.blizzard.com/data/wow/spell/400279?namespace=static-11.1.0_59095-us"
                     },
                     "name": "Slag Armor",
                     "id": 400279
@@ -301,7 +301,7 @@
               ],
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122011?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122011
               }
@@ -311,7 +311,7 @@
               "title": "Obsidian Elemental",
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122012?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122012
               }
@@ -321,7 +321,7 @@
               "title": "Lesser Obsidian Elemental",
               "creature_display": {
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.0.7_57788-us"
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122013?namespace=static-11.1.0_59095-us"
                 },
                 "id": 122013
               }
@@ -329,7 +329,7 @@
           ],
           "spell": {
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/spell/462320?namespace=static-11.0.7_57788-us"
+              "href": "https://us.api.blizzard.com/data/wow/spell/462320?namespace=static-11.1.0_59095-us"
             },
             "name": "Igneous Crystallization",
             "id": 462320
@@ -338,7 +338,7 @@
       ],
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/462322?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/462322?namespace=static-11.1.0_59095-us"
         },
         "name": "Eruption",
         "id": 462322
@@ -349,7 +349,7 @@
       "title": "Volcanic Upheaval",
       "spell": {
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/spell/462317?namespace=static-11.0.7_57788-us"
+          "href": "https://us.api.blizzard.com/data/wow/spell/462317?namespace=static-11.1.0_59095-us"
         },
         "name": "Volcanic Upheaval",
         "id": 462317
@@ -358,7 +358,7 @@
   ],
   "instance": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.0.7_57788-us"
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
     },
     "name": "Blackrock Depths",
     "id": 1301
