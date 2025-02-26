@@ -504,7 +504,7 @@ export class MainComponent implements OnInit {
         if (!existe) {
           colors.push('red');
         } else {
-          colors.push('black');
+          colors.push('white');
         }
       }
     });

@@ -3,12 +3,13 @@ span {
     margin-left: 10px;
 }
 .mainDiv {
-    border: 2px solid black;
+    border: 2px solid #bbbbbb;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px;
     display: inline-block;
-    background-color: white;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
 }
 
 select {
