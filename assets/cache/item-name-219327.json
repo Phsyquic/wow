@@ -1,0 +1,232 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/219327?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 219327,
+  "name": "Rune-Branded Kickers",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219327?namespace=static-11.1.0_59095-us"
+    },
+    "id": 219327
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": "Feet"
+  },
+  "purchase_price": 3514898,
+  "sell_price": 702979,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/219327?namespace=static-11.1.0_59095-us"
+      },
+      "id": 219327
+    },
+    "context": 0,
+    "bonus_list": [
+      10421,
+      9633,
+      8902
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Rune-Branded Kickers",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219327?namespace=static-11.1.0_59095-us"
+      },
+      "id": 219327
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": "Feet"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2129,
+      "display": {
+        "display_string": "2,129 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 1854,
+        "display": {
+          "display_string": "+1,854 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1854,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,854 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 9438,
+        "display": {
+          "display_string": "+9,438 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 601,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+601 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 601,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+601 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 702979,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "70",
+        "silver": "29",
+        "copper": "79"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 593,
+      "display_string": "Item Level 593"
+    },
+    "durability": {
+      "value": 80,
+      "display_string": "Durability 80 / 80"
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
+      },
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85149?namespace=static-11.1.0_59095-us"
+      },
+      "id": 85149
+    }
+  ]
+}

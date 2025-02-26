@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229319?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229319,
+  "name": "Fel-Dealer's Soul Engine",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229319?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229319
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": "Chest"
+  },
+  "purchase_price": 5053982,
+  "sell_price": 1010796,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229319?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229319
+    },
+    "context": 0,
+    "bonus_list": [
+      11958
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Fel-Dealer's Soul Engine",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229319?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229319
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 4021,
+      "display": {
+        "display_string": "4,021 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 564,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+564 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 1313,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,313 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1010796,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "101",
+        "silver": "7",
+        "copper": "96"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/12?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Demon Hunter",
+            "id": 12
+          }
+        ],
+        "display_string": "Classes: Demon Hunter"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1868?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Fel-Dealer's Contraband",
+        "id": 1868
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229319?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Fel-Dealer's Soul Engine",
+            "id": 229319
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229317?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Fel-Dealer's Underhandlers",
+            "id": 229317
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229316?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Fel-Dealer's Visor",
+            "id": 229316
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229315?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Fel-Dealer's Fur Kilt",
+            "id": 229315
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229314?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Fel-Dealer's Recycled Reavers",
+            "id": 229314
+          }
+        }
+      ],
+      "display_string": "Fel-Dealer's Contraband (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 165,
+      "display_string": "Durability 165 / 165"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95510?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95510
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95540?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95540
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95589?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95589
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95587?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95587
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95520?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95520
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95500?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95500
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95490?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95490
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95588?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95588
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95591?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95591
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95590?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95590
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95592?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95592
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95530?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95530
+    }
+  ]
+}

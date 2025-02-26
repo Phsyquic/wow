@@ -1,0 +1,244 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2636?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2636,
+  "name": "Shurrai, Atrocity of the Undersea",
+  "description": "The sea floor hides horrors beyond our imagining. Hallowfall's proximity to the Undersea brings it near the reach of creatures of the deep, and the kobyss are only eager to take advantage. Their summons raise Shurrai, Atrocity of the Undersea, to wreak havoc on their hunting grounds. Shurrai is an amalgamation of the worst terrors and putrefying flesh of the abyssal depths, and the Arathi will need all the help they can get to stop it.",
+  "creatures": [
+    {
+      "id": 5724,
+      "name": "Shurrai",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/96784?namespace=static-11.1.0_59095-us"
+        },
+        "id": 96784
+      }
+    },
+    {
+      "id": 5725,
+      "name": "Drowned Arathi",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-11.1.0_59095-us"
+        },
+        "id": 115496
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44587,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225734?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sturdy Chitinous Striders",
+        "id": 225734
+      }
+    },
+    {
+      "id": 44588,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225735?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dornish Warden's Coat",
+        "id": 225735
+      }
+    },
+    {
+      "id": 44589,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225733?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Abyssal Tendril Tights",
+        "id": 225733
+      }
+    },
+    {
+      "id": 44590,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225731?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Lightseeker's Robes",
+        "id": 225731
+      }
+    },
+    {
+      "id": 44591,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225745?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Crystal Star Cuisses",
+        "id": 225745
+      }
+    },
+    {
+      "id": 44592,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225732?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Deep Dweller's Tabi",
+        "id": 225732
+      }
+    },
+    {
+      "id": 44593,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225746?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Girdle of the Gleaming Dawn",
+        "id": 225746
+      }
+    },
+    {
+      "id": 44594,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225750?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Seal of the Abyssal Terror",
+        "id": 225750
+      }
+    },
+    {
+      "id": 44595,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225730?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Stone Gaze Ceinture",
+        "id": 225730
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 29964,
+      "title": "Overview",
+      "body_text": "Shurrai showers players with Hspell:453733[Briny Vomit] before washing away both players and vomit with Hspell:455275[Dark Tide].\r\n\r\nAt 100 energy Shurrai casts Hspell:453875[Regurgitate Souls], summoning Drowned Arathi and shielding himself with Hspell:455639[Shroud of the Drowned].",
+      "sections": [
+        {
+          "id": 29965,
+          "title": "Tanks",
+          "body_text": "$bullet;Hspell:453607[Abyssal Strike] applies a heal absorb equivalent to the amount of damage inflicted.\r\n$bullet;Hspell:455275[Dark Tide] washes away pools of Hspell:453733[Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+        },
+        {
+          "id": 29966,
+          "title": "Healers",
+          "body_text": "$bullet;Drowned Arathi inflict Hspell:453863[Ocean's Reckoning] upon death.\r\n$bullet;Hspell:455275[Dark Tide] washes away pools of Hspell:453733[Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+        },
+        {
+          "id": 29967,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Hspell:455275[Dark Tide] washes away pools of Hspell:453733[Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+        }
+      ]
+    },
+    {
+      "id": 29968,
+      "title": "Abyssal Strike",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/453607?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Abyssal Strike",
+        "id": 453607
+      }
+    },
+    {
+      "id": 29969,
+      "title": "Briny Vomit",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/453733?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Briny Vomit",
+        "id": 453733
+      }
+    },
+    {
+      "id": 29970,
+      "title": "Dark Tide",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/455275?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dark Tide",
+        "id": 455275
+      }
+    },
+    {
+      "id": 29971,
+      "title": "Regurgitate Souls",
+      "sections": [
+        {
+          "id": 29972,
+          "title": "Shroud of the Drowned",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/455639?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Shroud of the Drowned",
+            "id": 455639
+          }
+        },
+        {
+          "id": 29973,
+          "title": "Drowned Arathi",
+          "sections": [
+            {
+              "id": 30063,
+              "title": "Ocean's Reckoning",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/453863?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Ocean's Reckoning",
+                "id": 453863
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-11.1.0_59095-us"
+            },
+            "id": 115496
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/453875?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Regurgitate Souls",
+        "id": 453875
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Khaz Algar",
+    "id": 1278
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    }
+  ]
+}
