@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/230194?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 228843,
-  "name": "Miniature Roulette Wheel",
+  "id": 230194,
+  "name": "Reverb Radio",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,9 +14,9 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/230194?namespace=static-11.1.0_59095-us"
     },
-    "id": 228843
+    "id": 230194
   },
   "item_class": {
     "key": {
@@ -33,36 +33,32 @@
     "id": 0
   },
   "inventory_type": {
-    "type": "FINGER",
-    "name": "Finger"
+    "type": "TRINKET",
+    "name": "Trinket"
   },
-  "purchase_price": 3046248,
-  "sell_price": 609249,
+  "purchase_price": 4189057,
+  "sell_price": 837811,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
-  "description": "Spin to win!",
+  "description": "Rik & Roll, baby!",
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/230194?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 230194
     },
-    "context": 0,
-    "bonus_list": [
-      12166
-    ],
     "quality": {
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Miniature Roulette Wheel",
+    "name": "Reverb Radio",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/230194?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 230194
     },
     "item_class": {
       "key": {
@@ -79,8 +75,8 @@
       "id": 0
     },
     "inventory_type": {
-      "type": "FINGER",
-      "name": "Finger"
+      "type": "TRINKET",
+      "name": "Trinket"
     },
     "binding": {
       "type": "ON_ACQUIRE",
@@ -90,12 +86,12 @@
     "stats": [
       {
         "type": {
-          "type": "STAMINA",
-          "name": "Stamina"
+          "type": "INTELLECT",
+          "name": "Intellect"
         },
-        "value": 10948,
+        "value": 3108,
         "display": {
-          "display_string": "+10,948 Stamina",
+          "display_string": "+3,108 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -106,46 +102,58 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "AGILITY",
+          "name": "Agility"
         },
-        "value": 4673,
-        "is_equip_bonus": true,
+        "value": 3108,
+        "is_negated": true,
         "display": {
-          "display_string": "+4,673 Haste",
+          "display_string": "+3,108 Agility",
           "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
+            "r": 128,
+            "g": 128,
+            "b": 128,
             "a": 1
           }
         }
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "STRENGTH",
+          "name": "Strength"
         },
-        "value": 779,
-        "is_equip_bonus": true,
+        "value": 3108,
+        "is_negated": true,
         "display": {
-          "display_string": "+779 Versatility",
+          "display_string": "+3,108 Strength",
           "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
+            "r": 128,
+            "g": 128,
+            "b": 128,
             "a": 1
           }
         }
       }
     ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/471567?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Reverb Radio",
+          "id": 471567
+        },
+        "description": "Equip: Your spells and abilities have a high chance to Hype you up, granting 314 Haste up to 5 times. Upon reaching maximum Hype, amp it up by 100% for 15 sec before starting again."
+      }
+    ],
     "sell_price": {
-      "value": 609249,
+      "value": 837811,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "60",
-        "silver": "92",
-        "copper": "49"
+        "gold": "83",
+        "silver": "78",
+        "copper": "11"
       }
     },
     "requirements": {
@@ -154,24 +162,12 @@
         "display_string": "Requires Level 80"
       }
     },
-    "description": "Spin to win!",
+    "description": "Rik & Roll, baby!",
     "level": {
       "value": 623,
       "display_string": "Item Level 623"
     },
-    "is_subclass_hidden": true,
-    "modified_crafting_stat": [
-      {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
-      },
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      }
-    ]
+    "is_subclass_hidden": true
   },
   "purchase_quantity": 1
 }

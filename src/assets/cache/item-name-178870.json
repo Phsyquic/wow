@@ -1,22 +1,22 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/178870?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 228843,
-  "name": "Miniature Roulette Wheel",
+  "id": 178870,
+  "name": "Ritual Bone Band",
   "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+    "type": "RARE",
+    "name": "Rare"
   },
-  "level": 623,
-  "required_level": 80,
+  "level": 158,
+  "required_level": 60,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/178870?namespace=static-11.1.0_59095-us"
     },
-    "id": 228843
+    "id": 178870
   },
   "item_class": {
     "key": {
@@ -36,33 +36,28 @@
     "type": "FINGER",
     "name": "Finger"
   },
-  "purchase_price": 3046248,
-  "sell_price": 609249,
+  "purchase_price": 1874436,
+  "sell_price": 374887,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
-  "description": "Spin to win!",
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/178870?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 178870
     },
-    "context": 0,
-    "bonus_list": [
-      12166
-    ],
     "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+      "type": "RARE",
+      "name": "Rare"
     },
-    "name": "Miniature Roulette Wheel",
+    "name": "Ritual Bone Band",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/178870?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 178870
     },
     "item_class": {
       "key": {
@@ -93,9 +88,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 10948,
+        "value": 14,
         "display": {
-          "display_string": "+10,948 Stamina",
+          "display_string": "+14 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -106,13 +101,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "VERSATILITY",
+          "name": "Versatility"
         },
-        "value": 4673,
+        "value": 31,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+4,673 Haste",
+          "display_string": "+31 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -123,13 +118,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
-        "value": 779,
+        "value": 14,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+779 Versatility",
+          "display_string": "+14 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -140,38 +135,25 @@
       }
     ],
     "sell_price": {
-      "value": 609249,
+      "value": 14537,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "60",
-        "silver": "92",
-        "copper": "49"
+        "gold": "1",
+        "silver": "45",
+        "copper": "37"
       }
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "value": 60,
+        "display_string": "Requires Level 60"
       }
     },
-    "description": "Spin to win!",
     "level": {
-      "value": 623,
-      "display_string": "Item Level 623"
+      "value": 158,
+      "display_string": "Item Level 158"
     },
-    "is_subclass_hidden": true,
-    "modified_crafting_stat": [
-      {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
-      },
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      }
-    ]
+    "is_subclass_hidden": true
   },
   "purchase_quantity": 1
 }

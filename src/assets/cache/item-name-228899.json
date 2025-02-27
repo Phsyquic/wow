@@ -1,22 +1,22 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/228899?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 222451,
-  "name": "Charged Slicer",
+  "id": 228899,
+  "name": "Gallywix's Iron Thumb",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
   },
-  "level": 577,
+  "level": 623,
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228899?namespace=static-11.1.0_59095-us"
     },
-    "id": 222451
+    "id": 228899
   },
   "item_class": {
     "key": {
@@ -27,43 +27,37 @@
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-us"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Mace",
+    "id": 4
   },
   "inventory_type": {
     "type": "WEAPON",
     "name": "One-Hand"
   },
-  "purchase_price": 6894076,
-  "sell_price": 1378815,
+  "purchase_price": 7005583,
+  "sell_price": 1401116,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/228899?namespace=static-11.1.0_59095-us"
       },
-      "id": 222451
+      "id": 228899
     },
-    "context": 0,
-    "bonus_list": [
-      10421,
-      9633,
-      8902
-    ],
     "quality": {
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Charged Slicer",
+    "name": "Gallywix's Iron Thumb",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228899?namespace=static-11.1.0_59095-us"
       },
-      "id": 222451
+      "id": 228899
     },
     "item_class": {
       "key": {
@@ -74,10 +68,10 @@
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.0_59095-us"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Mace",
+      "id": 4
     },
     "inventory_type": {
       "type": "WEAPON",
@@ -89,9 +83,9 @@
     },
     "weapon": {
       "damage": {
-        "min_value": 2374,
-        "max_value": 4932,
-        "display_string": "2,374 - 4,932 Damage",
+        "min_value": 4226,
+        "max_value": 5435,
+        "display_string": "4,226 - 5,435 Damage",
         "damage_class": {
           "type": "PHYSICAL",
           "name": "Physical"
@@ -102,8 +96,8 @@
         "display_string": "Speed 2.60"
       },
       "dps": {
-        "value": 1404.8076,
-        "display_string": "(1,404 damage per second)"
+        "value": 1857.6923,
+        "display_string": "(1,857 damage per second)"
       }
     },
     "stats": [
@@ -112,27 +106,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1236,
+        "value": 1634,
         "is_negated": true,
         "display": {
-          "display_string": "+1,236 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 1236,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,236 Strength",
+          "display_string": "+1,634 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -146,9 +123,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 6292,
+        "value": 9732,
         "display": {
-          "display_string": "+6,292 Stamina",
+          "display_string": "+9,732 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -159,13 +136,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
         },
-        "value": 401,
+        "value": 282,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Versatility",
+          "display_string": "+282 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -176,13 +153,13 @@
       },
       {
         "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
-        "value": 401,
+        "value": 657,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Mastery",
+          "display_string": "+657 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -192,13 +169,25 @@
         }
       }
     ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/471316?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Vile Contamination",
+          "id": 471316
+        },
+        "description": "Equip: Your attacks have a very high chance to contaminate your target with industrial runoff up to 25 times, dealing 1,168 Shadow damage per stack every 3 sec until their demise."
+      }
+    ],
     "sell_price": {
-      "value": 1378815,
+      "value": 1401116,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "137",
-        "silver": "88",
-        "copper": "15"
+        "gold": "140",
+        "silver": "11",
+        "copper": "16"
       }
     },
     "requirements": {
@@ -208,33 +197,39 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 623,
+      "display_string": "Item Level 623"
     },
     "durability": {
       "value": 110,
       "display_string": "Durability 110 / 110"
-    },
-    "modified_crafting_stat": [
-      {
-        "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
-      },
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      }
-    ]
+    }
   },
   "purchase_quantity": 1,
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90910?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95408?namespace=static-11.1.0_59095-us"
       },
-      "id": 90910
+      "id": 95408
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95407?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95407
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95410?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95410
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95406?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95406
     }
   ]
 }

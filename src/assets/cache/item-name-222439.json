@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222439?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 222451,
-  "name": "Charged Slicer",
+  "id": 222439,
+  "name": "Everforged Dagger",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,9 +14,9 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222439?namespace=static-11.1.0_59095-us"
     },
-    "id": 222451
+    "id": 222439
   },
   "item_class": {
     "key": {
@@ -27,26 +27,26 @@
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
     },
-    "name": "Axe",
-    "id": 0
+    "name": "Dagger",
+    "id": 15
   },
   "inventory_type": {
     "type": "WEAPON",
     "name": "One-Hand"
   },
-  "purchase_price": 6894076,
-  "sell_price": 1378815,
+  "purchase_price": 7099091,
+  "sell_price": 1419818,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222451?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222439?namespace=static-11.1.0_59095-us"
       },
-      "id": 222451
+      "id": 222439
     },
     "context": 0,
     "bonus_list": [
@@ -58,12 +58,12 @@
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Charged Slicer",
+    "name": "Everforged Dagger",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222451?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222439?namespace=static-11.1.0_59095-us"
       },
-      "id": 222451
+      "id": 222439
     },
     "item_class": {
       "key": {
@@ -74,10 +74,10 @@
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
       },
-      "name": "Axe",
-      "id": 0
+      "name": "Dagger",
+      "id": 15
     },
     "inventory_type": {
       "type": "WEAPON",
@@ -89,54 +89,36 @@
     },
     "weapon": {
       "damage": {
-        "min_value": 2374,
-        "max_value": 4932,
-        "display_string": "2,374 - 4,932 Damage",
+        "min_value": 948,
+        "max_value": 1581,
+        "display_string": "948 - 1,581 Damage",
         "damage_class": {
           "type": "PHYSICAL",
           "name": "Physical"
         }
       },
       "attack_speed": {
-        "value": 2600,
-        "display_string": "Speed 2.60"
+        "value": 1800,
+        "display_string": "Speed 1.80"
       },
       "dps": {
-        "value": 1404.8076,
-        "display_string": "(1,404 damage per second)"
+        "value": 702.22217,
+        "display_string": "(702.2 damage per second)"
       }
     },
     "stats": [
       {
         "type": {
-          "type": "AGILITY",
-          "name": "Agility"
+          "type": "INTELLECT",
+          "name": "Intellect"
         },
-        "value": 1236,
-        "is_negated": true,
+        "value": 7198,
         "display": {
-          "display_string": "+1,236 Agility",
+          "display_string": "+7,198 Intellect",
           "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1
-          }
-        }
-      },
-      {
-        "type": {
-          "type": "STRENGTH",
-          "name": "Strength"
-        },
-        "value": 1236,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,236 Strength",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
+            "r": 255,
+            "g": 255,
+            "b": 255,
             "a": 1
           }
         }
@@ -159,6 +141,23 @@
       },
       {
         "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 401,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+401 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
           "type": "VERSATILITY",
           "name": "Versatility"
         },
@@ -173,32 +172,15 @@
             "a": 1
           }
         }
-      },
-      {
-        "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
-        },
-        "value": 401,
-        "is_equip_bonus": true,
-        "display": {
-          "display_string": "+401 Mastery",
-          "color": {
-            "r": 0,
-            "g": 255,
-            "b": 0,
-            "a": 1
-          }
-        }
       }
     ],
     "sell_price": {
-      "value": 1378815,
+      "value": 1419818,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "137",
-        "silver": "88",
-        "copper": "15"
+        "gold": "141",
+        "silver": "98",
+        "copper": "18"
       }
     },
     "requirements": {
@@ -212,19 +194,19 @@
       "display_string": "Item Level 593"
     },
     "durability": {
-      "value": 110,
-      "display_string": "Durability 110 / 110"
+      "value": 80,
+      "display_string": "Durability 80 / 80"
     },
     "modified_crafting_stat": [
-      {
-        "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
-      },
       {
         "id": 40,
         "type": "VERSATILITY",
         "name": "Versatility"
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       }
     ]
   },
@@ -232,9 +214,9 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90910?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90934?namespace=static-11.1.0_59095-us"
       },
-      "id": 90910
+      "id": 90934
     }
   ]
 }

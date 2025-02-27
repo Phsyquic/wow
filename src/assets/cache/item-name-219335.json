@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219335?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 219331,
-  "name": "Rune-Branded Waistband",
+  "id": 219335,
+  "name": "Glyph-Etched Stompers",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,9 +14,9 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219335?namespace=static-11.1.0_59095-us"
     },
-    "id": 219331
+    "id": 219335
   },
   "item_class": {
     "key": {
@@ -27,26 +27,26 @@
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Mail",
+    "id": 3
   },
   "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
+    "type": "FEET",
+    "name": "Feet"
   },
-  "purchase_price": 2461940,
-  "sell_price": 492388,
+  "purchase_price": 3718465,
+  "sell_price": 743693,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219335?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 219335
     },
     "context": 0,
     "bonus_list": [
@@ -58,12 +58,12 @@
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Rune-Branded Waistband",
+    "name": "Glyph-Etched Stompers",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219335?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 219335
     },
     "item_class": {
       "key": {
@@ -74,23 +74,23 @@
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Mail",
+      "id": 3
     },
     "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+      "type": "FEET",
+      "name": "Feet"
     },
     "binding": {
       "type": "ON_ACQUIRE",
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 1916,
+      "value": 3139,
       "display": {
-        "display_string": "1,916 Armor",
+        "display_string": "3,139 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -151,13 +151,13 @@
       },
       {
         "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+601 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,12 +185,12 @@
       }
     ],
     "sell_price": {
-      "value": 492388,
+      "value": 743693,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "23",
-        "copper": "88"
+        "gold": "74",
+        "silver": "36",
+        "copper": "93"
       }
     },
     "requirements": {
@@ -204,19 +204,19 @@
       "display_string": "Item Level 593"
     },
     "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+      "value": 80,
+      "display_string": "Durability 80 / 80"
     },
     "modified_crafting_stat": [
-      {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
-      },
       {
         "id": 40,
         "type": "VERSATILITY",
         "name": "Versatility"
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       }
     ]
   },
@@ -224,9 +224,9 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85015?namespace=static-11.1.0_59095-us"
       },
-      "id": 85147
+      "id": 85015
     }
   ]
 }

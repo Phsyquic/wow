@@ -151,13 +151,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "VERSATILITY",
+          "name": "Versatility"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Haste",
+          "display_string": "+601 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -168,13 +168,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
         "value": 601,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+601 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -209,14 +209,14 @@
     },
     "modified_crafting_stat": [
       {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
+      },
+      {
         "id": 40,
         "type": "VERSATILITY",
         "name": "Versatility"
-      },
-      {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
       }
     ]
   },
