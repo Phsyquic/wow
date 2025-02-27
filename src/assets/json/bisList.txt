@@ -127,6 +127,10 @@ trinket
 232541
 trinket
 230198
+weapon
+232804
+weapon
+222441
 
 Demon Hunter Vengeance
 head
@@ -155,10 +159,14 @@ ring
 231265
 trinket
 230198
-weapon
+trinket
 230029
-weapon
+trinket
 219297
+weapon
+234491
+weapon
+222440
 
 Druid Balance
 head
@@ -241,20 +249,56 @@ gloves
 229308
 belt
 228880
+legs
+229306
+boots
+228876
+ring
+228843
+ring
+231265
+trinket
+230194
+trinket
+230193
+weapon
+232526
 
 Druid Restoration
 head
-229305
+229307
+neck
+221060
 shoulders
-228844
-cape
-228864
+229305
+cloak
+234507
 chest
-228869
-bracers
-229308
+228864
+wrist
+221053
 gloves
-228880
+229308
+belt
+228856
+legs
+229306
+boots
+221120
+ring
+231265
+ring
+228411
+trinket
+230198
+trinket
+230186
+weapon
+228896
+offhand
+228906
+weapon
+232805
 
 Evoker Devastation
 head
@@ -277,48 +321,84 @@ legs
 229279
 boots
 228862
-trinket
+ring
 231265
-trinket
+ring
 178871
+ring
+228411
+trinket
+230198
+trinket
+230192
+weapon
+232805
 
 Evoker Preservation
 head
-229281
+229280
+neck
+221060
+shoulders
+229278
+cloak
+228844
+chest
+229283
+wrist
+228878
 gloves
-168983
+229281
 belt
-158341
+168983
 legs
-221035
+158341
 boots
+221035
+ring
 231265
 ring
 228411
-ring
+trinket
 230198
-trinkets
+trinket
 230186
-trinkets
+weapon
 228898
-helm
+weapon
 232805
-neck
-229280
-shoulders
-228841
-cape
-229278
-chest
-228844
-bracers
-228852
 
 Evoker Augmentation
 head
 229280
 neck
 228842
+shoulders
+229278
+cloak
+228844
+chest
+229283
+wrist
+219342
+gloves
+228867
+belt
+228877
+legs
+229279
+boots
+228883
+ring
+231265
+ring
+215133
+trinket
+230198
+trinket
+230192
+weapon
+232805
 
 Hunter Beast Mastery
 head
@@ -327,6 +407,32 @@ neck
 228841
 shoulders
 228860
+cloak
+228844
+chest
+229274
+wrist
+219342
+gloves
+229272
+belt
+234501
+legs
+229270
+boots
+219335
+ring
+231265
+ring
+228843
+trinket
+219308
+trinket
+230198
+trinket
+232541
+weapon
+228893
 
 Hunter Marksmanship
 head
@@ -349,8 +455,20 @@ legs
 229270
 boots
 228862
-weapon
+ring
 231265
+ring
+228843
+ring
+228840
+trinket
+219308
+trinket
+230198
+trinket
+232485
+weapon
+228893
 
 Hunter Survival
 head
@@ -413,6 +531,8 @@ trinket
 230198
 trinket
 230192
+weapon
+168973
 
 Mage Fire
 head
@@ -435,6 +555,18 @@ legs
 229342
 boots
 228879
+ring
+228843
+ring
+231265
+ring
+228411
+ring
+221099
+trinket
+230198
+trinket
+230192
 
 Mage Frost
 head
@@ -467,6 +599,8 @@ trinket
 219299
 weapon
 231268
+offhand
+222566
 
 Monk Brewmaster
 head
@@ -493,48 +627,94 @@ ring
 228843
 ring
 228411
+trinket
+230198
+trinket
+178811
+trinket
+219309
+trinket
+232543
+trinket
+219297
+weapon
+228905
+weapon
+232804
+weapon
+228899
 
 Monk Mistweaver
 head
 234498
 neck
 228841
-shoulder
+shoulders
 229296
-back
+cloak
 221109
 chest
 229301
 wrist
 219334
-hands
+gloves
 229299
-waist
+belt
 228880
+legs
+229297
+boots
+159336
+ring
+228843
+ring
+228411
+ring
+228840
+trinket
+230186
+trinket
+230198
+weapon
+231268
+offhand
+222566
 
 Monk Windwalker
 head
-229296
+229298
+neck
+228842
 shoulders
-228844
+229296
 cloak
-229301
+228844
 chest
-229294
+229301
 wrist
-229299
+229294
 gloves
-168957
+229299
 belt
-168968
+168957
 legs
-221071
+168968
 boots
+221071
+ring
 228411
 ring
 231265
-ring
+weapon
 221116
+weapon
+232804
+weapon
+228899
+trinket
+230198
+trinket
+230027
 
 Paladin Holy
 head
@@ -565,6 +745,10 @@ trinket
 230198
 trinket
 230186
+weapon
+228901
+offhand
+228889
 
 Paladin Protection
 head
@@ -593,8 +777,12 @@ ring
 159462
 weapon
 221096
-shield
+offhand
 228889
+trinket
+230198
+trinket
+232541
 
 Paladin Retribution
 head
@@ -649,6 +837,18 @@ legs
 228865
 boots
 228879
+ring
+231265
+ring
+228843
+trinket
+230198
+trinket
+230027
+weapon
+228896
+offhand
+222566
 
 Priest Holy
 head
@@ -679,6 +879,10 @@ trinket
 230198
 trinket
 230186
+weapon
+228901
+offhand
+222566
 
 Priest Shadow
 head
@@ -701,6 +905,16 @@ legs
 228865
 boots
 228879
+ring
+231265
+ring
+228411
+trinket
+230192
+trinket
+230198
+weapon
+228901
 
 Rogue Assassination
 head
@@ -731,6 +945,10 @@ trinket
 230198
 trinket
 230027
+weapon
+231266
+offhand
+222438
 
 Rogue Outlaw
 head
@@ -761,6 +979,10 @@ trinket
 230198
 trinket
 230199
+weapon
+228899
+offhand
+232804
 
 Rogue Subtlety
 head
@@ -777,6 +999,24 @@ wrist
 228885
 gloves
 228863
+belt
+228856
+legs
+229288
+boots
+219327
+ring
+231265
+ring
+178870
+trinket
+230027
+trinket
+230198
+weapon
+228897
+weapon
+228897
 
 Shaman Elemental
 head
@@ -813,6 +1053,36 @@ weapon
 Shaman Enhancement
 head
 229262
+neck
+221060
+shoulders
+229260
+cloak
+222817
+chest
+229265
+wrist
+228878
+gloves
+229263
+belt
+168983
+legs
+158341
+boots
+221035
+ring
+231265
+ring
+228638
+trinket
+230198
+trinket
+230027
+weapon
+228899
+offhand
+222446
 
 Shaman Restoration
 head
@@ -843,6 +1113,14 @@ ring
 228411
 trinket
 230186
+trinket
+230192
+weapon
+222568
+weapon
+222439
+offhand
+228889
 
 Warlock Affliction
 head
@@ -873,8 +1151,12 @@ trinket
 230198
 trinket
 230027
-staff
+weapon
 228896
+offhand
+222566
+weapon
+228898
 
 Warlock Demonology
 head
@@ -905,8 +1187,12 @@ trinket
 230198
 trinket
 230027
-staff
+weapon
 228896
+offhand
+222566
+weapon
+228898
 
 Warlock Destruction
 head
@@ -937,70 +1223,44 @@ trinket
 230198
 trinket
 230027
-staff
+weapon
 228896
+offhand
+222566
+weapon
+228898
 
 Warrior Arms
 head
+229235
+neck
+228841
+shoulders
+229233
+cloak
+222817
+chest
+228851
+wrist
 222435
-bracers
-229236
 gloves
-229232
+229236
 belt
-229234
+229232
 legs
-228887
+229234
 boots
+228887
+ring
 228411
 ring
 231265
-ring
+trinket
 230027
 trinket
 230198
-trinket
+weapon
 232526
-mainhand
-221100
-helm
-221060
-neck
-159415
-shoulders
-159287
-cloak
-221069
-chest
-221064
-bracers
-168980
-gloves
-234505
-belt
-178800
-legs
-159679
-boots
-178871
-ring
-178872
-ring
-232541
-trinket
-178811
-trinket
-178866
-mainhand
-229235
-helm
-228841
-neck
-229233
-shoulders
-228839
-cloak
-228851
 
 Warrior Fury
 head
@@ -1013,7 +1273,7 @@ cloak
 228844
 chest
 229238
-bracers
+wrist
 222435
 gloves
 229236
@@ -1031,7 +1291,7 @@ trinket
 232485
 trinket
 230198
-mainhand
+weapon
 232526
 offhand
 222447
@@ -1063,5 +1323,9 @@ ring
 228840
 weapon
 169608
-shield
+offhand
 228889
+trinket
+230198
+trinket
+219309

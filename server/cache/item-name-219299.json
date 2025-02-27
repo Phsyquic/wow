@@ -1,0 +1,137 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/219299?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 219299,
+  "name": "Synergistic Brewterializer",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 437,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219299?namespace=static-11.1.0_59095-us"
+    },
+    "id": 219299
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 2351586,
+  "sell_price": 470317,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/219299?namespace=static-11.1.0_59095-us"
+      },
+      "id": 219299
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Synergistic Brewterializer",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219299?namespace=static-11.1.0_59095-us"
+      },
+      "id": 219299
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 549,
+        "display": {
+          "display_string": "+549 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/443393?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Synergistic Brewterializer",
+          "id": 443393
+        },
+        "description": "Equip: Your spells have a chance to charge the device and request a Backfill Barrel near your target's location. Damaging the barrel causes it to explode, inflicting 84,120 Fire damage split between nearby enemies."
+      }
+    ],
+    "sell_price": {
+      "value": 470317,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "47",
+        "silver": "3",
+        "copper": "17"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": "Requires Level 68"
+      }
+    },
+    "level": {
+      "value": 437,
+      "display_string": "Item Level 437"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}
