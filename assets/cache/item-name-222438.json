@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 219331,
-  "name": "Rune-Branded Waistband",
+  "id": 222438,
+  "name": "Everforged Stabber",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,39 +14,39 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-11.1.0_59095-us"
     },
-    "id": 219331
+    "id": 222438
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Weapon",
+    "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Dagger",
+    "id": 15
   },
   "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
+    "type": "WEAPON",
+    "name": "One-Hand"
   },
-  "purchase_price": 2461940,
-  "sell_price": 492388,
+  "purchase_price": 7073378,
+  "sell_price": 1414675,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 222438
     },
     "context": 0,
     "bonus_list": [
@@ -58,73 +58,64 @@
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Rune-Branded Waistband",
+    "name": "Everforged Stabber",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 222438
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Weapon",
+      "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Dagger",
+      "id": 15
     },
     "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+      "type": "WEAPON",
+      "name": "One-Hand"
     },
     "binding": {
       "type": "ON_ACQUIRE",
       "name": "Binds when picked up"
     },
-    "armor": {
-      "value": 1916,
-      "display": {
-        "display_string": "1,916 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1
+    "weapon": {
+      "damage": {
+        "min_value": 1896,
+        "max_value": 3162,
+        "display_string": "1,896 - 3,162 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
         }
+      },
+      "attack_speed": {
+        "value": 1800,
+        "display_string": "Speed 1.80"
+      },
+      "dps": {
+        "value": 1404.7222,
+        "display_string": "(1,404 damage per second)"
       }
     },
     "stats": [
       {
         "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
-        },
-        "value": 1854,
-        "display": {
-          "display_string": "+1,854 Intellect",
-          "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
-            "a": 1
-          }
-        }
-      },
-      {
-        "type": {
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1854,
+        "value": 1236,
         "is_negated": true,
         "display": {
-          "display_string": "+1,854 Agility",
+          "display_string": "+1,236 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +129,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 6292,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+6,292 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -154,10 +145,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 601,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+401 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -171,10 +162,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 601,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+401 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,12 +176,12 @@
       }
     ],
     "sell_price": {
-      "value": 492388,
+      "value": 1414675,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "23",
-        "copper": "88"
+        "gold": "141",
+        "silver": "46",
+        "copper": "75"
       }
     },
     "requirements": {
@@ -204,8 +195,8 @@
       "display_string": "Item Level 593"
     },
     "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+      "value": 80,
+      "display_string": "Durability 80 / 80"
     },
     "modified_crafting_stat": [
       {
@@ -224,9 +215,9 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90934?namespace=static-11.1.0_59095-us"
       },
-      "id": 85147
+      "id": 90934
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 219331,
-  "name": "Rune-Branded Waistband",
+  "id": 222566,
+  "name": "Vagabond's Torch",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,9 +14,9 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-11.1.0_59095-us"
     },
-    "id": 219331
+    "id": 222566
   },
   "item_class": {
     "key": {
@@ -27,26 +27,26 @@
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Miscellaneous",
+    "id": 0
   },
   "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
+    "type": "HOLDABLE",
+    "name": "Held In Off-hand"
   },
-  "purchase_price": 2461940,
-  "sell_price": 492388,
+  "purchase_price": 10417213,
+  "sell_price": 2083442,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 222566
     },
     "context": 0,
     "bonus_list": [
@@ -58,12 +58,12 @@
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Rune-Branded Waistband",
+    "name": "Vagabond's Torch",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 222566
     },
     "item_class": {
       "key": {
@@ -74,30 +74,18 @@
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Miscellaneous",
+      "id": 0
     },
     "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+      "type": "HOLDABLE",
+      "name": "Held In Off-hand"
     },
     "binding": {
       "type": "ON_ACQUIRE",
       "name": "Binds when picked up"
-    },
-    "armor": {
-      "value": 1916,
-      "display": {
-        "display_string": "1,916 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1
-        }
-      }
     },
     "stats": [
       {
@@ -105,9 +93,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1854,
+        "value": 3791,
         "display": {
-          "display_string": "+1,854 Intellect",
+          "display_string": "+3,791 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -118,29 +106,12 @@
       },
       {
         "type": {
-          "type": "AGILITY",
-          "name": "Agility"
-        },
-        "value": 1854,
-        "is_negated": true,
-        "display": {
-          "display_string": "+1,854 Agility",
-          "color": {
-            "r": 128,
-            "g": 128,
-            "b": 128,
-            "a": 1
-          }
-        }
-      },
-      {
-        "type": {
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 6292,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+6,292 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -154,10 +125,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 601,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+401 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -168,13 +139,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
-        "value": 601,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+401 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,12 +156,12 @@
       }
     ],
     "sell_price": {
-      "value": 492388,
+      "value": 2083442,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "23",
-        "copper": "88"
+        "gold": "208",
+        "silver": "34",
+        "copper": "42"
       }
     },
     "requirements": {
@@ -203,10 +174,7 @@
       "value": 593,
       "display_string": "Item Level 593"
     },
-    "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
-    },
+    "is_subclass_hidden": true,
     "modified_crafting_stat": [
       {
         "id": 32,
@@ -214,9 +182,9 @@
         "name": "Critical Strike"
       },
       {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       }
     ]
   },
@@ -224,9 +192,9 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90926?namespace=static-11.1.0_59095-us"
       },
-      "id": 85147
+      "id": 90926
     }
   ]
 }

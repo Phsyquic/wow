@@ -1,22 +1,22 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/215133?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 228843,
-  "name": "Miniature Roulette Wheel",
+  "id": 215133,
+  "name": "Binding of Binding",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
   },
-  "level": 623,
-  "required_level": 80,
+  "level": 610,
+  "required_level": 1,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/215133?namespace=static-11.1.0_59095-us"
     },
-    "id": 228843
+    "id": 215133
   },
   "item_class": {
     "key": {
@@ -36,33 +36,44 @@
     "type": "FINGER",
     "name": "Finger"
   },
-  "purchase_price": 3046248,
-  "sell_price": 609249,
+  "purchase_price": 1021590,
+  "sell_price": 204318,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
-  "description": "Spin to win!",
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/215133?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 215133
     },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": "Prismatic Socket"
+        }
+      }
+    ],
     "context": 0,
     "bonus_list": [
-      12166
+      10421,
+      9633,
+      8902,
+      8960,
+      10878
     ],
     "quality": {
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Miniature Roulette Wheel",
+    "name": "Binding of Binding",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/228843?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/215133?namespace=static-11.1.0_59095-us"
       },
-      "id": 228843
+      "id": 215133
     },
     "item_class": {
       "key": {
@@ -87,15 +98,16 @@
       "name": "Binds when picked up"
     },
     "unique_equipped": "Unique-Equipped",
+    "limit_category": "Unique-Equipped: Embellished (2)",
     "stats": [
       {
         "type": {
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 10948,
+        "value": 7078,
         "display": {
-          "display_string": "+10,948 Stamina",
+          "display_string": "+7,078 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -106,13 +118,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "VERSATILITY",
+          "name": "Versatility"
         },
-        "value": 4673,
+        "value": 2089,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+4,673 Haste",
+          "display_string": "+2,089 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -123,13 +135,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
-        "value": 779,
+        "value": 2089,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+779 Versatility",
+          "display_string": "+2,089 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -139,32 +151,47 @@
         }
       }
     ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/436085?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Bind Binding of Binding",
+          "id": 436085
+        },
+        "description": "Use: Offer to bind your spirit with that of another player also wearing this ring. This binding is permanent, but can be severed at the cost of 1 Blasphemite. (2 Min Cooldown)"
+      },
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/436132?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Binding's Boon",
+          "id": 436132
+        },
+        "description": "Equip: Your spells and abilities have a chance to empower each unique gem color of an ally's socketed gems. This boon grants 46 to each empowered secondary stat for 15 sec. This effect will always target your bonded ally, if able."
+      }
+    ],
     "sell_price": {
-      "value": 609249,
+      "value": 204318,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "60",
-        "silver": "92",
-        "copper": "49"
+        "gold": "20",
+        "silver": "43",
+        "copper": "18"
       }
     },
-    "requirements": {
-      "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
-      }
-    },
-    "description": "Spin to win!",
     "level": {
-      "value": 623,
-      "display_string": "Item Level 623"
+      "value": 593,
+      "display_string": "Item Level 593"
     },
     "is_subclass_hidden": true,
     "modified_crafting_stat": [
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
       },
       {
         "id": 40,

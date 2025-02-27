@@ -1,11 +1,11 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222435?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222440?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 222435,
-  "name": "Everforged Vambraces",
+  "id": 222440,
+  "name": "Everforged Longsword",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
@@ -14,39 +14,39 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222435?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222440?namespace=static-11.1.0_59095-us"
     },
-    "id": 222435
+    "id": 222440
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
     },
-    "name": "Armor",
-    "id": 4
+    "name": "Weapon",
+    "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-us"
     },
-    "name": "Plate",
-    "id": 4
+    "name": "Sword",
+    "id": 7
   },
   "inventory_type": {
-    "type": "WRIST",
-    "name": "Wrist"
+    "type": "WEAPON",
+    "name": "One-Hand"
   },
-  "purchase_price": 2462918,
-  "sell_price": 492583,
+  "purchase_price": 7124805,
+  "sell_price": 1424961,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222435?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222440?namespace=static-11.1.0_59095-us"
       },
-      "id": 222435
+      "id": 222440
     },
     "context": 0,
     "bonus_list": [
@@ -58,60 +58,68 @@
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Everforged Vambraces",
+    "name": "Everforged Longsword",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222435?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222440?namespace=static-11.1.0_59095-us"
       },
-      "id": 222435
+      "id": 222440
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
       },
-      "name": "Armor",
-      "id": 4
+      "name": "Weapon",
+      "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.0_59095-us"
       },
-      "name": "Plate",
-      "id": 4
+      "name": "Sword",
+      "id": 7
     },
     "inventory_type": {
-      "type": "WRIST",
-      "name": "Wrist"
+      "type": "WEAPON",
+      "name": "One-Hand"
     },
     "binding": {
       "type": "ON_ACQUIRE",
       "name": "Binds when picked up"
     },
-    "armor": {
-      "value": 3778,
-      "display": {
-        "display_string": "3,778 Armor",
-        "color": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1
+    "weapon": {
+      "damage": {
+        "min_value": 2739,
+        "max_value": 4567,
+        "display_string": "2,739 - 4,567 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
         }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": "Speed 2.60"
+      },
+      "dps": {
+        "value": 1404.8076,
+        "display_string": "(1,404 damage per second)"
       }
     },
     "stats": [
       {
         "type": {
-          "type": "INTELLECT",
-          "name": "Intellect"
+          "type": "AGILITY",
+          "name": "Agility"
         },
-        "value": 1390,
+        "value": 1236,
+        "is_negated": true,
         "display": {
-          "display_string": "+1,390 Intellect",
+          "display_string": "+1,236 Agility",
           "color": {
-            "r": 255,
-            "g": 255,
-            "b": 255,
+            "r": 128,
+            "g": 128,
+            "b": 128,
             "a": 1
           }
         }
@@ -121,10 +129,10 @@
           "type": "STRENGTH",
           "name": "Strength"
         },
-        "value": 1390,
+        "value": 1236,
         "is_negated": true,
         "display": {
-          "display_string": "+1,390 Strength",
+          "display_string": "+1,236 Strength",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +146,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 7078,
+        "value": 6292,
         "display": {
-          "display_string": "+7,078 Stamina",
+          "display_string": "+6,292 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -154,10 +162,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 451,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+451 Critical Strike",
+          "display_string": "+401 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -171,10 +179,10 @@
           "type": "HASTE_RATING",
           "name": "Haste"
         },
-        "value": 451,
+        "value": 401,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+451 Haste",
+          "display_string": "+401 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,12 +193,12 @@
       }
     ],
     "sell_price": {
-      "value": 492583,
+      "value": 1424961,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "25",
-        "copper": "83"
+        "gold": "142",
+        "silver": "49",
+        "copper": "61"
       }
     },
     "requirements": {
@@ -204,19 +212,19 @@
       "display_string": "Item Level 593"
     },
     "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
+      "value": 110,
+      "display_string": "Durability 110 / 110"
     },
     "modified_crafting_stat": [
-      {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
-      },
       {
         "id": 36,
         "type": "HASTE_RATING",
         "name": "Haste"
+      },
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
       }
     ]
   },
@@ -224,9 +232,9 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85205?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/83665?namespace=static-11.1.0_59095-us"
       },
-      "id": 85205
+      "id": 83665
     }
   ]
 }

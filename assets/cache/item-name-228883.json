@@ -1,22 +1,22 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219327?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/228883?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 219327,
-  "name": "Rune-Branded Kickers",
+  "id": 228883,
+  "name": "Dubious Table-Runners",
   "quality": {
     "type": "EPIC",
     "name": "Epic"
   },
-  "level": 577,
+  "level": 623,
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219327?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228883?namespace=static-11.1.0_59095-us"
     },
-    "id": 219327
+    "id": 228883
   },
   "item_class": {
     "key": {
@@ -27,43 +27,37 @@
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
     },
-    "name": "Leather",
-    "id": 2
+    "name": "Mail",
+    "id": 3
   },
   "inventory_type": {
     "type": "FEET",
     "name": "Feet"
   },
-  "purchase_price": 3514898,
-  "sell_price": 702979,
+  "purchase_price": 3727285,
+  "sell_price": 745457,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219327?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/228883?namespace=static-11.1.0_59095-us"
       },
-      "id": 219327
+      "id": 228883
     },
-    "context": 0,
-    "bonus_list": [
-      10421,
-      9633,
-      8902
-    ],
     "quality": {
       "type": "EPIC",
       "name": "Epic"
     },
-    "name": "Rune-Branded Kickers",
+    "name": "Dubious Table-Runners",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219327?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228883?namespace=static-11.1.0_59095-us"
       },
-      "id": 219327
+      "id": 228883
     },
     "item_class": {
       "key": {
@@ -74,10 +68,10 @@
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
       },
-      "name": "Leather",
-      "id": 2
+      "name": "Mail",
+      "id": 3
     },
     "inventory_type": {
       "type": "FEET",
@@ -88,9 +82,9 @@
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 2129,
+      "value": 3706,
       "display": {
-        "display_string": "2,129 Armor",
+        "display_string": "3,706 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -105,9 +99,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1854,
+        "value": 2452,
         "display": {
-          "display_string": "+1,854 Intellect",
+          "display_string": "+2,452 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -121,10 +115,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1854,
+        "value": 2452,
         "is_negated": true,
         "display": {
-          "display_string": "+1,854 Agility",
+          "display_string": "+2,452 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +132,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 14597,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+14,597 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -154,10 +148,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 601,
+        "value": 470,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+470 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -168,13 +162,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
-        "value": 601,
+        "value": 938,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+938 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,12 +179,12 @@
       }
     ],
     "sell_price": {
-      "value": 702979,
+      "value": 745457,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "70",
-        "silver": "29",
-        "copper": "79"
+        "gold": "74",
+        "silver": "54",
+        "copper": "57"
       }
     },
     "requirements": {
@@ -200,33 +194,63 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 623,
+      "display_string": "Item Level 623"
     },
     "durability": {
       "value": 80,
       "display_string": "Durability 80 / 80"
-    },
-    "modified_crafting_stat": [
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      },
-      {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
-      }
-    ]
+    }
   },
   "purchase_quantity": 1,
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85149?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97805?namespace=static-11.1.0_59095-us"
       },
-      "id": 85149
+      "id": 97805
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97772?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97772
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97794?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97794
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97761?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97761
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97772?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97772
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97805?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97805
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97794?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97794
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97761?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97761
     }
   ]
 }

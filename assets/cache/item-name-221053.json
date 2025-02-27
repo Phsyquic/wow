@@ -1,22 +1,22 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/221053?namespace=static-11.1.0_59095-us"
     }
   },
-  "id": 219331,
-  "name": "Rune-Branded Waistband",
+  "id": 221053,
+  "name": "Battle-Scarred Fisticuffs",
   "quality": {
-    "type": "EPIC",
-    "name": "Epic"
+    "type": "RARE",
+    "name": "Rare"
   },
-  "level": 577,
-  "required_level": 80,
+  "level": 437,
+  "required_level": 68,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/221053?namespace=static-11.1.0_59095-us"
     },
-    "id": 219331
+    "id": 221053
   },
   "item_class": {
     "key": {
@@ -33,37 +33,31 @@
     "id": 2
   },
   "inventory_type": {
-    "type": "WAIST",
-    "name": "Waist"
+    "type": "WRIST",
+    "name": "Wrist"
   },
-  "purchase_price": 2461940,
-  "sell_price": 492388,
+  "purchase_price": 802743,
+  "sell_price": 160548,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/221053?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 221053
     },
-    "context": 0,
-    "bonus_list": [
-      10421,
-      9633,
-      8902
-    ],
     "quality": {
-      "type": "EPIC",
-      "name": "Epic"
+      "type": "RARE",
+      "name": "Rare"
     },
-    "name": "Rune-Branded Waistband",
+    "name": "Battle-Scarred Fisticuffs",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219331?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/221053?namespace=static-11.1.0_59095-us"
       },
-      "id": 219331
+      "id": 221053
     },
     "item_class": {
       "key": {
@@ -80,17 +74,17 @@
       "id": 2
     },
     "inventory_type": {
-      "type": "WAIST",
-      "name": "Waist"
+      "type": "WRIST",
+      "name": "Wrist"
     },
     "binding": {
       "type": "ON_ACQUIRE",
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 1916,
+      "value": 432,
       "display": {
-        "display_string": "1,916 Armor",
+        "display_string": "432 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -105,9 +99,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1854,
+        "value": 325,
         "display": {
-          "display_string": "+1,854 Intellect",
+          "display_string": "+325 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -121,10 +115,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1854,
+        "value": 325,
         "is_negated": true,
         "display": {
-          "display_string": "+1,854 Agility",
+          "display_string": "+325 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +132,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 1130,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+1,130 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -151,13 +145,13 @@
       },
       {
         "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
-        "value": 601,
+        "value": 177,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+177 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -168,13 +162,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
-        "value": 601,
+        "value": 299,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+299 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -185,48 +179,36 @@
       }
     ],
     "sell_price": {
-      "value": 492388,
+      "value": 255227,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "23",
-        "copper": "88"
+        "gold": "25",
+        "silver": "52",
+        "copper": "27"
       }
     },
     "requirements": {
       "level": {
-        "value": 80,
-        "display_string": "Requires Level 80"
+        "value": 68,
+        "display_string": "Requires Level 68"
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 437,
+      "display_string": "Item Level 437"
     },
     "durability": {
-      "value": 55,
-      "display_string": "Durability 55 / 55"
-    },
-    "modified_crafting_stat": [
-      {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
-      },
-      {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
-      }
-    ]
+      "value": 50,
+      "display_string": "Durability 50 / 50"
+    }
   },
   "purchase_quantity": 1,
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85147?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/84877?namespace=static-11.1.0_59095-us"
       },
-      "id": 85147
+      "id": 84877
     }
   ]
 }
