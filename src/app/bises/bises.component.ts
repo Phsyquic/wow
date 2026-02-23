@@ -29,6 +29,10 @@ export class BisesComponent implements OnInit {
   slotsLibrary: any[] = [];
   encounterFlag = -1;
   isLoading: boolean = true;
+  selectedInstance = '';
+  selectedEncounter = '';
+  selectedSpec = '';
+  selectedSlot = '';
 
   constructor(
     private http: HttpClient,
@@ -476,12 +480,31 @@ export class BisesComponent implements OnInit {
   }
 
   cargarDrops(bisList: any[]) {
-    //Cargar filtro instances
-    var iRaid = this.instances.filter((i: any) => (i.type === "raid"));
-    this.instancesLibrary = ['M+ Dungeons', 'Catalyst', 'Crafted', 'Tier'];
-    iRaid.forEach((element: any) => {
-      this.instancesLibrary.push(element.name);
-    });
+    // Cargar filtro instances solo con opciones que tengan datos reales.
+    const availableInstances = [...new Set(
+      bisList
+        .map(item => item.instance)
+        .filter((instance: any) => instance && instance !== 'Desconocido')
+    )];
+    const mDungeons = this.instances
+      .filter((ins: any) => ins.type === "dungeon" && availableInstances.includes(ins.name))
+      .map((ins: any) => ins.name);
+
+    this.instancesLibrary = ['M+ Dungeons'];
+    if (availableInstances.includes('Catalyst')) {
+      this.instancesLibrary.push('Catalyst');
+    }
+    if (availableInstances.includes('Crafted')) {
+      this.instancesLibrary.push('Crafted');
+    }
+    if (availableInstances.includes('Tier')) {
+      this.instancesLibrary.push('Tier');
+    }
+
+    const raidNamesWithData = this.instances
+      .filter((ins: any) => ins.type === "raid" && availableInstances.includes(ins.name))
+      .map((ins: any) => ins.name);
+    this.instancesLibrary.push(...raidNamesWithData);
 
     //Cargar filtro encounters
     var bossLibrary = [...new Set(
@@ -489,14 +512,6 @@ export class BisesComponent implements OnInit {
         .map(item => item.boss) // Extrae la propiedad 'boss'
         .filter(boss => boss) // Filtra valores nulos o indefinidos
     )];
-    var iLibrary = [...new Set(
-      bisList
-        .map(item => item.instance) // Extrae la propiedad 'instance'
-        .filter((instance: any) => instance) // Filtra valores nulos o indefinidos
-    )];
-    var mDungeons = iLibrary.filter(
-      (i: any) => !this.instancesLibrary.includes(i) && i !== "Desconocido"
-    );
     this.encounterLibrary = [bossLibrary, mDungeons];
 
     // Cargar filtro specs
@@ -677,64 +692,90 @@ export class BisesComponent implements OnInit {
     selects.forEach((select: any) => {
       select.value = ''; // Restablecer el valor de cada select a vacío
     });
+    this.selectedInstance = '';
+    this.selectedEncounter = '';
+    this.selectedSpec = '';
+    this.selectedSlot = '';
     this.tableBisList = this.tableBisList_full;
     this.encounterFlag = -1;
   }
 
   filtrar(filtro: any, data: any) {
-    var data = data.target.value
-    if (data == '') {
-      this.resetFiltros();
-      return;
-    }
-    this.tableBisList = this.tableBisList_full;
-    var dataFiltrada = [];
+    const value = data.target.value;
+
     switch (filtro) {
-      //Filtro Instances
       case 0:
-        if (data != 'M+ Dungeons') {
-          dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
-          const hasRaidBosses = dataFiltrada.some((i: any) => !!i.boss);
-          this.encounterFlag = hasRaidBosses ? 0 : -1;
-        } else {
-          var mDungeons = this.encounterLibrary[1];
-          dataFiltrada = this.tableBisList.filter((i: any) => mDungeons.includes(i.instance));
-          this.encounterFlag = 1;
+        this.selectedInstance = value;
+        this.selectedEncounter = '';
+        const bossSelect = document.getElementById('bosses') as HTMLSelectElement | null;
+        if (bossSelect) {
+          bossSelect.value = '';
         }
         break;
-
-      //Filtro Encounters
       case 1:
-        if (this.encounterFlag == 0) {
-          dataFiltrada = this.tableBisList.filter((i: any) => (i.boss === data));
-        } else {
-          dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
-        }
+        this.selectedEncounter = value;
         break;
-
-      //Filtro Specs
       case 2:
-        dataFiltrada = this.tableBisList.filter((i: any) => i.spec.includes(data));
+        this.selectedSpec = value;
         break;
-
-      //Filtro Slots
       case 3:
-        dataFiltrada = this.tableBisList.filter((i: any) => (i.iType === parseInt(data) + 1));
-        //Casos especiales
-        if (data == 3) {
-          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 16));
-          dataFiltrada = [...dataFiltrada, ...additionalData];
-        } else if (data == 4) {
-          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 20));
-          dataFiltrada = [...dataFiltrada, ...additionalData];
-        } else if (data == 12) {
-          const additionalData = this.tableBisList.filter((i: any) => (i.iType === 17));
-          dataFiltrada = [...dataFiltrada, ...additionalData];
-        }
+        this.selectedSlot = value;
         break;
       default:
         this.resetFiltros();
+        return;
     }
+
+    this.applyFilters();
+  }
+
+  applyFilters() {
+    let dataFiltrada = [...this.tableBisList_full];
+
+    if (this.selectedInstance) {
+      if (this.selectedInstance === 'M+ Dungeons') {
+        const mDungeons = this.encounterLibrary[1] || [];
+        dataFiltrada = dataFiltrada.filter((i: any) => mDungeons.includes(i.instance));
+        this.encounterFlag = 1;
+      } else {
+        dataFiltrada = dataFiltrada.filter((i: any) => i.instance === this.selectedInstance);
+        const hasRaidBosses = dataFiltrada.some((i: any) => !!i.boss);
+        this.encounterFlag = hasRaidBosses ? 0 : -1;
+      }
+    } else {
+      this.encounterFlag = -1;
+    }
+
+    if (this.selectedEncounter) {
+      if (this.encounterFlag === 0) {
+        dataFiltrada = dataFiltrada.filter((i: any) => i.boss === this.selectedEncounter);
+      } else if (this.encounterFlag === 1) {
+        dataFiltrada = dataFiltrada.filter((i: any) => i.instance === this.selectedEncounter);
+      }
+    }
+
+    if (this.selectedSpec) {
+      dataFiltrada = dataFiltrada.filter((i: any) => i.spec.includes(this.selectedSpec));
+    }
+
+    if (this.selectedSlot !== '') {
+      const slot = parseInt(this.selectedSlot, 10);
+      const preSlotData = [...dataFiltrada];
+      dataFiltrada = preSlotData.filter((i: any) => i.iType === slot + 1);
+
+      // Casos especiales
+      if (slot === 3) {
+        const additionalData = preSlotData.filter((i: any) => i.iType === 16);
+        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
+      } else if (slot === 4) {
+        const additionalData = preSlotData.filter((i: any) => i.iType === 20);
+        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
+      } else if (slot === 12) {
+        const additionalData = preSlotData.filter((i: any) => i.iType === 17);
+        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
+      }
+    }
+
     this.tableBisList = dataFiltrada;
   }
 

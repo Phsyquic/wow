@@ -7,7 +7,7 @@
 
     <div class="filters-grid">
       <select name="Instances" id="instances" (change)="filtrar(0, $event)">
-        <option value="">Instances</option>
+        <option value="">Location</option>
         <option [value]="instance" *ngFor="let instance of instancesLibrary">{{instance}}</option>
       </select>
 
