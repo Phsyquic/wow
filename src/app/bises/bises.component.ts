@@ -298,6 +298,14 @@ export class BisesComponent implements OnInit {
         if (Array.isArray(itemListData)) {
           this.itemList_full = itemListData;
           itemListData.forEach((element: any) => {
+            const isUniversalTierToken = element.itemClass === 15
+              && element.itemSubClass === 0
+              && Array.isArray(element.contains)
+              && element.contains.length > 20;
+            if (isUniversalTierToken) {
+              return;
+            }
+
             if (element.sources) {
               var item = {
                 id: element.id,
@@ -593,22 +601,30 @@ export class BisesComponent implements OnInit {
   }
 
   comprobarTier(slot: any, spec: any) {
+    const slotName = this.getTierSlotName(slot);
+    if (!slotName) {
+      return [-1, -1, ''];
+    }
+    return [1, this.getTier(spec), slotName];
+  }
+
+  getTierSlotName(slot: any) {
     if (slot == 7) {
-      return [2640, this.getTier(spec), 'Hands'];
+      return 'Hands';
     }
     if (slot == 5 || slot == 20) {
-      return [2653, this.getTier(spec), 'Chest'];
+      return 'Chest';
     }
     if (slot == 10) {
-      return [2642, this.getTier(spec), 'Legs'];
+      return 'Legs';
     }
     if (slot == 3) {
-      return [2641, this.getTier(spec), 'Shoulder'];
+      return 'Shoulder';
     }
     if (slot == 1) {
-      return [2644, this.getTier(spec), 'Head'];
+      return 'Head';
     }
-    return [-1, -1, ''];
+    return '';
   }
 
 
@@ -678,11 +694,8 @@ export class BisesComponent implements OnInit {
       case 0:
         if (data != 'M+ Dungeons') {
           dataFiltrada = this.tableBisList.filter((i: any) => (i.instance === data));
-          if (data == "Liberation of Undermine") {
-            this.encounterFlag = 0;
-          } else {
-            this.encounterFlag = -1;
-          }
+          const hasRaidBosses = dataFiltrada.some((i: any) => !!i.boss);
+          this.encounterFlag = hasRaidBosses ? 0 : -1;
         } else {
           var mDungeons = this.encounterLibrary[1];
           dataFiltrada = this.tableBisList.filter((i: any) => mDungeons.includes(i.instance));

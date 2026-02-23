@@ -54,6 +54,13 @@ export class MainComponent implements OnInit {
   allSimList: any = [];
   allBisList: any = [];
   tierSlots: any[] = [];
+  tierEncounterIds = new Set<number>();
+  tierItemIds = new Set<number>();
+  ignoredTierEncounterIds = new Set<number>();
+  encounterAliases: Record<number, number> = {};
+  droptimizerMetaByReport: Record<string, any> = {};
+  // TODO: desactivar en cuanto se vuelva al flujo real por TXT/URL.
+  useMockDroptimizer = true;
 
   constructor(
     private http: HttpClient,
@@ -69,7 +76,44 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
     //this.getDiscord();
-    this.getTxt();
+    this.loadTierTokenMetadata();
+  }
+
+  loadTierTokenMetadata() {
+    this.RaidbotsApiService.getItemList().subscribe({
+      next: (items: any) => {
+        if (Array.isArray(items)) {
+          items.forEach((item: any) => {
+            if (!Array.isArray(item.contains) || item.contains.length === 0) {
+              return;
+            }
+
+            if (item.itemClass !== 15 || item.itemSubClass !== 0) {
+              return;
+            }
+
+            const source = item.sources?.[0];
+            if (!source?.encounterId || source.encounterId <= 0) {
+              return;
+            }
+
+            const isUniversalToken = item.contains.length > 20;
+            if (isUniversalToken) {
+              this.ignoredTierEncounterIds.add(Number(source.encounterId));
+              return;
+            }
+
+            this.tierEncounterIds.add(Number(source.encounterId));
+            item.contains.forEach((id: number) => this.tierItemIds.add(Number(id)));
+          });
+        }
+        this.getTxt();
+      },
+      error: () => {
+        // Fallback: la app sigue funcionando aunque no podamos cargar metadatos dinámicos.
+        this.getTxt();
+      }
+    });
   }
 
   async getDiscord() {
@@ -86,6 +130,11 @@ export class MainComponent implements OnInit {
 
 
   getTxt() {
+    if (this.useMockDroptimizer) {
+      this.loadMockDroptimizer();
+      return;
+    }
+
     this.getBisListData();
     this.LocalDataService.getDroptimizers().subscribe((data: any) => {
       var str = data.split(/[\r\n\s]+/);
@@ -94,19 +143,32 @@ export class MainComponent implements OnInit {
       });
       this.reports.forEach((report: any) => {
         this.RaidbotsApiService.getDroptimizer(report).subscribe((data) => {
-          if (this.encounterLibrary.length == 0) {
-            this.getBossLibrary(data);
-          }
-          this.addPlayer(data, report);
-          this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
-          this.getItemsLibrary(data);
-          this.getDroptimizer(data);
-          //Shaman Enh esta bug
-          this.getBisListData();
-          this.cargarTiersPlayer();
+          this.processDroptimizerData(data, report);
         });
       });
     });
+  }
+
+  loadMockDroptimizer() {
+    this.getBisListData();
+    const mockReportId = 'report/mock-manaforge-omega';
+    this.reports = [mockReportId];
+    this.http.get('assets/json/mock-droptimizer-manaforge.json').subscribe((data: any) => {
+      this.processDroptimizerData(data, mockReportId);
+    });
+  }
+
+  processDroptimizerData(data: any, report: string) {
+    this.droptimizerMetaByReport[report] = this.extractDroptimizerMeta(data);
+    if (this.encounterLibrary.length == 0) {
+      this.getBossLibrary(data);
+    }
+    this.addPlayer(data, report);
+    this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
+    this.getItemsLibrary(data);
+    this.getDroptimizer(data);
+    this.getBisListData();
+    this.cargarTiersPlayer();
   }
 
   addPlayer(data: any, report: any) {
@@ -172,7 +234,26 @@ export class MainComponent implements OnInit {
 
   getBossLibrary(data: any) {
     var bosses = data.simbot.meta.itemLibrary[0].instance.encounters;
+    const realBosses = bosses.filter((enc: any) => !this.isPseudoEncounter(enc?.name));
+    const finalRealBoss = realBosses.length > 0 ? realBosses[realBosses.length - 1] : null;
+
     bosses.forEach((element: any) => {
+      if (this.isPseudoEncounter(element?.name)) {
+        if (finalRealBoss) {
+          const fromId = Number(element.id);
+          const toId = Number(finalRealBoss.id);
+          this.encounterAliases[fromId] = toId;
+
+          if (this.tierEncounterIds.has(fromId)) {
+            this.tierEncounterIds.add(toId);
+          }
+          if (this.ignoredTierEncounterIds.has(fromId)) {
+            this.ignoredTierEncounterIds.add(toId);
+          }
+        }
+        return;
+      }
+
       var boss = {
         id: element.id,
         name: element.name
@@ -255,16 +336,20 @@ export class MainComponent implements OnInit {
   getItem(item: any, player: any) {
     var str = item.name.split("/", 7);
     var item_id = str[3];
-    var item_boss = str[1];
+    const numericItemId = Number(item_id);
+    var item_boss = this.normalizeEncounterId(str[1]);
     var item_slot: string = this.comprobarSlot(str[6]);
     var item_dps = Math.round(item.mean);
     var item_realDPS = item_dps - player.dps;
     var item_armor = this.getArmor(player.spec, item_slot);
-    var tier = this.comprobarTier(item_boss, item_slot, player.spec);
+    if (this.isTierSlot(item_slot) && this.ignoredTierEncounterIds.has(Number(item_boss))) {
+      return;
+    }
+    var tier = this.comprobarTier(item_boss, item_slot, player.spec, numericItemId);
     var item_exactID: number = -1;
     if (tier != -1) {
       item_exactID = item_id;
-      item_id = item_boss + tier;
+      item_id = `${item_boss}${tier}`;
       item_armor = 'Tier';
     }
 
@@ -311,11 +396,11 @@ export class MainComponent implements OnInit {
           boss: item_boss,
           sim: [simC]
         }
-        var tier = this.comprobarTier(item_descrip.boss, item_slot, player.spec);
+        var tier = this.comprobarTier(item_descrip.boss, item_slot, player.spec, Number(item_descrip.id));
         if (tier != -1) {
           item_descrip.tier = tier
           item_descrip.exactID.push(item_descrip.id);
-          item_descrip.id = item_boss + tier;
+          item_descrip.id = `${item_boss}${tier}`;
         }
         if (allItems) {
           allItems.push(item_descrip);
@@ -349,56 +434,96 @@ export class MainComponent implements OnInit {
   }
 
   comprobarTierItem(item: any, slot?: any) {
-    if (item.icon.includes('helm') || slot == 'head') {
-      if (item.encounter && item.encounter.id == 2644 || item.boss == 2644) {
-        return true;
-      }
-    }
-
-    if (item.icon.includes('pant') || slot == 'legs') {
-      if (item.encounter && item.encounter.id == 2642 || item.boss == 2642) {
-        return true;
-      }
-    }
-
-    if (item.icon.includes('shoulder') || slot == 'shoulder') {
-      if (item.encounter && item.encounter.id == 2641 || item.boss == 2641) {
-        return true;
-      }
-    }
-
-    if (item.icon.includes('chest') || slot == 'chest') {
-      if (item.encounter && item.encounter.id == 2653 || item.boss == 2653) {
-        return true;
-      }
-    }
-
-    if (item.icon.includes('glove') || slot == 'hands') {
-      if (item.encounter && item.encounter.id == 2640 || item.boss == 2640) {
-        return true;
-      }
-    }
-
-    return false;
+    const bossId = Number(item?.encounter?.id ?? item?.boss ?? -1);
+    const itemId = Number(item?.id ?? -1);
+    const resolvedSlot = slot || this.getSlotFromIcon(item?.icon);
+    return this.comprobarTier(bossId, resolvedSlot, '', itemId) !== -1;
   }
 
-  comprobarTier(boss: any, slot: any, spec: any) {
-    if (boss == '2642' && slot == 'legs') {
-      return this.getTier(spec);
+  comprobarTier(boss: any, slot: any, spec: any, itemId?: number) {
+    if (!this.isTierSlot(slot)) {
+      return -1;
     }
-    if ((boss == '2653') && slot == 'chest') {
-      return this.getTier(spec);
+
+    const bossId = Number(boss);
+    if (this.tierEncounterIds.size > 0 && !this.tierEncounterIds.has(bossId)) {
+      return -1;
     }
-    if (boss == '2640' && slot == 'hands') {
-      return this.getTier(spec);
+
+    if (typeof itemId === 'number' && this.tierItemIds.size > 0 && !this.tierItemIds.has(Number(itemId))) {
+      return -1;
     }
-    if (boss == '2641' && slot == 'shoulder') {
-      return this.getTier(spec);
+
+    if (!spec) {
+      return 0;
     }
-    if (boss == '2644' && slot == 'head') {
-      return this.getTier(spec);
+
+    return this.getTier(spec);
+  }
+
+  isTierSlot(slot: any) {
+    return slot == 'head' || slot == 'shoulder' || slot == 'chest' || slot == 'hands' || slot == 'legs';
+  }
+
+  getSlotFromIcon(icon: any) {
+    if (!icon) {
+      return '';
     }
-    return -1;
+    if (icon.includes('helm')) {
+      return 'head';
+    }
+    if (icon.includes('pant')) {
+      return 'legs';
+    }
+    if (icon.includes('shoulder')) {
+      return 'shoulder';
+    }
+    if (icon.includes('chest')) {
+      return 'chest';
+    }
+    if (icon.includes('glove')) {
+      return 'hands';
+    }
+    return '';
+  }
+
+  isPseudoEncounter(name: any) {
+    if (!name) {
+      return false;
+    }
+    return String(name).toLowerCase().includes('loot core');
+  }
+
+  normalizeEncounterId(encounterId: any) {
+    const numericId = Number(encounterId);
+    return this.encounterAliases[numericId] ?? numericId;
+  }
+
+  extractDroptimizerMeta(data: any) {
+    const sim = data?.sim ?? {};
+    const serialized = JSON.stringify({
+      options: sim?.options ?? {},
+      profile: sim?.profile ?? {},
+      profileSets: sim?.profilesets ?? {}
+    }).toLowerCase();
+
+    let difficulty = 'unknown';
+    if (serialized.includes('mythic')) {
+      difficulty = 'mythic';
+    } else if (serialized.includes('heroic')) {
+      difficulty = 'heroic';
+    } else if (serialized.includes('normal')) {
+      difficulty = 'normal';
+    }
+
+    const hasUpgrades = serialized.includes('upgrade') || serialized.includes('crest') || serialized.includes('track=');
+    const hasCatalyst = serialized.includes('catalyst') || serialized.includes('encounterid=-67');
+
+    return {
+      difficulty,
+      hasUpgrades,
+      hasCatalyst,
+    };
   }
 
   comprobarSlot(slot: any) {
@@ -419,9 +544,10 @@ export class MainComponent implements OnInit {
 
   getBoss(id: any) {
     var retorna = 'Trash Drop';
+    const normalizedId = this.normalizeEncounterId(id);
     this.encounterLibrary.forEach(element => {
       var element_id = element.id;
-      if (id == element_id) {
+      if (normalizedId == element_id) {
         retorna = element.name;
       }
     });
