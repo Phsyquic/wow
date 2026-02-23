@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/215135?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/215135?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 215135,
@@ -14,20 +14,20 @@
   "required_level": 1,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/215135?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/215135?namespace=static-12.0.1_65617-us"
     },
     "id": 215135
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/215135?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/215135?namespace=static-12.0.1_65617-us"
       },
       "id": 215135
     },
@@ -59,8 +59,6 @@
     "context": 0,
     "bonus_list": [
       10421,
-      9633,
-      8902,
       10878
     ],
     "quality": {
@@ -70,20 +68,20 @@
     "name": "Ring of Earthen Craftsmanship",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/215135?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/215135?namespace=static-12.0.1_65617-us"
       },
       "id": 215135
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -102,9 +100,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 7078,
+        "value": 17,
         "display": {
-          "display_string": "+7,078 Stamina",
+          "display_string": "+17 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -118,10 +116,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 2089,
+        "value": 26,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+2,089 Critical Strike",
+          "display_string": "+26 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -132,13 +130,13 @@
       },
       {
         "type": {
-          "type": "MASTERY_RATING",
-          "name": "Mastery"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
-        "value": 2089,
+        "value": 26,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+2,089 Mastery",
+          "display_string": "+26 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -157,16 +155,22 @@
         "copper": "50"
       }
     },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "is_subclass_hidden": true,
     "modified_crafting_stat": [
       {
-        "id": 49,
-        "type": "MASTERY_RATING",
-        "name": "Mastery"
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       },
       {
         "id": 32,

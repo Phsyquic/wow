@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219308?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219308?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 219308,
@@ -14,20 +14,20 @@
   "required_level": 68,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219308?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219308?namespace=static-12.0.1_65617-us"
     },
     "id": 219308
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219308?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219308?namespace=static-12.0.1_65617-us"
       },
       "id": 219308
     },
@@ -55,20 +55,20 @@
     "name": "Signet of the Priory",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219308?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219308?namespace=static-12.0.1_65617-us"
       },
       "id": 219308
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -88,9 +88,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 549,
+        "value": 16,
         "display": {
-          "display_string": "+549 Intellect",
+          "display_string": "+16 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -104,10 +104,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 549,
+        "value": 16,
         "is_negated": true,
         "display": {
-          "display_string": "+549 Agility",
+          "display_string": "+16 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -121,10 +121,10 @@
           "type": "STRENGTH",
           "name": "Strength"
         },
-        "value": 549,
+        "value": 16,
         "is_negated": true,
         "display": {
-          "display_string": "+549 Strength",
+          "display_string": "+16 Strength",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,21 +138,21 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/443531?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/443531?namespace=static-12.0.1_65617-us"
           },
           "name": "Bolstering Light",
           "id": 443531
         },
-        "description": "Use: Raise your signet to the Light, increasing your highest secondary stat by 2,756 for 20 sec. Your act inspires nearby signetbearers within your party, granting them 72 of the same stat for 20 sec. (2 Min Cooldown)"
+        "description": "Use: Raise your signet to the Light, increasing your highest secondary stat by 108 for 20 sec. Your act inspires nearby signetbearers within your party, granting them 2 of the same stat for 20 sec. (2 Min Cooldown)"
       }
     ],
     "sell_price": {
-      "value": 439858,
+      "value": 201874,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "43",
-        "silver": "98",
-        "copper": "58"
+        "gold": "20",
+        "silver": "18",
+        "copper": "74"
       }
     },
     "requirements": {
@@ -162,8 +162,8 @@
       }
     },
     "level": {
-      "value": 437,
-      "display_string": "Item Level 437"
+      "value": 74,
+      "display_string": "Item Level 74"
     },
     "is_subclass_hidden": true
   },

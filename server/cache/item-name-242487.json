@@ -1,0 +1,205 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/242487?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 242487,
+  "name": "Fatebound Crusader",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 437,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/242487?namespace=static-12.0.1_65617-us"
+    },
+    "id": 242487
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Sword",
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "TWOHWEAPON",
+    "name": "Two-Hand"
+  },
+  "purchase_price": 4754921,
+  "sell_price": 950984,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/242487?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242487
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Fatebound Crusader",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/242487?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242487
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Sword",
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "TWOHWEAPON",
+      "name": "Two-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 33,
+        "max_value": 57,
+        "display_string": "33 - 57 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 3600,
+        "display_string": "Speed 3.60"
+      },
+      "dps": {
+        "value": 12.499999,
+        "display_string": "(12.5 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 17,
+        "is_negated": true,
+        "display": {
+          "display_string": "+17 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 25,
+        "display": {
+          "display_string": "+25 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 20,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+20 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 436457,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "43",
+        "silver": "64",
+        "copper": "57"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 74,
+      "display_string": "Item Level 74"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97726?namespace=static-12.0.1_65617-us"
+      },
+      "id": 97726
+    }
+  ]
+}

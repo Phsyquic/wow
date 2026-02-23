@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 222431,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-12.0.1_65617-us"
     },
     "id": 222431
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Plate",
     "id": 4
@@ -44,15 +44,13 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222431?namespace=static-12.0.1_65617-us"
       },
       "id": 222431
     },
     "context": 0,
     "bonus_list": [
-      10421,
-      9633,
-      8902
+      10421
     ],
     "quality": {
       "type": "EPIC",
@@ -61,20 +59,20 @@
     "name": "Everforged Greatbelt",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222431?namespace=static-12.0.1_65617-us"
       },
       "id": 222431
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Plate",
       "id": 4
@@ -88,9 +86,9 @@
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 4250,
+      "value": 34,
       "display": {
-        "display_string": "4,250 Armor",
+        "display_string": "34 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -105,9 +103,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1854,
+        "value": 14,
         "display": {
-          "display_string": "+1,854 Intellect",
+          "display_string": "+14 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -121,10 +119,10 @@
           "type": "STRENGTH",
           "name": "Strength"
         },
-        "value": 1854,
+        "value": 14,
         "is_negated": true,
         "display": {
-          "display_string": "+1,854 Strength",
+          "display_string": "+14 Strength",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +136,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 23,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+23 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -154,10 +152,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 601,
+        "value": 14,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Critical Strike",
+          "display_string": "+14 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -171,10 +169,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 601,
+        "value": 14,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+601 Versatility",
+          "display_string": "+14 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -200,8 +198,8 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "durability": {
       "value": 55,
@@ -224,7 +222,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85202?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85202?namespace=static-12.0.1_65617-us"
       },
       "id": 85202
     }

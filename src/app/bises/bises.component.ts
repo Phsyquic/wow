@@ -4,7 +4,11 @@ import { LocalDataService } from '../services/local-data.service';
 import { Router } from '@angular/router';
 import { BlizzardApiService } from '../services/blizzard-api.service';
 import { forkJoin, Observable } from 'rxjs';
+import { firstValueFrom } from 'rxjs';
 import { RaidbotsApiService } from '../services/raidbots-api.service';
+import { scrapeWowheadPage } from '../utils/wowhead-scraper';
+import { extractWowheadBisList } from '../utils/wowhead-bis-parser';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-bises',
@@ -33,6 +37,11 @@ export class BisesComponent implements OnInit {
   selectedEncounter = '';
   selectedSpec = '';
   selectedSlot = '';
+  isReloadingBis = false;
+  wowIconBase = 'https://wow.zamimg.com/images/wow/icons/large/';
+  private cacheApiBase = 'http://localhost:3000';
+  private generatedBisSources: Record<string, string[]> = {};
+  private encounterNameCache: Record<number, string> = {};
 
   constructor(
     private http: HttpClient,
@@ -43,16 +52,19 @@ export class BisesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.getBisListData().then(() => {
-      // Después de que getBisListData haya terminado, llama a getBosses()
-      this.getBosses();
-    }).catch((error) => {
-      // Manejo de error si la promesa se rechaza
+    this.loadInitialData();
+  }
+
+  async loadInitialData() {
+    try {
+      this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
+      await this.getBisListData();
+      await this.getBosses();
+    } catch (error) {
       console.error("Hubo un error al cargar la bis list:", error);
-    }).finally(() => {
-      // Este bloque siempre se ejecutará después de que la promesa se haya resuelto o rechazado
-      this.isLoading = false;  // Cambiar isLoading a false cuando se haya completado el proceso
-    });
+    } finally {
+      this.isLoading = false;
+    }
   }
 
   getBisListData() {
@@ -144,52 +156,24 @@ export class BisesComponent implements OnInit {
   generateTable(bisList: any): Promise<void> {
     return new Promise<void>((resolve, reject) => {
       var spec = bisList[0];
+      bisList.slice(1).forEach((element: any) => {
+        var item = {
+          id: element,
+          spec: [spec],
+          img: null,
+          name: `Item ${element}`,
+        };
 
-      let observables: Observable<any>[] = bisList.slice(1).map((element: any) => {
-        return new Observable((observer) => {
-          // Llamada para obtener la imagen del ítem
-          this.getImgLink(element).then((imageUrl: any) => {
-            // Llamada para obtener el nombre del ítem
-            this.getItemName(element).then((itemName: any) => {
-              var item = {
-                id: element,
-                spec: [spec],
-                img: imageUrl,
-                name: itemName,
-              };
+        // Comprobar si ya existe un ítem con el mismo id en tableBisList
+        const existingItem = this.tableBisList.find((existingItem: { id: any; }) => existingItem.id === item.id);
 
-              // Comprobar si ya existe un ítem con el mismo id en tableBisList
-              const existingItem = this.tableBisList.find((existingItem: { id: any; }) => existingItem.id === item.id);
-
-              if (!existingItem) {
-                this.tableBisList.push(item);
-              } else {
-                existingItem.spec.push(spec);
-              }
-
-              observer.next(item);
-              observer.complete();
-            }).catch((err) => {
-              console.error('Error al obtener el nombre del ítem', err);
-              observer.complete();
-            });
-          }).catch((err) => {
-            console.error('Error al obtener la imagen del ítem', err);
-            observer.complete();
-          });
-        });
-      });
-
-      // Usamos forkJoin para esperar a que todos los observables se resuelvan
-      forkJoin(observables).subscribe({
-        next: (items) => {
-          resolve(); // Resolver la promesa cuando todos los ítems hayan sido procesados
-        },
-        error: (err) => {
-          console.error('Error en la llamada de forkJoin:', err);
-          reject(err); // Rechazar la promesa si hay un error
+        if (!existingItem) {
+          this.tableBisList.push(item);
+        } else {
+          existingItem.spec.push(spec);
         }
       });
+      resolve();
     });
   }
 
@@ -248,7 +232,7 @@ export class BisesComponent implements OnInit {
     if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter') {
       return '#a330c9';
     }
-    if (spec == 'Mastery Hunter-Beast' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
+    if (spec == 'Beast-Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
       return '#abd473';
     }
     if (spec == 'Enhancement Shaman' || spec == 'Elemental Shaman' || spec == 'Restoration Shaman') {
@@ -278,61 +262,83 @@ export class BisesComponent implements OnInit {
     return 'black';
   }
 
-  getBosses() {
-    forkJoin([
-      this.RaidbotsApiService.getInstances(),
-      this.RaidbotsApiService.getItemList()
-    ]).subscribe({
-      next: ([instancesData, itemListData]) => {
-        // Aseguramos que los datos sean arrays
-        if (Array.isArray(instancesData)) {
-          instancesData.forEach((element: any) => {
-            var instance = {
-              id: element.id,
-              name: element.name,
-              type: element.type
-            };
-            this.instances.push(instance);
-          });
-        } else {
-          console.error('La respuesta de las instancias no es un array', instancesData);
-        }
-
-        // Procesamos la lista de ítems solo si itemListData es un array
-        if (Array.isArray(itemListData)) {
-          this.itemList_full = itemListData;
-          itemListData.forEach((element: any) => {
-            const isUniversalTierToken = element.itemClass === 15
-              && element.itemSubClass === 0
-              && Array.isArray(element.contains)
-              && element.contains.length > 20;
-            if (isUniversalTierToken) {
-              return;
-            }
-
-            if (element.sources) {
-              var item = {
+  getBosses(): Promise<void> {
+    return new Promise((resolve, reject) => {
+      forkJoin([
+        this.RaidbotsApiService.getInstances(),
+        this.RaidbotsApiService.getItemList()
+      ]).subscribe({
+        next: async ([instancesData, itemListData]) => {
+          // Aseguramos que los datos sean arrays
+          if (Array.isArray(instancesData)) {
+            instancesData.forEach((element: any) => {
+              var instance = {
                 id: element.id,
-                drop: element.sources[0]
+                name: element.name,
+                type: element.type
               };
-              this.itemList.push(item);
-            }
-          });
-        } else {
-          console.error('La respuesta de los ítems no es un array', itemListData);
-        }
+              this.instances.push(instance);
+            });
+          } else {
+            console.error('La respuesta de las instancias no es un array', instancesData);
+          }
 
-        // Llamamos a getItemsDrop una vez que ambas respuestas se procesen
-        this.getItemsDrop();
-      },
-      error: (err) => {
-        console.error('Error en la llamada de forkJoin:', err);
-      }
+          // Procesamos la lista de ítems solo si itemListData es un array
+          if (Array.isArray(itemListData)) {
+            this.itemList_full = itemListData;
+            itemListData.forEach((element: any) => {
+              const isUniversalTierToken = element.itemClass === 15
+                && element.itemSubClass === 0
+                && Array.isArray(element.contains)
+                && element.contains.length > 20;
+              if (isUniversalTierToken) {
+                return;
+              }
+
+              if (element.sources) {
+                var item = {
+                  id: element.id,
+                  drop: element.sources[0]
+                };
+                this.itemList.push(item);
+              }
+            });
+          } else {
+            console.error('La respuesta de los ítems no es un array', itemListData);
+          }
+
+          // Llamamos a getItemsDrop una vez que ambas respuestas se procesen
+          await this.getItemsDrop();
+          resolve();
+        },
+        error: (err) => {
+          console.error('Error en la llamada de forkJoin:', err);
+          reject(err);
+        }
+      });
     });
   }
 
   async getItemsDrop() {
     var realItemList: any[] = [];
+    const encounterIds: number[] = [...new Set<number>(
+      this.itemList
+        .map((element: any) => Number(element?.drop?.encounterId))
+        .filter((id: number) => Number.isInteger(id) && id > 0)
+    )];
+
+    const encounterNameMap: Record<number, string> = {};
+    await Promise.all(encounterIds.map(async (encounterId: number) => {
+      if (this.encounterNameCache[encounterId]) {
+        encounterNameMap[encounterId] = this.encounterNameCache[encounterId];
+        return;
+      }
+      const encounterName = await this.getEncounter(encounterId);
+      if (encounterName && encounterName !== 'N/A') {
+        this.encounterNameCache[encounterId] = encounterName;
+        encounterNameMap[encounterId] = encounterName;
+      }
+    }));
 
     // Usamos 'for...of' para poder usar 'await' dentro del ciclo
     for (const element of this.itemList) {
@@ -342,20 +348,26 @@ export class BisesComponent implements OnInit {
       var item: any = {};
       if (ins) {
         if (ins.type === 'raid') {
-          if (element.drop.encounterId === -67) {
+          const encounterId = Number(element.drop.encounterId);
+          if (encounterId === -67) {
             item = {
               id: element.id,
               instance: ins,
               boss: 'catalyst',
             };
             realItemList.push(item);
-          } else {
-            // Aquí usamos 'await' para esperar a que 'getEncounter' se resuelva antes de continuar
-            var encounterName = await this.getEncounter(element.drop.encounterId);
+          } else if (encounterId <= 0) {
             item = {
               id: element.id,
               instance: ins,
-              boss: encounterName,
+              boss: 'BoE',
+            };
+            realItemList.push(item);
+          } else {
+            item = {
+              id: element.id,
+              instance: ins,
+              boss: encounterNameMap[encounterId] || this.encounterNameCache[encounterId] || `Encounter ${encounterId}`,
             };
             realItemList.push(item);
           }
@@ -388,52 +400,59 @@ export class BisesComponent implements OnInit {
     this.tableBisList.forEach((element: any) => {
       var itemID = parseInt(element.id);
       var itemEncontrado = this.itemList.find((item: any) => itemID === item.id);
+      const sourceFallback = this.getFallbackSourceByItemId(itemID);
       if (itemEncontrado) {
         var item = {};
-        var iType = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
-        iType = iType.inventoryType;
-        if (itemEncontrado.instance.type == "dungeon") {
+        const fullItem = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
+        var iType = fullItem?.inventoryType;
+        const itemName = fullItem?.name ?? element.name;
+        const itemImg = fullItem?.icon ? `${this.wowIconBase}${fullItem.icon}.jpg` : element.img;
+        const instanceType = itemEncontrado.instance?.type;
+        if (instanceType == "dungeon") {
           item = {
             id: itemID,
             spec: element.spec,
-            img: element.img,
-            name: element.name,
+            img: itemImg,
+            name: itemName,
             instance: itemEncontrado.instance.name,
-            iType: iType
+            iType: iType,
+            sourceType: 'dungeon'
           }
           realTableBistList.push(item);
-        } else if (itemEncontrado.instance.type == "raid") {
+        } else if (instanceType == "raid") {
           item = {
             id: itemID,
             spec: element.spec,
-            img: element.img,
-            name: element.name,
+            img: itemImg,
+            name: itemName,
             instance: itemEncontrado.instance.name,
             boss: itemEncontrado.boss,
-            iType: iType
+            iType: iType,
+            sourceType: 'raid'
           }
           realTableBistList.push(item);
-        } else if (itemEncontrado.instance.type.includes("profession")) {
+        } else if (instanceType?.includes("profession")) {
           item = {
             id: itemID,
             spec: element.spec,
-            img: element.img,
-            name: element.name,
+            img: itemImg,
+            name: itemName,
             instance: 'Crafted',
-            iType: iType
+            iType: iType,
+            sourceType: 'crafted'
           }
           realTableBistList.push(item);
-        } else if (itemEncontrado.instance.type == "catalyst") {
-          var full = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
-          var bossTier = this.comprobarTier(full.inventoryType, element.spec[0]);
+        } else if (instanceType == "catalyst") {
+          var bossTier = this.comprobarTier(fullItem?.inventoryType, element.spec[0]);
           if (bossTier[0] == -1) {
             item = {
               id: itemID,
               spec: element.spec,
-              img: element.img,
-              name: element.name,
+              img: itemImg,
+              name: itemName,
               instance: 'Catalyst',
               iType: iType,
+              sourceType: 'catalyst'
             }
             realTableBistList.push(item);
           } else {
@@ -444,7 +463,8 @@ export class BisesComponent implements OnInit {
               name: bossTier[2],
               instance: 'Tier',
               iType: iType,
-              iTier: bossTier[1]
+              iTier: bossTier[1],
+              sourceType: 'tier'
             }
             realTableBistList.push(item);
           }
@@ -452,10 +472,11 @@ export class BisesComponent implements OnInit {
           item = {
             id: itemID,
             spec: element.spec,
-            img: element.img,
-            name: element.name,
-            instance: 'Desconocido',
-            iType: iType
+            img: itemImg,
+            name: itemName,
+            instance: sourceFallback || 'Crafted',
+            iType: iType,
+            sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
           }   
           realTableBistList.push(item);
         }
@@ -465,7 +486,8 @@ export class BisesComponent implements OnInit {
           spec: element.spec,
           img: element.img,
           name: element.name,
-          instance: 'Desconocido'
+          instance: sourceFallback || 'Crafted',
+          sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
         }
         realTableBistList.push(item2);
       }
@@ -477,6 +499,7 @@ export class BisesComponent implements OnInit {
     this.tableBisList = realTableBistList;
     this.tableBisList_full = realTableBistList;
     this.cargarDrops(this.tableBisList);
+    this.enrichUnknownItemMetadata();
   }
 
   cargarDrops(bisList: any[]) {
@@ -489,6 +512,27 @@ export class BisesComponent implements OnInit {
     const mDungeons = this.instances
       .filter((ins: any) => ins.type === "dungeon" && availableInstances.includes(ins.name))
       .map((ins: any) => ins.name);
+    const fallbackDungeons = [...new Set(
+      bisList
+        .filter((item: any) =>
+          item.sourceType === 'fallback'
+          && item.instance
+          && item.instance !== 'Desconocido'
+          && !/questline/i.test(String(item.instance))
+        )
+        .map((item: any) => item.instance)
+    )];
+    const mDungeonPool = [...new Set([...mDungeons, ...fallbackDungeons])];
+    const fallbackLocations = [...new Set(
+      bisList
+        .filter((item: any) =>
+          item.sourceType === 'fallback'
+          && item.instance
+          && item.instance !== 'Desconocido'
+          && !mDungeonPool.includes(item.instance)
+        )
+        .map((item: any) => item.instance)
+    )];
 
     this.instancesLibrary = ['M+ Dungeons'];
     if (availableInstances.includes('Catalyst')) {
@@ -505,6 +549,7 @@ export class BisesComponent implements OnInit {
       .filter((ins: any) => ins.type === "raid" && availableInstances.includes(ins.name))
       .map((ins: any) => ins.name);
     this.instancesLibrary.push(...raidNamesWithData);
+    this.instancesLibrary.push(...fallbackLocations);
 
     //Cargar filtro encounters
     var bossLibrary = [...new Set(
@@ -512,7 +557,7 @@ export class BisesComponent implements OnInit {
         .map(item => item.boss) // Extrae la propiedad 'boss'
         .filter(boss => boss) // Filtra valores nulos o indefinidos
     )];
-    this.encounterLibrary = [bossLibrary, mDungeons];
+    this.encounterLibrary = [bossLibrary, mDungeonPool];
 
     // Cargar filtro specs
     this.specsLibrary = [...new Set(
@@ -756,6 +801,7 @@ export class BisesComponent implements OnInit {
 
     if (this.selectedSpec) {
       dataFiltrada = dataFiltrada.filter((i: any) => i.spec.includes(this.selectedSpec));
+      console.log(`[BiS Filter] Spec "${this.selectedSpec}": ${dataFiltrada.length} items`);
     }
 
     if (this.selectedSlot !== '') {
@@ -783,6 +829,338 @@ export class BisesComponent implements OnInit {
     this.router.navigate(['/']);
   }
 
+  async reloadBisFromWowhead() {
+    if (this.isReloadingBis) {
+      return;
+    }
+
+    this.isReloadingBis = true;
+    this.isLoading = true;
+    const isDev = !environment.production;
+    const sourceMap: Record<string, string[]> = {};
+
+    // Requisito: borrar siempre la bislist actual al recargar (no caché de items).
+    this.LocalDataService.clearGeneratedBisListTxt();
+    this.LocalDataService.clearGeneratedBisSources();
+    if (isDev) {
+      console.log('[BiS Reload] Start: limpiando bislist generada actual');
+    }
+
+    try {
+      const specMatrix = this.getWowheadSpecMatrix();
+      const blocks: string[] = [];
+      const specItemCounts: Record<string, number> = {};
+      let okCount = 0;
+      let failCount = 0;
+
+      if (isDev) {
+        console.log(`[BiS Reload] Total specs a procesar: ${specMatrix.length}`);
+      }
+
+      for (let index = 0; index < specMatrix.length; index++) {
+        const spec = specMatrix[index];
+        const url = `https://www.wowhead.com/guide/classes/${spec.classSlug}/${spec.specSlug}/bis-gear`;
+        const label = `${spec.classLabel} ${spec.specLabel}`;
+
+        try {
+          if (isDev) {
+            console.log(`[BiS Reload] [${index + 1}/${specMatrix.length}] Scraping ${label}`, url);
+          }
+          const scrapedPage = await scrapeWowheadPage(url);
+          const bisItems = extractWowheadBisList(scrapedPage, 'Overall');
+
+          if (bisItems.length === 0) {
+            specItemCounts[label] = 0;
+            failCount++;
+            if (isDev) {
+              console.warn(`[BiS Reload] ${label}: sin ítems en tab Overall`);
+            }
+            continue;
+          }
+
+          // Guardamos IDs únicos por spec.
+          const uniqueIds = [...new Set(bisItems.map((x) => x.itemId))];
+          specItemCounts[label] = uniqueIds.length;
+          const lines = [`${spec.classLabel} ${spec.specLabel}`, ...uniqueIds.map((id) => id.toString()), ''];
+          blocks.push(lines.join('\n'));
+          bisItems.forEach((item) => {
+            const key = String(item.itemId);
+            if (!sourceMap[key]) {
+              sourceMap[key] = [];
+            }
+            const source = this.selectSourceFallback(item.source);
+            if (source && !sourceMap[key].includes(source)) {
+              sourceMap[key].push(source);
+            }
+          });
+          okCount++;
+
+          if (isDev) {
+            console.log(`[BiS Reload] ${label}: OK (${uniqueIds.length} itemIds únicos)`);
+          }
+        } catch (error) {
+          specItemCounts[label] = 0;
+          failCount++;
+          console.error(`[BiS Reload] ${label}: ERROR scraping ${url}`, error);
+        }
+      }
+      this.validateScrapedSpecCoverage(specMatrix, specItemCounts);
+
+      const generatedBisList = blocks.join('\n');
+      if (!generatedBisList.trim()) {
+        throw new Error('No se pudo generar ninguna bislist desde Wowhead.');
+      }
+
+      this.LocalDataService.saveGeneratedBisListTxt(generatedBisList);
+      this.LocalDataService.saveGeneratedBisSources(sourceMap);
+      this.generatedBisSources = sourceMap;
+      if (isDev) {
+        console.log(`[BiS Reload] Guardado bisList generada. Specs OK: ${okCount}, fallidas/sin datos: ${failCount}`);
+      }
+      await this.reloadBisViewData();
+      if (isDev) {
+        console.log('[BiS Reload] Recarga de vista completada');
+      }
+    } catch (error) {
+      console.error('Error recargando bislist desde Wowhead', error);
+      // Si algo falla, restauramos estado de UI con datos actuales.
+      await this.reloadBisViewData();
+    } finally {
+      this.isReloadingBis = false;
+      this.isLoading = false;
+      if (isDev) {
+        console.log('[BiS Reload] End');
+      }
+    }
+  }
+
+  async reloadBisViewData() {
+    this.tableBisList = [];
+    this.tableBisList_full = [];
+    this.instances = [];
+    this.itemList = [];
+    this.itemList_full = [];
+    this.instancesLibrary = [];
+    this.encounterLibrary = [];
+    this.specsLibrary = [];
+    this.slotsLibrary = [];
+    this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
+    this.resetFiltros();
+
+    await this.getBisListData();
+    await this.getBosses();
+  }
+
+  getWowheadSpecMatrix() {
+    return [
+      { classLabel: 'Death-Knight', classSlug: 'death-knight', specLabel: 'Blood', specSlug: 'blood' },
+      { classLabel: 'Death-Knight', classSlug: 'death-knight', specLabel: 'Frost', specSlug: 'frost' },
+      { classLabel: 'Death-Knight', classSlug: 'death-knight', specLabel: 'Unholy', specSlug: 'unholy' },
+
+      { classLabel: 'Demon-Hunter', classSlug: 'demon-hunter', specLabel: 'Havoc', specSlug: 'havoc' },
+      { classLabel: 'Demon-Hunter', classSlug: 'demon-hunter', specLabel: 'Vengeance', specSlug: 'vengeance' },
+
+      { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Balance', specSlug: 'balance' },
+      { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Feral', specSlug: 'feral' },
+      { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Guardian', specSlug: 'guardian' },
+      { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Restoration', specSlug: 'restoration' },
+
+      { classLabel: 'Evoker', classSlug: 'evoker', specLabel: 'Devastation', specSlug: 'devastation' },
+      { classLabel: 'Evoker', classSlug: 'evoker', specLabel: 'Preservation', specSlug: 'preservation' },
+      { classLabel: 'Evoker', classSlug: 'evoker', specLabel: 'Augmentation', specSlug: 'augmentation' },
+
+      { classLabel: 'Hunter', classSlug: 'hunter', specLabel: 'Beast-Mastery', specSlug: 'beast-mastery' },
+      { classLabel: 'Hunter', classSlug: 'hunter', specLabel: 'Marksmanship', specSlug: 'marksmanship' },
+      { classLabel: 'Hunter', classSlug: 'hunter', specLabel: 'Survival', specSlug: 'survival' },
+
+      { classLabel: 'Mage', classSlug: 'mage', specLabel: 'Arcane', specSlug: 'arcane' },
+      { classLabel: 'Mage', classSlug: 'mage', specLabel: 'Fire', specSlug: 'fire' },
+      { classLabel: 'Mage', classSlug: 'mage', specLabel: 'Frost', specSlug: 'frost' },
+
+      { classLabel: 'Monk', classSlug: 'monk', specLabel: 'Brewmaster', specSlug: 'brewmaster' },
+      { classLabel: 'Monk', classSlug: 'monk', specLabel: 'Mistweaver', specSlug: 'mistweaver' },
+      { classLabel: 'Monk', classSlug: 'monk', specLabel: 'Windwalker', specSlug: 'windwalker' },
+
+      { classLabel: 'Paladin', classSlug: 'paladin', specLabel: 'Holy', specSlug: 'holy' },
+      { classLabel: 'Paladin', classSlug: 'paladin', specLabel: 'Protection', specSlug: 'protection' },
+      { classLabel: 'Paladin', classSlug: 'paladin', specLabel: 'Retribution', specSlug: 'retribution' },
+
+      { classLabel: 'Priest', classSlug: 'priest', specLabel: 'Discipline', specSlug: 'discipline' },
+      { classLabel: 'Priest', classSlug: 'priest', specLabel: 'Holy', specSlug: 'holy' },
+      { classLabel: 'Priest', classSlug: 'priest', specLabel: 'Shadow', specSlug: 'shadow' },
+
+      { classLabel: 'Rogue', classSlug: 'rogue', specLabel: 'Assassination', specSlug: 'assassination' },
+      { classLabel: 'Rogue', classSlug: 'rogue', specLabel: 'Outlaw', specSlug: 'outlaw' },
+      { classLabel: 'Rogue', classSlug: 'rogue', specLabel: 'Subtlety', specSlug: 'subtlety' },
+
+      { classLabel: 'Shaman', classSlug: 'shaman', specLabel: 'Elemental', specSlug: 'elemental' },
+      { classLabel: 'Shaman', classSlug: 'shaman', specLabel: 'Enhancement', specSlug: 'enhancement' },
+      { classLabel: 'Shaman', classSlug: 'shaman', specLabel: 'Restoration', specSlug: 'restoration' },
+
+      { classLabel: 'Warlock', classSlug: 'warlock', specLabel: 'Affliction', specSlug: 'affliction' },
+      { classLabel: 'Warlock', classSlug: 'warlock', specLabel: 'Demonology', specSlug: 'demonology' },
+      { classLabel: 'Warlock', classSlug: 'warlock', specLabel: 'Destruction', specSlug: 'destruction' },
+
+      { classLabel: 'Warrior', classSlug: 'warrior', specLabel: 'Arms', specSlug: 'arms' },
+      { classLabel: 'Warrior', classSlug: 'warrior', specLabel: 'Fury', specSlug: 'fury' },
+      { classLabel: 'Warrior', classSlug: 'warrior', specLabel: 'Protection', specSlug: 'protection' },
+    ];
+  }
+
+  getCurrentBisItemIds(): number[] {
+    const ids = new Set<number>();
+    this.allBisList.forEach((specBlock: any[]) => {
+      specBlock.slice(1).forEach((itemId: any) => {
+        const n = Number(itemId);
+        if (!Number.isNaN(n)) {
+          ids.add(n);
+        }
+      });
+    });
+    return [...ids];
+  }
+
+  async enrichUnknownItemMetadata() {
+    const unknownItems = this.tableBisList_full.filter(
+      (item: any) => (!item.img || String(item.name).startsWith('Item '))
+    );
+
+    for (const item of unknownItems) {
+      const itemId = Number(item.id);
+      if (!Number.isInteger(itemId) || itemId <= 0) {
+        continue;
+      }
+
+      try {
+        const [nameData, mediaData] = await Promise.all([
+          firstValueFrom(this.blizzardService.getItemName(itemId)),
+          firstValueFrom(this.blizzardService.getItemMedia(itemId)),
+        ]);
+
+        const name = nameData?.name;
+        const iconUrl = mediaData?.assets?.find((asset: any) => asset.key === 'icon')?.value;
+
+        this.tableBisList_full.forEach((x: any) => {
+          if (Number(x.id) === itemId) {
+            if (name) {
+              x.name = name;
+            }
+            if (iconUrl) {
+              x.img = iconUrl;
+            }
+          }
+        });
+      } catch {
+        // Silencioso en UI: si no hay cache/backend disponible, mantenemos placeholder.
+      }
+    }
+
+    this.applyFilters();
+  }
+
+  async cacheMissingItems() {
+    const ids = this.getCurrentBisItemIds();
+    if (ids.length === 0) {
+      console.warn('[BiS Cache] No hay itemIds para cachear');
+      return;
+    }
+
+    this.isLoading = true;
+    try {
+      const response = await fetch(`${this.cacheApiBase}/cache/items/prefetch`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ itemIds: ids }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Prefetch failed (${response.status})`);
+      }
+
+      const result = await response.json();
+      console.log('[BiS Cache] Prefetch completado:', result);
+    } catch (error) {
+      console.error('[BiS Cache] Error cacheando items. ¿Está levantado server/server.js?', error);
+    } finally {
+      this.isLoading = false;
+    }
+  }
+
+  async clearItemCache() {
+    this.isLoading = true;
+    try {
+      const response = await fetch(`${this.cacheApiBase}/cache/items`, {
+        method: 'DELETE',
+      });
+
+      if (!response.ok) {
+        throw new Error(`Clear cache failed (${response.status})`);
+      }
+
+      const result = await response.json();
+      console.log('[BiS Cache] Cache limpiada:', result);
+    } catch (error) {
+      console.error('[BiS Cache] Error limpiando cache. ¿Está levantado server/server.js?', error);
+    } finally {
+      this.isLoading = false;
+    }
+  }
+
+  private getFallbackSourceByItemId(itemId: number): string {
+    const sources = this.generatedBisSources[String(itemId)] ?? [];
+    const fallback = sources.find((s) => !!s && s !== 'Unknown' && s !== 'Desconocido');
+    return fallback ?? '';
+  }
+
+  private selectSourceFallback(rawSource: string): string {
+    const cleaned = String(rawSource ?? '')
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .replace(/\|/g, ' ')
+      .trim();
+    if (!cleaned) {
+      return '';
+    }
+    if (/(blacksmithing|leatherworking|tailoring|jewelcrafting|inscription|alchemy|engineering|enchanting)/i.test(cleaned)) {
+      return 'Crafted';
+    }
+    if (/questline/i.test(cleaned)) {
+      return 'Questline';
+    }
+
+    const parts = cleaned.split(' ');
+    if (parts.length === 1 && /^[A-Z][a-z]+$/.test(parts[0])) {
+      // Evita guardar labels demasiado genéricos tipo "Raid" o "Vault".
+      return '';
+    }
+
+    return cleaned;
+  }
+
+  private validateScrapedSpecCoverage(
+    specMatrix: Array<{ classLabel: string; specLabel: string }>,
+    specItemCounts: Record<string, number>
+  ) {
+    const expectedLabels = specMatrix.map((spec) => `${spec.classLabel} ${spec.specLabel}`);
+    const missingSpecs = expectedLabels.filter((label) => !(label in specItemCounts));
+    const specsUnderMin = expectedLabels
+      .filter((label) => (specItemCounts[label] ?? 0) < 15)
+      .map((label) => `${label} (${specItemCounts[label] ?? 0})`);
+
+    console.log(
+      `[BiS Reload][Validation] Specs esperadas: ${expectedLabels.length}, scrapeadas: ${Object.keys(specItemCounts).length}`
+    );
+
+    if (missingSpecs.length > 0) {
+      console.error('[BiS Reload][Validation] Faltan specs:', missingSpecs);
+    }
+
+    if (specsUnderMin.length > 0) {
+      console.error('[BiS Reload][Validation] Specs con menos de 15 items:', specsUnderMin);
+    } else {
+      console.log('[BiS Reload][Validation] OK: todas las specs tienen al menos 15 items.');
+    }
+  }
 
 
 

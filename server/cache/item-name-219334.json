@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219334?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219334?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 219334,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219334?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219334?namespace=static-12.0.1_65617-us"
     },
     "id": 219334
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
     },
     "name": "Leather",
     "id": 2
@@ -44,15 +44,13 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219334?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219334?namespace=static-12.0.1_65617-us"
       },
       "id": 219334
     },
     "context": 0,
     "bonus_list": [
-      10421,
-      9633,
-      8902
+      10421
     ],
     "quality": {
       "type": "EPIC",
@@ -61,20 +59,20 @@
     "name": "Rune-Branded Armbands",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219334?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219334?namespace=static-12.0.1_65617-us"
       },
       "id": 219334
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
       },
       "name": "Leather",
       "id": 2
@@ -88,9 +86,9 @@
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 1703,
+      "value": 14,
       "display": {
-        "display_string": "1,703 Armor",
+        "display_string": "14 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -105,9 +103,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1390,
+        "value": 10,
         "display": {
-          "display_string": "+1,390 Intellect",
+          "display_string": "+10 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -121,10 +119,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1390,
+        "value": 10,
         "is_negated": true,
         "display": {
-          "display_string": "+1,390 Agility",
+          "display_string": "+10 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -138,9 +136,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 7078,
+        "value": 17,
         "display": {
-          "display_string": "+7,078 Stamina",
+          "display_string": "+17 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -151,13 +149,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
         },
-        "value": 451,
+        "value": 10,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+451 Haste",
+          "display_string": "+10 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -171,10 +169,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 451,
+        "value": 10,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+451 Versatility",
+          "display_string": "+10 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -200,8 +198,8 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "durability": {
       "value": 55,
@@ -209,9 +207,9 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
       },
       {
         "id": 40,
@@ -224,7 +222,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85150?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/85150?namespace=static-12.0.1_65617-us"
       },
       "id": 85150
     }

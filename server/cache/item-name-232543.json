@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/232543?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/232543?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 232543,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/232543?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/232543?namespace=static-12.0.1_65617-us"
     },
     "id": 232543
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -45,7 +45,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/232543?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/232543?namespace=static-12.0.1_65617-us"
       },
       "id": 232543
     },
@@ -56,20 +56,20 @@
     "name": "Ringing Ritual Mud",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/232543?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/232543?namespace=static-12.0.1_65617-us"
       },
       "id": 232543
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -89,10 +89,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 1426,
+        "value": 29,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+1,426 Versatility",
+          "display_string": "+29 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -106,21 +106,21 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/1219102?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/1219102?namespace=static-12.0.1_65617-us"
           },
           "name": "Mudborne",
           "id": 1219102
         },
-        "description": "Use: Become Mudborne, absorbing 7 million damage and pulsing 291,125 Nature damage split between nearby enemies over 10 sec.\r\n\r\nPeriodic damage you take coalesces into pungent mud to feed the ritual, reducing this cooldown by 2.0 sec. (2 Min Cooldown)"
+        "description": "Use: Become Mudborne, absorbing 43,694 damage and pulsing 2,153 Nature damage split between nearby enemies over 10 sec.\r\n\r\nPeriodic damage you take coalesces into pungent mud to feed the ritual, reducing this cooldown by 2.0 sec. (2 Min Cooldown)"
       }
     ],
     "sell_price": {
-      "value": 834416,
+      "value": 416853,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "83",
-        "silver": "44",
-        "copper": "16"
+        "gold": "41",
+        "silver": "68",
+        "copper": "53"
       }
     },
     "requirements": {
@@ -131,8 +131,8 @@
     },
     "description": "Fear the old mud.",
     "level": {
-      "value": 636,
-      "display_string": "Item Level 636"
+      "value": 95,
+      "display_string": "Item Level 95"
     },
     "is_subclass_hidden": true
   },

@@ -80,6 +80,12 @@ select:focus {
   border: 1px solid #39506a;
 }
 
+.btn.danger {
+  color: #ffd7df;
+  border-color: #7a3b50;
+  background: #311826;
+}
+
 .items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

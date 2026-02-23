@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/234491?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/234491?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 234491,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/234491?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/234491?namespace=static-12.0.1_65617-us"
     },
     "id": 234491
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
     },
     "name": "Weapon",
     "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-12.0.1_65617-us"
     },
     "name": "Warglaives",
     "id": 9
@@ -36,15 +36,15 @@
     "type": "WEAPON",
     "name": "One-Hand"
   },
-  "purchase_price": 6873484,
-  "sell_price": 1374696,
+  "purchase_price": 7252456,
+  "sell_price": 1450491,
   "max_count": 0,
   "is_equippable": true,
   "is_stackable": false,
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/234491?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/234491?namespace=static-12.0.1_65617-us"
       },
       "id": 234491
     },
@@ -55,20 +55,20 @@
     "name": "Sonic Ka-BOOM!-erang",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/234491?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/234491?namespace=static-12.0.1_65617-us"
       },
       "id": 234491
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
       },
       "name": "Weapon",
       "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-12.0.1_65617-us"
       },
       "name": "Warglaives",
       "id": 9
@@ -83,9 +83,9 @@
     },
     "weapon": {
       "damage": {
-        "min_value": 3743,
-        "max_value": 5918,
-        "display_string": "3,743 - 5,918 Damage",
+        "min_value": 22,
+        "max_value": 36,
+        "display_string": "22 - 36 Damage",
         "damage_class": {
           "type": "PHYSICAL",
           "name": "Physical"
@@ -96,20 +96,36 @@
         "display_string": "Speed 2.60"
       },
       "dps": {
-        "value": 1857.6923,
-        "display_string": "(1,857 damage per second)"
+        "value": 11.153846,
+        "display_string": "(11.2 damage per second)"
       }
     },
     "stats": [
       {
         "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 58,
+        "display": {
+          "display_string": "+58 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1634,
+        "value": 10,
         "is_negated": true,
         "display": {
-          "display_string": "+1,634 Agility",
+          "display_string": "+10 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -123,9 +139,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9732,
+        "value": 28,
         "display": {
-          "display_string": "+9,732 Stamina",
+          "display_string": "+28 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -139,10 +155,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 356,
+        "value": 7,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+356 Critical Strike",
+          "display_string": "+7 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -156,10 +172,10 @@
           "type": "HASTE_RATING",
           "name": "Haste"
         },
-        "value": 583,
+        "value": 13,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+583 Haste",
+          "display_string": "+13 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -170,12 +186,12 @@
       }
     ],
     "sell_price": {
-      "value": 1450491,
+      "value": 724629,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "145",
-        "silver": "4",
-        "copper": "91"
+        "gold": "72",
+        "silver": "46",
+        "copper": "29"
       }
     },
     "requirements": {
@@ -185,8 +201,8 @@
       }
     },
     "level": {
-      "value": 623,
-      "display_string": "Item Level 623"
+      "value": 92,
+      "display_string": "Item Level 92"
     },
     "durability": {
       "value": 120,
@@ -197,7 +213,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96135?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96135?namespace=static-12.0.1_65617-us"
       },
       "id": 96135
     }
