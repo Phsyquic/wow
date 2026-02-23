@@ -4,32 +4,41 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-npm run build
+$originalBranch = (git branch --show-current).Trim()
 
-git switch gh-pages
-git rm -r .
+try {
+    npm run build
 
-$distCandidates = @(
-    Join-Path $PSScriptRoot "dist\\wowAPP\\*",
-    Join-Path $PSScriptRoot "dist\\wowapp\\*"
-)
+    git switch gh-pages
+    git rm -r .
 
-$distPath = $null
-foreach ($candidate in $distCandidates) {
-    if (Test-Path $candidate) {
-        $distPath = $candidate
-        break
+    $distCandidates = @(
+        (Join-Path -Path $PSScriptRoot -ChildPath "dist\\wowAPP\\*")
+        (Join-Path -Path $PSScriptRoot -ChildPath "dist\\wowapp\\*")
+    )
+
+    $distPath = $null
+    foreach ($candidate in $distCandidates) {
+        if (Test-Path $candidate) {
+            $distPath = $candidate
+            break
+        }
+    }
+
+    if (-not $distPath) {
+        throw "No se encontro la carpeta de build. Busque en dist\\wowAPP y dist\\wowapp."
+    }
+
+    Copy-Item -Path $distPath -Destination $PSScriptRoot -Recurse -Force
+    New-Item (Join-Path $PSScriptRoot ".nojekyll") -ItemType File -Force | Out-Null
+
+    git add .
+    git commit -m $CommitMessage
+    git push origin gh-pages
+}
+finally {
+    $currentBranch = (git branch --show-current).Trim()
+    if ($currentBranch -ne $originalBranch) {
+        git switch $originalBranch
     }
 }
-
-if (-not $distPath) {
-    throw "No se encontro la carpeta de build. Busque en dist\\wowAPP y dist\\wowapp."
-}
-
-Copy-Item -Path $distPath -Destination $PSScriptRoot -Recurse -Force
-New-Item (Join-Path $PSScriptRoot ".nojekyll") -ItemType File -Force | Out-Null
-
-git add .
-git commit -m $CommitMessage
-git push origin gh-pages
-git switch master
