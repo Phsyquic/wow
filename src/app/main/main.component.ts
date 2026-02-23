@@ -1058,68 +1058,85 @@ export class MainComponent implements OnInit {
 
   getRotation() {
     this.checkDiv = true;
-    var idBoss = this.bossCargado;
-
-    //Extraigo todos los items con mejoras del boss
-    var titems: any[] = [];
-    this.aitems.forEach((element: any) => {
-      var tslot: any[] = [];
-      if (element[1]) {
-        var bosses = element[1];
-        bosses.forEach((item: any) => {
-          if (item.boss == idBoss) {
-            tslot.push(item);
-          }
-        });
-        titems.push([element[0], tslot]);
-      }
-    });
-    var allItems = titems;
-
-    //Cargo todas las mejoras
-    var playersSimList: { name: any; item: any; pos: number; spec: any }[] = [];
-    allItems.forEach((slot: any) => {
-      if (slot[1].length > 0) {
-        slot[1].forEach((element: any) => {
-          var simList = element.sim.sort((a: { dps: number; }, b: { dps: number; }) => b.dps - a.dps);
-          simList.forEach((sim: any, index: number) => {
-            var player = this.playersLibrary.filter((obj: any) => obj.name === sim.name)
-            var playerSim = { name: sim.name, item: element.id, pos: index + 1, spec: player[0].spec };
-            playersSimList.push(playerSim);
-          });
-        });
-      }
+    const idBoss = Number(this.bossCargado);
+    const allItemsFromBoss: any[] = [];
+    const playersByName = new Map<string, any>();
+    this.playersLibrary.forEach((player: any) => {
+      playersByName.set(String(player.name).toLowerCase(), player);
     });
 
-    //Agrupo las mejoras por players
+    this.aitems.forEach((slot: any) => {
+      if (!slot[1]) {
+        return;
+      }
+
+      slot[1].forEach((item: any) => {
+        if (Number(item.boss) === idBoss) {
+          allItemsFromBoss.push(item);
+        }
+      });
+    });
+
     this.allSimList = [];
     this.playersLibrary.forEach((player: any) => {
-      const resultados = playersSimList.filter(obj => obj.name === player.name);
-      if (resultados.length > 0) {
-        this.allSimList.push(resultados);
+      const playerKey = String(player.name).toLowerCase();
+      const playerItems: any[] = [];
+
+      allItemsFromBoss.forEach((item: any) => {
+        const simForPlayer = item.sim?.find((sim: any) => String(sim.name).toLowerCase() === playerKey);
+        if (!simForPlayer) {
+          return;
+        }
+
+        const exactId = Array.isArray(item.exactID) && item.exactID.length > 0 ? Number(item.exactID[0]) : Number(item.id);
+        const resolvedItemId = Number.isInteger(exactId) && exactId > 0 ? exactId : Number(item.id);
+        const libItem = this.itemsLibrary.find((x: any) => Number(x.id) === resolvedItemId);
+        const simName = String(simForPlayer.name);
+        const knownPlayer = playersByName.get(String(simName).toLowerCase());
+        const resolvedSpec = knownPlayer?.spec || player.spec;
+        const resolvedName = this.capitalizeFirstLetter(simName);
+
+        playerItems.push({
+          name: libItem?.name || `Item ${resolvedItemId}`,
+          item: resolvedItemId,
+          bisItemId: resolvedItemId,
+          dps: Number(simForPlayer.dps),
+          pos: 0,
+          spec: resolvedSpec,
+          playerName: resolvedName
+        });
+      });
+
+      playerItems.sort((a: any, b: any) => b.dps - a.dps);
+      playerItems.forEach((entry: any, index: number) => {
+        entry.pos = index + 1;
+      });
+
+      if (playerItems.length > 0) {
+        this.allSimList.push(playerItems);
       }
     });
   }
 
   getColor(pos: any) {
     if (pos == 1) {
-      return 'green';
+      return '#1f5a45';
     }
     if (pos == 2) {
-      return 'yellow';
+      return '#66531d';
     }
     if (pos == 3) {
-      return 'orange';
+      return '#6d3f22';
     }
-    return '';
+    return '#1b2640';
   }
 
   getRotacionBis(item: any) {
     var bisList = this.allBisList.find((x: any[]) => x[0] == this.limpiarSpec2(item.spec));
-    var id: any = parseInt(item.item);
+    var id: any = Number(item.bisItemId ?? item.item);
     if (bisList) {
       var existe = false;
-      existe = bisList.find((x: any[]) => x == id);
+      existe = bisList.find((x: any[]) => Number(x) == id);
       if (!existe) {
         return 'red';
       } else {
