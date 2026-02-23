@@ -160,6 +160,16 @@ export class BisesComponent implements OnInit {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+  formatSlotLabel(slot: string) {
+    if (slot === 'main_hand') {
+      return 'Weapon';
+    }
+    if (slot === 'off_hand') {
+      return 'Offhand';
+    }
+    return this.capitalizeFirstLetter(slot);
+  }
+
   generateTable(bisList: any): Promise<void> {
     return new Promise<void>((resolve, reject) => {
       var spec = bisList[0];
@@ -839,24 +849,60 @@ export class BisesComponent implements OnInit {
     }
 
     if (this.selectedSlot !== '') {
-      const slot = parseInt(this.selectedSlot, 10);
-      const preSlotData = [...dataFiltrada];
-      dataFiltrada = preSlotData.filter((i: any) => i.iType === slot + 1);
-
-      // Casos especiales
-      if (slot === 3) {
-        const additionalData = preSlotData.filter((i: any) => i.iType === 16);
-        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
-      } else if (slot === 4) {
-        const additionalData = preSlotData.filter((i: any) => i.iType === 20);
-        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
-      } else if (slot === 12) {
-        const additionalData = preSlotData.filter((i: any) => i.iType === 17);
-        dataFiltrada = [...dataFiltrada, ...additionalData.filter((x: any) => dataFiltrada.indexOf(x) === -1)];
-      }
+      const slotIndex = parseInt(this.selectedSlot, 10);
+      const selectedSlotKey = this.slotsLibrary[slotIndex];
+      dataFiltrada = dataFiltrada.filter((i: any) =>
+        this.resolveSlotKeyByInventoryType(Number(i.iType)) === selectedSlotKey
+      );
     }
 
     this.tableBisList = dataFiltrada;
+  }
+
+  private resolveSlotKeyByInventoryType(inventoryType: number): string {
+    switch (inventoryType) {
+      case 1:
+        return 'head';
+      case 2:
+        return 'neck';
+      case 3:
+        return 'shoulder';
+      case 16:
+        return 'back';
+      case 5:
+      case 20:
+        return 'chest';
+      case 6:
+        return 'waist';
+      case 7:
+        return 'legs';
+      case 8:
+        return 'feet';
+      case 9:
+        return 'wrist';
+      case 10:
+        return 'hands';
+      case 11:
+        return 'finger';
+      case 12:
+        return 'trinket';
+      case 14: // shield
+      case 22: // weapon off-hand
+      case 23: // holdable (off-hand)
+        return 'off_hand';
+      case 13: // one-hand weapon
+      case 15: // ranged
+      case 17: // two-hand weapon
+      case 21: // weapon main-hand
+      case 24: // ammo
+      case 25: // thrown
+      case 26: // ranged right
+      case 27: // quiver
+      case 28: // relic
+        return 'main_hand';
+      default:
+        return '';
+    }
   }
 
   goMain() {

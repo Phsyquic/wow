@@ -53,6 +53,7 @@ export class MainComponent implements OnInit {
   YOUR_AUTHORIZATION_CODE = 'kXnSmYA60XPENHCp83XlLNY3fwOojI';
   allSimList: any = [];
   allBisList: any = [];
+  dpsThresholds: number[] = [];
   tierSlots: any[] = [];
   tierEncounterIds = new Set<number>();
   tierItemIds = new Set<number>();
@@ -345,6 +346,7 @@ export class MainComponent implements OnInit {
 
     this.aitems = this.comprobarCatalyst(this.aitems);
     this.fitems = this.aitems;
+    this.updateDpsThresholds(this.fitems);
   }
 
   quitarVacios(slot: any) {
@@ -829,6 +831,66 @@ export class MainComponent implements OnInit {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+  formatMainSlotLabel(slot: string) {
+    if (slot === 'main_hand') {
+      return 'Weapon';
+    }
+    if (slot === 'off_hand') {
+      return 'Offhand';
+    }
+    return this.capitalizeFirstLetter(slot);
+  }
+
+  updateDpsThresholds(itemsSource: any[]) {
+    const dpsValues: number[] = [];
+
+    (itemsSource || []).forEach((slot: any) => {
+      (slot?.[1] || []).forEach((item: any) => {
+        (item?.sim || []).forEach((sim: any) => {
+          const value = Number(sim?.dps);
+          if (Number.isFinite(value) && value > 0) {
+            dpsValues.push(value);
+          }
+        });
+      });
+    });
+
+    if (dpsValues.length === 0) {
+      this.dpsThresholds = [];
+      return;
+    }
+
+    const maxDps = Math.max(...dpsValues);
+    const percentages = [0.2, 0.4, 0.6, 0.8, 1];
+    const thresholds = percentages
+      .map((p) => this.roundDpsThreshold(maxDps * p))
+      .filter((n) => n > 0);
+
+    this.dpsThresholds = [...new Set(thresholds)].sort((a, b) => a - b);
+  }
+
+  roundDpsThreshold(value: number): number {
+    if (value >= 10000) {
+      return Math.round(value / 1000) * 1000;
+    }
+    if (value >= 2000) {
+      return Math.round(value / 500) * 500;
+    }
+    return Math.max(100, Math.round(value / 100) * 100);
+  }
+
+  formatDpsLabel(value: number): string {
+    if (!Number.isFinite(value)) {
+      return '';
+    }
+    if (value >= 1000) {
+      const k = value / 1000;
+      const formatted = Number.isInteger(k) ? `${k}` : k.toFixed(1).replace(/\.0$/, '');
+      return `${formatted}k`;
+    }
+    return `${Math.round(value)}`;
+  }
+
   filtrar(data: any) {
     var boss = data.target.value;
     this.playerCargado = '';
@@ -857,6 +919,7 @@ export class MainComponent implements OnInit {
       } else {
         this.fitems = this.aitems;
       }
+      this.updateDpsThresholds(this.fitems);
     }
   }
 
@@ -877,6 +940,7 @@ export class MainComponent implements OnInit {
     } else {
       this.fitems = this.aitems;
     }
+    this.updateDpsThresholds(this.fitems);
   }
 
   filtrar3(data: any) {
@@ -908,12 +972,13 @@ export class MainComponent implements OnInit {
       this.fitems = this.aitems;
       this.playerCargado = '';
     }
+    this.updateDpsThresholds(this.fitems);
   }
 
   filtrar4(data: any) {
     this.checkDiv = false;
-    var dps = parseInt(data.target.value);
-    if (data) {
+    var dps = parseInt(data.target.value, 10);
+    if (!Number.isNaN(dps) && dps > 0) {
       //this.fitems = this.aitems;
       var titems: any[] = [];
       this.fitems.forEach((element: any) => {
@@ -944,6 +1009,7 @@ export class MainComponent implements OnInit {
     this.playerCargado = '';
     this.bossCargado = '';
     this.checkDiv = false;
+    this.updateDpsThresholds(this.fitems);
   }
 
   checkIlvl() {

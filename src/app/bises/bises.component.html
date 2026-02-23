@@ -24,7 +24,7 @@
 
       <select name="Slots" id="slots" (change)="filtrar(3, $event)">
         <option value="">Slots</option>
-        <option [value]="i" *ngFor="let slot of slotsLibrary; let i = index">{{capitalizeFirstLetter(slot)}}</option>
+        <option [value]="i" *ngFor="let slot of slotsLibrary; let i = index">{{formatSlotLabel(slot)}}</option>
       </select>
     </div>
 
