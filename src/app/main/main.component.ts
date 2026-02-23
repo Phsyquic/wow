@@ -375,10 +375,12 @@ export class MainComponent implements OnInit {
     }
 
     if (item_realDPS > 0) {
+      const simItemId = tier !== -1 ? Number(item_exactID) : numericItemId;
       var simC = {
         name: player.name,
         spec: player.spec,
-        dps: item_realDPS
+        dps: item_realDPS,
+        itemId: simItemId
       }
 
       type ObjectKey = keyof typeof this.items;
@@ -395,7 +397,7 @@ export class MainComponent implements OnInit {
                 if (!element.exactID) {
                   element.exactID = [];
                 } else {
-                  element.exactID.push(item_exactID);
+                  element.exactID.push(Number(item_exactID));
                 }
               }
               if (!element.sim) {
@@ -417,10 +419,11 @@ export class MainComponent implements OnInit {
           boss: item_boss,
           sim: [simC]
         }
-        var tier = this.comprobarTier(item_descrip.boss, item_slot, player.spec, Number(item_descrip.id));
         if (tier != -1) {
-          item_descrip.tier = tier
-          item_descrip.exactID.push(item_descrip.id);
+          item_descrip.tier = tier;
+          if (item_exactID != -1) {
+            item_descrip.exactID.push(Number(item_exactID));
+          }
           item_descrip.id = `${item_boss}${tier}`;
         }
         if (allItems) {
@@ -639,20 +642,31 @@ export class MainComponent implements OnInit {
 
   getCharOptions(item: any) {
     var colors: any[] = [];
-    var id = item.id;
     var sim = item.sim;
+    const fallbackItemId = Number(item.id);
+    const exactIds = Array.isArray(item.exactID) ? item.exactID.map((x: any) => Number(x)).filter((x: number) => !Number.isNaN(x)) : [];
 
     sim.forEach((element: any) => {
       var spec = this.quitarVacioSpec(element.spec);
       var bisList = this.allBisList.find((x: any[]) => x[0] == spec);
       if (bisList) {
-        var existe = false;
-        existe = bisList.find((x: any[]) => x == id);
+        const candidateIds = [
+          Number(element.itemId),
+          ...exactIds,
+          fallbackItemId
+        ].filter((x: number) => Number.isInteger(x) && x > 0);
+
+        const existe = candidateIds.some((candidateId: number) =>
+          bisList.some((x: any) => Number(x) === candidateId)
+        );
+
         if (!existe) {
           colors.push('red');
         } else {
           colors.push('white');
         }
+      } else {
+        colors.push('white');
       }
     });
 
