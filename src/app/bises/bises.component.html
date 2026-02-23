@@ -29,9 +29,14 @@
     </div>
 
     <div class="actions-row">
-      <button class="btn ghost" title="Recargar BiS desde Wowhead" (click)="reloadBisFromWowhead()">↻</button>
-      <button class="btn ghost" title="Cachear items faltantes en Blizzard API" (click)="cacheMissingItems()">🗄</button>
-      <button class="btn ghost danger" title="Limpiar cache de items" (click)="clearItemCache()">🗑</button>
+      <ng-container *ngIf="isAdminConfigEnabled; else adminConfigEntry">
+        <button class="btn ghost" title="Recargar BiS desde Wowhead" (click)="reloadBisFromWowhead()">↻</button>
+        <button class="btn ghost" title="Cachear items faltantes en Blizzard API" (click)="cacheMissingItems()">🗄</button>
+        <button class="btn ghost danger" title="Limpiar cache de items" (click)="clearItemCache()">🗑</button>
+      </ng-container>
+      <ng-template #adminConfigEntry>
+        <button class="btn ghost" title="Configuración admin" (click)="openAdminModal()">⚙</button>
+      </ng-template>
       <button class="btn ghost" *ngIf="tableBisList != tableBisList_full" (click)="resetFiltros()">Reset</button>
       <button class="btn primary" (click)="goMain()">Main</button>
     </div>
@@ -52,5 +57,23 @@
 
   <div *ngIf="isLoading" class="loading-message">
     <p>Procesando...</p>
+  </div>
+
+  <div class="modal-backdrop" *ngIf="showAdminModal" (click)="closeAdminModal()">
+    <section class="modal-card" (click)="$event.stopPropagation()">
+      <h3>Acceso Admin</h3>
+      <p>Introduce password para activar configuración.</p>
+      <input
+        type="password"
+        [(ngModel)]="adminPasswordInput"
+        (keydown.enter)="submitAdminPassword()"
+        placeholder="Password"
+      >
+      <p class="modal-error" *ngIf="adminPasswordError">{{ adminPasswordError }}</p>
+      <div class="modal-actions">
+        <button class="btn ghost" (click)="closeAdminModal()">Cancelar</button>
+        <button class="btn primary" (click)="submitAdminPassword()">Entrar</button>
+      </div>
+    </section>
   </div>
 </main>

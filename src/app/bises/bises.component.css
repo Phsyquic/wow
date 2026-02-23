@@ -153,6 +153,66 @@ select:focus {
   border: 1px solid #354b67;
 }
 
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 10, 18, 0.68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-card {
+  width: min(430px, 92vw);
+  background: #162231;
+  border: 1px solid #35506a;
+  border-radius: 14px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.modal-card h3 {
+  margin: 0;
+  color: #f1f7ff;
+  font-size: 1.1rem;
+}
+
+.modal-card p {
+  margin: 0;
+  color: #b6c7de;
+  font-size: 0.92rem;
+}
+
+.modal-card input {
+  width: 100%;
+  border: 1px solid #3b4d5f;
+  border-radius: 10px;
+  background: #0f1724;
+  color: #e2edff;
+  padding: 0.62rem 0.72rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+}
+
+.modal-card input:focus {
+  outline: 2px solid #7ec1ff;
+  outline-offset: 2px;
+}
+
+.modal-error {
+  color: #ff9fb2 !important;
+  font-weight: 700;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
 @media (max-width: 900px) {
   .filters-grid {
     grid-template-columns: repeat(2, minmax(150px, 1fr));

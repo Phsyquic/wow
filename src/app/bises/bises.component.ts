@@ -38,10 +38,16 @@ export class BisesComponent implements OnInit {
   selectedSpec = '';
   selectedSlot = '';
   isReloadingBis = false;
+  isAdminConfigEnabled = false;
+  showAdminModal = false;
+  adminPasswordInput = '';
+  adminPasswordError = '';
   wowIconBase = 'https://wow.zamimg.com/images/wow/icons/large/';
   private cacheApiBase = 'http://localhost:3000';
   private generatedBisSources: Record<string, string[]> = {};
   private encounterNameCache: Record<number, string> = {};
+  private adminConfigStorageKey = 'config';
+  private adminPassword = '6190';
 
   constructor(
     private http: HttpClient,
@@ -52,6 +58,7 @@ export class BisesComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.loadAdminConfigState();
     this.loadInitialData();
   }
 
@@ -175,6 +182,33 @@ export class BisesComponent implements OnInit {
       });
       resolve();
     });
+  }
+
+  loadAdminConfigState() {
+    this.isAdminConfigEnabled = localStorage.getItem(this.adminConfigStorageKey) === 'true';
+  }
+
+  openAdminModal() {
+    this.adminPasswordInput = '';
+    this.adminPasswordError = '';
+    this.showAdminModal = true;
+  }
+
+  closeAdminModal() {
+    this.showAdminModal = false;
+    this.adminPasswordInput = '';
+    this.adminPasswordError = '';
+  }
+
+  submitAdminPassword() {
+    if (this.adminPasswordInput === this.adminPassword) {
+      localStorage.setItem(this.adminConfigStorageKey, 'true');
+      this.isAdminConfigEnabled = true;
+      this.closeAdminModal();
+      return;
+    }
+
+    this.adminPasswordError = 'Password incorrecta';
   }
 
 
