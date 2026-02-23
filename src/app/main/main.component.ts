@@ -61,6 +61,7 @@ export class MainComponent implements OnInit {
   droptimizerMetaByReport: Record<string, any> = {};
   // TODO: desactivar en cuanto se vuelva al flujo real por TXT/URL.
   useMockDroptimizer = true;
+  weekRangeLabel = '';
 
   constructor(
     private http: HttpClient,
@@ -76,7 +77,27 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
     //this.getDiscord();
+    this.weekRangeLabel = this.getNearestWednesdayToTuesdayRange();
     this.loadTierTokenMetadata();
+  }
+
+  getNearestWednesdayToTuesdayRange() {
+    const now = new Date();
+    const day = now.getDay(); // 0 Sunday ... 3 Wednesday
+    const daysSinceWednesday = (day - 3 + 7) % 7;
+    const start = new Date(now);
+    start.setDate(now.getDate() - daysSinceWednesday);
+
+    const end = new Date(start);
+    end.setDate(start.getDate() + 6);
+
+    return `${this.formatDateDDMM(start)} - ${this.formatDateDDMM(end)}`;
+  }
+
+  formatDateDDMM(date: Date) {
+    const dd = String(date.getDate()).padStart(2, '0');
+    const mm = String(date.getMonth() + 1).padStart(2, '0');
+    return `${dd}/${mm}`;
   }
 
   loadTierTokenMetadata() {

@@ -1,55 +1,85 @@
-<body>
-  <select #myselect name="Bosses" id="bosses" (change)="filtrar($event)">
-    <option value="">Bosses</option>
-    <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>
-  </select>
-  <select *ngIf="!checkDiv" #myselect name="Slots" id="slots" (change)="filtrar2($event)">
-    <option value="">Slots</option>
-    <option [value]="slot" *ngFor="let slot of listSlots">{{capitalizeFirstLetter(slot)}}</option>
-  </select>
-  <select *ngIf="!checkDiv" #myselect name="DPS" id="players" (change)="filtrar4($event)">
-    <option value="">DPS</option>
-    <option value="1000">1000</option>
-    <option value="2500">2500</option>
-    <option value="5000">5000</option>
-    <option value="7500">7500</option>
-    <option value="10000">10000</option>
-    <option value="15000">15000</option>
-  </select>
-  <select *ngIf="!checkDiv" #myselect name="Players" id="players" (change)="filtrar3($event)">
-    <option value="">Players</option>
-    <option [value]="player.name" *ngFor="let player of playersLibrary">{{capitalizeFirstLetter(player.name)}}</option>
-  </select>
-  <span *ngIf="actualIlvl" style="font-size: 200%;">{{actualSpec}} {{actualIlvl}}</span>
-  <span style="float: right; font-size: 200%;"><b>{{playersLibrary.length}}/{{reports.length}}</b></span>
-  <label *ngIf="checkDiv"><b>Verde 1º. Amarillo 2º. Naranja 3º</b></label>
-  <button (click)="resetAll()">Reset</button>
-  <button (click)="goBises()">Bises</button>
-  <button *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
-  <button *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
-  <div *ngIf="!checkDiv">
-    <div *ngFor="let slot of fitems">
-      <div *ngIf="quitarVacios(slot)">
-        <div *ngFor="let item of slot[1]" class="mainDiv">
-          <img [src]="getImgLink(item.id)"><span>{{getBoss(item.boss)}} || {{item.armor}}
-            {{capitalizeFirstLetter(slot[0])}}</span>
-          <canvas baseChart [data]="getChartData(item.id)" [options]="getCharOptions(item)" [type]="'bar'">
-          </canvas>
-        </div>
+<main class="main-page">
+  <section class="top-panel">
+    <div class="panel-title">
+      <div class="title-row">
+        <h1>Skill Issue Droptimizers</h1>
+        <span class="date-badge">{{weekRangeLabel}}</span>
       </div>
+      <p>Droptimizer insights and upgrade priority by boss, slot and player.</p>
     </div>
-  </div>
-  <div *ngIf="checkDiv">
-    <div *ngFor="let player of allSimList" class="mainDiv" style="padding: 0px;">
-      <div *ngFor="let item of player" [ngStyle]="{
-       'background-color': getColor(item.pos),
-       'color': getRotacionBis(item) 
-     }" style="padding:10px;">
-        <img [src]="getImgLink(item.item)">
+
+    <div class="status-row">
+      <span class="stat-pill">{{playersLibrary.length}} / {{reports.length}} reports</span>
+      <span class="stat-pill" *ngIf="actualIlvl">{{actualSpec}} · ilvl {{actualIlvl}}</span>
+      <span class="stat-pill" *ngIf="checkDiv">Verde 1º · Amarillo 2º · Naranja 3º</span>
+    </div>
+
+    <div class="filters-grid">
+      <select #myselect name="Bosses" id="bosses" (change)="filtrar($event)">
+        <option value="">Bosses</option>
+        <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>
+      </select>
+
+      <select *ngIf="!checkDiv" #myselect name="Slots" id="slots" (change)="filtrar2($event)">
+        <option value="">Slots</option>
+        <option [value]="slot" *ngFor="let slot of listSlots">{{capitalizeFirstLetter(slot)}}</option>
+      </select>
+
+      <select *ngIf="!checkDiv" #myselect name="DPS" id="players" (change)="filtrar4($event)">
+        <option value="">DPS</option>
+        <option value="1000">1000</option>
+        <option value="2500">2500</option>
+        <option value="5000">5000</option>
+        <option value="7500">7500</option>
+        <option value="10000">10000</option>
+        <option value="15000">15000</option>
+      </select>
+
+      <select *ngIf="!checkDiv" #myselect name="Players" id="players" (change)="filtrar3($event)">
+        <option value="">Players</option>
+        <option [value]="player.name" *ngFor="let player of playersLibrary">{{capitalizeFirstLetter(player.name)}}</option>
+      </select>
+    </div>
+
+    <div class="actions-row">
+      <button class="btn ghost" (click)="goBises()">Bises</button>
+      <button class="btn ghost" *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
+      <button class="btn ghost" *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
+      <button class="btn primary" (click)="resetAll()">Reset</button>
+    </div>
+  </section>
+
+  <section class="cards-grid" *ngIf="!checkDiv">
+    <ng-container *ngFor="let slot of fitems">
+      <ng-container *ngIf="quitarVacios(slot)">
+        <article *ngFor="let item of slot[1]" class="loot-card">
+          <div class="loot-header">
+            <img [src]="getImgLink(item.id)" alt="item icon">
+            <div class="loot-meta">
+              <h3>{{capitalizeFirstLetter(slot[0])}}</h3>
+              <p>{{getBoss(item.boss)}} · {{item.armor || 'Any Armor'}}</p>
+            </div>
+          </div>
+          <div class="chart-wrap">
+            <canvas baseChart [data]="getChartData(item.id)" [options]="getCharOptions(item)" [type]="'bar'"></canvas>
+          </div>
+        </article>
+      </ng-container>
+    </ng-container>
+  </section>
+
+  <section class="rotation-grid" *ngIf="checkDiv">
+    <article *ngFor="let player of allSimList" class="rotation-card">
+      <div
+        *ngFor="let item of player"
+        class="rotation-item"
+        [ngStyle]="{
+          'background-color': getColor(item.pos),
+          'color': getRotacionBis(item)
+        }">
+        <img [src]="getImgLink(item.item)" alt="item icon">
         <span>{{item.name}}</span>
       </div>
-    </div>
-  </div>
-
-
-</body>
+    </article>
+  </section>
+</main>

@@ -1,91 +1,176 @@
-span {
-    display: inline-block;
-    margin-left: 10px;
+.bises-page {
+  width: min(1400px, 95vw);
+  margin: 2rem auto 3rem auto;
+  display: grid;
+  gap: 1.25rem;
 }
 
-.mainDiv {
-    border: 2px solid #bbbbbb;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    display: inline-block;
-    background-color: #2a2a2a;
-    color: #e0e0e0;
-
-    height: 133px;
-    /* Altura fija inicial */
-    overflow: hidden;
-    /* Oculta contenido que se desborde */
-    transition: height 0.3s ease-in-out;
-    /* Transición suave */
+.top-panel {
+  background: linear-gradient(135deg, #182831 0%, #1e2d3d 62%, #31261d 100%);
+  border: 1px solid #304250;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(2, 4, 11, 0.5);
+  padding: 1.25rem;
+  display: grid;
+  gap: 1rem;
 }
 
-.mainDiv:hover {
-    height: auto;
-    /* Se expande al tamaño necesario */
+.panel-title h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
+  color: #f0f7ff;
 }
 
-/* Contenedor de los filtros */
-.filters-container {
-    display: flex;            /* Flexbox para alinear los select en fila */
-    justify-content: flex-start; /* Alineación a la izquierda */
-    margin-top: 20px;         /* Espaciado superior */
-    margin-bottom: 20px;      /* Espaciado inferior */
-    padding: 10px;            /* Espaciado interno */
-    background-color: #2a2a2a; /* Fondo para separar la fila */
-    width: 100%;              /* Asegura que ocupe todo el ancho */
-    box-sizing: border-box;   /* Para que el padding no afecte el ancho total */
-    align-items: center;      /* Asegura que los elementos estén centrados verticalmente */
+.panel-title p {
+  margin: 0.35rem 0 0 0;
+  color: #b5c4de;
+  font-size: 0.98rem;
 }
 
-/* Estilo para los selectores */
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(170px, 1fr));
+  gap: 0.75rem;
+}
+
 select {
-    margin-right: 20px;       /* Espaciado entre los selectores */
-    padding: 10px;            /* Espaciado interno */
-    font-size: 1em;         /* Tamaño de fuente */
-    height: 40px;             /* Altura fija para todos los selectores */
+  width: 100%;
+  border: 1px solid #3b4d5f;
+  border-radius: 12px;
+  background: #111a28;
+  color: #e2edff;
+  padding: 0.7rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
-/* Estilo para los botones */
-button {
-    padding: 10px 20px;       /* Espaciado interno para los botones */
-    font-size: 1.2em;         /* Tamaño de fuente para los botones */
-    height: 40px;             /* Altura similar a los selectores */
-    scale: 1;                 /* Cambia el tamaño de los botones proporcionalmente */
-    cursor: pointer;         /* Añadir cursor pointer para los botones */
-    background-color: #4CAF50; /* Fondo verde para los botones */
-    color: white;             /* Texto en blanco */
-    border: none;             /* Quitar borde por defecto */
-    border-radius: 5px;       /* Bordes redondeados */
-    transition: background-color 0.3s ease-in-out; /* Transición suave al pasar el ratón */
-    margin-left: 10px;        /* Espaciado entre los botones */
+select:focus {
+  outline: 2px solid #7ec1ff;
+  outline-offset: 2px;
 }
 
-/* Cambia el color del fondo del botón al pasar el ratón */
-button:hover {
-    background-color: #45a049;
+.actions-row {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: flex-end;
+}
+
+.btn {
+  border: 0;
+  border-radius: 12px;
+  padding: 0.62rem 0.9rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn.primary {
+  background: #2e9f84;
+  color: #ffffff;
+}
+
+.btn.ghost {
+  background: #122130;
+  color: #e2eeff;
+  border: 1px solid #39506a;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 0.95rem;
+}
+
+.bis-card {
+  background: #161f2f;
+  border: 1px solid #2f4055;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(2, 4, 12, 0.45);
+  padding: 0.95rem;
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.bis-card img {
+  width: 58px;
+  height: 58px;
+  border-radius: 10px;
+  border: 1px solid #3b4d61;
+  background: #0f1726;
+}
+
+.item-content h3 {
+  margin: 0;
+  color: #f1f7ff;
+  font-size: 1rem;
+}
+
+.item-content p {
+  margin: 0.28rem 0 0.5rem 0;
+  color: #b3c2de;
+  font-size: 0.87rem;
+}
+
+.spec-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.65rem;
+}
+
+.spec-tags span {
+  font-size: 0.83rem;
+  font-weight: 700;
 }
 
 .loading-message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    z-index: 9999; /* Asegura que el mensaje se vea por encima de otros elementos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.loading-message p {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #e3eeff;
+  padding: 1rem 1.2rem;
+  background: #1a2638;
+  border-radius: 12px;
+  border: 1px solid #354b67;
+}
+
+@media (max-width: 900px) {
+  .filters-grid {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
   }
-  
-  .loading-message p {
-    font-size: 24px; /* Tamaño grande del texto */
-    font-weight: bold;
-    color: white;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el recuadro */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra para el recuadro */
+
+  .items-grid {
+    grid-template-columns: 1fr;
   }
-  
+}
+
+@media (max-width: 560px) {
+  .bises-page {
+    width: 94vw;
+  }
+
+  .filters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions-row {
+    justify-content: stretch;
+  }
+
+  .btn {
+    flex: 1;
+  }
+}
