@@ -26,6 +26,13 @@ try {
         throw "No se encontro Angular CLI local. Ejecuta 'npm install' en la raiz del proyecto y vuelve a correr el script."
     }
 
+    $serverCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "server\\cache"
+    $assetsCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "src\\assets\\cache"
+    if (Test-Path $serverCacheDir) {
+        New-Item -Path $assetsCacheDir -ItemType Directory -Force | Out-Null
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "journal-encounter-*.json") -Destination $assetsCacheDir -Force
+    }
+
     Invoke-CheckedCommand -Command { npm run build } -ErrorMessage "El build fallo. Revisa los errores de npm/ng mostrados arriba."
 
     $angularConfigPath = Join-Path -Path $PSScriptRoot -ChildPath "angular.json"

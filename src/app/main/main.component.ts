@@ -1459,7 +1459,15 @@ export class MainComponent implements OnInit {
   catalyst(slot: any, sim: any) {
     var player = sim.name;
     const results = this.tierSlots.find((x: { name: any; }) => x.name.toLowerCase() === player.toLowerCase());
-    const tierResults = results.tier.find((x: {slot : any; }) => x.slot === slot);
+    if (!results?.tier?.length) {
+      return sim;
+    }
+
+    const tierResults = results.tier.find((x: { slot: any; }) => x.slot === slot);
+    if (!tierResults?.sim?.length) {
+      return sim;
+    }
+
     var tierSim = tierResults.sim[0];
     var newSim = sim;
     if (tierSim.dps > sim.dps) {

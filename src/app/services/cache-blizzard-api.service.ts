@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -23,7 +24,9 @@ export class CacheBlizzardApiService {
   // Obtener datos de un journal encounter
   getJournalEncounter(journalEncounterId: number): Observable<any> {
     const filePath = `assets/cache/journal-encounter-${journalEncounterId}.json`;  // Ruta dentro de "assets"
-    return this.http.get(filePath);
+    return this.http.get(filePath).pipe(
+      catchError(() => of({ id: journalEncounterId, name: 'N/A' }))
+    );
   }
 }
 

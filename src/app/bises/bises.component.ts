@@ -43,7 +43,7 @@ export class BisesComponent implements OnInit {
   adminPasswordInput = '';
   adminPasswordError = '';
   wowIconBase = 'https://wow.zamimg.com/images/wow/icons/large/';
-  private cacheApiBase = 'http://localhost:3000';
+  private cacheApiBase = environment.cacheApiBase;
   private generatedBisSources: Record<string, string[]> = {};
   private encounterNameCache: Record<number, string> = {};
   private adminConfigStorageKey = 'config';
@@ -1139,6 +1139,9 @@ export class BisesComponent implements OnInit {
   }
 
   async cacheMissingItems() {
+    if (!this.cacheApiBase) {
+      return;
+    }
     const ids = this.getCurrentBisItemIds();
     if (ids.length === 0) {
       console.warn('[BiS Cache] No hay itemIds para cachear');
@@ -1167,6 +1170,9 @@ export class BisesComponent implements OnInit {
   }
 
   async clearItemCache() {
+    if (!this.cacheApiBase) {
+      return;
+    }
     this.isLoading = true;
     try {
       const response = await fetch(`${this.cacheApiBase}/cache/items`, {
