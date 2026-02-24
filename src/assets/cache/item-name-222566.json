@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 222566,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-12.0.1_65617-us"
     },
     "id": 222566
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -44,15 +44,13 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222566?namespace=static-12.0.1_65617-us"
       },
       "id": 222566
     },
     "context": 0,
     "bonus_list": [
-      10421,
-      9633,
-      8902
+      10421
     ],
     "quality": {
       "type": "EPIC",
@@ -61,20 +59,20 @@
     "name": "Vagabond's Torch",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222566?namespace=static-12.0.1_65617-us"
       },
       "id": 222566
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -93,9 +91,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 3791,
+        "value": 28,
         "display": {
-          "display_string": "+3,791 Intellect",
+          "display_string": "+28 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -109,9 +107,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 6292,
+        "value": 15,
         "display": {
-          "display_string": "+6,292 Stamina",
+          "display_string": "+15 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -125,10 +123,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 401,
+        "value": 9,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Critical Strike",
+          "display_string": "+9 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -139,13 +137,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "VERSATILITY",
+          "name": "Versatility"
         },
-        "value": 401,
+        "value": 9,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Haste",
+          "display_string": "+9 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -171,8 +169,8 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "is_subclass_hidden": true,
     "modified_crafting_stat": [
@@ -182,9 +180,9 @@
         "name": "Critical Strike"
       },
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": "Versatility"
       }
     ]
   },
@@ -192,7 +190,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90926?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90926?namespace=static-12.0.1_65617-us"
       },
       "id": 90926
     }

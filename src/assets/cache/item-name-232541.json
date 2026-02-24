@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 232541,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-12.0.1_65617-us"
     },
     "id": 232541
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -45,7 +45,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/232541?namespace=static-12.0.1_65617-us"
       },
       "id": 232541
     },
@@ -56,20 +56,20 @@
     "name": "Improvised Seaforium Pacemaker",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/232541?namespace=static-12.0.1_65617-us"
       },
       "id": 232541
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -89,10 +89,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 3508,
+        "value": 19,
         "is_negated": true,
         "display": {
-          "display_string": "+3,508 Agility",
+          "display_string": "+19 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -106,10 +106,10 @@
           "type": "STRENGTH",
           "name": "Strength"
         },
-        "value": 3508,
+        "value": 19,
         "is_negated": true,
         "display": {
-          "display_string": "+3,508 Strength",
+          "display_string": "+19 Strength",
           "color": {
             "r": 128,
             "g": 128,
@@ -123,21 +123,21 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/1218714?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/1218714?namespace=static-12.0.1_65617-us"
           },
           "name": "Improvised Seaforium Pacemaker",
           "id": 1218714
         },
-        "description": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 2,915 Critical Strike for 15 sec.\r\n\r\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times."
+        "description": "Equip: Repurpose a Seaforium charge to give your heart a kick, causing your first ability every 60 sec to trigger Explosive Adrenaline, granting 54 Critical Strike for 15 sec.\r\n\r\nWhile exploding, Critical Strikes cause you to blow up again, extending this duration by 1 sec, up to 15 times."
       }
     ],
     "sell_price": {
-      "value": 915607,
+      "value": 457414,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "91",
-        "silver": "56",
-        "copper": "7"
+        "gold": "45",
+        "silver": "74",
+        "copper": "14"
       }
     },
     "requirements": {
@@ -148,8 +148,8 @@
     },
     "description": "It's just crazy enough to work...",
     "level": {
-      "value": 636,
-      "display_string": "Item Level 636"
+      "value": 95,
+      "display_string": "Item Level 95"
     },
     "is_subclass_hidden": true
   },

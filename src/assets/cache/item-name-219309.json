@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219309?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219309?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 219309,
@@ -14,20 +14,20 @@
   "required_level": 68,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219309?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219309?namespace=static-12.0.1_65617-us"
     },
     "id": 219309
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
     },
     "name": "Miscellaneous",
     "id": 0
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219309?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219309?namespace=static-12.0.1_65617-us"
       },
       "id": 219309
     },
@@ -55,20 +55,20 @@
     "name": "Tome of Light's Devotion",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219309?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219309?namespace=static-12.0.1_65617-us"
       },
       "id": 219309
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
       },
       "name": "Miscellaneous",
       "id": 0
@@ -86,12 +86,12 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/443533?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/443533?namespace=static-12.0.1_65617-us"
           },
           "name": "Tome of Light's Devotion",
           "id": 443533
         },
-        "description": "Equip: Advance to the 50 Verses of Inner Resilience, reading as you are attacked.\r\nInner Resilience increases your armor by 933 and grants your attacks a chance to invoke a ward which absorbs 67,723 Magic damage. When finished, sift through the passages to another chapter.\r\n\r\nValid only for tank specializations.",
+        "description": "Equip: Advance to the 50 Verses of Inner Resilience, reading as you are attacked.\r\nInner Resilience increases your armor by 56 and grants your attacks a chance to invoke a ward which absorbs 3,058 Magic damage. When finished, sift through the passages to another chapter.\r\n\r\nValid only for tank specializations.",
         "display_color": {
           "r": 255,
           "g": 32,
@@ -102,7 +102,7 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/443535?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/443535?namespace=static-12.0.1_65617-us"
           },
           "name": "Tome of Light's Devotion",
           "id": 443535
@@ -111,12 +111,12 @@
       }
     ],
     "sell_price": {
-      "value": 441538,
+      "value": 202645,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "44",
-        "silver": "15",
-        "copper": "38"
+        "gold": "20",
+        "silver": "26",
+        "copper": "45"
       }
     },
     "requirements": {
@@ -126,8 +126,8 @@
       }
     },
     "level": {
-      "value": 437,
-      "display_string": "Item Level 437"
+      "value": 74,
+      "display_string": "Item Level 74"
     },
     "is_subclass_hidden": true
   },

@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/234501?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/234501?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 234501,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/234501?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/234501?namespace=static-12.0.1_65617-us"
     },
     "id": 234501
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
     },
     "name": "Mail",
     "id": 3
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/234501?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/234501?namespace=static-12.0.1_65617-us"
       },
       "id": 234501
     },
@@ -55,20 +55,20 @@
     "name": "Portable Power Generator",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/234501?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/234501?namespace=static-12.0.1_65617-us"
       },
       "id": 234501
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
       },
       "name": "Mail",
       "id": 3
@@ -82,9 +82,9 @@
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 3335,
+      "value": 24,
       "display": {
-        "display_string": "3,335 Armor",
+        "display_string": "24 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -99,9 +99,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 2452,
+        "value": 15,
         "display": {
-          "display_string": "+2,452 Intellect",
+          "display_string": "+15 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -115,10 +115,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 2452,
+        "value": 15,
         "is_negated": true,
         "display": {
-          "display_string": "+2,452 Agility",
+          "display_string": "+15 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -132,9 +132,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 14597,
+        "value": 42,
         "display": {
-          "display_string": "+14,597 Stamina",
+          "display_string": "+42 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -148,10 +148,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 511,
+        "value": 11,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+511 Critical Strike",
+          "display_string": "+11 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -165,10 +165,10 @@
           "type": "HASTE_RATING",
           "name": "Haste"
         },
-        "value": 897,
+        "value": 19,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+897 Haste",
+          "display_string": "+19 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -179,12 +179,12 @@
       }
     ],
     "sell_price": {
-      "value": 491871,
+      "value": 245727,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "49",
-        "silver": "18",
-        "copper": "71"
+        "gold": "24",
+        "silver": "57",
+        "copper": "27"
       }
     },
     "requirements": {
@@ -194,8 +194,8 @@
       }
     },
     "level": {
-      "value": 623,
-      "display_string": "Item Level 623"
+      "value": 92,
+      "display_string": "Item Level 92"
     },
     "durability": {
       "value": 55,
@@ -206,7 +206,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104975?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104975?namespace=static-12.0.1_65617-us"
       },
       "id": 104975
     }

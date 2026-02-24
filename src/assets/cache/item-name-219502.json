@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 219502,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-12.0.1_65617-us"
     },
     "id": 219502
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
     },
     "name": "Leather",
     "id": 2
@@ -44,15 +44,13 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-12.0.1_65617-us"
       },
       "id": 219502
     },
     "context": 0,
     "bonus_list": [
       10421,
-      9633,
-      8902,
       8960
     ],
     "quality": {
@@ -62,20 +60,20 @@
     "name": "Adrenal Surge Clasp",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-12.0.1_65617-us"
       },
       "id": 219502
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
       },
       "name": "Leather",
       "id": 2
@@ -90,9 +88,9 @@
     },
     "limit_category": "Unique-Equipped: Embellished (2)",
     "armor": {
-      "value": 1916,
+      "value": 15,
       "display": {
-        "display_string": "1,916 Armor",
+        "display_string": "15 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -107,9 +105,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 1854,
+        "value": 14,
         "display": {
-          "display_string": "+1,854 Intellect",
+          "display_string": "+14 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -123,10 +121,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1854,
+        "value": 14,
         "is_negated": true,
         "display": {
-          "display_string": "+1,854 Agility",
+          "display_string": "+14 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -140,9 +138,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 9438,
+        "value": 23,
         "display": {
-          "display_string": "+9,438 Stamina",
+          "display_string": "+23 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -156,10 +154,10 @@
           "type": "CRIT_RATING",
           "name": "Critical Strike"
         },
-        "value": 687,
+        "value": 16,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+687 Critical Strike",
+          "display_string": "+16 Critical Strike",
           "color": {
             "r": 0,
             "g": 255,
@@ -173,10 +171,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 515,
+        "value": 12,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+515 Versatility",
+          "display_string": "+12 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -190,12 +188,12 @@
       {
         "spell": {
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/spell/443762?namespace=static-11.1.0_59095-us"
+            "href": "https://us.api.blizzard.com/data/wow/spell/443762?namespace=static-12.0.1_65617-us"
           },
           "name": "Adrenal Surge",
           "id": 443762
         },
-        "description": "Equip: Taking damage has a chance to grant you an Adrenal Surge, causing you to gain 1,468 Intellect and lose 36 Mastery for 12 sec.\r\n\r\nThis is a Nerubian embellishment."
+        "description": "Equip: Taking damage has a chance to grant you an Adrenal Surge, causing you to gain 10 Intellect and lose 2 Mastery for 12 sec.\r\n\r\nThis is a Nerubian embellishment."
       }
     ],
     "sell_price": {
@@ -214,8 +212,8 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "durability": {
       "value": 55,
@@ -226,7 +224,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91161?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91161?namespace=static-12.0.1_65617-us"
       },
       "id": 91161
     }

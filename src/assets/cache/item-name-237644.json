@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237644?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237644,
+  "name": "Midnight Herald's Shadowguards",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237644?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237644
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3770361,
+  "sell_price": 754072,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237644?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237644
+    },
+    "context": 0,
+    "bonus_list": [
+      12233,
+      12675
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Midnight Herald's Shadowguards",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237644?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237644
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 31,
+      "display": {
+        "display_string": "31 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 17,
+        "display": {
+          "display_string": "+17 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 17,
+        "is_negated": true,
+        "display": {
+          "display_string": "+17 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 74,
+        "display": {
+          "display_string": "+74 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 23,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+23 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 11,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+11 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 376076,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "37",
+        "silver": "60",
+        "copper": "76"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hunter",
+            "id": 3
+          }
+        ],
+        "display_string": "Classes: Hunter"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1923?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Midnight Herald's Pledge",
+        "id": 1923
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237649?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Midnight Herald's Hauberk",
+            "id": 237649
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237647?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Midnight Herald's Gloves",
+            "id": 237647
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237646?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Midnight Herald's Cowl",
+            "id": 237646
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237645?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Midnight Herald's Petticoat",
+            "id": 237645
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237644?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Midnight Herald's Shadowguards",
+            "id": 237644
+          }
+        }
+      ],
+      "display_string": "Midnight Herald's Pledge (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116724?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116724
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116735?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116735
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116766?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116766
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116744?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116744
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116757?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116757
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116779?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116779
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116746?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116746
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116777?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116777
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116788?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116788
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116733?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116733
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116755?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116755
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116768?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116768
+    }
+  ]
+}

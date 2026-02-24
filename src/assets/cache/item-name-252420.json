@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/252420?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 252420,
+  "name": "Solarflare Prism",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 44,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/252420?namespace=static-12.0.1_65617-us"
+    },
+    "id": 252420
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 361777,
+  "sell_price": 72355,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/252420?namespace=static-12.0.1_65617-us"
+      },
+      "id": 252420
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Solarflare Prism",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/252420?namespace=static-12.0.1_65617-us"
+      },
+      "id": 252420
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 4,
+        "is_negated": true,
+        "display": {
+          "display_string": "+4 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 4,
+        "is_negated": true,
+        "display": {
+          "display_string": "+4 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1254640?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Solarflare Prism",
+          "id": 1254640
+        },
+        "description": "Equip: Your damaging abilities have a chance to unleash the prism's radiant light, increasing your Critical Strike by 13 for 10 sec, further increased by 1 for every 1% of the target's missing health, up to a maximum of 16. "
+      }
+    ],
+    "sell_price": {
+      "value": 166,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "1",
+        "copper": "66"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "level": {
+      "value": 16,
+      "display_string": "Item Level 16"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/221123?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/221123?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 221123,
@@ -14,20 +14,20 @@
   "required_level": 68,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/221123?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/221123?namespace=static-12.0.1_65617-us"
     },
     "id": 221123
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Armor",
     "id": 4
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
     },
     "name": "Plate",
     "id": 4
@@ -44,7 +44,7 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/221123?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/221123?namespace=static-12.0.1_65617-us"
       },
       "id": 221123
     },
@@ -55,20 +55,20 @@
     "name": "Devoted Plate Walkers",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/221123?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/221123?namespace=static-12.0.1_65617-us"
       },
       "id": 221123
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Armor",
       "id": 4
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
       },
       "name": "Plate",
       "id": 4
@@ -82,9 +82,9 @@
       "name": "Binds when picked up"
     },
     "armor": {
-      "value": 1198,
+      "value": 35,
       "display": {
-        "display_string": "1,198 Armor",
+        "display_string": "35 Armor",
         "color": {
           "r": 255,
           "g": 255,
@@ -99,9 +99,9 @@
           "type": "INTELLECT",
           "name": "Intellect"
         },
-        "value": 433,
+        "value": 13,
         "display": {
-          "display_string": "+433 Intellect",
+          "display_string": "+13 Intellect",
           "color": {
             "r": 255,
             "g": 255,
@@ -115,10 +115,10 @@
           "type": "STRENGTH",
           "name": "Strength"
         },
-        "value": 433,
+        "value": 13,
         "is_negated": true,
         "display": {
-          "display_string": "+433 Strength",
+          "display_string": "+13 Strength",
           "color": {
             "r": 128,
             "g": 128,
@@ -132,9 +132,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 1506,
+        "value": 19,
         "display": {
-          "display_string": "+1,506 Stamina",
+          "display_string": "+19 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -148,10 +148,10 @@
           "type": "VERSATILITY",
           "name": "Versatility"
         },
-        "value": 399,
+        "value": 16,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+399 Versatility",
+          "display_string": "+16 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -165,10 +165,10 @@
           "type": "MASTERY_RATING",
           "name": "Mastery"
         },
-        "value": 236,
+        "value": 9,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+236 Mastery",
+          "display_string": "+9 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -179,12 +179,12 @@
       }
     ],
     "sell_price": {
-      "value": 404836,
+      "value": 185801,
       "display_strings": {
         "header": "Sell Price:",
-        "gold": "40",
-        "silver": "48",
-        "copper": "36"
+        "gold": "18",
+        "silver": "58",
+        "copper": "1"
       }
     },
     "requirements": {
@@ -194,8 +194,8 @@
       }
     },
     "level": {
-      "value": 437,
-      "display_string": "Item Level 437"
+      "value": 74,
+      "display_string": "Item Level 74"
     },
     "durability": {
       "value": 65,
@@ -206,7 +206,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90732?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90732?namespace=static-12.0.1_65617-us"
       },
       "id": 90732
     }

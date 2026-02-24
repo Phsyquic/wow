@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-12.0.1_65617-us"
     }
   },
   "id": 222438,
@@ -14,20 +14,20 @@
   "required_level": 80,
   "media": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-12.0.1_65617-us"
     },
     "id": 222438
   },
   "item_class": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
     },
     "name": "Weapon",
     "id": 2
   },
   "item_subclass": {
     "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
     },
     "name": "Dagger",
     "id": 15
@@ -44,15 +44,13 @@
   "preview_item": {
     "item": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item/222438?namespace=static-12.0.1_65617-us"
       },
       "id": 222438
     },
     "context": 0,
     "bonus_list": [
-      10421,
-      9633,
-      8902
+      10421
     ],
     "quality": {
       "type": "EPIC",
@@ -61,20 +59,20 @@
     "name": "Everforged Stabber",
     "media": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222438?namespace=static-12.0.1_65617-us"
       },
       "id": 222438
     },
     "item_class": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
       },
       "name": "Weapon",
       "id": 2
     },
     "item_subclass": {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
       },
       "name": "Dagger",
       "id": 15
@@ -89,9 +87,9 @@
     },
     "weapon": {
       "damage": {
-        "min_value": 1896,
-        "max_value": 3162,
-        "display_string": "1,896 - 3,162 Damage",
+        "min_value": 13,
+        "max_value": 23,
+        "display_string": "13 - 23 Damage",
         "damage_class": {
           "type": "PHYSICAL",
           "name": "Physical"
@@ -102,8 +100,8 @@
         "display_string": "Speed 1.80"
       },
       "dps": {
-        "value": 1404.7222,
-        "display_string": "(1,404 damage per second)"
+        "value": 10,
+        "display_string": "(10 damage per second)"
       }
     },
     "stats": [
@@ -112,10 +110,10 @@
           "type": "AGILITY",
           "name": "Agility"
         },
-        "value": 1236,
+        "value": 9,
         "is_negated": true,
         "display": {
-          "display_string": "+1,236 Agility",
+          "display_string": "+9 Agility",
           "color": {
             "r": 128,
             "g": 128,
@@ -129,9 +127,9 @@
           "type": "STAMINA",
           "name": "Stamina"
         },
-        "value": 6292,
+        "value": 15,
         "display": {
-          "display_string": "+6,292 Stamina",
+          "display_string": "+15 Stamina",
           "color": {
             "r": 255,
             "g": 255,
@@ -142,13 +140,13 @@
       },
       {
         "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
-        "value": 401,
+        "value": 9,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Critical Strike",
+          "display_string": "+9 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -159,13 +157,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
-        "value": 401,
+        "value": 9,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+401 Versatility",
+          "display_string": "+9 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -191,8 +189,8 @@
       }
     },
     "level": {
-      "value": 593,
-      "display_string": "Item Level 593"
+      "value": 83,
+      "display_string": "Item Level 83"
     },
     "durability": {
       "value": 80,
@@ -200,14 +198,14 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       },
       {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
       }
     ]
   },
@@ -215,7 +213,7 @@
   "appearances": [
     {
       "key": {
-        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90934?namespace=static-11.1.0_59095-us"
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90934?namespace=static-12.0.1_65617-us"
       },
       "id": 90934
     }
