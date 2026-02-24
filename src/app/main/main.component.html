@@ -11,10 +11,10 @@
     <div class="status-row">
       <span class="stat-pill">{{playersLibrary.length}} / {{reports.length}} reports</span>
       <span class="stat-pill" *ngIf="actualIlvl">{{actualSpec}} · ilvl {{actualIlvl}}</span>
-      <span class="stat-pill" *ngIf="checkDiv">Ranking: 1º verde oscuro · 2º ámbar · 3º cobre</span>
+      <span class="stat-pill" *ngIf="checkDiv">Ranking item: 1º verde · 2º ámbar · 3º cobre</span>
     </div>
 
-    <div class="filters-grid">
+    <div class="filters-grid" *ngIf="!showRotationMatrix">
       <select #myselect name="Bosses" id="bosses" (change)="filtrar($event)">
         <option value="">Bosses</option>
         <option [value]="boss.id" *ngFor="let boss of encounterLibrary">{{boss.name}}</option>
@@ -40,11 +40,45 @@
       <button class="btn ghost" (click)="goBises()">Bises</button>
       <button class="btn ghost" *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
       <button class="btn ghost" *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
+      <button class="btn ghost" *ngIf="!checkDiv && !showRotationMatrix && !hasAnyMainFilter()" (click)="showBossRotationMatrix()">Rotacion Tabla</button>
+      <button class="btn ghost" *ngIf="showRotationMatrix" (click)="hideBossRotationMatrix()">Cerrar Tabla</button>
       <button class="btn primary" (click)="resetAll()">Reset</button>
     </div>
   </section>
 
-  <section class="cards-grid" *ngIf="!checkDiv">
+  <section class="matrix-wrap" *ngIf="showRotationMatrix && !checkDiv">
+    <table class="matrix-table">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th *ngFor="let boss of matrixBosses">{{boss.name}}</th>
+          <th class="legend-cell">
+            <span class="legend-box first"></span>
+          </th>
+          <th class="legend-cell">
+            <span class="legend-box second"></span>
+          </th>
+          <th class="legend-cell">
+            <span class="legend-box third"></span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of matrixRows">
+          <td class="player-col">{{row.playerName}}</td>
+          <td
+            *ngFor="let boss of matrixBosses"
+            [ngStyle]="{'background-color': getMatrixColor(row.cells[boss.id])}">
+          </td>
+          <td>{{row.counts.first}}</td>
+          <td>{{row.counts.second}}</td>
+          <td>{{row.counts.third}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="cards-grid" *ngIf="!checkDiv && !showRotationMatrix">
     <ng-container *ngFor="let slot of fitems">
       <ng-container *ngIf="quitarVacios(slot)">
         <article *ngFor="let item of slot[1]" class="loot-card">
@@ -64,16 +98,20 @@
   </section>
 
   <section class="rotation-grid" *ngIf="checkDiv">
-    <article *ngFor="let player of allSimList" class="rotation-card">
+    <article *ngFor="let entry of allSimList" class="rotation-card">
+      <div class="rotation-head">
+        <img [src]="getImgLink(entry.item)" alt="item icon">
+        <span>{{entry.name}}</span>
+      </div>
       <div
-        *ngFor="let item of player"
+        *ngFor="let item of entry.sims"
         class="rotation-item"
         [ngStyle]="{
           'background-color': getColor(item.pos),
           'color': getRotacionBis(item)
         }">
-        <img [src]="getImgLink(item.item)" alt="item icon">
-        <span>{{item.name}}</span>
+        <span>{{item.playerName}}</span>
+        <span>+{{item.dps}}</span>
       </div>
     </article>
   </section>

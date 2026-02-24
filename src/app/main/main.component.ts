@@ -54,6 +54,13 @@ export class MainComponent implements OnInit {
   allSimList: any = [];
   allBisList: any = [];
   dpsThresholds: number[] = [];
+  showRotationMatrix = false;
+  selectedBossFilter = '';
+  selectedSlotFilter = '';
+  selectedDpsFilter = '';
+  selectedPlayerFilter = '';
+  matrixBosses: any[] = [];
+  matrixRows: any[] = [];
   tierSlots: any[] = [];
   tierEncounterIds = new Set<number>();
   tierItemIds = new Set<number>();
@@ -173,10 +180,17 @@ export class MainComponent implements OnInit {
 
   loadMockDroptimizer() {
     this.getBisListData();
-    const mockReportId = 'report/mock-manaforge-omega';
-    this.reports = [mockReportId];
-    this.http.get('assets/json/mock-droptimizer-manaforge.json').subscribe((data: any) => {
-      this.processDroptimizerData(data, mockReportId);
+    const mockConfigs = [
+      { reportId: 'report/mock-manaforge-omega', file: 'assets/json/mock-droptimizer-manaforge.json' },
+      { reportId: 'report/mock-warrior-omega', file: 'assets/json/mock-droptimizer-warrior.json' },
+      { reportId: 'report/mock-warlock-omega', file: 'assets/json/mock-droptimizer-warlock.json' },
+    ];
+
+    this.reports = mockConfigs.map((x) => x.reportId);
+    mockConfigs.forEach((mock) => {
+      this.http.get(mock.file).subscribe((data: any) => {
+        this.processDroptimizerData(data, mock.reportId);
+      });
     });
   }
 
@@ -842,7 +856,9 @@ export class MainComponent implements OnInit {
 
   filtrar(data: any) {
     var boss = data.target.value;
+    this.selectedBossFilter = boss ? String(boss) : '';
     this.playerCargado = '';
+    this.selectedPlayerFilter = '';
     this.bossCargado = boss;
     if (this.checkDiv) {
       this.getRotation();
@@ -875,8 +891,11 @@ export class MainComponent implements OnInit {
   filtrar2(data: any) {
     this.actualIlvl = 0;
     var slot = data.target.value;
+    this.selectedSlotFilter = slot ? String(slot) : '';
     this.playerCargado = '';
+    this.selectedPlayerFilter = '';
     this.bossCargado = '';
+    this.selectedBossFilter = '';
     this.checkDiv = false;
     if (slot) {
       var titems: any[] = [];
@@ -894,9 +913,11 @@ export class MainComponent implements OnInit {
 
   filtrar3(data: any) {
     var player = data.target.value;
+    this.selectedPlayerFilter = player ? String(player) : '';
     if (player) {
       this.playerCargado = player;
       this.bossCargado = '';
+      this.selectedBossFilter = '';
       this.fitems = this.aitems;
       var titems: any[] = [];
       this.fitems.forEach((element: any) => {
@@ -927,6 +948,7 @@ export class MainComponent implements OnInit {
   filtrar4(data: any) {
     this.checkDiv = false;
     var dps = parseInt(data.target.value, 10);
+    this.selectedDpsFilter = (!Number.isNaN(dps) && dps > 0) ? String(dps) : '';
     if (!Number.isNaN(dps) && dps > 0) {
       //this.fitems = this.aitems;
       var titems: any[] = [];
@@ -957,7 +979,12 @@ export class MainComponent implements OnInit {
     this.actualSpec = '';
     this.playerCargado = '';
     this.bossCargado = '';
+    this.selectedBossFilter = '';
+    this.selectedSlotFilter = '';
+    this.selectedDpsFilter = '';
+    this.selectedPlayerFilter = '';
     this.checkDiv = false;
+    this.showRotationMatrix = false;
     this.updateDpsThresholds(this.fitems);
   }
 
@@ -1072,6 +1099,7 @@ export class MainComponent implements OnInit {
   }
 
   getRotation() {
+    this.showRotationMatrix = false;
     this.checkDiv = true;
     const idBoss = Number(this.bossCargado);
     const allItemsFromBoss: any[] = [];
@@ -1092,45 +1120,67 @@ export class MainComponent implements OnInit {
       });
     });
 
-    this.allSimList = [];
-    this.playersLibrary.forEach((player: any) => {
-      const playerKey = String(player.name).toLowerCase();
-      const playerItems: any[] = [];
-
-      allItemsFromBoss.forEach((item: any) => {
-        const simForPlayer = item.sim?.find((sim: any) => String(sim.name).toLowerCase() === playerKey);
-        if (!simForPlayer) {
+    const itemMap = new Map<number, any[]>();
+    allItemsFromBoss.forEach((item: any) => {
+      (item.sim || []).forEach((simForPlayer: any) => {
+        const rawSimItemId = Number(simForPlayer?.itemId);
+        const fallbackExactId = Array.isArray(item.exactID) && item.exactID.length > 0 ? Number(item.exactID[0]) : Number(item.id);
+        const resolvedItemId = Number.isInteger(rawSimItemId) && rawSimItemId > 0
+          ? rawSimItemId
+          : (Number.isInteger(fallbackExactId) && fallbackExactId > 0 ? fallbackExactId : Number(item.id));
+        if (!Number.isInteger(resolvedItemId) || resolvedItemId <= 0) {
           return;
         }
 
-        const exactId = Array.isArray(item.exactID) && item.exactID.length > 0 ? Number(item.exactID[0]) : Number(item.id);
-        const resolvedItemId = Number.isInteger(exactId) && exactId > 0 ? exactId : Number(item.id);
-        const libItem = this.itemsLibrary.find((x: any) => Number(x.id) === resolvedItemId);
+        if (!itemMap.has(resolvedItemId)) {
+          itemMap.set(resolvedItemId, []);
+        }
+
         const simName = String(simForPlayer.name);
-        const knownPlayer = playersByName.get(String(simName).toLowerCase());
-        const resolvedSpec = knownPlayer?.spec || player.spec;
+        const playerKey = simName.toLowerCase();
+        const knownPlayer = playersByName.get(playerKey);
+        const resolvedSpec = knownPlayer?.spec || '';
         const resolvedName = this.capitalizeFirstLetter(simName);
 
-        playerItems.push({
-          name: libItem?.name || `Item ${resolvedItemId}`,
+        itemMap.get(resolvedItemId)?.push({
           item: resolvedItemId,
           bisItemId: resolvedItemId,
           dps: Number(simForPlayer.dps),
           pos: 0,
           spec: resolvedSpec,
-          playerName: resolvedName
+          playerName: resolvedName,
+          bisCandidates: [resolvedItemId],
         });
       });
+    });
 
-      playerItems.sort((a: any, b: any) => b.dps - a.dps);
-      playerItems.forEach((entry: any, index: number) => {
+    const itemColumns: any[] = [];
+    itemMap.forEach((rawSims: any[], resolvedItemId: number) => {
+      const libItem = this.itemsLibrary.find((x: any) => Number(x.id) === resolvedItemId);
+      const sims = [...rawSims];
+      sims.sort((a: any, b: any) => b.dps - a.dps);
+      sims.forEach((entry: any, index: number) => {
         entry.pos = index + 1;
       });
-
-      if (playerItems.length > 0) {
-        this.allSimList.push(playerItems);
+      if (sims.length > 0) {
+        itemColumns.push({
+          item: resolvedItemId,
+          name: libItem?.name || `Item ${resolvedItemId}`,
+          sims,
+        });
       }
     });
+
+    itemColumns.sort((a: any, b: any) => {
+      const aBest = Math.min(...a.sims.map((x: any) => x.pos));
+      const bBest = Math.min(...b.sims.map((x: any) => x.pos));
+      if (aBest !== bBest) {
+        return aBest - bBest;
+      }
+      return b.sims[0].dps - a.sims[0].dps;
+    });
+
+    this.allSimList = itemColumns;
   }
 
   getColor(pos: any) {
@@ -1146,19 +1196,145 @@ export class MainComponent implements OnInit {
     return '#1b2640';
   }
 
+  getMatrixColor(rank: number) {
+    if (rank === 1) {
+      return '#1f5a45';
+    }
+    if (rank === 2) {
+      return '#66531d';
+    }
+    if (rank === 3) {
+      return '#6d3f22';
+    }
+    return 'transparent';
+  }
+
+  hasAnyMainFilter() {
+    return !!(
+      this.selectedBossFilter ||
+      this.selectedSlotFilter ||
+      this.selectedDpsFilter ||
+      this.selectedPlayerFilter
+    );
+  }
+
+  showBossRotationMatrix() {
+    this.checkDiv = false;
+    this.showRotationMatrix = true;
+    this.buildBossRotationMatrix();
+  }
+
+  hideBossRotationMatrix() {
+    this.showRotationMatrix = false;
+  }
+
+  buildBossRotationMatrix() {
+    const uniquePlayers = new Map<string, string>();
+    this.playersLibrary.forEach((p: any) => {
+      const key = String(p?.name ?? '').toLowerCase();
+      if (!key) {
+        return;
+      }
+      uniquePlayers.set(key, this.capitalizeFirstLetter(String(p.name)));
+    });
+    const players = [...uniquePlayers.entries()].map(([key, name]) => ({ key, name }));
+
+    const allItems: any[] = [];
+    this.aitems.forEach((slot: any) => {
+      (slot?.[1] || []).forEach((item: any) => allItems.push(item));
+    });
+
+    const availableBossIds = new Set<number>(
+      allItems
+        .map((item: any) => Number(item?.boss))
+        .filter((id: number) => Number.isInteger(id) && id > 0)
+    );
+
+    this.matrixBosses = this.encounterLibrary.filter((boss: any) => availableBossIds.has(Number(boss.id)));
+    const bossItemsMap = new Map<number, any[]>();
+    this.matrixBosses.forEach((boss: any) => {
+      const bossId = Number(boss.id);
+      bossItemsMap.set(
+        bossId,
+        allItems.filter((item: any) => Number(item?.boss) === bossId)
+      );
+    });
+
+    this.matrixRows = players.map((player: any) => {
+      const cells: Record<number, number> = {};
+      const counts = { first: 0, second: 0, third: 0 };
+
+      this.matrixBosses.forEach((boss: any) => {
+        const bossId = Number(boss.id);
+        const itemsForBoss = bossItemsMap.get(bossId) || [];
+        let hasFirst = false;
+        let hasSecond = false;
+        let hasThird = false;
+
+        itemsForBoss.forEach((item: any) => {
+          const sims = [...(item?.sim || [])]
+            .filter((x: any) => Number.isFinite(Number(x?.dps)))
+            .sort((a: any, b: any) => Number(b.dps) - Number(a.dps));
+          if (sims.length === 0) {
+            return;
+          }
+
+          const idx = sims.findIndex((x: any) => String(x?.name ?? '').toLowerCase() === player.key);
+          if (idx === -1) {
+            return;
+          }
+
+          const rank = idx + 1;
+          if (rank === 1) {
+            hasFirst = true;
+          } else if (rank === 2) {
+            hasSecond = true;
+          } else if (rank === 3) {
+            hasThird = true;
+          }
+        });
+
+        let rank = 0;
+        if (hasFirst) {
+          rank = 1;
+        } else if (hasSecond) {
+          rank = 2;
+        } else if (hasThird) {
+          rank = 3;
+        }
+
+        cells[bossId] = rank;
+        if (rank === 1) {
+          counts.first += 1;
+        } else if (rank === 2) {
+          counts.second += 1;
+        } else if (rank === 3) {
+          counts.third += 1;
+        }
+      });
+
+      return {
+        playerName: player.name,
+        cells,
+        counts,
+      };
+    });
+  }
+
   getRotacionBis(item: any) {
     var bisList = this.allBisList.find((x: any[]) => x[0] == this.limpiarSpec2(item.spec));
-    var id: any = Number(item.bisItemId ?? item.item);
+    const ids: number[] = Array.isArray(item?.bisCandidates) && item.bisCandidates.length > 0
+      ? item.bisCandidates.map((x: any) => Number(x)).filter((x: number) => Number.isInteger(x) && x > 0)
+      : [Number(item.bisItemId ?? item.item)].filter((x: number) => Number.isInteger(x) && x > 0);
     if (bisList) {
-      var existe = false;
-      existe = bisList.find((x: any[]) => Number(x) == id);
+      const existe = ids.some((id) => bisList.some((x: any[]) => Number(x) === id));
       if (!existe) {
         return 'red';
       } else {
-        return 'black';
+        return 'white';
       }
     }
-    return 'black';
+    return 'white';
   }
 
   cargarRutaDroptimizer() {
