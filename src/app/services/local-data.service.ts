@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
@@ -22,7 +23,9 @@ export class LocalDataService {
   getBisListTxt(): Observable<any> {
     if (environment.production) {
       var staticUrl = this.jsonURL + 'bisList.txt';
-      return this.http.get(staticUrl, { responseType: 'text' });
+      return this.http.get(staticUrl, { responseType: 'text' }).pipe(
+        catchError(() => of(''))
+      );
     }
 
     const generatedBisList = this.getGeneratedBisListTxt();
