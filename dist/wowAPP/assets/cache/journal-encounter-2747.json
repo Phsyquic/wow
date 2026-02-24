@@ -1,0 +1,428 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2747?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2747,
+  "name": "Fractillus",
+  "description": "An elemental born of the crags and dunes surrounding the Manaforge, Fractillus guards his domain by harnessing the power of the biting sands and hardened glass of the inhospitable wastes.",
+  "creatures": [
+    {
+      "id": 5933,
+      "name": "Fractillus",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127984?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127984
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45375,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237581?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dreadful Voidglass Contaminant",
+        "id": 237581
+      }
+    },
+    {
+      "id": 45376,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237582?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mystic Voidglass Contaminant",
+        "id": 237582
+      }
+    },
+    {
+      "id": 45377,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237583?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Venerated Voidglass Contaminant",
+        "id": 237583
+      }
+    },
+    {
+      "id": 45378,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237584?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Zenith Voidglass Contaminant",
+        "id": 237584
+      }
+    },
+    {
+      "id": 45379,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237733?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Lacerated Current Caster",
+        "id": 237733
+      }
+    },
+    {
+      "id": 45380,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237742?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fractillus' Last Breath",
+        "id": 237742
+      }
+    },
+    {
+      "id": 45381,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237536?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bite of the Astral Wastes",
+        "id": 237536
+      }
+    },
+    {
+      "id": 45382,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237530?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shrapnel-Fused Legguards",
+        "id": 237530
+      }
+    },
+    {
+      "id": 45383,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242392?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Diamantine Voidcore",
+        "id": 242392
+      }
+    },
+    {
+      "id": 45384,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242396?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Unyielding Netherprism",
+        "id": 242396
+      }
+    },
+    {
+      "id": 45385,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237728?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Voidglass Kris",
+        "id": 237728
+      }
+    },
+    {
+      "id": 45386,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237558?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Conjoined Glass Bracers",
+        "id": 237558
+      }
+    },
+    {
+      "id": 45387,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237565?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Kinetic Dunerunners",
+        "id": 237565
+      }
+    },
+    {
+      "id": 45559,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223094?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Design: Magnificent Jeweler's Setting",
+        "id": 223094
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 33678,
+      "title": "Overview",
+      "body_text": "Fractillus calls forth [Crystal Nexuses] that amplify the power of the [Nether Prism]. If six nexuses are allowed to amplify a single prism's beam, Fractillus will be empowered with [Crystaline Overcharge].\r\n\r\nUpon reaching 100 energy, Fractillus will use its [Shattering Backhand] to knock several players away, shattering any [Crystal Nexus] in their path.",
+      "sections": [
+        {
+          "id": 32121,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Players knocked back by [Shattering Backhand] will shatter [Crystal Nexuses] they hit in to.\r\n$bullet; [Crystalline Shockwave] places a [Crystal Nexuses] extending the [Nether Prism's] energy towards Fractillus."
+        },
+        {
+          "id": 32122,
+          "title": "Healers",
+          "body_text": "$bullet; Players knocked back by [Shattering Backhand] will shatter [Crystal Nexuses] they hit in to.\r\n$bullet; [Crystalline Shockwave] places a [Crystal Nexuses] extending the [Nether Prism's] energy towards Fractillus."
+        },
+        {
+          "id": 32123,
+          "title": "Tanks",
+          "body_text": "$bullet; Players knocked back by [Shattering Backhand] will shatter [Crystal Nexuses] they hit in to.\r\n$bullet; [Crystalline Shockwave] places a [Crystal Nexuses] extending the [Nether Prism's] energy towards Fractillus."
+        }
+      ]
+    },
+    {
+      "id": 33677,
+      "title": "Nether Prism",
+      "sections": [
+        {
+          "id": 32497,
+          "title": "Crystal Nexus",
+          "sections": [
+            {
+              "id": 32498,
+              "title": "Nexus Shrapnel",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232130?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Nexus Shrapnel",
+                "id": 1232130
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1226089?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Crystal Nexus",
+            "id": 1226089
+          }
+        },
+        {
+          "id": 32701,
+          "title": "Brittle Nexus",
+          "sections": [
+            {
+              "id": 32702,
+              "title": "Crystal Lacerations",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232760?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Crystal Lacerations",
+                "id": 1232760
+              }
+            },
+            {
+              "id": 32703,
+              "title": "Nexus Shrapnel",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232130?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Nexus Shrapnel",
+                "id": 1232130
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1236784?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Brittle Nexus",
+            "id": 1236784
+          }
+        },
+        {
+          "id": 32704,
+          "title": "Void-Infused Nexus",
+          "sections": [
+            {
+              "id": 32706,
+              "title": "Nexus Shrapnel",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232130?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Nexus Shrapnel",
+                "id": 1232130
+              }
+            },
+            {
+              "id": 33461,
+              "title": "Null Consumption",
+              "sections": [
+                {
+                  "id": 33341,
+                  "title": "Null Explosion",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1247495?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Null Explosion",
+                    "id": 1247495
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1247424?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Null Consumption",
+                "id": 1247424
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1236785?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Void-Infused Nexus",
+            "id": 1236785
+          }
+        },
+        {
+          "id": 33486,
+          "title": "Crystaline Overcharge",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233917?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Crystaline Overcharge",
+            "id": 1233917
+          }
+        },
+        {
+          "id": 35408,
+          "title": "Refracted Entropy",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1241137?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Refracted Entropy",
+            "id": 1241137
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1233657?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Nether Prism",
+        "id": 1233657
+      }
+    },
+    {
+      "id": 33342,
+      "title": "Crystalline Shockwave",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1224414?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Crystalline Shockwave",
+        "id": 1224414
+      }
+    },
+    {
+      "id": 32131,
+      "title": "Shattering Backhand",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1220394?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shattering Backhand",
+        "id": 1220394
+      }
+    },
+    {
+      "id": 32279,
+      "title": "Shattershell",
+      "sections": [
+        {
+          "id": 32280,
+          "title": "Crystal Encasement",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227378?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Crystal Encasement",
+            "id": 1227378
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1227373?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shattershell",
+        "id": 1227373
+      }
+    },
+    {
+      "id": 32483,
+      "title": "Shockwave Slam",
+      "sections": [
+        {
+          "id": 32126,
+          "title": "Crystalline Shockwave",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1224414?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Crystalline Shockwave",
+            "id": 1224414
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1231871?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shockwave Slam",
+        "id": 1231871
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1302?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Manaforge Omega",
+    "id": 1302
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

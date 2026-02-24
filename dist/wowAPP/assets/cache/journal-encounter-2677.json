@@ -1,0 +1,287 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2677?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2677,
+  "name": "Soul-Scribe",
+  "description": "The Soul-Scribe once led the oracles of K'aresh, but the destruction of her world drove them into the wastelands, where they began a crusade of revenge. She has given ancient oaths to destroy the enemies of Salhadaar, and all they have built. With her ancient powers rediscovered, the fate of this dome looks grim.",
+  "creatures": [
+    {
+      "id": 5893,
+      "name": "Soul-Scribe",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/126804?namespace=static-12.0.1_65617-us"
+        },
+        "id": 126804
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45318,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242491?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Whispers of K'aresh",
+        "id": 242491
+      }
+    },
+    {
+      "id": 45319,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242490?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ancient Oracle's Caress",
+        "id": 242490
+      }
+    },
+    {
+      "id": 45320,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242486?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mantle of Wounded Fate",
+        "id": 242486
+      }
+    },
+    {
+      "id": 45321,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242488?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Tunic of Sworn Revenge",
+        "id": 242488
+      }
+    },
+    {
+      "id": 45322,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242494?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Lily of the Eternal Weave",
+        "id": 242494
+      }
+    },
+    {
+      "id": 45323,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242484?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Soul-Scribe's Tabiqa Dagger",
+        "id": 242484
+      }
+    },
+    {
+      "id": 45324,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242487?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fatebound Crusader",
+        "id": 242487
+      }
+    },
+    {
+      "id": 45325,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242493?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Starlit Safeguard",
+        "id": 242493
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 31234,
+      "title": "Overview",
+      "body_text": "Soul-Scribe uses [Whispers of Fate] to create echoes of players' Fates. Soul-Scribe casts [Ceremonial Dagger] and [Dread of the Unknown] in an attempt to harm the Fates.  \r\n\r\nUpon reaching 100 energy, Soul-Scribe casts [Eternal Weave].",
+      "sections": [
+        {
+          "id": 31235,
+          "title": "Tanks",
+          "body_text": "$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with [Wounded Fate].\r\n$bullet;[Dread of the Unknown] inflicts heavy Arcane damage to players and Fates within the detonation."
+        },
+        {
+          "id": 31236,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with [Wounded Fate].\r\n$bullet;[Dread of the Unknown] inflicts heavy Arcane damage to players and Fates within the detonation."
+        },
+        {
+          "id": 31237,
+          "title": "Healers",
+          "body_text": "$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with [Wounded Fate].\r\n$bullet;[Dread of the Unknown] inflicts heavy Arcane damage to players and Fates within the detonation."
+        }
+      ]
+    },
+    {
+      "id": 31238,
+      "title": "Whispers of Fate",
+      "sections": [
+        {
+          "id": 32012,
+          "title": "Fatebound",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1224865?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fatebound",
+            "id": 1224865
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1224793?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Whispers of Fate",
+        "id": 1224793
+      }
+    },
+    {
+      "id": 33662,
+      "title": "Eternal Weave",
+      "sections": [
+        {
+          "id": 33663,
+          "title": "Splinters of Fate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1237184?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Splinters of Fate",
+            "id": 1237184
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1236703?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Eternal Weave",
+        "id": 1236703
+      }
+    },
+    {
+      "id": 32032,
+      "title": "Eternal Weave",
+      "sections": [
+        {
+          "id": 32723,
+          "title": "Splinters of Fate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1237184?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Splinters of Fate",
+            "id": 1237184
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1236703?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Eternal Weave",
+        "id": 1236703
+      }
+    },
+    {
+      "id": 32023,
+      "title": "Dread of the Unknown",
+      "sections": [
+        {
+          "id": 32619,
+          "title": "Wounded Fate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1226444?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Wounded Fate",
+            "id": 1226444
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1225218?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dread of the Unknown",
+        "id": 1225218
+      }
+    },
+    {
+      "id": 32022,
+      "title": "Ceremonial Dagger",
+      "sections": [
+        {
+          "id": 32620,
+          "title": "Wounded Fate",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1226444?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Wounded Fate",
+            "id": 1226444
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1225162?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ceremonial Dagger",
+        "id": 1225162
+      }
+    },
+    {
+      "id": 33034,
+      "title": "Echoes of Fate",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1242000?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Echoes of Fate",
+        "id": 1242000
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1303?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Eco-Dome Al'dani",
+    "id": 1303
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

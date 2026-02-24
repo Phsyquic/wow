@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229301?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229301,
+  "name": "Ageless Serpent's Inked Coils",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229301?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229301
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": "Chest"
+  },
+  "purchase_price": 5091878,
+  "sell_price": 1018375,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229301?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229301
+    },
+    "context": 0,
+    "bonus_list": [
+      11958
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Ageless Serpent's Inked Coils",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229301?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229301
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 4021,
+      "display": {
+        "display_string": "4,021 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 597,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+597 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 1280,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,280 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1018375,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "101",
+        "silver": "83",
+        "copper": "75"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Monk",
+            "id": 10
+          }
+        ],
+        "display_string": "Classes: Monk"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1873?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Ageless Serpent's Foresight",
+        "id": 1873
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229301?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ageless Serpent's Inked Coils",
+            "id": 229301
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229299?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ageless Serpent's Handguards",
+            "id": 229299
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229298?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ageless Serpent's Mane",
+            "id": 229298
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229297?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ageless Serpent's Leggings",
+            "id": 229297
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229296?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ageless Serpent's Shoulderpads",
+            "id": 229296
+          }
+        }
+      ],
+      "display_string": "Ageless Serpent's Foresight (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 165,
+      "display_string": "Durability 165 / 165"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96968?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96968
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96920?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96920
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96956?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96956
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96920?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96920
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96956?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96956
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96944?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96944
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96908?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96908
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96932?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96932
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96944?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96944
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96968?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96968
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96908?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96908
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96932?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96932
+    }
+  ]
+}

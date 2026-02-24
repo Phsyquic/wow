@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229247?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229247,
+  "name": "Aureate Sentry's Encasement",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229247?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229247
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": "Chest"
+  },
+  "purchase_price": 5205065,
+  "sell_price": 1041013,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229247?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229247
+    },
+    "context": 0,
+    "bonus_list": [
+      11958
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Aureate Sentry's Encasement",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229247?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229247
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 8919,
+      "display": {
+        "display_string": "8,919 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 631,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+631 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 1246,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,246 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1041013,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "104",
+        "silver": "10",
+        "copper": "13"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Paladin",
+            "id": 2
+          }
+        ],
+        "display_string": "Classes: Paladin"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1874?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Oath of the Aureate Sentry",
+        "id": 1874
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229247?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Aureate Sentry's Encasement",
+            "id": 229247
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229245?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Aureate Sentry's Gauntlets",
+            "id": 229245
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229244?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Aureate Sentry's Pledge",
+            "id": 229244
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229243?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Aureate Sentry's Legguards",
+            "id": 229243
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229242?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Aureate Sentry's Roaring Will",
+            "id": 229242
+          }
+        }
+      ],
+      "display_string": "Oath of the Aureate Sentry (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 165,
+      "display_string": "Durability 165 / 165"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97036?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97036
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97015?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97015
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97026?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97026
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97015?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97015
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97026?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97026
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97046?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97046
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96993?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96993
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97004?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97004
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97046?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97046
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97036?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97036
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96993?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96993
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97004?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97004
+    }
+  ]
+}

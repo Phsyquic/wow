@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/178811?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 178811,
+  "name": "Grim Codex",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 158,
+  "required_level": 60,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/178811?namespace=static-11.1.0_59095-us"
+    },
+    "id": 178811
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 99544,
+  "sell_price": 19908,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/178811?namespace=static-11.1.0_59095-us"
+      },
+      "id": 178811
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Grim Codex",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/178811?namespace=static-11.1.0_59095-us"
+      },
+      "id": 178811
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 15,
+        "is_negated": true,
+        "display": {
+          "display_string": "+15 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 15,
+        "is_negated": true,
+        "display": {
+          "display_string": "+15 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/345739?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Spectral Scythe",
+          "id": 345739
+        },
+        "description": "Use: Conjure a Spectral Scythe, dealing 860 Shadow damage to your target and 119 Shadow damage in a 15 yd cone to enemies behind your target. (1 Min 30 Sec Cooldown)"
+      }
+    ],
+    "sell_price": {
+      "value": 19908,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "1",
+        "silver": "99",
+        "copper": "8"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 60,
+        "display_string": "Requires Level 60"
+      }
+    },
+    "level": {
+      "value": 158,
+      "display_string": "Item Level 158"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

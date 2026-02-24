@@ -1,0 +1,947 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2688?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2688,
+  "name": "The Soul Hunters",
+  "description": "Adarus Duskblaze is a demon hunter brimming with abyssal power, seeking to devour the void energy surrounding Manaforge Omega. Together he and his deadly allies, Ilyssa Darksorrow and Velaryn Bloodwrath, will destroy all who oppose them.",
+  "creatures": [
+    {
+      "id": 5902,
+      "name": "Adarus Duskblaze",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127562?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127562
+      }
+    },
+    {
+      "id": 5901,
+      "name": "Velaryn Bloodwrath",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127558?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127558
+      }
+    },
+    {
+      "id": 5900,
+      "name": "Ilyssa Darksorrow",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127563?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127563
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45439,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/243305?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Interloper's Silken Striders",
+        "id": 243305
+      }
+    },
+    {
+      "id": 45440,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/243306?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Interloper's Reinforced Sandals",
+        "id": 243306
+      }
+    },
+    {
+      "id": 45441,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/243308?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Interloper's Chain Boots",
+        "id": 243308
+      }
+    },
+    {
+      "id": 45442,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/243307?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Interloper's Plated Sabatons",
+        "id": 243307
+      }
+    },
+    {
+      "id": 45349,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237597?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dreadful Yearning Cursemark",
+        "id": 237597
+      }
+    },
+    {
+      "id": 45350,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237598?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mystic Yearning Cursemark",
+        "id": 237598
+      }
+    },
+    {
+      "id": 45351,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237599?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Venerated Yearning Cursemark",
+        "id": 237599
+      }
+    },
+    {
+      "id": 45352,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237600?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Zenith Yearning Cursemark",
+        "id": 237600
+      }
+    },
+    {
+      "id": 45353,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237569?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Duskblaze's Desperation",
+        "id": 237569
+      }
+    },
+    {
+      "id": 45354,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237741?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Event Horizon",
+        "id": 237741
+      }
+    },
+    {
+      "id": 45355,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237541?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Darksorrow's Corrupted Carapace",
+        "id": 237541
+      }
+    },
+    {
+      "id": 45356,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237554?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Clasp of Furious Freedom",
+        "id": 237554
+      }
+    },
+    {
+      "id": 45357,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242401?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Brand of Ceaseless Ire",
+        "id": 242401
+      }
+    },
+    {
+      "id": 45358,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242397?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sigil of the Cosmic Hunt",
+        "id": 242397
+      }
+    },
+    {
+      "id": 45359,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237727?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Collapsing Phaseblades",
+        "id": 237727
+      }
+    },
+    {
+      "id": 45360,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237549?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bloodwrath's Gnarled Claws",
+        "id": 237549
+      }
+    },
+    {
+      "id": 45361,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237561?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Yoke of Enveloping Hatred",
+        "id": 237561
+      }
+    },
+    {
+      "id": 45362,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237597?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dreadful Yearning Cursemark",
+        "id": 237597
+      }
+    },
+    {
+      "id": 45363,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237598?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mystic Yearning Cursemark",
+        "id": 237598
+      }
+    },
+    {
+      "id": 45364,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237599?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Venerated Yearning Cursemark",
+        "id": 237599
+      }
+    },
+    {
+      "id": 45365,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237600?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Zenith Yearning Cursemark",
+        "id": 237600
+      }
+    },
+    {
+      "id": 45366,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237569?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Duskblaze's Desperation",
+        "id": 237569
+      }
+    },
+    {
+      "id": 45367,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237741?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Event Horizon",
+        "id": 237741
+      }
+    },
+    {
+      "id": 45368,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237541?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Darksorrow's Corrupted Carapace",
+        "id": 237541
+      }
+    },
+    {
+      "id": 45369,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237554?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Clasp of Furious Freedom",
+        "id": 237554
+      }
+    },
+    {
+      "id": 45370,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242401?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Brand of Ceaseless Ire",
+        "id": 242401
+      }
+    },
+    {
+      "id": 45371,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242397?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sigil of the Cosmic Hunt",
+        "id": 242397
+      }
+    },
+    {
+      "id": 45372,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237727?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Collapsing Phaseblades",
+        "id": 237727
+      }
+    },
+    {
+      "id": 45373,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237549?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bloodwrath's Gnarled Claws",
+        "id": 237549
+      }
+    },
+    {
+      "id": 45374,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237561?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Yoke of Enveloping Hatred",
+        "id": 237561
+      }
+    },
+    {
+      "id": 45558,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223097?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Pattern: Adrenal Surge Clasp",
+        "id": 223097
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 31786,
+      "title": "Overview",
+      "body_text": "Adarus tears open a rift to the void and brands players with [Devourer's Ire]. Adarus will focus his assault on the players bearing this mark.\r\n\r\nVelaryn singes any who stand in her path with [Eye Beam] and lunges towards her prey with [The Hunt].\r\n\r\nIlyssa cleaves her target's essence with [Fracture] and feasts on their rended soul with [Spirit Bomb].\r\n\r\nUpon reaching 100 Fury, the Demon Hunters unleash their true power and enter [Metamorphosis].",
+      "sections": [
+        {
+          "id": 31787,
+          "title": "Tanks",
+          "body_text": "$bullet;[Eye Beam] singes Velaryn's current target with [Fel-Singed] and blasts them away.\r\n$bullet;[Fracture] cleaves their target's soul into fragments which Ilyssa will attempt to consume with [Spirit Bomb].\r\n$bullet;Adarus will [Voidstep] to new locations, summoning images which slice open the fabric of the void with [Hungering Slash] and leave behind [Encroaching Oblivion]."
+        },
+        {
+          "id": 31788,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Adarus continually casts [Consume] at the players bearing [Devourer's Ire].\r\n$bullet;[Fracture] cleaves their target's soul into fragments which Ilyssa will attempt to consume with [Spirit Bomb].\r\n$bullet;Adarus will [Voidstep] to new locations, summoning images which slice open the fabric of the void with [Hungering Slash] and leave behind [Encroaching Oblivion]."
+        },
+        {
+          "id": 31789,
+          "title": "Healers",
+          "body_text": "$bullet;Adarus continually casts [Consume] at the players bearing [Devourer's Ire].\r\n$bullet;[Fracture] cleaves their target's soul into fragments which Ilyssa will attempt to consume with [Spirit Bomb].\r\n$bullet;Adarus will [Voidstep] to new locations, summoning images which slice open the fabric of the void with [Hungering Slash] and leave behind [Encroaching Oblivion]."
+        }
+      ]
+    },
+    {
+      "id": 32567,
+      "title": "The Soul Hunters",
+      "sections": [
+        {
+          "id": 32500,
+          "title": "Adarus Duskblaze",
+          "sections": [
+            {
+              "id": 32501,
+              "title": "Devourer's Ire",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1222232?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Devourer's Ire",
+                "id": 1222232
+              }
+            },
+            {
+              "id": 33134,
+              "title": "Consume",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234565?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Consume",
+                "id": 1234565
+              }
+            },
+            {
+              "id": 32506,
+              "title": "Consume",
+              "sections": [
+                {
+                  "id": 32507,
+                  "title": "Unending Hunger",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1222310?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Unending Hunger",
+                    "id": 1222310
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234565?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Consume",
+                "id": 1234565
+              }
+            },
+            {
+              "id": 32504,
+              "title": "Voidstep",
+              "sections": [
+                {
+                  "id": 32993,
+                  "title": "Hungering Slash",
+                  "sections": [
+                    {
+                      "id": 32958,
+                      "title": "Encroaching Oblivion",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1235045?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Encroaching Oblivion",
+                        "id": 1235045
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1227685?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Hungering Slash",
+                    "id": 1227685
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1227355?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Voidstep",
+                "id": 1227355
+              }
+            },
+            {
+              "id": 33298,
+              "title": "Eradicate",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1245743?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Eradicate",
+                "id": 1245743
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127562?namespace=static-12.0.1_65617-us"
+            },
+            "id": 127562
+          }
+        },
+        {
+          "id": 31792,
+          "title": "Velaryn Bloodwrath",
+          "sections": [
+            {
+              "id": 33099,
+              "title": "The Hunt",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1227809?namespace=static-12.0.1_65617-us"
+                },
+                "name": "The Hunt",
+                "id": 1227809
+              }
+            },
+            {
+              "id": 32337,
+              "title": "The Hunt",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1227809?namespace=static-12.0.1_65617-us"
+                },
+                "name": "The Hunt",
+                "id": 1227809
+              }
+            },
+            {
+              "id": 33299,
+              "title": "The Hunt",
+              "sections": [
+                {
+                  "id": 33416,
+                  "title": "Weakened Prey",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1247415?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Weakened Prey",
+                    "id": 1247415
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1227809?namespace=static-12.0.1_65617-us"
+                },
+                "name": "The Hunt",
+                "id": 1227809
+              }
+            },
+            {
+              "id": 33001,
+              "title": "Blade Dance",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1241306?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Blade Dance",
+                "id": 1241306
+              }
+            },
+            {
+              "id": 33092,
+              "title": "Eye Beam",
+              "sections": [
+                {
+                  "id": 33093,
+                  "title": "Fel-Singed",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1221490?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Fel-Singed",
+                    "id": 1221490
+                  }
+                },
+                {
+                  "id": 33094,
+                  "title": "Felblade",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1225127?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Felblade",
+                    "id": 1225127
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1218103?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Eye Beam",
+                "id": 1218103
+              }
+            },
+            {
+              "id": 31793,
+              "title": "Eye Beam",
+              "sections": [
+                {
+                  "id": 31794,
+                  "title": "Fel-Singed",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1221490?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Fel-Singed",
+                    "id": 1221490
+                  }
+                },
+                {
+                  "id": 32361,
+                  "title": "Felblade",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1225127?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Felblade",
+                    "id": 1225127
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1218103?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Eye Beam",
+                "id": 1218103
+              }
+            },
+            {
+              "id": 33418,
+              "title": "Fel Inferno",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1223725?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Fel Inferno",
+                "id": 1223725
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127558?namespace=static-12.0.1_65617-us"
+            },
+            "id": 127558
+          }
+        },
+        {
+          "id": 31791,
+          "title": "Ilyssa Darksorrow",
+          "sections": [
+            {
+              "id": 31927,
+              "title": "Fracture",
+              "sections": [
+                {
+                  "id": 32205,
+                  "title": "Shattered Soul",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1226493?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Shattered Soul",
+                    "id": 1226493
+                  }
+                },
+                {
+                  "id": 33035,
+                  "title": "Frailty",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1241917?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Frailty",
+                    "id": 1241917
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1241833?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Fracture",
+                "id": 1241833
+              }
+            },
+            {
+              "id": 31928,
+              "title": "Spirit Bomb",
+              "sections": [
+                {
+                  "id": 33095,
+                  "title": "Soulcrush",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1242284?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Soulcrush",
+                    "id": 1242284
+                  }
+                },
+                {
+                  "id": 33096,
+                  "title": "Expulsed Soul",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1242304?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Expulsed Soul",
+                    "id": 1242304
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1242259?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Spirit Bomb",
+                "id": 1242259
+              }
+            },
+            {
+              "id": 32959,
+              "title": "Sigil of Chains",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1240891?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Sigil of Chains",
+                "id": 1240891
+              }
+            },
+            {
+              "id": 32340,
+              "title": "Immolation Aura",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1225154?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Immolation Aura",
+                "id": 1225154
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127563?namespace=static-12.0.1_65617-us"
+            },
+            "id": 127563
+          }
+        },
+        {
+          "id": 33555,
+          "title": "Unstable Soul",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1249198?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Unstable Soul",
+            "id": 1249198
+          }
+        }
+      ]
+    },
+    {
+      "id": 32566,
+      "title": "Intermission: The Ceaseless Hunger",
+      "body_text": "Adarus enshrouds the arena in void and attempts to draw all players into a Collapsing Star.",
+      "sections": [
+        {
+          "id": 32593,
+          "title": "Collapsing Star",
+          "sections": [
+            {
+              "id": 33319,
+              "title": "Dark Residue",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233105?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Dark Residue",
+                "id": 1233105
+              }
+            },
+            {
+              "id": 33100,
+              "title": "Event Horizon",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233968?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Event Horizon",
+                "id": 1233968
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233093?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Collapsing Star",
+            "id": 1233093
+          }
+        },
+        {
+          "id": 33311,
+          "title": "Soul Tether",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1245978?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Soul Tether",
+            "id": 1245978
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127916?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127916
+      }
+    },
+    {
+      "id": 32552,
+      "title": "Intermission: The Demon Within",
+      "body_text": "Velaryn scours the arena with Fel Rush.",
+      "sections": [
+        {
+          "id": 32554,
+          "title": "Fel Rush",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233863?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fel Rush",
+            "id": 1233863
+          }
+        },
+        {
+          "id": 33312,
+          "title": "Soul Tether",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1245978?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Soul Tether",
+            "id": 1245978
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/128015?namespace=static-12.0.1_65617-us"
+        },
+        "id": 128015
+      }
+    },
+    {
+      "id": 32545,
+      "title": "Intermission: The Unrelenting Pain",
+      "body_text": "Ilyssa rampages about the arena with Infernal Strike and annihilates her foes with Fel Devastation.",
+      "sections": [
+        {
+          "id": 32587,
+          "title": "Infernal Strike",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227113?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Infernal Strike",
+            "id": 1227113
+          }
+        },
+        {
+          "id": 33454,
+          "title": "Fel Devastation",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227117?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fel Devastation",
+            "id": 1227117
+          }
+        },
+        {
+          "id": 32547,
+          "title": "Fel Devastation",
+          "sections": [
+            {
+              "id": 32588,
+              "title": "Withering Flames",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233381?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Withering Flames",
+                "id": 1233381
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227117?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fel Devastation",
+            "id": 1227117
+          }
+        },
+        {
+          "id": 33313,
+          "title": "Soul Tether",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1245978?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Soul Tether",
+            "id": 1245978
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127624?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127624
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1302?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Manaforge Omega",
+    "id": 1302
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}
