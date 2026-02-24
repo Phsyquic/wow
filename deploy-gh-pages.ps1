@@ -67,7 +67,10 @@ try {
 
     Copy-Item -Path (Join-Path -Path $tempDeployDir -ChildPath "*") -Destination $PSScriptRoot -Recurse -Force
     New-Item (Join-Path $PSScriptRoot ".nojekyll") -ItemType File -Force | Out-Null
-    Set-Content -Path (Join-Path $PSScriptRoot ".gitignore") -Value "node_modules"
+    Set-Content -Path (Join-Path $PSScriptRoot ".gitignore") -Value @"
+node_modules
+.angular
+"@
 
     Invoke-CheckedCommand -Command { git add -A } -ErrorMessage "No se pudieron agregar los archivos al indice git."
     & git diff --cached --quiet
