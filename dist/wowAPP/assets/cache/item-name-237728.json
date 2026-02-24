@@ -1,0 +1,289 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237728?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237728,
+  "name": "Voidglass Kris",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237728?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237728
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Dagger",
+    "id": 15
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": "One-Hand"
+  },
+  "purchase_price": 7499038,
+  "sell_price": 1499807,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237728?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237728
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Voidglass Kris",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237728?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237728
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Dagger",
+      "id": 15
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": "One-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "damage": {
+        "min_value": 8,
+        "max_value": 14,
+        "display_string": "8 - 14 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 1800,
+        "display_string": "Speed 1.80"
+      },
+      "dps": {
+        "value": 6.1111107,
+        "display_string": "(6.1 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 64,
+        "display": {
+          "display_string": "+64 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 49,
+        "display": {
+          "display_string": "+49 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 7,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+7 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 15,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+15 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1235136?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Shards of the Void",
+          "id": 1235136
+        },
+        "description": "Equip: Your spells have a chance to conjure voidglass shards, slicing enemies for 912 Cosmic damage or orbiting allies to absorb 2,429 damage for up to 20 sec."
+      }
+    ],
+    "sell_price": {
+      "value": 747994,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "74",
+        "silver": "79",
+        "copper": "94"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1960?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shards of the Void",
+        "id": 1960
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237730?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidglass Spire",
+            "id": 237730
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/242392?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Diamantine Voidcore",
+            "id": 242392
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237728?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidglass Kris",
+            "id": 237728
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237735?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidglass Sovereign's Blade",
+            "id": 237735
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: While Diamantine Voidcore is empowered, your voidglass shards are 200% more effective.",
+          "required_count": 2
+        }
+      ],
+      "display_string": "Shards of the Void (0/4)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 80,
+      "display_string": "Durability 80 / 80"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115561?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115561
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115563?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115563
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115564?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115564
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115560?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115560
+    }
+  ]
+}

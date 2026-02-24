@@ -1,0 +1,158 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/252009?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 252009,
+  "name": "Bloodstained Memento",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/252009?namespace=static-12.0.1_65617-us"
+    },
+    "id": 252009
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NECK",
+    "name": "Neck"
+  },
+  "purchase_price": 1377022,
+  "sell_price": 275404,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/252009?namespace=static-12.0.1_65617-us"
+      },
+      "id": 252009
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Bloodstained Memento",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/252009?namespace=static-12.0.1_65617-us"
+      },
+      "id": 252009
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NECK",
+      "name": "Neck"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 31,
+        "display": {
+          "display_string": "+31 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 19,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+19 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 44,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+44 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 226757,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "22",
+        "silver": "67",
+        "copper": "57"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": "Requires Level 68"
+      }
+    },
+    "level": {
+      "value": 92,
+      "display_string": "Item Level 92"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

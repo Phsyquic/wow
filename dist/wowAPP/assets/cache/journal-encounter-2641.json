@@ -1,0 +1,587 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2641?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2641,
+  "name": "Rik Reverb",
+  "description": "Rik Reverb loves the boom of an explosion, the crackle of a firework and most importantly, the sound of his own voice. From his flying sonic resonator, Rik serves as Gallywix's partying promoter by enthralling the citizens of Undermine with addictive and deadly goblin beats.",
+  "creatures": [
+    {
+      "id": 5833,
+      "name": "Rik Reverb",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/123720?namespace=static-11.1.0_59095-us"
+        },
+        "id": 123720
+      }
+    },
+    {
+      "id": 5832,
+      "name": "Amplifier",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122299?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122299
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45130,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/224435?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pattern: Duskthread Lining",
+        "id": 224435
+      }
+    },
+    {
+      "id": 44763,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228845?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sash of the Fierce Diva",
+        "id": 228845
+      }
+    },
+    {
+      "id": 44764,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228815?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dreadful Polished Gallybux",
+        "id": 228815
+      }
+    },
+    {
+      "id": 44765,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228897?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pyrotechnic Needle-Dropper",
+        "id": 228897
+      }
+    },
+    {
+      "id": 44766,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228895?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Remixed Ignition Saber",
+        "id": 228895
+      }
+    },
+    {
+      "id": 44767,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228816?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Mystic Polished Gallybux",
+        "id": 228816
+      }
+    },
+    {
+      "id": 44769,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228857?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Underparty Admission Bracelet",
+        "id": 228857
+      }
+    },
+    {
+      "id": 44770,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228841?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Semi-Charmed Amulet",
+        "id": 228841
+      }
+    },
+    {
+      "id": 44771,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/230194?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Reverb Radio",
+        "id": 230194
+      }
+    },
+    {
+      "id": 44772,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228817?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Venerated Polished Gallybux",
+        "id": 228817
+      }
+    },
+    {
+      "id": 44773,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228818?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Zenith Polished Gallybux",
+        "id": 228818
+      }
+    },
+    {
+      "id": 44774,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228869?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Killer Queen's Wristflickers",
+        "id": 228869
+      }
+    },
+    {
+      "id": 44775,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228874?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Rik's Walkin' Boots",
+        "id": 228874
+      }
+    },
+    {
+      "id": 45052,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231311?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Frontman's Wondrous Wall",
+        "id": 231311
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 31101,
+      "title": "Overview",
+      "body_text": "Rik Reverb places entrancing amplifiers around the yard during Hspell:473748[Amplification]. Upon reaching full power, the amplifiers go Hspell:466093[Haywire].\r\n\r\nUpon reaching 100 energy, Rik unleashes Hspell:467991[Blaring Drops] from his sonic resonator and causes each amplifier to Hspell:466722[Blowout].",
+      "sections": [
+        {
+          "id": 31102,
+          "title": "Tanks",
+          "body_text": "$bullet; Rik Hspell:466128[Resonates] additional power to nearby amplifiers. \r\n$bullet; Hspell:464488[Sonic Blast] inflicts Sonic damage in a frontal cone and applies Hspell:464518[Tinnitus]. Sonic damage cannot be blocked or reduced by Armor.\r\n$bullet; Amplifier Hspell:466722[Blowouts] knock players into the air as Rik generates deadly Hspell:467991[Blaring Drops]."
+        },
+        {
+          "id": 31103,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Activating amplifiers drains their energy but applies Hspell:1217122[Lingering Voltage].\r\n$bullet; Rik gains a nullifying Hspell:1213817[Sound Cloud] in Stage Two.\r\n$bullet; Amplifier Hspell:466722[Blowouts]  knock players into the air as Rik generates deadly Hspell:467991[Blaring Drops]."
+        },
+        {
+          "id": 31104,
+          "title": "Healers",
+          "body_text": "$bullet; Activating amplifiers drains their energy but applies Hspell:1217122[Lingering Voltage].\r\n$bullet; Hspell:467044[Faulty Zap] inflicts damage to nearby players. \r\n$bullet; Amplifier Hspell:466722[Blowouts]  knock players into the air as Rik generates deadly Hspell:467991[Blaring Drops]."
+        }
+      ]
+    },
+    {
+      "id": 31656,
+      "title": "Stage One: Party Starter",
+      "sections": [
+        {
+          "id": 30386,
+          "title": "Amplification!",
+          "sections": [
+            {
+              "id": 31087,
+              "title": "Amplifier",
+              "body_text": "The amplifier gains power over time.",
+              "sections": [
+                {
+                  "id": 31493,
+                  "title": "Feedback Nullifier",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1214829?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Feedback Nullifier",
+                    "id": 1214829
+                  }
+                },
+                {
+                  "id": 32007,
+                  "title": "Lingering Voltage",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1217120?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Lingering Voltage",
+                    "id": 1217120
+                  }
+                },
+                {
+                  "id": 31379,
+                  "title": "Lingering Voltage",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1217120?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Lingering Voltage",
+                    "id": 1217120
+                  }
+                },
+                {
+                  "id": 31721,
+                  "title": "Resonant Echoes",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/468119?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Resonant Echoes",
+                    "id": 468119
+                  }
+                },
+                {
+                  "id": 31722,
+                  "title": "Resonant Echoes",
+                  "sections": [
+                    {
+                      "id": 31723,
+                      "title": "Entranced",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1214598?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Entranced",
+                        "id": 1214598
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/468119?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Resonant Echoes",
+                    "id": 468119
+                  }
+                },
+                {
+                  "id": 31050,
+                  "title": "Noise Pollution",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465795?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Noise Pollution",
+                    "id": 465795
+                  }
+                },
+                {
+                  "id": 31109,
+                  "title": "Haywire",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466093?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Haywire",
+                    "id": 466093
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122299?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122299
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/473748?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Amplification!",
+            "id": 473748
+          }
+        },
+        {
+          "id": 30587,
+          "title": "Echoing Chant",
+          "sections": [
+            {
+              "id": 31718,
+              "title": "Resonant Echoes",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/468119?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Resonant Echoes",
+                "id": 468119
+              }
+            },
+            {
+              "id": 31719,
+              "title": "Resonant Echoes",
+              "sections": [
+                {
+                  "id": 31720,
+                  "title": "Entranced",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1214598?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Entranced",
+                    "id": 1214598
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/468119?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Resonant Echoes",
+                "id": 468119
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466866?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Echoing Chant",
+            "id": 466866
+          }
+        },
+        {
+          "id": 31121,
+          "title": "Sound Cannon",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467606?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Sound Cannon",
+            "id": 467606
+          }
+        },
+        {
+          "id": 31252,
+          "title": "Sound Cannon",
+          "sections": [
+            {
+              "id": 31183,
+              "title": "Entranced",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214598?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Entranced",
+                "id": 1214598
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467606?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Sound Cannon",
+            "id": 467606
+          }
+        },
+        {
+          "id": 31412,
+          "title": "Faulty Zap",
+          "sections": [
+            {
+              "id": 31413,
+              "title": "Static Jolt",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467297?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Static Jolt",
+                "id": 467297
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466961?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Faulty Zap",
+            "id": 466961
+          }
+        },
+        {
+          "id": 30592,
+          "title": "Faulty Zap",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466961?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Faulty Zap",
+            "id": 466961
+          }
+        },
+        {
+          "id": 31154,
+          "title": "Sparkblast Ignition",
+          "sections": [
+            {
+              "id": 31785,
+              "title": "Grand Finale",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/472294?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Grand Finale",
+                "id": 472294
+              }
+            },
+            {
+              "id": 31155,
+              "title": "Excitement",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214164?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Excitement",
+                "id": 1214164
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/472306?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Sparkblast Ignition",
+            "id": 472306
+          }
+        },
+        {
+          "id": 30501,
+          "title": "Resonance",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466128?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Resonance",
+            "id": 466128
+          }
+        },
+        {
+          "id": 30390,
+          "title": "Sonic Blast",
+          "sections": [
+            {
+              "id": 30391,
+              "title": "Tinnitus",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464518?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Tinnitus",
+                "id": 464518
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464488?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Sonic Blast",
+            "id": 464488
+          }
+        }
+      ]
+    },
+    {
+      "id": 31655,
+      "title": "Stage Two: Hype Hustle!",
+      "body_text": "Rik encases himself in a barrier of sound as he overloads his amplifiers.",
+      "sections": [
+        {
+          "id": 30701,
+          "title": "Blowout!",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466722?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Blowout!",
+            "id": 466722
+          }
+        },
+        {
+          "id": 31256,
+          "title": "Sound Cloud",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1213817?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Sound Cloud",
+            "id": 1213817
+          }
+        },
+        {
+          "id": 30700,
+          "title": "Blaring Drop",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467991?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Blaring Drop",
+            "id": 467991
+          }
+        },
+        {
+          "id": 31520,
+          "title": "Hype Fever!",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/473655?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Hype Fever!",
+            "id": 473655
+          }
+        }
+      ]
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1296?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Liberation of Undermine",
+    "id": 1296
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

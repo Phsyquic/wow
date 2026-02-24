@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/242397?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 242397,
+  "name": "Sigil of the Cosmic Hunt",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/242397?namespace=static-12.0.1_65617-us"
+    },
+    "id": 242397
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4669550,
+  "sell_price": 933910,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/242397?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242397
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Sigil of the Cosmic Hunt",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/242397?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242397
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 21,
+        "is_negated": true,
+        "display": {
+          "display_string": "+21 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1235360?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Sigil of the Cosmic Hunt",
+          "id": 1235360
+        },
+        "description": "Equip: Your attacks have a high chance to unleash a cosmic onslaught, dealing 994 Cosmic damage to your target. \r\n\r\nDamage increased by 2% for every 1% health the target is missing, and nearby enemies take 50% of the damage dealt split between them."
+      }
+    ],
+    "sell_price": {
+      "value": 465766,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "46",
+        "silver": "57",
+        "copper": "66"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}
