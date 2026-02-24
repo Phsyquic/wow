@@ -1,0 +1,238 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2600?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2600,
+  "name": "The Coaglamation",
+  "description": "The Grand Splicer's evolutionary experiments often result in by-products of waste and sludge. This abhorrent glop may appear useless to some, but to Izo's clever ingenuity, it offers excellent material components for more experiementation--and a vicious monstrosity waiting to come to life.",
+  "creatures": [
+    {
+      "id": 5631,
+      "name": "The Coaglamation",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117254?namespace=static-12.0.1_65617-us"
+        },
+        "id": 117254
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44075,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219320?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Viscous Coaglam",
+        "id": 219320
+      }
+    },
+    {
+      "id": 44077,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221182?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Vitriolic Veinwoven Wraps",
+        "id": 221182
+      }
+    },
+    {
+      "id": 44078,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221180?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Gorebound Stranglers",
+        "id": 221180
+      }
+    },
+    {
+      "id": 44079,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221181?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Elder's Hemolymphal Periapt",
+        "id": 221181
+      }
+    },
+    {
+      "id": 44080,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221179?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Coagulum Cuirass",
+        "id": 221179
+      }
+    },
+    {
+      "id": 44081,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221178?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ichor-Stained Sollerets",
+        "id": 221178
+      }
+    },
+    {
+      "id": 44082,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221177?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Old-Blood Hielaman",
+        "id": 221177
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 28732,
+      "title": "Overview",
+      "body_text": "The Coaglamation casts [Viscous Darkness] to release orbs of black blood that move towards the The Coaglamation to heal it. Players can intercept orbs of black blood to prevent them from reaching The Coaglamation, but are afflicted with [Corrupted Coating] each time they come into contact with an orb of black blood.",
+      "sections": [
+        {
+          "id": 28733,
+          "title": "Tanks",
+          "body_text": "$bullet; [Viscous Darkness] causes orbs of black blood to move towards The Coaglamation that players can intercept. Orbs of black blood that touch the Coaglamation heal it.\r\n$bullet;Players that intercept orbs of black blood are afflicted with [Corrupted Coating] which absorbs healing recieved.\r\n$bullet; [Blood Surge] creates pools of black blood."
+        },
+        {
+          "id": 28734,
+          "title": "Healers",
+          "body_text": "$bullet; [Viscous Darkness] causes orbs of black blood to move towards The Coaglamation that players can intercept. Orbs of black blood that touch the Coaglamation heal it.\r\n$bullet;Players that intercept orbs of black blood are afflicted with [Corrupted Coating] which absorbs healing recieved.\r\n$bullet;[Dark Pulse] inflicts significant damage to all players."
+        },
+        {
+          "id": 28735,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; [Viscous Darkness] causes orbs of black blood to move towards The Coaglamation that players can intercept. Orbs of black blood that touch the Coaglamation heal it.\r\n$bullet;Players that intercept orbs of black blood are afflicted with [Corrupted Coating] which absorbs healing recieved.\r\n$bullet;[Dark Pulse] inflicts significant damage to all players."
+        }
+      ]
+    },
+    {
+      "id": 30077,
+      "title": "Viscous Darkness",
+      "sections": [
+        {
+          "id": 30078,
+          "title": "Corrupted Coating",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/442285?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Corrupted Coating",
+            "id": 442285
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/441216?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Viscous Darkness",
+        "id": 441216
+      }
+    },
+    {
+      "id": 28737,
+      "title": "Viscous Darkness",
+      "sections": [
+        {
+          "id": 28956,
+          "title": "Corrupted Coating",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/442285?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Corrupted Coating",
+            "id": 442285
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/441216?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Viscous Darkness",
+        "id": 441216
+      }
+    },
+    {
+      "id": 28862,
+      "title": "Oozing Smash",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/461842?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Oozing Smash",
+        "id": 461842
+      }
+    },
+    {
+      "id": 30223,
+      "title": "Blood Surge",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/461880?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Blood Surge",
+        "id": 461880
+      }
+    },
+    {
+      "id": 28738,
+      "title": "Dark Pulse",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/437533?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dark Pulse",
+        "id": 437533
+      }
+    },
+    {
+      "id": 30222,
+      "title": "Blood Surge",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/438620?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Blood Surge",
+        "id": 438620
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1274?namespace=static-12.0.1_65617-us"
+    },
+    "name": "City of Threads",
+    "id": 1274
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

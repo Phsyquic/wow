@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/159462?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_ring_80_06e.jpg",
+      "file_data_id": 2000829
+    }
+  ],
+  "id": 159462
+}

@@ -1,0 +1,227 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2570?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2570,
+  "name": "Baron Braunpyke",
+  "description": "Distraught over the death of his brother, Baron Braunpyke has pledged his loyalty to Prioress Murrpray. The powerful knight now acts as her personal enforcer, protecting the secrets of the Priory from both outsiders and insufficiently loyal Arathi.",
+  "creatures": [
+    {
+      "id": 5716,
+      "name": "Baron Braunpyke",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118878?namespace=static-12.0.1_65617-us"
+        },
+        "id": 118878
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44055,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219309?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Tome of Light's Devotion",
+        "id": 219309
+      }
+    },
+    {
+      "id": 44195,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221125?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Helm of the Righteous Crusade",
+        "id": 221125
+      }
+    },
+    {
+      "id": 44196,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221124?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Consecrated Baron's Bindings",
+        "id": 221124
+      }
+    },
+    {
+      "id": 44197,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221123?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Devoted Plate Walkers",
+        "id": 221123
+      }
+    },
+    {
+      "id": 44198,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221126?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Zealous Warden's Raiment",
+        "id": 221126
+      }
+    },
+    {
+      "id": 44199,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221122?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hand of Beledar",
+        "id": 221122
+      }
+    },
+    {
+      "id": 46013,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/252009?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bloodstained Memento",
+        "id": 252009
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27758,
+      "title": "Overview",
+      "body_text": "Baron Braunpyke bends the light to his will, hurling his [Castigator's Shield], and summoning [Hammers of Purity] from above.\r\n\r\nUpon reaching 100 Holy energy, Braunpyke empowers his abilities with [Vindictive Wrath].",
+      "sections": [
+        {
+          "id": 27759,
+          "title": "Tanks",
+          "body_text": "$bullet; While empowered by [Vindictive Wrath] Baron Braunpyke's melee strike damage is increased.\r\n$bullet; [Castigator's Shield] leaves [Castigator's Detonation] at the location of each player hit."
+        },
+        {
+          "id": 27760,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; [Burning Light] will heal Braunpyke and damage those around him if not interrupted.\r\n$bullet; [Castigator's Shield] leaves [Castigator's Detonation] at the location of each player hit."
+        },
+        {
+          "id": 27761,
+          "title": "Healers",
+          "body_text": "$bullet; The damage during [Vindictive Wrath] is greatly increased.\r\n$bullet; [Castigator's Shield] leaves [Castigator's Detonation] at the location of each player hit."
+        }
+      ]
+    },
+    {
+      "id": 27762,
+      "title": "Vindictive Wrath",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/422969?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Vindictive Wrath",
+        "id": 422969
+      }
+    },
+    {
+      "id": 27763,
+      "title": "Castigator's Shield",
+      "sections": [
+        {
+          "id": 29988,
+          "title": "Castigator's Detonation",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/423019?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Castigator's Detonation",
+            "id": 423019
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/423015?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Castigator's Shield",
+        "id": 423015
+      }
+    },
+    {
+      "id": 27764,
+      "title": "Burning Light",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/423051?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Burning Light",
+        "id": 423051
+      }
+    },
+    {
+      "id": 27765,
+      "title": "Hammer of Purity",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/423062?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hammer of Purity",
+        "id": 423062
+      }
+    },
+    {
+      "id": 29106,
+      "title": "Sacrificial Pyre",
+      "sections": [
+        {
+          "id": 30269,
+          "title": "Sacrificial Flame",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/446403?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Sacrificial Flame",
+            "id": 446403
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/446368?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sacrificial Pyre",
+        "id": 446368
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1267?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Priory of the Sacred Flame",
+    "id": 1267
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}
