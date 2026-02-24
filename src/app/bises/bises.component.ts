@@ -48,6 +48,7 @@ export class BisesComponent implements OnInit {
   private encounterNameCache: Record<number, string> = {};
   private adminConfigStorageKey = 'config';
   private adminPassword = '6190';
+  canReloadBisFromCurrentRuntime = false;
 
   constructor(
     private http: HttpClient,
@@ -59,7 +60,21 @@ export class BisesComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadAdminConfigState();
+    this.canReloadBisFromCurrentRuntime = this.canScrapeFromCurrentRuntime();
     this.loadInitialData();
+  }
+
+  private canScrapeFromCurrentRuntime(): boolean {
+    if (this.cacheApiBase) {
+      return true;
+    }
+
+    if (typeof window === 'undefined') {
+      return false;
+    }
+
+    const host = window.location.hostname.toLowerCase();
+    return host === 'localhost' || host === '127.0.0.1';
   }
 
   async loadInitialData() {
@@ -914,6 +929,11 @@ export class BisesComponent implements OnInit {
       return;
     }
 
+    if (!this.canReloadBisFromCurrentRuntime) {
+      console.error('BiS reload disabled: no backend configured for Wowhead scraping in this environment.');
+      return;
+    }
+
     this.isReloadingBis = true;
     this.isLoading = true;
     const isDev = !environment.production;
@@ -946,7 +966,7 @@ export class BisesComponent implements OnInit {
           if (isDev) {
             console.log(`[BiS Reload] [${index + 1}/${specMatrix.length}] Scraping ${label}`, url);
           }
-          const scrapedPage = await scrapeWowheadPage(url);
+          const scrapedPage = await scrapeWowheadPage(url, this.cacheApiBase);
           const bisItems = extractWowheadBisList(scrapedPage, 'Overall');
 
           if (bisItems.length === 0) {
@@ -993,6 +1013,7 @@ export class BisesComponent implements OnInit {
 
       this.LocalDataService.saveGeneratedBisListTxt(generatedBisList);
       this.LocalDataService.saveGeneratedBisSources(sourceMap);
+      await this.persistGeneratedBisListSnapshot(generatedBisList, sourceMap);
       this.generatedBisSources = sourceMap;
       if (isDev) {
         console.log(`[BiS Reload] Guardado bisList generada. Specs OK: ${okCount}, fallidas/sin datos: ${failCount}`);
@@ -1029,6 +1050,28 @@ export class BisesComponent implements OnInit {
 
     await this.getBisListData();
     await this.getBosses();
+  }
+
+  async persistGeneratedBisListSnapshot(content: string, sources: Record<string, string[]>) {
+    if (!this.cacheApiBase) {
+      return;
+    }
+
+    try {
+      const response = await fetch(`${this.cacheApiBase}/bislist/save`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ content, sources }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Snapshot save failed (${response.status})`);
+      }
+    } catch (error) {
+      console.warn('No se pudo guardar snapshot estático de BiS en local.', error);
+    }
   }
 
   getWowheadSpecMatrix() {

@@ -1,35 +1,51 @@
-export async function scrapeWowheadPage(url: string): Promise<string> {
+function isLocalHostRuntime(): boolean {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  const host = window.location.hostname.toLowerCase();
+  return host === 'localhost' || host === '127.0.0.1';
+}
+
+export async function scrapeWowheadPage(url: string, cacheApiBase: string = ''): Promise<string> {
   const parsed = new URL(url);
 
   if (!parsed.hostname.includes('wowhead.com')) {
     throw new Error('Only wowhead.com URLs are supported.');
   }
 
+  // Prefer backend endpoint when available (works on hosted envs).
+  if (cacheApiBase) {
+    const normalizedBase = cacheApiBase.replace(/\/$/, '');
+    const apiUrl = `${normalizedBase}/wowhead/scrape?url=${encodeURIComponent(url)}`;
+    const apiResponse = await fetch(apiUrl, {
+      method: 'GET',
+      headers: { Accept: 'text/html' },
+    });
+
+    if (!apiResponse.ok) {
+      throw new Error(`Failed to scrape via backend (${apiResponse.status})`);
+    }
+
+    return await apiResponse.text();
+  }
+
+  // Local Angular dev server proxy: /guide -> https://www.wowhead.com/...
   const proxiedPath = `${parsed.pathname}${parsed.search}${parsed.hash}`;
   const proxyUrl = proxiedPath.startsWith('/guide') ? proxiedPath : `/guide${proxiedPath}`;
 
-  // Prefer local proxy to avoid browser CORS issues.
-  try {
+  if (isLocalHostRuntime()) {
     const proxiedResponse = await fetch(proxyUrl, {
       method: 'GET',
       headers: { Accept: 'text/html' },
     });
 
-    if (proxiedResponse.ok) {
-      return await proxiedResponse.text();
+    if (!proxiedResponse.ok) {
+      throw new Error(`Failed to scrape via local proxy (${proxiedResponse.status})`);
     }
-  } catch {
-    // Fallback to direct URL below.
+
+    return await proxiedResponse.text();
   }
 
-  const directResponse = await fetch(url, {
-    method: 'GET',
-    headers: { Accept: 'text/html' },
-  });
-
-  if (!directResponse.ok) {
-    throw new Error(`Failed to scrape URL (${directResponse.status})`);
-  }
-
-  return await directResponse.text();
+  throw new Error('No scrape backend configured. Browser direct fetch is blocked by CORS.');
 }

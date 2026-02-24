@@ -30,7 +30,12 @@
 
     <div class="actions-row">
       <ng-container *ngIf="isAdminConfigEnabled; else adminConfigEntry">
-        <button class="btn ghost" title="Recargar BiS desde Wowhead" (click)="reloadBisFromWowhead()">↻</button>
+        <button
+          class="btn ghost"
+          [title]="canReloadBisFromCurrentRuntime ? 'Recargar BiS desde Wowhead' : 'No disponible sin backend/proxy de scraping'"
+          [disabled]="!canReloadBisFromCurrentRuntime"
+          (click)="reloadBisFromWowhead()"
+        >↻</button>
         <button class="btn ghost" title="Cachear items faltantes en Blizzard API" (click)="cacheMissingItems()">🗄</button>
         <button class="btn ghost danger" title="Limpiar cache de items" (click)="clearItemCache()">🗑</button>
       </ng-container>
