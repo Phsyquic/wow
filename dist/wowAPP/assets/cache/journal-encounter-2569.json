@@ -1,0 +1,241 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2569?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2569,
+  "name": "Ol' Waxbeard",
+  "description": "Howdy! Sit a spell. Hear about Ol' Waxbeard. Kobolds respect this old-timer for tamin' Wick, the rowdiest mole in creation! Waxbeard's seen folks come n' go. Now Candle King's in charge. That don't change nothin'! Ya still need to stay off his property! Why are here? Go on! Get!",
+  "creatures": [
+    {
+      "id": 5577,
+      "name": "Ol' Waxbeard",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114171?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114171
+      }
+    },
+    {
+      "id": 5579,
+      "name": "Wick",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114039?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114039
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44054,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219304?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Conductor's Wax Whistle",
+        "id": 219304
+      }
+    },
+    {
+      "id": 44200,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221097?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Arcane Scuttle",
+        "id": 221097
+      }
+    },
+    {
+      "id": 44201,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221098?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mole Knight's Grimemail",
+        "id": 221098
+      }
+    },
+    {
+      "id": 44202,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221096?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Rail Rider's Bisector",
+        "id": 221096
+      }
+    },
+    {
+      "id": 44203,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221099?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Wick's Golden Loop",
+        "id": 221099
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27620,
+      "title": "Overview",
+      "body_text": "Ol' Waxbeard summons waves of kobolds and deadly minecarts that run over all units. He marks priority targets for his allies with [Luring Candleflame] and spurs Wick into a [Reckless Charge] towards a distant player, devastating players and kobolds alike in his path.",
+      "sections": [
+        {
+          "id": 27621,
+          "title": "Tanks",
+          "body_text": "$bullet; Menial Laborers quickly become a threat as they survive, due to [Crude Weapons].\r\n$bullet; Ol' Waxbeard's [Rock Buster] causes the target to take increased Physical damage for a brief period."
+        },
+        {
+          "id": 27622,
+          "title": "Healers",
+          "body_text": "$bullet; [Luring Candleflame] draws all Menial Laborers to focus the target.\r\n$bullet; Ol' Waxbeard's [Reckless Charge], the resulting [Cave-In], and speeding minecarts all instantly kill Menial Laborers."
+        },
+        {
+          "id": 27623,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Menial Laborers quickly become a threat as they survive, due to [Crude Weapons].\r\n$bullet; Ol' Waxbeard's [Reckless Charge], the resulting [Cave-In], and speeding minecarts all instantly kill Menial Laborers."
+        }
+      ]
+    },
+    {
+      "id": 27628,
+      "title": "\"Kol\"-to-Arms",
+      "sections": [
+        {
+          "id": 30268,
+          "title": "High Speed Collision",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/424821?namespace=static-12.0.1_65617-us"
+            },
+            "name": "High Speed Collision",
+            "id": 424821
+          }
+        },
+        {
+          "id": 28936,
+          "title": "Menial Laborers",
+          "body_text": "Menial Laborers will fixate random nearby players when they enter the fray.",
+          "sections": [
+            {
+              "id": 28937,
+              "title": "Crude Weapons",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/422682?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Crude Weapons",
+                "id": 422682
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114170?namespace=static-12.0.1_65617-us"
+            },
+            "id": 114170
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/421875?namespace=static-12.0.1_65617-us"
+        },
+        "name": "\"Kol\"-to-Arms",
+        "id": 421875
+      }
+    },
+    {
+      "id": 28286,
+      "title": "Underhanded Track-tics",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/428268?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Underhanded Track-tics",
+        "id": 428268
+      }
+    },
+    {
+      "id": 27625,
+      "title": "Reckless Charge",
+      "sections": [
+        {
+          "id": 27626,
+          "title": "Cave-In",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/422270?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cave-In",
+            "id": 422270
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/422150?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Reckless Charge",
+        "id": 422150
+      }
+    },
+    {
+      "id": 28285,
+      "title": "Luring Candleflame",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/422162?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Luring Candleflame",
+        "id": 422162
+      }
+    },
+    {
+      "id": 27629,
+      "title": "Rock Buster",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/422245?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Rock Buster",
+        "id": 422245
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1210?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Darkflame Cleft",
+    "id": 1210
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}
