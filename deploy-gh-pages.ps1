@@ -62,7 +62,7 @@ try {
     New-Item (Join-Path $PSScriptRoot ".nojekyll") -ItemType File -Force | Out-Null
     Set-Content -Path (Join-Path $PSScriptRoot ".gitignore") -Value "node_modules"
 
-    Invoke-CheckedCommand -Command { git add . -- ':!node_modules' ':!node_modules/**' } -ErrorMessage "No se pudieron agregar los archivos al indice git."
+    Invoke-CheckedCommand -Command { git add -A } -ErrorMessage "No se pudieron agregar los archivos al indice git."
     & git diff --cached --quiet
     if ($LASTEXITCODE -ne 0) {
         Invoke-CheckedCommand -Command { git commit -m $CommitMessage } -ErrorMessage "No se pudo crear el commit de despliegue."
