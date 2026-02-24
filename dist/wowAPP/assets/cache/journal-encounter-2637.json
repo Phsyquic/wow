@@ -1,0 +1,222 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2637?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2637,
+  "name": "Kordac, the Dormant Protector",
+  "description": "Barely functional or even remembered, Kordac's disrepair forces him to remain a dormant observer. Even upon detecting the void somewhere below, he was forced into inaction. But that's changed. The unidentifiable lifeforms who have arrived to the Isle of Dorn are powerful enough to potentially pose a threat to Azeroth. And so he stands against us. And so we stand against him.",
+  "creatures": [
+    {
+      "id": 5730,
+      "name": "Kordac",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118472?namespace=static-11.1.0_59095-us"
+        },
+        "id": 118472
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44611,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225734?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sturdy Chitinous Striders",
+        "id": 225734
+      }
+    },
+    {
+      "id": 44612,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225735?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dornish Warden's Coat",
+        "id": 225735
+      }
+    },
+    {
+      "id": 44613,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225733?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Abyssal Tendril Tights",
+        "id": 225733
+      }
+    },
+    {
+      "id": 44614,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225731?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Lightseeker's Robes",
+        "id": 225731
+      }
+    },
+    {
+      "id": 44615,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225745?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Crystal Star Cuisses",
+        "id": 225745
+      }
+    },
+    {
+      "id": 44616,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225732?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Deep Dweller's Tabi",
+        "id": 225732
+      }
+    },
+    {
+      "id": 44617,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225746?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Girdle of the Gleaming Dawn",
+        "id": 225746
+      }
+    },
+    {
+      "id": 44618,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225748?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Seal of the Silent Vigil",
+        "id": 225748
+      }
+    },
+    {
+      "id": 44619,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225730?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Stone Gaze Ceinture",
+        "id": 225730
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30005,
+      "title": "Overview",
+      "body_text": "Kordac defends Azeroth, targeting players with Hspell:458209[Overcharged Lasers] which leave Hspell:458799[Overcharged Earth] and Hspell:459281[Empowering Coalescence] in their wake. Upon reaching 100 Energy, he rains down Hspell:458423[Arcane Bombardment].",
+      "sections": [
+        {
+          "id": 30006,
+          "title": "Tanks",
+          "body_text": "$bullet; Kordac's Hspell:458320[Titanic Impact] inflicts high damage and launches players into the air.\r\n$bullet;Hspell:458838[Supression Burst] pacifies and silences nearby players on detonation."
+        },
+        {
+          "id": 30007,
+          "title": "Healers",
+          "body_text": "$bullet; Hspell:458209[Overcharged Lasers] will pursue players and leave behind Hspell:458799[Overcharged Earth].\r\n$bullet;Hspell:458838[Supression Burst] pacifies and silences any players near its target when it detonates."
+        },
+        {
+          "id": 30008,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Hspell:459281[Empowering Coalescence] can be collected for a brief damage increase.\r\n$bullet; Hspell:458209[Overcharged Lasers] will pursue players and leave behind Hspell:458799[Overcharged Earth]."
+        }
+      ]
+    },
+    {
+      "id": 30057,
+      "title": "Arcane Bombardment",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/458423?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Arcane Bombardment",
+        "id": 458423
+      }
+    },
+    {
+      "id": 30009,
+      "title": "Overcharged Lasers",
+      "sections": [
+        {
+          "id": 30055,
+          "title": "Overcharged Earth",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/458799?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Overcharged Earth",
+            "id": 458799
+          }
+        },
+        {
+          "id": 30270,
+          "title": "Empowering Coalescence",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/459281?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Empowering Coalescence",
+            "id": 459281
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/458209?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Overcharged Lasers",
+        "id": 458209
+      }
+    },
+    {
+      "id": 30056,
+      "title": "Titanic Impact",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/458320?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Titanic Impact",
+        "id": 458320
+      }
+    },
+    {
+      "id": 30058,
+      "title": "Supression Burst",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/458838?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Supression Burst",
+        "id": 458838
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Khaz Algar",
+    "id": 1278
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    }
+  ]
+}

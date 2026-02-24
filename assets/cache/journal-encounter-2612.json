@@ -1,0 +1,580 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2612?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2612,
+  "name": "Broodtwister Ovi'nax",
+  "description": "Deep within the bowels of the queen's palace, Broodtwister Ovi'nax conducts abominable experiments with the black blood found in Azj-kahet. This corpulent horror lumbers through the palace's cavernous depths, regurgitating inky sludge onto hatchlings to observe its gruesome effects.",
+  "creatures": [
+    {
+      "id": 5654,
+      "name": "Broodtwister Ovi'nax",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118963?namespace=static-11.1.0_59095-us"
+        },
+        "id": 118963
+      }
+    },
+    {
+      "id": 5655,
+      "name": "Colossal Spider",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.1.0_59095-us"
+        },
+        "id": 112446
+      }
+    },
+    {
+      "id": 5652,
+      "name": "Voracious Worm",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.1.0_59095-us"
+        },
+        "id": 115007
+      }
+    },
+    {
+      "id": 5653,
+      "name": "Blood Parasite",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119696?namespace=static-11.1.0_59095-us"
+        },
+        "id": 119696
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44558,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225576?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Writhing Ringworm",
+        "id": 225576
+      }
+    },
+    {
+      "id": 44559,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212387?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Broodtwister's Grim Catalyst",
+        "id": 212387
+      }
+    },
+    {
+      "id": 44560,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212418?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Black Blood Injectors",
+        "id": 212418
+      }
+    },
+    {
+      "id": 44561,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225616?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Venerated Blasphemer's Effigy",
+        "id": 225616
+      }
+    },
+    {
+      "id": 44562,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225615?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Mystic Blasphemer's Effigy",
+        "id": 225615
+      }
+    },
+    {
+      "id": 44563,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212389?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spire of Transfused Horrors",
+        "id": 212389
+      }
+    },
+    {
+      "id": 44564,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225580?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Accelerated Ascension Coil",
+        "id": 225580
+      }
+    },
+    {
+      "id": 44565,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225588?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sanguine Experiment's Bandages",
+        "id": 225588
+      }
+    },
+    {
+      "id": 44566,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225617?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Zenith Blasphemer's Effigy",
+        "id": 225617
+      }
+    },
+    {
+      "id": 44567,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225614?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dreadful Blasphemer's Effigy",
+        "id": 225614
+      }
+    },
+    {
+      "id": 44568,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225582?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Assimilated Eggshell Slippers",
+        "id": 225582
+      }
+    },
+    {
+      "id": 44319,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/212452?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Gruesome Syringe",
+        "id": 212452
+      }
+    },
+    {
+      "id": 44320,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/220305?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Ovi'nax's Mercurial Egg",
+        "id": 220305
+      }
+    },
+    {
+      "id": 44605,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/226190?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Recipe: Sticky Sweet Treat",
+        "id": 226190
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 28978,
+      "title": "Section 1",
+      "body_text": "Broodtwister Ovi'nax injects players with Hspell:442526[Experimental Dosage] which causes nearby eggs to hatch upon expiration, unleashing the horrors within. \r\n\r\nUpon reaching 100 energy, Broodtwister Ovi'nax will Hspell:442430[Ingest Black Blood], growing in power and causing the room to slowly fill with Hspell:442802[Sanguine Overflow]",
+      "sections": [
+        {
+          "id": 28979,
+          "title": "Tanks",
+          "body_text": "$bullet;  Hspell:441362[Volatile Concoction] inflicts damage to all players based on how much health the target is missing when it is removed.\r\n$bullet;  Hspell:442802[Sanguine Overflow] mutates any creatures it comes into contact with.\r\n$bullet;  Colossal Spiders inflict increasing damage with Hspell:438807[Vicious Bite] ."
+        },
+        {
+          "id": 28980,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;  Hspell:442526[Experimental Dosage] causes nearby eggs to hatch, unleashing the horrific experiments incubating within.\r\n$bullet;  Hspell:446349[Sticky Web] immobilizes nearby players when removed.\r\n$bullet; Blood Parasites Hspell:442257[Infest] their target upon reaching them."
+        },
+        {
+          "id": 28981,
+          "title": "Healers",
+          "body_text": "$bullet;  Hspell:442526[Experimental Dosage] causes nearby eggs to hatch, unleashing the horrific experiments incubating within.\r\n$bullet; Broodtwister Ovi'nax inflicts increasing Shadow damage and healing absorbs as he receives more Hspell:450362[Unstable Infusions].\r\n$bullet; Hspell:441362[Volatile Concoction] inflicts damage to all players based on how much health the target is missing when it is removed."
+        }
+      ]
+    },
+    {
+      "id": 28982,
+      "title": "Experimental Dosage",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Experimental Dosage",
+        "id": 442526
+      }
+    },
+    {
+      "id": 30246,
+      "title": "Experimental Dosage",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/442526?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Experimental Dosage",
+        "id": 442526
+      }
+    },
+    {
+      "id": 30240,
+      "title": "Experimental Eggs",
+      "sections": [
+        {
+          "id": 30241,
+          "title": "Colossal Egg",
+          "sections": [
+            {
+              "id": 28996,
+              "title": "Colossal Spider",
+              "sections": [
+                {
+                  "id": 29108,
+                  "title": "Mutation: Necrotic",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mutation: Necrotic",
+                    "id": 446694
+                  }
+                },
+                {
+                  "id": 28998,
+                  "title": "Vicious Bite",
+                  "sections": [
+                    {
+                      "id": 30067,
+                      "title": "Necrotic Wound",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/458212?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Necrotic Wound",
+                        "id": 458212
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/438807?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Vicious Bite",
+                    "id": 438807
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112446?namespace=static-11.1.0_59095-us"
+                },
+                "id": 112446
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122087?namespace=static-11.1.0_59095-us"
+            },
+            "id": 122087
+          }
+        },
+        {
+          "id": 30242,
+          "title": "Squirming Egg",
+          "sections": [
+            {
+              "id": 28999,
+              "title": "Voracious Worm",
+              "sections": [
+                {
+                  "id": 29109,
+                  "title": "Mutation: Ravenous",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mutation: Ravenous",
+                    "id": 446690
+                  }
+                },
+                {
+                  "id": 28997,
+                  "title": "Poison Burst",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/446700?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Poison Burst",
+                    "id": 446700
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115007?namespace=static-11.1.0_59095-us"
+                },
+                "id": 115007
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122088?namespace=static-11.1.0_59095-us"
+            },
+            "id": 122088
+          }
+        },
+        {
+          "id": 30243,
+          "title": "Quivering Broodcluster",
+          "sections": [
+            {
+              "id": 29003,
+              "title": "Blood Parasite",
+              "sections": [
+                {
+                  "id": 29110,
+                  "title": "Mutation: Accelerated",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Mutation: Accelerated",
+                    "id": 442263
+                  }
+                },
+                {
+                  "id": 29005,
+                  "title": "Fixate",
+                  "sections": [
+                    {
+                      "id": 29006,
+                      "title": "Infest",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/442257?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Infest",
+                        "id": 442257
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/442251?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Fixate",
+                    "id": 442251
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/112726?namespace=static-11.1.0_59095-us"
+                },
+                "id": 112726
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122089?namespace=static-11.1.0_59095-us"
+            },
+            "id": 122089
+          }
+        }
+      ]
+    },
+    {
+      "id": 28986,
+      "title": "Ingest Black Blood",
+      "sections": [
+        {
+          "id": 29010,
+          "title": "Unstable Infusion",
+          "sections": [
+            {
+              "id": 29656,
+              "title": "Vile Discharge",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441612?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Vile Discharge",
+                "id": 441612
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/450362?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Unstable Infusion",
+            "id": 450362
+          }
+        },
+        {
+          "id": 29771,
+          "title": "Catalyze Mutation",
+          "sections": [
+            {
+              "id": 29774,
+              "title": "Mutation: Accelerated",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/442263?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Mutation: Accelerated",
+                "id": 442263
+              }
+            },
+            {
+              "id": 30244,
+              "title": "Mutation: Necrotic",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/446694?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Mutation: Necrotic",
+                "id": 446694
+              }
+            },
+            {
+              "id": 30245,
+              "title": "Mutation: Ravenous",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/446690?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Mutation: Ravenous",
+                "id": 446690
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/452802?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Catalyze Mutation",
+            "id": 452802
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/442430?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Ingest Black Blood",
+        "id": 442430
+      }
+    },
+    {
+      "id": 29007,
+      "title": "Sanguine Overflow",
+      "sections": [
+        {
+          "id": 29008,
+          "title": "Caustic Reaction",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/450661?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Caustic Reaction",
+            "id": 450661
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/442799?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sanguine Overflow",
+        "id": 442799
+      }
+    },
+    {
+      "id": 28994,
+      "title": "Sticky Web",
+      "sections": [
+        {
+          "id": 29107,
+          "title": "Web Eruption",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/446351?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Web Eruption",
+            "id": 446351
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/446349?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sticky Web",
+        "id": 446349
+      }
+    },
+    {
+      "id": 28995,
+      "title": "Volatile Concoction",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/441362?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Volatile Concoction",
+        "id": 441362
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1273?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Nerub-ar Palace",
+    "id": 1273
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/222441?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 222441,
+  "name": "Everforged Warglaive",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/222441?namespace=static-11.1.0_59095-us"
+    },
+    "id": 222441
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Warglaives",
+    "id": 9
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": "One-Hand"
+  },
+  "purchase_price": 7149824,
+  "sell_price": 1429964,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/222441?namespace=static-11.1.0_59095-us"
+      },
+      "id": 222441
+    },
+    "context": 0,
+    "bonus_list": [
+      10421,
+      9633,
+      8902
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Everforged Warglaive",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/222441?namespace=static-11.1.0_59095-us"
+      },
+      "id": 222441
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Warglaives",
+      "id": 9
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": "One-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 2830,
+        "max_value": 4475,
+        "display_string": "2,830 - 4,475 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": "Speed 2.60"
+      },
+      "dps": {
+        "value": 1404.6154,
+        "display_string": "(1,404 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1236,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,236 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6292,
+        "display": {
+          "display_string": "+6,292 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 401,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+401 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 401,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+401 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1429964,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "142",
+        "silver": "99",
+        "copper": "64"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 593,
+      "display_string": "Item Level 593"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
+      },
+      {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90915?namespace=static-11.1.0_59095-us"
+      },
+      "id": 90915
+    }
+  ]
+}

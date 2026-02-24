@@ -1,0 +1,255 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2683?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2683,
+  "name": "The Gobfather",
+  "description": "Once a source of pride for the Bilgewater Cartel, this mech was a forced to be reckoned with in the Demolition Dome. A pinnacle of goblin innovation... until someone forgot to give it an oil change. Now the King of the Demo Dome has gone haywire, running amok and threatening to unleash havoc upon the citizens of Undermine.",
+  "creatures": [
+    {
+      "id": 5863,
+      "name": "The Gobfather",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/123059?namespace=static-11.1.0_59095-us"
+        },
+        "id": 123059
+      }
+    },
+    {
+      "id": 5864,
+      "name": "Primed Boomcrawler",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/49134?namespace=static-11.1.0_59095-us"
+        },
+        "id": 49134
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45151,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232733?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Gobfather's Gold Medal",
+        "id": 232733
+      }
+    },
+    {
+      "id": 45152,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232726?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Well-Trodden Mechanic's Shoes",
+        "id": 232726
+      }
+    },
+    {
+      "id": 45153,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232725?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pilot's Oiled Trousers",
+        "id": 232725
+      }
+    },
+    {
+      "id": 45154,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232728?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Darkfuse Dinner Jacket",
+        "id": 232728
+      }
+    },
+    {
+      "id": 45155,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232727?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Cavern Stalker's Trophy Girdle",
+        "id": 232727
+      }
+    },
+    {
+      "id": 45156,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232730?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Cauldron Master Cleats",
+        "id": 232730
+      }
+    },
+    {
+      "id": 45157,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232729?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Horn-Adorned Chausses",
+        "id": 232729
+      }
+    },
+    {
+      "id": 45158,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232731?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Steadfast Contender's Breastplate",
+        "id": 232731
+      }
+    },
+    {
+      "id": 45159,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232732?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Champion's Gilded Stompers",
+        "id": 232732
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 31346,
+      "title": "Overview",
+      "body_text": "The Gobfather won't go down without a final fight, scattering Primed Boomcrawlers with Hspell:1216505[Bombfield] and knocking back players with Hspell:1216812[Giga-Rocket Slam].\r\n\r\nAt 100 energy it pulls out all the stops, raining down Hspell:1216709[Death From Above].",
+      "sections": [
+        {
+          "id": 31347,
+          "title": "Tanks",
+          "body_text": "$bullet;Primed Boomcrawlers explode with Hspell:1216577[Bomb Voyage] when stepped on.\r\n$bullet;The Gobfather inflicts massive damage with its Hspell:1216709[Death From Above]  missiles.\r\n$bullet;Hspell:1216687[Flaming Flames] inflicts damage to players in front of The Gobfather."
+        },
+        {
+          "id": 31349,
+          "title": "Healers",
+          "body_text": "$bullet;Primed Boomcrawlers explode with Hspell:1216577[Bomb Voyage] when stepped on.\r\n$bullet;Hspell:1216656[Excessive Pollutants] continually inflicts damage to all players.\r\n$bullet;The Gobfather inflicts massive damage with its Hspell:1216709[Death From Above]  missiles."
+        },
+        {
+          "id": 31348,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Primed Boomcrawlers explode with Hspell:1216577[Bomb Voyage] when stepped on.\r\n$bullet;The Gobfather inflicts massive damage with its Hspell:1216709[Death From Above]  missiles.\r\n$bullet;Hspell:1216687[Flaming Flames] inflicts damage to players in front of The Gobfather."
+        }
+      ]
+    },
+    {
+      "id": 31350,
+      "title": "Bombfield",
+      "sections": [
+        {
+          "id": 31351,
+          "title": "Primed Boomcrawler",
+          "sections": [
+            {
+              "id": 31643,
+              "title": "Reinforced Plating",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1220894?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Reinforced Plating",
+                "id": 1220894
+              }
+            },
+            {
+              "id": 31352,
+              "title": "Bomb Voyage",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1216577?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Bomb Voyage",
+                "id": 1216577
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/49134?namespace=static-11.1.0_59095-us"
+            },
+            "id": 49134
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1216505?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Bombfield",
+        "id": 1216505
+      }
+    },
+    {
+      "id": 31353,
+      "title": "Death From Above",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1216709?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Death From Above",
+        "id": 1216709
+      }
+    },
+    {
+      "id": 31354,
+      "title": "Giga-Rocket Slam",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1216812?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Giga-Rocket Slam",
+        "id": 1216812
+      }
+    },
+    {
+      "id": 31355,
+      "title": "Flaming Flames",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1216687?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Flaming Flames",
+        "id": 1216687
+      }
+    },
+    {
+      "id": 31356,
+      "title": "Excessive Pollutants",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1216656?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Excessive Pollutants",
+        "id": 1216656
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Khaz Algar",
+    "id": 1278
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    }
+  ]
+}

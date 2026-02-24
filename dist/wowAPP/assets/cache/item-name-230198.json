@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/230198?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 230198,
+  "name": "Eye of Kezan",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/230198?namespace=static-11.1.0_59095-us"
+    },
+    "id": 230198
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4252724,
+  "sell_price": 850544,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/230198?namespace=static-11.1.0_59095-us"
+      },
+      "id": 230198
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Eye of Kezan",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/230198?namespace=static-11.1.0_59095-us"
+      },
+      "id": 230198
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 1341,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,341 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/469888?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Eye of Kezan",
+          "id": 469888
+        },
+        "description": "Equip: Your spells and abilities have a high chance to empower the Eye and grant you 283 Intellect up to 20 times, decaying rapidly upon leaving combat. While fully empowered, the Eye instead deals 64,527 Fire damage to enemies or heals allies for 96,796. "
+      }
+    ],
+    "sell_price": {
+      "value": 850544,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "85",
+        "silver": "5",
+        "copper": "44"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

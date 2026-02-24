@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229279?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229279,
+  "name": "Opulent Treasurescale's Petticoat",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229279?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229279
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": "Legs"
+  },
+  "purchase_price": 5054992,
+  "sell_price": 1010998,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229279?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229279
+    },
+    "context": 0,
+    "bonus_list": [
+      11961
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Opulent Treasurescale's Petticoat",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229279?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229279
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": "Legs"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 5188,
+      "display": {
+        "display_string": "5,188 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 1240,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,240 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 637,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+637 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1010998,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "101",
+        "silver": "9",
+        "copper": "98"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/13?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Evoker",
+            "id": 13
+          }
+        ],
+        "display_string": "Classes: Evoker"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1870?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Opulent Treasurescale's Hoard",
+        "id": 1870
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229283?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Opulent Treasurescale's Tunic",
+            "id": 229283
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229281?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Opulent Treasurescale's Gold-Counters",
+            "id": 229281
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229280?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Opulent Treasurescale's Crowned Jewel",
+            "id": 229280
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229279?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Opulent Treasurescale's Petticoat",
+            "id": 229279
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229278?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Opulent Treasurescale's Gleaming Mantle",
+            "id": 229278
+          }
+        }
+      ],
+      "display_string": "Opulent Treasurescale's Hoard (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99511?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99511
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99491?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99491
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99501?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99501
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99491?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99491
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99501?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99501
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99481?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99481
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99471?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99471
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99461?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99461
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99481?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99481
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99511?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99511
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99471?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99471
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99461?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99461
+    }
+  ]
+}

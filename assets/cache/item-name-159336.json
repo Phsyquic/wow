@@ -1,0 +1,220 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/159336?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 159336,
+  "name": "Mercenary Miner's Boots",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 59,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/159336?namespace=static-11.1.0_59095-us"
+    },
+    "id": 159336
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": "Feet"
+  },
+  "purchase_price": 1940961,
+  "sell_price": 388192,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/159336?namespace=static-11.1.0_59095-us"
+      },
+      "id": 159336
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Mercenary Miner's Boots",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/159336?namespace=static-11.1.0_59095-us"
+      },
+      "id": 159336
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": "Feet"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 6,
+      "display": {
+        "display_string": "6 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 5,
+        "display": {
+          "display_string": "+5 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 5,
+        "is_negated": true,
+        "display": {
+          "display_string": "+5 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+3 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1106,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "11",
+        "copper": "6"
+      }
+    },
+    "level": {
+      "value": 59,
+      "display_string": "Item Level 59"
+    },
+    "durability": {
+      "value": 65,
+      "display_string": "Durability 65 / 65"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/37339?namespace=static-11.1.0_59095-us"
+      },
+      "id": 37339
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/37347?namespace=static-11.1.0_59095-us"
+      },
+      "id": 37347
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/37321?namespace=static-11.1.0_59095-us"
+      },
+      "id": 37321
+    }
+  ]
+}
