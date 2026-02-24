@@ -31,6 +31,16 @@ export class BisesComponent implements OnInit {
   encounterLibrary: any[] = [];
   specsLibrary: any[] = [];
   slotsLibrary: any[] = [];
+  tierItems: any[] = [];
+  tierBreakGroups: any[] = [];
+  tierSlots = ['head', 'shoulder', 'chest', 'hands', 'legs'];
+  tierSlotVisuals: Record<string, { label: string; icon: string }> = {
+    head: { label: 'Head', icon: '🪖' },
+    shoulder: { label: 'Shoulder', icon: '🛡' },
+    chest: { label: 'Chest', icon: '🦺' },
+    hands: { label: 'Hands', icon: '🧤' },
+    legs: { label: 'Legs', icon: '👖' },
+  };
   encounterFlag = -1;
   isLoading: boolean = true;
   selectedInstance = '';
@@ -555,10 +565,71 @@ export class BisesComponent implements OnInit {
     realTableBistList = this.juntarTiers(realTableBistList);
     realTableBistList = this.ordenarTabla(realTableBistList);
 
-    this.tableBisList = realTableBistList;
-    this.tableBisList_full = realTableBistList;
+    this.tierItems = realTableBistList.filter((x: any) => x.instance === 'Tier');
+    this.tierBreakGroups = this.buildTierBreakGroups(this.tierItems);
+
+    const visibleBisList = realTableBistList.filter((x: any) => x.instance !== 'Tier');
+    this.tableBisList = visibleBisList;
+    this.tableBisList_full = visibleBisList;
     this.cargarDrops(this.tableBisList);
     this.enrichUnknownItemMetadata();
+  }
+
+  buildTierBreakGroups(tierItems: any[]) {
+    const specToTierSlots = new Map<string, Set<string>>();
+
+    tierItems.forEach((item: any) => {
+      const slot = String(item?.name ?? '').toLowerCase();
+      if (!this.tierSlots.includes(slot)) {
+        return;
+      }
+      (item?.spec ?? []).forEach((spec: string) => {
+        if (!specToTierSlots.has(spec)) {
+          specToTierSlots.set(spec, new Set<string>());
+        }
+        specToTierSlots.get(spec)?.add(slot);
+      });
+    });
+
+    const grouped = new Map<string, any[]>();
+    specToTierSlots.forEach((slots, spec) => {
+      const armorType = this.getArmorTypeBySpec(spec);
+      const breakSlot = this.tierSlots.find((slot) => !slots.has(slot)) ?? '';
+      const row = {
+        spec,
+        breakSlot,
+      };
+
+      if (!grouped.has(armorType)) {
+        grouped.set(armorType, []);
+      }
+      grouped.get(armorType)?.push(row);
+    });
+
+    const armorOrder = ['Cloth', 'Leather', 'Mail', 'Plate', 'Unknown'];
+    return [...grouped.entries()]
+      .sort((a, b) => armorOrder.indexOf(a[0]) - armorOrder.indexOf(b[0]))
+      .map(([armorType, specs]) => ({
+        armorType,
+        specs: specs.sort((a, b) => a.spec.localeCompare(b.spec)),
+      }));
+  }
+
+  getArmorTypeBySpec(spec: string): string {
+    const normalized = String(spec || '');
+    if (normalized.includes('Demon-Hunter') || normalized.includes('Druid') || normalized.includes('Rogue') || normalized.includes('Monk')) {
+      return 'Leather';
+    }
+    if (normalized.includes('Death-Knight') || normalized.includes('Paladin') || normalized.includes('Warrior')) {
+      return 'Plate';
+    }
+    if (normalized.includes('Hunter') || normalized.includes('Shaman') || normalized.includes('Evoker')) {
+      return 'Mail';
+    }
+    if (normalized.includes('Mage') || normalized.includes('Warlock') || normalized.includes('Priest')) {
+      return 'Cloth';
+    }
+    return 'Unknown';
   }
 
   cargarDrops(bisList: any[]) {
@@ -872,6 +943,10 @@ export class BisesComponent implements OnInit {
     }
 
     this.tableBisList = dataFiltrada;
+  }
+
+  hasActiveFilters(): boolean {
+    return !!(this.selectedInstance || this.selectedEncounter || this.selectedSpec || this.selectedSlot);
   }
 
   private resolveSlotKeyByInventoryType(inventoryType: number): string {

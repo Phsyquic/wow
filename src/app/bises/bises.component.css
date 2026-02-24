@@ -92,6 +92,96 @@ select:focus {
   gap: 0.95rem;
 }
 
+.tier-breaks {
+  background: #151f2f;
+  border: 1px solid #2f4258;
+  border-radius: 16px;
+  padding: 1rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.tier-head h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #eef6ff;
+}
+
+.tier-head p {
+  color: #aebfd8;
+  font-size: 0.88rem;
+}
+
+.tier-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.75rem;
+}
+
+.tier-group-card {
+  background: #101a28;
+  border: 1px solid #31465f;
+  border-radius: 12px;
+  padding: 0.75rem;
+}
+
+.tier-group-card h3 {
+  margin: 0;
+  color: #d8e8ff;
+  font-size: 0.97rem;
+}
+
+.tier-spec-row {
+  margin-top: 0.35rem;
+}
+
+.tier-spec-name {
+  font-size: 0.84rem;
+}
+
+.tier-slot-track {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.tier-slot {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: #18283b;
+  border: 1px solid #39506a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slot-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.tier-slot.break {
+  border-color: #d66161;
+  background: #311d27;
+}
+
+.slot-x {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #de4b4b;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  border-radius: 999px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .bis-card {
   background: #161f2f;
   border: 1px solid #2f4055;
@@ -238,5 +328,9 @@ select:focus {
 
   .btn {
     flex: 1;
+  }
+
+  .tier-groups {
+    grid-template-columns: 1fr;
   }
 }

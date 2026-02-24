@@ -47,6 +47,33 @@
     </div>
   </section>
 
+  <section class="tier-breaks" *ngIf="!isLoading && tierBreakGroups.length > 0 && !hasActiveFilters()">
+    <div class="tier-head">
+      <h2>Tier Breaks</h2>
+      <p>Each spec runs 4/5 tier pieces. Marked slot (`X`) is the break piece.</p>
+    </div>
+
+    <div class="tier-groups">
+      <article class="tier-group-card" *ngFor="let group of tierBreakGroups">
+        <h3>{{ group.armorType }}</h3>
+        <div class="tier-spec-row" *ngFor="let row of group.specs">
+          <div class="tier-spec-name" [ngStyle]="{'color': generateColor(row.spec)}">{{ row.spec }}</div>
+          <div class="tier-slot-track">
+            <div
+              class="tier-slot"
+              *ngFor="let slot of tierSlots"
+              [class.break]="slot === row.breakSlot"
+              [title]="tierSlotVisuals[slot].label + (slot === row.breakSlot ? ' (Break)' : ' (Tier)')"
+            >
+              <span class="slot-icon">{{ tierSlotVisuals[slot].icon }}</span>
+              <span class="slot-x" *ngIf="slot === row.breakSlot">X</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <section class="items-grid" *ngIf="!isLoading">
     <article *ngFor="let item of tableBisList" class="bis-card">
       <img *ngIf="item.img" [src]="item.img" alt="Item Image">
