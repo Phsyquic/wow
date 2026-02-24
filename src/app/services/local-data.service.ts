@@ -20,12 +20,7 @@ export class LocalDataService {
 
   getBisListTxt(): Observable<any> {
     const generatedBisList = this.getGeneratedBisListTxt();
-    if (generatedBisList) {
-      return of(generatedBisList);
-    }
-
-    var _url = this.jsonURL + 'bisList.txt';
-    return this.http.get(_url, { responseType: 'text' });
+    return of(generatedBisList ?? '');
   }
 
   saveGeneratedBisListTxt(content: string): void {
