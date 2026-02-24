@@ -476,10 +476,6 @@ export class MainComponent implements OnInit {
       return -1;
     }
 
-    if (typeof itemId === 'number' && this.tierItemIds.size > 0 && !this.tierItemIds.has(Number(itemId))) {
-      return -1;
-    }
-
     if (!spec) {
       return 0;
     }
@@ -740,89 +736,42 @@ export class MainComponent implements OnInit {
     if (slot == 'trinket' || slot == 'finger' || slot == 'main_hand' || slot == 'off_hand' || slot == 'back' || slot == 'neck') {
       return '';
     }
-    if (spec == 'Devastation Evoker' || spec == 'Augmentation Evoker') {
-      return 'Mail';
-    }
-    if (spec == 'Balance Druid' || spec == 'Feral Druid' || spec == 'Guardian Druid') {
-      return 'Leather';
-    }
-    if (spec == 'Unholy Death Knight' || spec == 'Frost Death Knight' || spec == 'Blood Death Knight') {
-      return 'Plate';
-    }
-    if (spec == 'Havoc Demon Hunter' || spec == 'Vengeance Demon Hunter') {
-      return 'Leather';
-    }
-    if (spec == 'Beast Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
-      return 'Mail';
-    }
-    if (spec == 'Enhancement Shaman' || spec == 'Elemental Shaman') {
-      return 'Mail';
-    }
-    if (spec == 'Assassination Rogue' || spec == 'Outlaw Rogue' || spec == 'Subtlety Rogue') {
-      return 'Leather';
-    }
-    if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
-      return 'Cloth';
-    }
-    if (spec == 'Windwalker Monk' || spec == 'Brewmaster Monk') {
-      return 'Leather';
-    }
-    if (spec == 'Fury Warrior' || spec == 'Arms Warrior' || spec == 'Protection Warrior') {
-      return 'Plate';
-    }
-    if (spec == 'Affliction Warlock' || spec == 'Demonology Warlock' || spec == 'Destruction Warlock') {
-      return 'Cloth';
-    }
-    if (spec == 'Shadow Priest') {
-      return 'Cloth';
-    }
-    if (spec == 'Retribution Paladin' || spec == 'Protection Paladin') {
-      return 'Plate';
-    }
-    return '';
+    return this.getArmorTypeBySpec(spec);
   }
 
   getTier(spec: any) {
-    if (spec == 'Devastation Evoker' || spec == 'Augmentation Evoker') {
+    const armorType = this.getArmorTypeBySpec(spec);
+    if (armorType === 'Cloth') {
       return 0;
     }
-    if (spec == 'Balance Druid' || spec == 'Feral Druid' || spec == 'Guardian Druid') {
-      return 2;
-    }
-    if (spec == 'Unholy Death Knight' || spec == 'Frost Death Knight' || spec == 'Blood Death Knight') {
+    if (armorType === 'Leather') {
       return 1;
     }
-    if (spec == 'Havoc Demon Hunter' || spec == 'Vengeance Demon Hunter') {
-      return 1;
-    }
-    if (spec == 'Beast Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
+    if (armorType === 'Mail') {
       return 2;
     }
-    if (spec == 'Enhancement Shaman' || spec == 'Elemental Shaman') {
-      return 3;
-    }
-    if (spec == 'Assassination Rogue' || spec == 'Outlaw Rogue' || spec == 'Subtlety Rogue') {
-      return 0;
-    }
-    if (spec == 'Arcane Mage' || spec == 'Frost Mage' || spec == 'Fire Mage') {
-      return 2;
-    }
-    if (spec == 'Windwalker Monk' || spec == 'Brewmaster Monk') {
-      return 0;
-    }
-    if (spec == 'Fury Warrior' || spec == 'Arms Warrior' || spec == 'Protection Warrior') {
-      return 0;
-    }
-    if (spec == 'Affliction Warlock' || spec == 'Demonology Warlock' || spec == 'Destruction Warlock') {
-      return 1;
-    }
-    if (spec == 'Shadow Priest') {
-      return 3;
-    }
-    if (spec == 'Retribution Paladin' || spec == 'Protection Paladin') {
+    if (armorType === 'Plate') {
       return 3;
     }
     return -1;
+  }
+
+  getArmorTypeBySpec(spec: any) {
+    const normalized = String(spec ?? '');
+
+    if (normalized.includes('Mage') || normalized.includes('Warlock') || normalized.includes('Priest')) {
+      return 'Cloth';
+    }
+    if (normalized.includes('Druid') || normalized.includes('Rogue') || normalized.includes('Monk') || normalized.includes('Demon Hunter')) {
+      return 'Leather';
+    }
+    if (normalized.includes('Hunter') || normalized.includes('Shaman') || normalized.includes('Evoker')) {
+      return 'Mail';
+    }
+    if (normalized.includes('Death Knight') || normalized.includes('Paladin') || normalized.includes('Warrior')) {
+      return 'Plate';
+    }
+    return '';
   }
 
 
