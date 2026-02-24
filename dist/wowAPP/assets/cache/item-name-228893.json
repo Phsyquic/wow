@@ -1,0 +1,235 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/228893?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 228893,
+  "name": "\"Tiny Pal\"",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228893?namespace=static-11.1.0_59095-us"
+    },
+    "id": 228893
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Gun",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "RANGEDRIGHT",
+    "name": "Ranged"
+  },
+  "purchase_price": 9461687,
+  "sell_price": 1892337,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/228893?namespace=static-11.1.0_59095-us"
+      },
+      "id": 228893
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "\"Tiny Pal\"",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228893?namespace=static-11.1.0_59095-us"
+      },
+      "id": 228893
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Gun",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "RANGEDRIGHT",
+      "name": "Ranged"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 5167,
+        "max_value": 9597,
+        "display_string": "5,167 - 9,597 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 3000,
+        "display_string": "Speed 3.00"
+      },
+      "dps": {
+        "value": 2460.4998,
+        "display_string": "(2,460 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 1314,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,314 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 563,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+563 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/471316?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Vile Contamination",
+          "id": 471316
+        },
+        "description": "Equip: Your attacks have a very high chance to contaminate your target with industrial runoff up to 25 times, dealing 1,168 Shadow damage per stack every 3 sec until their demise."
+      }
+    ],
+    "sell_price": {
+      "value": 1892337,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "189",
+        "silver": "23",
+        "copper": "37"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97099?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97099
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97098?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97098
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97095?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97095
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97094?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97094
+    }
+  ]
+}

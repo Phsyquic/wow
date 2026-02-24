@@ -1,0 +1,220 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/263193?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 263193,
+  "name": "Trollhunter's Bands",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 108,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/263193?namespace=static-12.0.1_65617-us"
+    },
+    "id": 263193
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "WRIST",
+    "name": "Wrist"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "Talon marks from Muro'jin beloved pet, Nekraxx, scar these bands' surface.",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/263193?namespace=static-12.0.1_65617-us"
+      },
+      "id": 263193
+    },
+    "context": 0,
+    "bonus_list": [
+      13578
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Trollhunter's Bands",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/263193?namespace=static-12.0.1_65617-us"
+      },
+      "id": 263193
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "WRIST",
+      "name": "Wrist"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 12,
+      "display": {
+        "display_string": "12 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 4,
+        "display": {
+          "display_string": "+4 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 4,
+        "is_negated": true,
+        "display": {
+          "display_string": "+4 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6,
+        "display": {
+          "display_string": "+6 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+3 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+5 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 2051,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "20",
+        "copper": "51"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "description": "Talon marks from Muro'jin beloved pet, Nekraxx, scar these bands' surface.",
+    "level": {
+      "value": 28,
+      "display_string": "Item Level 28"
+    },
+    "durability": {
+      "value": 50,
+      "display_string": "Durability 50 / 50"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/121060?namespace=static-12.0.1_65617-us"
+      },
+      "id": 121060
+    }
+  ]
+}

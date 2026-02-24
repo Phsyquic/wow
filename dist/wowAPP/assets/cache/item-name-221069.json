@@ -1,0 +1,214 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/221069?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 221069,
+  "name": "Slashproof Business Plate",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 437,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/221069?namespace=static-11.1.0_59095-us"
+    },
+    "id": 221069
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": "Chest"
+  },
+  "purchase_price": 1738446,
+  "sell_price": 347689,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/221069?namespace=static-11.1.0_59095-us"
+      },
+      "id": 221069
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Slashproof Business Plate",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/221069?namespace=static-11.1.0_59095-us"
+      },
+      "id": 221069
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 1917,
+      "display": {
+        "display_string": "1,917 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 578,
+        "display": {
+          "display_string": "+578 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 578,
+        "is_negated": true,
+        "display": {
+          "display_string": "+578 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 2008,
+        "display": {
+          "display_string": "+2,008 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 314,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+314 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 532,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+532 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 552728,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "55",
+        "silver": "27",
+        "copper": "28"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": "Requires Level 68"
+      }
+    },
+    "level": {
+      "value": 437,
+      "display_string": "Item Level 437"
+    },
+    "durability": {
+      "value": 140,
+      "display_string": "Durability 140 / 140"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/90729?namespace=static-11.1.0_59095-us"
+      },
+      "id": 90729
+    }
+  ]
+}
