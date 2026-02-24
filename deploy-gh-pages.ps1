@@ -30,7 +30,9 @@ try {
     $assetsCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "src\\assets\\cache"
     if (Test-Path $serverCacheDir) {
         New-Item -Path $assetsCacheDir -ItemType Directory -Force | Out-Null
-        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "journal-encounter-*.json") -Destination $assetsCacheDir -Force
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-media-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-name-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "journal-encounter-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
     }
 
     Invoke-CheckedCommand -Command { npm run build } -ErrorMessage "El build fallo. Revisa los errores de npm/ng mostrados arriba."

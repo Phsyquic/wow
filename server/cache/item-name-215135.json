@@ -168,14 +168,14 @@
     "is_subclass_hidden": true,
     "modified_crafting_stat": [
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
-      },
-      {
         "id": 32,
         "type": "CRIT_RATING",
         "name": "Critical Strike"
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       }
     ]
   },

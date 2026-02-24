@@ -149,13 +149,13 @@
       },
       {
         "type": {
-          "type": "CRIT_RATING",
-          "name": "Critical Strike"
+          "type": "HASTE_RATING",
+          "name": "Haste"
         },
         "value": 10,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+10 Critical Strike",
+          "display_string": "+10 Haste",
           "color": {
             "r": 0,
             "g": 255,
@@ -166,13 +166,13 @@
       },
       {
         "type": {
-          "type": "VERSATILITY",
-          "name": "Versatility"
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
         },
         "value": 10,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+10 Versatility",
+          "display_string": "+10 Mastery",
           "color": {
             "r": 0,
             "g": 255,
@@ -207,14 +207,14 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 40,
-        "type": "VERSATILITY",
-        "name": "Versatility"
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
       },
       {
-        "id": 32,
-        "type": "CRIT_RATING",
-        "name": "Critical Strike"
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
       }
     ]
   },
