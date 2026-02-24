@@ -1,0 +1,318 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2573?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2573,
+  "name": "Prioress Murrpray",
+  "description": "Prioress Haelsey Murrpray directed the building of the Priory of the Sacred Flame to contemplate the sacred star Beledar. Insight into the emperor's vision has proved elusive. Instead, she has discovered secrets of the Sacred Flame that will bring them victory over their enemies in Hallowfall, and at home in the empire.",
+  "creatures": [
+    {
+      "id": 5711,
+      "name": "Prioress Murrpray",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118877?namespace=static-12.0.1_65617-us"
+        },
+        "id": 118877
+      }
+    },
+    {
+      "id": 5710,
+      "name": "Arathi Neophyte",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115544?namespace=static-12.0.1_65617-us"
+        },
+        "id": 115544
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44057,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219310?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bursting Lightshard",
+        "id": 219310
+      }
+    },
+    {
+      "id": 44176,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221131?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Elysian Flame Crown",
+        "id": 221131
+      }
+    },
+    {
+      "id": 44177,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221129?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Divine Pyrewalkers",
+        "id": 221129
+      }
+    },
+    {
+      "id": 44178,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221127?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Emberbrand Zweihander",
+        "id": 221127
+      }
+    },
+    {
+      "id": 44179,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221130?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Seraphic Wraps of the Ordained",
+        "id": 221130
+      }
+    },
+    {
+      "id": 44180,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221128?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Starforged Seraph's Mace",
+        "id": 221128
+      }
+    },
+    {
+      "id": 44181,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221200?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Radiant Necromancer's Band",
+        "id": 221200
+      }
+    },
+    {
+      "id": 44182,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221203?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Reanimator's Pyreforged Shoulders",
+        "id": 221203
+      }
+    },
+    {
+      "id": 46026,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/245938?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Overgrown Arathi Trellis",
+        "id": 245938
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27927,
+      "title": "Overview",
+      "body_text": "Prioress Murrpray harnesses the power of [The Sacred Flame] to vanquish her foes, burning them with its purifying beam of light.\r\n\r\nUpon reaching 50% health, Murrpray retreats to the Sacred Flame and shrouds herself with a [Barrier of Light] while calling upon her devoted followers.",
+      "sections": [
+        {
+          "id": 27930,
+          "title": "Tank",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increased Holy damage while affected by [Inner Fire].\r\n$bullet;  Arathor Devoted inflict Holy damage to nearby players while affected by [Overwhelming Power]."
+        },
+        {
+          "id": 27928,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increasing Holy damage while [Barrier of Light] holds.\r\n$bullet;  Arathor Devoted inflict Holy damage to nearby players while affected by [Overwhelming Power]."
+        },
+        {
+          "id": 27929,
+          "title": "Healer",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increased Holy damage while affected by [Inner Fire].\r\n$bullet;  Prioress Murrpray inflicts increasing Holy damage while [Barrier of Light] holds."
+        },
+        {
+          "id": 27933,
+          "title": "Tank",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increased Holy damage while affected by [Inner Fire].\r\n$bullet;  Arathor Devoted inflict Holy damage to nearby players while affected by [Overwhelming Power]."
+        },
+        {
+          "id": 27931,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increasing Holy damage while [Barrier of Light] holds.\r\n$bullet;  Arathor Devoted inflict Holy damage to nearby players while affected by [Overwhelming Power]."
+        },
+        {
+          "id": 27932,
+          "title": "Healer",
+          "body_text": "$bullet;  Prioress Murrpray inflicts increased Holy damage while affected by [Inner Fire].\r\n$bullet;  Prioress Murrpray inflicts increasing Holy damage while [Barrier of Light] holds."
+        }
+      ]
+    },
+    {
+      "id": 27934,
+      "title": "Prioress Murrpray",
+      "sections": [
+        {
+          "id": 27939,
+          "title": "Barrier of Light",
+          "sections": [
+            {
+              "id": 27945,
+              "title": "Embrace the Light",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/423665?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Embrace the Light",
+                "id": 423665
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/423588?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Barrier of Light",
+            "id": 423588
+          }
+        },
+        {
+          "id": 27935,
+          "title": "The Sacred Flame",
+          "sections": [
+            {
+              "id": 29740,
+              "title": "Sanctified Ground",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/425556?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Sanctified Ground",
+                "id": 425556
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/425544?namespace=static-12.0.1_65617-us"
+            },
+            "name": "The Sacred Flame",
+            "id": 425544
+          }
+        },
+        {
+          "id": 30225,
+          "title": "Blinding Light",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/428169?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blinding Light",
+            "id": 428169
+          }
+        },
+        {
+          "id": 27936,
+          "title": "Inner Fire",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/423539?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Inner Fire",
+            "id": 423539
+          }
+        },
+        {
+          "id": 27937,
+          "title": "Holy Flame",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/451606?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Holy Flame",
+            "id": 451606
+          }
+        },
+        {
+          "id": 27938,
+          "title": "Holy Smite",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/423536?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Holy Smite",
+            "id": 423536
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/118877?namespace=static-12.0.1_65617-us"
+        },
+        "id": 118877
+      }
+    },
+    {
+      "id": 27943,
+      "title": "Arathi Neophyte",
+      "sections": [
+        {
+          "id": 27944,
+          "title": "Overwhelming Power",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/425022?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Overwhelming Power",
+            "id": 425022
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/115544?namespace=static-12.0.1_65617-us"
+        },
+        "id": 115544
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1267?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Priory of the Sacred Flame",
+    "id": 1267
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}
