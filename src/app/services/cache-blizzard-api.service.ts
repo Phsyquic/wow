@@ -12,13 +12,17 @@ export class CacheBlizzardApiService {
   // Obtener la imagen de un ítem
   getItemMedia(itemId: number): Observable<any> {
     const filePath = `assets/cache/item-media-${itemId}.json`;  // Ruta dentro de "assets"
-    return this.http.get(filePath);
+    return this.http.get(filePath).pipe(
+      catchError(() => of({ assets: [] }))
+    );
   }
 
   // Obtener el nombre de un ítem
   getItemName(itemId: number): Observable<any> {
     const filePath = `assets/cache/item-name-${itemId}.json`;  // Ruta dentro de "assets"
-    return this.http.get(filePath);
+    return this.http.get(filePath).pipe(
+      catchError(() => of({ id: itemId, name: `Item ${itemId}` }))
+    );
   }
 
   // Obtener datos de un journal encounter
