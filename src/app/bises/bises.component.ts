@@ -1144,6 +1144,10 @@ export class BisesComponent implements OnInit {
   }
 
   async enrichUnknownItemMetadata() {
+    if (environment.production && !this.cacheApiBase) {
+      return;
+    }
+
     const unknownItems = this.tableBisList_full.filter(
       (item: any) => (!item.img || String(item.name).startsWith('Item '))
     );
