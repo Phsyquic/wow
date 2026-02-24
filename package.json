@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build --base-href /wow/",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy-gh-pages.ps1",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
