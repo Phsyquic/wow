@@ -1,0 +1,182 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/240950?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 240950,
+  "name": "Masterwork Sin'dorei Amulet",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 610,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/240950?namespace=static-12.0.1_65617-us"
+    },
+    "id": 240950
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NECK",
+    "name": "Neck"
+  },
+  "purchase_price": 2023799,
+  "sell_price": 404759,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/240950?namespace=static-12.0.1_65617-us"
+      },
+      "id": 240950
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": "Prismatic Socket"
+        }
+      }
+    ],
+    "context": 0,
+    "bonus_list": [
+      12214
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Masterwork Sin'dorei Amulet",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/240950?namespace=static-12.0.1_65617-us"
+      },
+      "id": 240950
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NECK",
+      "name": "Neck"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 580,
+        "display": {
+          "display_string": "+580 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 103,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+103 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 103,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+103 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 404759,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "40",
+        "silver": "47",
+        "copper": "59"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "level": {
+      "value": 246,
+      "display_string": "Item Level 246"
+    },
+    "is_subclass_hidden": true,
+    "modified_crafting_stat": [
+      {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": "Mastery"
+      },
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": "Critical Strike"
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

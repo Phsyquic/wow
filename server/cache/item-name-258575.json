@@ -1,0 +1,234 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/258575?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 258575,
+  "name": "Rigid Scale Greatcloak",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 44,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/258575?namespace=static-12.0.1_65617-us"
+    },
+    "id": 258575
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CLOAK",
+    "name": "Back"
+  },
+  "purchase_price": 2357246,
+  "sell_price": 471449,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/258575?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258575
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Rigid Scale Greatcloak",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/258575?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258575
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CLOAK",
+      "name": "Back"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 3,
+      "display": {
+        "display_string": "3 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3,
+        "display": {
+          "display_string": "+3 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 3,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 4,
+        "display": {
+          "display_string": "+4 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+3 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+2 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 149,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "1",
+        "copper": "49"
+      }
+    },
+    "level": {
+      "value": 16,
+      "display_string": "Item Level 16"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/24898?namespace=static-12.0.1_65617-us"
+      },
+      "id": 24898
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/24898?namespace=static-12.0.1_65617-us"
+      },
+      "id": 24898
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/24714?namespace=static-12.0.1_65617-us"
+      },
+      "id": 24714
+    }
+  ]
+}

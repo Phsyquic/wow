@@ -1,0 +1,202 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249922?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249922,
+  "name": "Tome of Alnscorned Regret",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249922?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249922
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "HOLDABLE",
+    "name": "Held In Off-hand"
+  },
+  "purchase_price": 389355,
+  "sell_price": 77871,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "Are you certain you wish to understand the Alnscorned? To make their pain your own?",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249922?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249922
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Tome of Alnscorned Regret",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249922?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249922
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "HOLDABLE",
+      "name": "Held In Off-hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 7,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+7 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+3 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 35969,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "59",
+        "copper": "69"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "description": "Are you certain you wish to understand the Alnscorned? To make their pain your own?",
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127517?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127517
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127516?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127516
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127513?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127513
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127512?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127512
+    }
+  ]
+}

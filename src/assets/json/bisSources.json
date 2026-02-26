@@ -1,561 +1,687 @@
 {
-  "151309": [],
-  "151327": [],
-  "151329": [],
-  "151332": [],
-  "178815": [
-    "Halls of Atonement"
+  "49802": [
+    "Pit of Saron"
   ],
-  "178816": [
-    "Halls of Atonement"
+  "49806": [
+    "Pit of Saron"
   ],
-  "178818": [
-    "Halls of Atonement"
+  "49808": [
+    "Pit of Saron"
   ],
-  "178822": [
-    "Halls of Atonement"
+  "49810": [
+    "Pit of Saron"
   ],
-  "178824": [
-    "Halls of Atonement"
+  "50228": [
+    "Pit of Saron"
   ],
-  "178827": [
-    "Halls of Atonement"
+  "50234": [
+    "Pit of Saron"
   ],
-  "178832": [
-    "Halls of Atonement"
+  "50264": [
+    "Pit of Saron"
   ],
-  "185783": [
-    "Tazavesh: Streets of Wonder"
+  "133491": [
+    "Pit of Saron"
   ],
-  "185786": [
-    "Tazavesh: Streets of Wonder"
+  "133499": [
+    "Pit of Saron"
   ],
-  "185801": [
-    "Tazavesh: So'leah's Gambit"
+  "151308": [
+    "Seat of the Triumvirate"
   ],
-  "185803": [
-    "Tazavesh: So'leah's Gambit"
+  "151309": [
+    "Seat of the Triumvirate"
   ],
-  "185807": [
-    "Tazavesh: Streets of Wonder"
+  "151311": [
+    "Seat of the Triumvirate"
   ],
-  "185808": [
-    "Tazavesh: Streets of Wonder"
+  "151312": [
+    "Seat of the Triumvirate"
   ],
-  "185809": [
-    "Tazavesh: Streets of Wonder"
+  "151313": [
+    "Seat of the Triumvirate"
   ],
-  "185810": [
-    "Tazavesh: So'leah's Gambit"
+  "151314": [
+    "Seat of the Triumvirate"
   ],
-  "185813": [
-    "Tazavesh: So'leah's Gambit"
+  "151317": [
+    "Seat of the Triumvirate"
   ],
-  "185818": [
-    "Tazavesh: So'leah's Gambit"
+  "151323": [
+    "Seat of the Triumvirate"
   ],
-  "185820": [
-    "Tazavesh: So'leah's Gambit"
+  "151333": [
+    "Seat of the Triumvirate"
   ],
-  "185823": [
-    "Tazavesh: So'leah's Gambit"
+  "151336": [
+    "Seat of the Triumvirate"
   ],
-  "185840": [
-    "Tazavesh: Streets of Wonder"
+  "193701": [
+    "Algeth'ar Academy"
   ],
-  "185842": [
-    "Tazavesh: Streets of Wonder"
+  "193707": [
+    "Algeth'ar Academy"
   ],
-  "190652": [
-    "Tazavesh: Streets of Wonder"
+  "193708": [
+    "Algeth'ar Academy"
   ],
-  "190958": [
-    "Tazavesh: So'leah's Gambit"
+  "193709": [
+    "Algeth'ar Academy"
   ],
-  "193701": [],
-  "215135": [],
-  "215136": [],
-  "219308": [
-    "Priory of the Sacred Flame"
+  "193710": [
+    "Algeth'ar Academy"
   ],
-  "219309": [
-    "Priory of the Sacred Flame"
+  "193714": [
+    "Algeth'ar Academy"
   ],
-  "219312": [],
-  "219331": [],
-  "219334": [
-    "Crafted"
+  "193722": [
+    "Algeth'ar Academy"
   ],
-  "219341": [],
-  "219342": [],
-  "219502": [
-    "Crafted"
-  ],
-  "221119": [
-    "Priory of the Sacred Flame"
-  ],
-  "221123": [
-    "Priory of the Sacred Flame"
-  ],
-  "221126": [
-    "Priory of the Sacred Flame"
-  ],
-  "221128": [
-    "Priory of the Sacred Flame"
-  ],
-  "221133": [],
-  "221136": [],
-  "221138": [],
-  "221141": [],
-  "221144": [],
-  "221156": [
-    "Ara-Kara, City of Echoes"
-  ],
-  "221159": [
-    "Ara-Kara, City of Echoes"
-  ],
-  "221161": [
-    "Catalyst Raid Vault"
-  ],
-  "221200": [
-    "Priory of the Sacred Flame"
+  "193723": [
+    "Algeth'ar Academy"
   ],
   "222431": [],
-  "222432": [],
   "222435": [],
-  "222438": [],
-  "222440": [
-    "Crafted"
-  ],
-  "222441": [],
-  "222446": [],
-  "222447": [],
-  "222566": [
-    "Crafted"
-  ],
-  "222815": [],
-  "232541": [
-    "Operation: Floodgate"
-  ],
-  "232543": [
-    "Operation: Floodgate"
-  ],
-  "234491": [
-    "Operation: Floodgate"
-  ],
-  "234492": [
-    "Operation: Floodgate"
-  ],
-  "234493": [
-    "Operation: Floodgate"
-  ],
-  "234501": [
-    "Operation: Floodgate"
-  ],
-  "234504": [
-    "Operation: Floodgate"
-  ],
-  "234505": [
-    "Operation: Floodgate"
-  ],
   "235499": [
-    "Questline",
-    "Artifact Cloak",
-    "11.2 Campaign"
+    "Questline"
   ],
-  "237522": [
-    "Loom'ithar"
-  ],
-  "237523": [
-    "Plexus Sentinel"
-  ],
-  "237525": [
-    "Plexus Sentinel"
-  ],
-  "237526": [
-    "Forgeweaver Araz"
-  ],
-  "237529": [
-    "Forgeweaver Araz"
-  ],
-  "237531": [
-    "Nexus-King Salhadaar"
-  ],
-  "237533": [
-    "Plexus Sentinel"
-  ],
-  "237537": [],
-  "237538": [
-    "Forgeweaver Araz"
-  ],
-  "237540": [],
-  "237541": [
-    "The Soul Hunters"
-  ],
-  "237545": [
-    "Loom'ithar"
-  ],
-  "237549": [
-    "The Soul Hunters"
-  ],
-  "237554": [
-    "The Soul Hunters"
-  ],
-  "237559": [],
-  "237562": [],
   "237567": [
     "Plexus Sentinel"
-  ],
-  "237568": [
-    "Soulbinder Naazindhri"
-  ],
-  "237569": [
-    "The Soul Hunters"
   ],
   "237570": [
     "Forgeweaver Araz"
   ],
-  "237608": [
-    "Catalyst Raid Vault"
-  ],
-  "237609": [
-    "Catalyst Raid Vault"
-  ],
-  "237610": [
-    "Catalyst Raid Vault"
-  ],
-  "237611": [
-    "Forgeweaver Araz"
-  ],
-  "237613": [],
   "237617": [
     "Catalyst Raid Vault"
   ],
   "237618": [
-    "Loom'ithar",
     "Catalyst Raid Vault"
   ],
   "237619": [
-    "Forgeweaver Araz",
     "Catalyst Raid Vault"
   ],
   "237620": [
-    "Soulbinder Naazindhri",
-    "Forgeweaver Araz",
     "Catalyst Raid Vault"
   ],
   "237622": [
     "Catalyst Raid Vault"
   ],
-  "237626": [
-    "Catalyst Raid Vault"
-  ],
-  "237627": [
-    "Catalyst Raid Vault"
-  ],
-  "237628": [
-    "Catalyst Raid Vault"
-  ],
-  "237629": [
-    "Catalyst Raid Vault"
-  ],
-  "237631": [
-    "Catalyst Raid Vault"
-  ],
-  "237635": [
-    "Catalyst Raid Vault"
-  ],
-  "237636": [
-    "Catalyst Raid Vault"
-  ],
-  "237637": [
-    "Catalyst Raid Vault"
-  ],
-  "237638": [
-    "Catalyst Raid Vault"
-  ],
-  "237640": [
-    "Catalyst Raid Vault"
-  ],
-  "237644": [
-    "Catalyst Raid Vault"
-  ],
-  "237645": [
-    "Catalyst Raid Vault"
-  ],
-  "237646": [
-    "Catalyst Raid Vault"
-  ],
-  "237649": [
-    "Catalyst Raid Vault"
-  ],
-  "237653": [
-    "Catalyst Raid Vault",
-    "The Soul Hunters"
-  ],
-  "237654": [
-    "Catalyst Raid Vault",
-    "Loom'ithar"
-  ],
-  "237655": [
-    "Catalyst Raid Vault"
-  ],
-  "237656": [
-    "Catalyst Raid Vault",
-    "Soulbinder Naazindhri"
-  ],
-  "237658": [
-    "Catalyst Raid Vault"
-  ],
-  "237660": [
-    "Catalyst Raid Vault"
-  ],
-  "237662": [
-    "Catalyst Raid Vault"
-  ],
-  "237663": [
-    "Catalyst Raid Vault"
-  ],
-  "237664": [
-    "Catalyst Raid Vault"
-  ],
-  "237665": [
-    "Catalyst Raid Vault"
-  ],
-  "237667": [
-    "Catalyst Raid Vault"
-  ],
-  "237670": [
-    "The Catalyst"
-  ],
-  "237671": [
-    "Catalyst Raid Vault"
-  ],
-  "237672": [
-    "Catalyst Raid Vault"
-  ],
-  "237673": [
-    "Catalyst Raid Vault"
-  ],
-  "237674": [
-    "Catalyst Raid Vault"
-  ],
-  "237676": [
-    "Catalyst Raid Vault"
-  ],
-  "237679": [],
-  "237680": [
-    "Catalyst / The Soul Hunters",
-    "Catalyst Raid Vault"
-  ],
-  "237681": [
-    "Catalyst Raid Vault"
-  ],
-  "237682": [
-    "Catalyst / Forgeweaver Araz",
-    "Catalyst Raid Vault"
-  ],
-  "237683": [
-    "Catalyst / Soulbinder Naazindhri",
-    "Catalyst Raid Vault"
-  ],
-  "237685": [
-    "Catalyst / Fractillus",
-    "Catalyst Raid Vault"
-  ],
-  "237689": [
-    "Catalyst Raid Vault"
-  ],
-  "237690": [
-    "Catalyst Raid Vault"
-  ],
-  "237691": [
-    "Catalyst Raid Vault"
-  ],
-  "237692": [
-    "Catalyst Raid Vault"
-  ],
-  "237694": [
-    "Catalyst Raid Vault"
-  ],
-  "237698": [
-    "Catalyst Raid Vault"
-  ],
-  "237699": [
-    "Catalyst Raid Vault"
-  ],
-  "237700": [
-    "Catalyst Raid Vault"
-  ],
-  "237701": [
-    "Catalyst Raid Vault"
-  ],
-  "237703": [
-    "Catalyst Raid Vault"
-  ],
-  "237707": [
-    "Catalyst Raid Vault"
-  ],
-  "237708": [
-    "Catalyst Raid Vault"
-  ],
-  "237709": [
-    "Catalyst Raid Vault"
-  ],
-  "237710": [
-    "Forgeweaver Araz"
-  ],
-  "237712": [
-    "Catalyst Raid Vault"
-  ],
-  "237716": [
-    "Catalyst Raid Vault"
-  ],
-  "237717": [
-    "Catalyst Raid Vault"
-  ],
-  "237718": [
-    "Catalyst Raid Vault"
-  ],
-  "237719": [
-    "Catalyst Raid Vault"
-  ],
-  "237721": [
-    "Catalyst Raid Vault"
-  ],
-  "237723": [
-    "Loom'ithar"
-  ],
-  "237727": [
-    "The Soul Hunters"
-  ],
-  "237728": [],
-  "237729": [
-    "Loom'ithar"
-  ],
-  "237730": [
-    "Soulbinder Naazindhri"
-  ],
-  "237731": [],
-  "237734": [
-    "Nexus-King Salhadaar"
-  ],
-  "237735": [
-    "Nexus-King Salhadaar"
-  ],
   "237737": [
     "Forgeweaver Araz"
   ],
-  "237738": [
-    "Soulbinder Naazindhri"
+  "237834": [
+    "Crafting/Misc"
   ],
-  "237740": [
-    "Nexus-King Salhadaar"
+  "237837": [],
+  "237845": [
+    "Crafting -"
   ],
-  "238033": [
-    "Trash Drop (Raid)"
+  "237850": [],
+  "239648": [],
+  "239656": [
+    "Crafting/Misc"
   ],
-  "242391": [
-    "Soulbinder Naazindhri"
+  "240949": [],
+  "240950": [
+    "Crafted"
   ],
-  "242392": [
+  "241140": [],
+  "242395": [
     "Loom'ithar"
   ],
-  "242393": [
-    "Loom'ithar",
-    "Halls of Atonement"
-  ],
-  "242395": [
-    "Loom'ithar",
-    "Loom'ithar -"
-  ],
-  "242396": [],
-  "242397": [
-    "The Soul Hunters"
-  ],
-  "242399": [],
-  "242400": [
-    "Nexus-King Salhadaar"
-  ],
-  "242401": [
-    "The Soul Hunters"
-  ],
   "242402": [
-    "Forgeweaver Araz",
-    "Forgeweaver Araz -",
-    "Halls of Atonement"
+    "Forgeweaver Araz"
   ],
-  "242403": [
-    "Nexus-King Salhadaar"
-  ],
-  "242404": [],
-  "242405": [],
   "242406": [
     "Nexus-King Salhadaar"
-  ],
-  "242473": [
-    "Eco-Dome Al'dani"
-  ],
-  "242481": [
-    "Eco-Dome Al'dani"
-  ],
-  "242491": [
-    "Eco-Dome Al'dani"
-  ],
-  "242494": [
-    "Eco-Dome Al'dani"
-  ],
-  "242497": [
-    "Eco-Dome Al'dani"
-  ],
-  "243305": [
-    "The Soul Hunters"
-  ],
-  "243306": [
-    "The Soul Hunters",
-    "The Soul Hunters -"
   ],
   "243307": [
     "The Soul Hunters"
   ],
-  "243308": [
-    "The Soul Hunters"
+  "244569": [],
+  "244573": [],
+  "244575": [
+    "Crafting/Misc"
   ],
-  "243365": [
-    "Nexus-King Salhadaar"
+  "244576": [
+    "Crafting/Misc",
+    "Crafted"
   ],
-  "246275": [
-    "Tazavesh: So'leah's Gambit"
+  "244577": [],
+  "244584": [],
+  "244610": [],
+  "244611": [],
+  "244750": [],
+  "249276": [],
+  "249277": [
+    "Lightblinded Vanguard"
   ],
-  "246276": [
-    "Halls of Atonement"
+  "249278": [],
+  "249279": [
+    "Imperator Averzian"
   ],
-  "246281": [
-    "Tazavesh: Streets of Wonder",
-    "Tazavesh: So'leah's Gambit"
+  "249280": [
+    "Vaelgor & Ezzorak"
   ],
-  "246283": [
-    "Tazavesh: So'leah's Gambit"
+  "249281": [
+    "Fallen-King Salhadaar"
   ],
-  "246344": [
-    "Halls of Atonement"
+  "249283": [
+    "Belo'ren",
+    "Belo'ren (Raid)"
   ],
-  "251093": [],
-  "251098": [],
-  "251107": [],
+  "249286": [
+    "Midnight Falls"
+  ],
+  "249287": [
+    "Vaelgor & Ezzorak"
+  ],
+  "249295": [
+    "Crown of the Cosmos"
+  ],
+  "249296": [],
+  "249298": [
+    "Fallen-King Salhadaar"
+  ],
+  "249302": [],
+  "249303": [
+    "Lightblinded Vanguard (Raid)"
+  ],
+  "249304": [
+    "Fallen-King Salhadaar"
+  ],
+  "249305": [],
+  "249314": [
+    "Fallen-King Salhadaar (Raid)"
+  ],
+  "249315": [],
+  "249316": [
+    "Fallen-King Salhadaar"
+  ],
+  "249318": [
+    "Vaelgor & Ezzorak"
+  ],
+  "249320": [
+    "Imperator Averzian"
+  ],
+  "249321": [
+    "Vaelgor & Ezzorak -"
+  ],
+  "249324": [
+    "Belo'ren"
+  ],
+  "249325": [
+    "Crown of the Cosmos"
+  ],
+  "249326": [
+    "Imperator Averzian"
+  ],
+  "249327": [
+    "Vorasius -"
+  ],
+  "249328": [
+    "Belo'ren"
+  ],
+  "249331": [
+    "Vaelgor & Ezzorak"
+  ],
+  "249332": [],
+  "249334": [
+    "Imperator Averzian"
+  ],
+  "249335": [
+    "Imperator Averzian"
+  ],
+  "249336": [],
+  "249337": [
+    "Fallen-King Salhadaar",
+    "Fallen-King Salhadaar (Raid)"
+  ],
+  "249339": [
+    "Vaelgor & Ezzorak"
+  ],
+  "249341": [
+    "Fallen-King Salhadaar"
+  ],
+  "249342": [],
+  "249343": [
+    "Chimaerus -",
+    "Chimaerus (Raid)"
+  ],
+  "249344": [
+    "Imperator Averzian"
+  ],
+  "249346": [
+    "Vaelgor & Ezzorak",
+    "Vaelgor & Ezzorak (Raid)"
+  ],
+  "249368": [
+    "Crown of the Cosmos"
+  ],
+  "249369": [
+    "Lightblinded Vanguard",
+    "Lightblinded Vanguard (Raid)"
+  ],
+  "249370": [
+    "Vaelgor & Ezzorak",
+    "Vaelgor & Ezzorak (Raid)"
+  ],
+  "249371": [],
+  "249373": [],
+  "249374": [],
+  "249376": [
+    "Belo'ren",
+    "Belo'ren (Raid)"
+  ],
+  "249377": [
+    "Belo'ren",
+    "Belo'ren (Raid)"
+  ],
+  "249380": [
+    "Crown of the Cosmos"
+  ],
+  "249381": [],
+  "249382": [
+    "Crown of the Cosmos"
+  ],
+  "249806": [
+    "Belo'ren"
+  ],
+  "249809": [
+    "Crown of the Cosmos (Raid)"
+  ],
+  "249810": [
+    "Midnight Falls"
+  ],
+  "249912": [
+    "Midnight Falls",
+    "Midnight Falls (Raid)"
+  ],
+  "249913": [
+    "Seat of the Triumvirate",
+    "Midnight Falls"
+  ],
+  "249914": [
+    "Midnight Falls (Raid)"
+  ],
+  "249915": [
+    "Midnight Falls"
+  ],
+  "249919": [
+    "Belo'ren",
+    "Belo'ren -",
+    "Belo'ren (Raid)"
+  ],
+  "249920": [
+    "Midnight Falls",
+    "Midnight Falls (Raid)",
+    "Seat of the Triumvirate"
+  ],
+  "249921": [
+    "Belo'ren"
+  ],
+  "249922": [
+    "Chimaerus (Raid)"
+  ],
+  "249925": [],
+  "249949": [
+    "Tier Set"
+  ],
+  "249950": [
+    "Tier Set"
+  ],
+  "249951": [
+    "Tier Set"
+  ],
+  "249952": [],
+  "249953": [
+    "Tier Set"
+  ],
+  "249954": [],
+  "249955": [
+    "Tier Set"
+  ],
+  "249959": [
+    "Fallen-King Salhadaar",
+    "Tier Set"
+  ],
+  "249960": [
+    "Tier Set"
+  ],
+  "249961": [
+    "Lightblinded Vanguard"
+  ],
+  "249962": [
+    "Tier Set"
+  ],
+  "249964": [
+    "Tier Set"
+  ],
+  "249967": [],
+  "249968": [
+    "Tier Set"
+  ],
+  "249969": [
+    "Tier Set"
+  ],
+  "249970": [
+    "Tier Set"
+  ],
+  "249971": [
+    "Tier Set"
+  ],
+  "249973": [
+    "Tier Set"
+  ],
+  "249974": [],
+  "249975": [],
+  "249976": [],
+  "249977": [
+    "Tier Set",
+    "Catalyst Raid Vault",
+    "Raid Catalyst Vault"
+  ],
+  "249978": [
+    "Raid Catalyst Vault"
+  ],
+  "249979": [
+    "Tier Set",
+    "Catalyst Raid Vault"
+  ],
+  "249980": [
+    "Tier Set",
+    "Catalyst Raid Vault",
+    "Raid Catalyst Vault"
+  ],
+  "249982": [
+    "Tier Set",
+    "Catalyst Raid Vault",
+    "Raid Catalyst Vault"
+  ],
+  "249984": [
+    "Tier Set"
+  ],
+  "249985": [
+    "Tier Set"
+  ],
+  "249986": [
+    "Tier Set"
+  ],
+  "249987": [
+    "Tier Set"
+  ],
+  "249988": [
+    "Tier Set"
+  ],
+  "249989": [
+    "Tier Set"
+  ],
+  "249991": [
+    "Tier Set"
+  ],
+  "249995": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "249996": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "249997": [
+    "Tier Set"
+  ],
+  "249998": [
+    "Raid Catalyst Vault"
+  ],
+  "249999": [
+    "The Catalyst"
+  ],
+  "250000": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "250004": [
+    "Tier Set"
+  ],
+  "250005": [
+    "Tier Set"
+  ],
+  "250006": [
+    "Tier Set"
+  ],
+  "250007": [
+    "Tier Set"
+  ],
+  "250009": [
+    "Tier Set"
+  ],
+  "250010": [
+    "The Catalyst"
+  ],
+  "250013": [
+    "Catalyst Raid Vault",
+    "Tier Set",
+    "Tier Set - Catalyst Raid Vault"
+  ],
+  "250014": [
+    "Tier Set",
+    "Tier Set - Catalyst Raid Vault"
+  ],
+  "250015": [
+    "Catalyst Raid Vault",
+    "Tier Set - Catalyst Raid Vault"
+  ],
+  "250016": [
+    "Catalyst Raid Vault",
+    "Tier Set"
+  ],
+  "250017": [
+    "The Catalyst"
+  ],
+  "250018": [
+    "Catalyst Raid Vault",
+    "Tier Set",
+    "Tier Set - Catalyst Raid Vault"
+  ],
+  "250022": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "250023": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "250024": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "250025": [
+    "Tier Set",
+    "Raid Catalyst Vault"
+  ],
+  "250027": [
+    "Tier Set"
+  ],
+  "250031": [
+    "Tier Set",
+    "Fallen-King Salhadaar ( Tier Set )"
+  ],
+  "250032": [
+    "Vaelgor & Ezzorak ( Tier Set )"
+  ],
+  "250033": [
+    "Tier Set",
+    "Lightblinded Vanguard ( Tier Set )"
+  ],
+  "250034": [
+    "Tier Set",
+    "Vorasius ( Tier Set )"
+  ],
+  "250036": [
+    "Tier Set"
+  ],
+  "250041": [
+    "Tier Set"
+  ],
+  "250042": [
+    "Tier Set"
+  ],
+  "250043": [
+    "Tier Set"
+  ],
+  "250045": [
+    "Tier Set"
+  ],
+  "250049": [
+    "Raid Catalyst Vault"
+  ],
+  "250050": [
+    "Raid Catalyst Vault"
+  ],
+  "250051": [
+    "Raid Catalyst Vault"
+  ],
+  "250052": [
+    "Raid Catalyst Vault"
+  ],
+  "250054": [
+    "Raid Catalyst Vault"
+  ],
+  "250057": [
+    "The Catalyst"
+  ],
+  "250058": [
+    "Tier Set"
+  ],
+  "250059": [
+    "Tier Set"
+  ],
+  "250060": [
+    "Tier Set"
+  ],
+  "250061": [
+    "Tier Set"
+  ],
+  "250063": [
+    "Tier Set"
+  ],
+  "250144": [
+    "Windrunner Spire"
+  ],
+  "250246": [
+    "Magister's Terrace"
+  ],
+  "250247": [
+    "Seat of the Triumvirate",
+    "Midnight Falls",
+    "Midnight Falls (Raid)"
+  ],
+  "250256": [
+    "Windrunner Spire"
+  ],
+  "251077": [
+    "Windrunner Spire"
+  ],
+  "251079": [
+    "Windrunner Spire"
+  ],
+  "251081": [],
+  "251082": [
+    "Windrunner Spire"
+  ],
+  "251083": [
+    "Windrunner Spire"
+  ],
+  "251084": [
+    "Windrunner Spire"
+  ],
+  "251085": [
+    "Windrunner Spire"
+  ],
+  "251087": [
+    "Windrunner Spire"
+  ],
+  "251090": [
+    "Windrunner Spire"
+  ],
+  "251093": [
+    "Nexus Point Xenas"
+  ],
+  "251094": [
+    "Windrunner Spire"
+  ],
+  "251096": [
+    "Windrunner Spire"
+  ],
+  "251105": [
+    "Magister's Terrace"
+  ],
+  "251108": [
+    "Magister's Terrace"
+  ],
+  "251113": [
+    "Magister's Terrace"
+  ],
   "251115": [
     "Magister's Terrace"
   ],
-  "251117": [],
-  "251118": [],
-  "251164": [],
-  "251880": [
-    "Operation: Floodgate"
+  "251174": [
+    "Maisara Caverns"
   ],
-  "252009": [
-    "Priory of the Sacred Flame"
+  "251178": [
+    "Maisara Caverns"
   ],
-  "252420": [],
-  "260312": [],
-  "263193": []
+  "251179": [
+    "Maisara Caverns"
+  ],
+  "251206": [
+    "Nexus Point Xenas"
+  ],
+  "251207": [
+    "Nexus Point Xenas Maisara Caverns"
+  ],
+  "251209": [
+    "Nexus Point Xenas"
+  ],
+  "251210": [
+    "Nexus Point Xenas",
+    "Nexus-Point Xenas"
+  ],
+  "251215": [
+    "Nexus Point Xenas"
+  ],
+  "251216": [
+    "Nexus Point Xenas"
+  ],
+  "251217": [
+    "Nexus Point Xenas"
+  ],
+  "251513": [
+    "Crafting/Misc"
+  ],
+  "258047": [],
+  "258049": [],
+  "258218": [],
+  "258514": [
+    "Seat of the Triumvirate"
+  ],
+  "258575": [],
+  "258577": [],
+  "258580": [],
+  "258584": [],
+  "260235": [
+    "Belo'ren"
+  ],
+  "260312": [
+    "Magister's Terrace"
+  ],
+  "260408": [
+    "Midnight Falls"
+  ],
+  "260423": [
+    "Crown of the Cosmos"
+  ],
+  "263193": [
+    "Maisara Caverns"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/193708?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_10_dungeonjewelry_explorer_ring_1_color1.jpg",
+      "file_data_id": 4635186
+    }
+  ],
+  "id": 193708
+}

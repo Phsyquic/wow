@@ -1,0 +1,323 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/250058?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 250058,
+  "name": "Voidbreaker's Leyline Nexi",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/250058?namespace=static-12.0.1_65617-us"
+    },
+    "id": 250058
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 311083,
+  "sell_price": 62216,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/250058?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250058
+    },
+    "context": 0,
+    "bonus_list": [
+      13340,
+      13574
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Voidbreaker's Leyline Nexi",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/250058?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250058
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 6,
+      "display": {
+        "display_string": "6 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 11,
+        "display": {
+          "display_string": "+11 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+5 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 28738,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "2",
+        "silver": "87",
+        "copper": "38"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Mage",
+            "id": 8
+          }
+        ],
+        "display_string": "Classes: Mage"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1983?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Voidbreaker's Accordance",
+        "id": 1983
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250063?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Robe",
+            "id": 250063
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250061?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Gloves",
+            "id": 250061
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250060?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Veil",
+            "id": 250060
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250059?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Britches",
+            "id": 250059
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250058?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Leyline Nexi",
+            "id": 250058
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: Each Arcane Charge increases your critical strike chance by 1.0%.",
+          "required_count": 2
+        },
+        {
+          "display_string": "(4) Set: The critical strike damage of your Arcane spells is increased by 10%.",
+          "required_count": 4
+        }
+      ],
+      "display_string": "Voidbreaker's Accordance (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125409?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125409
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125445?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125445
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125457?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125457
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125443?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125443
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125455?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125455
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125419?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125419
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125467?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125467
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125433?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125433
+    }
+  ]
+}

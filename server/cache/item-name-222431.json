@@ -166,13 +166,13 @@
       },
       {
         "type": {
-          "type": "HASTE_RATING",
-          "name": "Haste"
+          "type": "VERSATILITY",
+          "name": "Versatility"
         },
         "value": 14,
         "is_equip_bonus": true,
         "display": {
-          "display_string": "+14 Haste",
+          "display_string": "+14 Versatility",
           "color": {
             "r": 0,
             "g": 255,
@@ -207,14 +207,14 @@
     },
     "modified_crafting_stat": [
       {
-        "id": 36,
-        "type": "HASTE_RATING",
-        "name": "Haste"
-      },
-      {
         "id": 32,
         "type": "CRIT_RATING",
         "name": "Critical Strike"
+      },
+      {
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": "Versatility"
       }
     ]
   },

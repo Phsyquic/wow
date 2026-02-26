@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249973?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249973,
+  "name": "Relentless Rider's Cuirass",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249973?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249973
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "ROBE",
+    "name": "Chest"
+  },
+  "purchase_price": 439721,
+  "sell_price": 87944,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249973?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249973
+    },
+    "context": 0,
+    "bonus_list": [
+      13336,
+      13575
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Relentless Rider's Cuirass",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249973?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249973
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "ROBE",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 33,
+      "display": {
+        "display_string": "33 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 10,
+        "is_negated": true,
+        "display": {
+          "display_string": "+10 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 40623,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "4",
+        "silver": "6",
+        "copper": "23"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Death Knight",
+            "id": 6
+          }
+        ],
+        "display_string": "Classes: Death Knight"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1978?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Relentless Rider's Lament",
+        "id": 1978
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249973?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Relentless Rider's Cuirass",
+            "id": 249973
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249971?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Relentless Rider's Bonegrasps",
+            "id": 249971
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249970?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Relentless Rider's Crown",
+            "id": 249970
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249969?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Relentless Rider's Legguards",
+            "id": 249969
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249968?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Relentless Rider's Dreadthorns",
+            "id": 249968
+          }
+        }
+      ],
+      "display_string": "Relentless Rider's Lament (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 165,
+      "display_string": "Durability 165 / 165"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125622?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125622
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125674?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125674
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125635?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125635
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125661?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125661
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125674?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125674
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125622?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125622
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125635?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125635
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125661?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125661
+    }
+  ]
+}
