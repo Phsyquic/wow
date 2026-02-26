@@ -60,6 +60,7 @@ export class BisesComponent implements OnInit {
   private bundledBisSources: Record<string, string[]> = {};
   private encounterNameCache: Record<number, string> = {};
   private missingMetadataWarnedItemIds = new Set<number>();
+  private inventoryTypeFallbackByItemId: Record<number, number> = {};
   private fallbackBossToRaidAliases: Record<string, string> = {
     "Belo'ren": "March on Quel'Danas",
     "Belo'ren, Child of Al'ar": "March on Quel'Danas",
@@ -500,17 +501,18 @@ export class BisesComponent implements OnInit {
     this.itemList = realItemList;
 
     // Llamamos a mergeItemList después de que todo haya terminado
-    this.mergeItemList();
+    await this.mergeItemList();
   }
 
 
-  mergeItemList() {
+  async mergeItemList() {
+    await this.hydrateMissingInventoryTypes();
     var realTableBistList: any[] = [];
     this.tableBisList.forEach((element: any) => {
       var itemID = parseInt(element.id);
       var itemEncontrado = this.itemList.find((item: any) => itemID === item.id);
       const fullItem = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
-      const iType = fullItem?.inventoryType;
+      const iType = fullItem?.inventoryType ?? this.inventoryTypeFallbackByItemId[itemID];
       const slotKey = this.resolveEffectiveSlotKey(itemID, iType);
       const sourceFallbackInfo = this.getFallbackSourceInfoByItemId(itemID, iType);
       const sourceFallback = this.normalizeFallbackSourceBySlot(sourceFallbackInfo.instance, iType, slotKey);
@@ -666,6 +668,74 @@ export class BisesComponent implements OnInit {
     this.tableBisList_full = visibleBisList;
     this.cargarDrops(this.tableBisList);
     this.enrichUnknownItemMetadata();
+  }
+
+  private async hydrateMissingInventoryTypes(): Promise<void> {
+    const missingItemIds: number[] = [...new Set<number>(
+      this.tableBisList
+        .map((item: any) => Number(item?.id))
+        .filter((itemId: number) => {
+          if (!Number.isInteger(itemId) || itemId <= 0) {
+            return false;
+          }
+          const hasRaidbotsType = this.itemList_full.some((x: any) => Number(x?.id) === itemId && Number.isFinite(Number(x?.inventoryType)));
+          const hasFallback = Number.isFinite(Number(this.inventoryTypeFallbackByItemId[itemId]));
+          return !hasRaidbotsType && !hasFallback;
+        })
+    )];
+
+    for (const itemId of missingItemIds) {
+      try {
+        const itemData: any = await firstValueFrom(this.blizzardService.getItemName(itemId));
+        const inventoryTypeToken = String(itemData?.inventory_type?.type ?? '').toUpperCase();
+        const mapped = this.mapBlizzardInventoryTypeToRaidbotsSlotId(inventoryTypeToken);
+        if (mapped > 0) {
+          this.inventoryTypeFallbackByItemId[itemId] = mapped;
+        }
+      } catch {
+        // Silencioso: si no se puede resolver, se mantiene fallback actual.
+      }
+    }
+  }
+
+  private mapBlizzardInventoryTypeToRaidbotsSlotId(typeToken: string): number {
+    switch (typeToken) {
+      case 'HEAD': return 1;
+      case 'NECK': return 2;
+      case 'SHOULDER': return 3;
+      case 'SHIRT': return 4;
+      case 'CHEST': return 5;
+      case 'WAIST': return 6;
+      case 'LEGS': return 7;
+      case 'FEET': return 8;
+      case 'WRIST': return 9;
+      case 'HANDS': return 10;
+      case 'FINGER': return 11;
+      case 'TRINKET': return 12;
+      case 'WEAPON':
+      case 'ONEH_WEAPON': return 13;
+      case 'SHIELD': return 14;
+      case 'RANGED': return 15;
+      case 'CLOAK':
+      case 'BACK': return 16;
+      case 'TWOH_WEAPON': return 17;
+      case 'BAG': return 18;
+      case 'TABARD': return 19;
+      case 'ROBE': return 20;
+      case 'WEAPONMAINHAND':
+      case 'MAIN_HAND':
+      case 'MAINHAND': return 21;
+      case 'WEAPONOFFHAND':
+      case 'OFF_HAND':
+      case 'OFFHAND': return 22;
+      case 'HOLDABLE': return 23;
+      case 'AMMO': return 24;
+      case 'THROWN': return 25;
+      case 'RANGEDRIGHT': return 26;
+      case 'QUIVER': return 27;
+      case 'RELIC': return 28;
+      default: return -1;
+    }
   }
 
   buildTierBreakGroups(tierItems: any[]) {
