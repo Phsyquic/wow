@@ -1,0 +1,199 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/151308?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 151308,
+  "name": "Eredath Seal of Nobility",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 50,
+  "required_level": 40,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/151308?namespace=static-12.0.1_65617-us"
+    },
+    "id": 151308
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": "Finger"
+  },
+  "purchase_price": 1341472,
+  "sell_price": 268294,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/151308?namespace=static-12.0.1_65617-us"
+      },
+      "id": 151308
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Eredath Seal of Nobility",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/151308?namespace=static-12.0.1_65617-us"
+      },
+      "id": 151308
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": "Finger"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 11,
+        "display": {
+          "display_string": "+11 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 23,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+23 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 85991,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "8",
+        "silver": "59",
+        "copper": "91"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 40,
+        "display_string": "Requires Level 40"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1331?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Velen's Lament",
+        "id": 1331
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/151308?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Eredath Seal of Nobility",
+            "id": 151308
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/151311?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Band of the Triumvirate",
+            "id": 151311
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: Increases Avoidance.",
+          "required_count": 2
+        }
+      ],
+      "display_string": "Velen's Lament (0/2)"
+    },
+    "level": {
+      "value": 62,
+      "display_string": "Item Level 62"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

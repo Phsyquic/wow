@@ -6,6 +6,8 @@ $ErrorActionPreference = 'Stop'
 
 $originalBranch = (git branch --show-current).Trim()
 $tempDeployDir = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ("wow-gh-pages-" + [System.Guid]::NewGuid().ToString("N"))
+$createdStash = $false
+$stashMessage = "auto-deploy-gh-pages-" + [System.Guid]::NewGuid().ToString("N")
 
 function Invoke-CheckedCommand {
     param(
@@ -22,17 +24,14 @@ function Invoke-CheckedCommand {
 }
 
 try {
-    if (-not (Test-Path (Join-Path -Path $PSScriptRoot -ChildPath "node_modules\\.bin\\ng.cmd"))) {
-        throw "No se encontro Angular CLI local. Ejecuta 'npm install' en la raiz del proyecto y vuelve a correr el script."
+    $gitStatus = (& git status --porcelain)
+    if ($gitStatus) {
+        Invoke-CheckedCommand -Command { git stash push --include-untracked -m $stashMessage } -ErrorMessage "No se pudieron guardar temporalmente los cambios locales (stash)."
+        $createdStash = $true
     }
 
-    $serverCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "server\\cache"
-    $assetsCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "src\\assets\\cache"
-    if (Test-Path $serverCacheDir) {
-        New-Item -Path $assetsCacheDir -ItemType Directory -Force | Out-Null
-        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-media-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
-        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-name-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
-        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "journal-encounter-*.json") -Destination $assetsCacheDir -Force -ErrorAction SilentlyContinue
+    if (-not (Test-Path (Join-Path -Path $PSScriptRoot -ChildPath "node_modules\\.bin\\ng.cmd"))) {
+        throw "No se encontro Angular CLI local. Ejecuta 'npm install' en la raiz del proyecto y vuelve a correr el script."
     }
 
     Invoke-CheckedCommand -Command { npm run build } -ErrorMessage "El build fallo. Revisa los errores de npm/ng mostrados arriba."
@@ -59,6 +58,15 @@ try {
     $buildOutputDir = Join-Path -Path $PSScriptRoot -ChildPath $outputPath
     if (-not (Test-Path $buildOutputDir)) {
         throw "No se encontro la carpeta de build en '$buildOutputDir'."
+    }
+
+    $serverCacheDir = Join-Path -Path $PSScriptRoot -ChildPath "server\\cache"
+    $distAssetsCacheDir = Join-Path -Path $buildOutputDir -ChildPath "assets\\cache"
+    if (Test-Path $serverCacheDir) {
+        New-Item -Path $distAssetsCacheDir -ItemType Directory -Force | Out-Null
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-media-*.json") -Destination $distAssetsCacheDir -Force -ErrorAction SilentlyContinue
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "item-name-*.json") -Destination $distAssetsCacheDir -Force -ErrorAction SilentlyContinue
+        Copy-Item -Path (Join-Path -Path $serverCacheDir -ChildPath "journal-encounter-*.json") -Destination $distAssetsCacheDir -Force -ErrorAction SilentlyContinue
     }
 
     New-Item -Path $tempDeployDir -ItemType Directory -Force | Out-Null
@@ -92,5 +100,22 @@ finally {
     $currentBranch = (git branch --show-current).Trim()
     if ($currentBranch -ne $originalBranch) {
         & git switch $originalBranch | Out-Null
+    }
+
+    if ($createdStash) {
+        $stashRef = ''
+        $stashList = (& git stash list)
+        foreach ($line in $stashList) {
+            if ($line -like "*$stashMessage*") {
+                $stashRef = ($line -split ':')[0].Trim()
+                break
+            }
+        }
+        if ($stashRef) {
+            & git stash pop $stashRef | Out-Null
+            if ($LASTEXITCODE -ne 0) {
+                Write-Warning "No se pudo restaurar automaticamente el stash ($stashRef). Ejecuta: git stash list / git stash pop $stashRef"
+            }
+        }
     }
 }

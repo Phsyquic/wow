@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249978?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249978,
+  "name": "Leggings of the Primal Core",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249978?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249978
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": "Legs"
+  },
+  "purchase_price": 447700,
+  "sell_price": 89540,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249978?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249978
+    },
+    "context": 0,
+    "bonus_list": [
+      13339,
+      13575
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Leggings of the Primal Core",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249978?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249978
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": "Legs"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 19,
+      "display": {
+        "display_string": "19 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 10,
+        "is_negated": true,
+        "display": {
+          "display_string": "+10 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 13,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+13 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 41360,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "4",
+        "silver": "13",
+        "copper": "60"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Shaman",
+            "id": 7
+          }
+        ],
+        "display_string": "Classes: Shaman"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1988?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mantle of the Primal Core",
+        "id": 1988
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249982?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Embrace of the Primal Core",
+            "id": 249982
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249980?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Earthgrips of the Primal Core",
+            "id": 249980
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249979?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Locus of the Primal Core",
+            "id": 249979
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249978?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Leggings of the Primal Core",
+            "id": 249978
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249977?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Tempests of the Primal Core",
+            "id": 249977
+          }
+        }
+      ],
+      "display_string": "Mantle of the Primal Core (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127117?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127117
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127105?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127105
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127081?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127081
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127093?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127093
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127117?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127117
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127105?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127105
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127081?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127081
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127093?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127093
+    }
+  ]
+}

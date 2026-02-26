@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/258049?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_shield_draenordungeon_c_03.jpg",
+      "file_data_id": 943306
+    }
+  ],
+  "id": 258049
+}

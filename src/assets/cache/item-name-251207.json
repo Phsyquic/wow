@@ -1,0 +1,205 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/251207?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 251207,
+  "name": "Dreadflail Bludgeon",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 108,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/251207?namespace=static-12.0.1_65617-us"
+    },
+    "id": 251207
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mace",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": "One-Hand"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/251207?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251207
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Dreadflail Bludgeon",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/251207?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251207
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mace",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": "One-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 8,
+        "max_value": 12,
+        "display_string": "8 - 12 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": "Speed 2.60"
+      },
+      "dps": {
+        "value": 3.8461537,
+        "display_string": "(3.8 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 4,
+        "is_negated": true,
+        "display": {
+          "display_string": "+4 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 5,
+        "display": {
+          "display_string": "+5 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+2 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+5 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 5626,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "56",
+        "copper": "26"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "level": {
+      "value": 28,
+      "display_string": "Item Level 28"
+    },
+    "durability": {
+      "value": 85,
+      "display_string": "Durability 85 / 85"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/120600?namespace=static-12.0.1_65617-us"
+      },
+      "id": 120600
+    }
+  ]
+}
