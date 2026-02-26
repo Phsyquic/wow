@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229251?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229251,
+  "name": "Cauldron Champion's Screamplate",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229251?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229251
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3951966,
+  "sell_price": 790393,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229251?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229251
+    },
+    "context": 0,
+    "bonus_list": [
+      11962
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Cauldron Champion's Screamplate",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229251?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229251
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 6132,
+      "display": {
+        "display_string": "6,132 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 2452,
+        "display": {
+          "display_string": "+2,452 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 2452,
+        "is_negated": true,
+        "display": {
+          "display_string": "+2,452 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 14597,
+        "display": {
+          "display_string": "+14,597 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 442,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+442 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 965,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+965 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 790393,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "79",
+        "silver": "3",
+        "copper": "93"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Death Knight",
+            "id": 6
+          }
+        ],
+        "display_string": "Classes: Death Knight"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1867?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Cauldron Champion's Encore",
+        "id": 1867
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229256?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cauldron Champion's Ribcage",
+            "id": 229256
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229254?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cauldron Champion's Fistguards",
+            "id": 229254
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229253?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cauldron Champion's Crown",
+            "id": 229253
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229252?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cauldron Champion's Tattered Cuisses",
+            "id": 229252
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229251?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Cauldron Champion's Screamplate",
+            "id": 229251
+          }
+        }
+      ],
+      "display_string": "Cauldron Champion's Encore (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95423?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95423
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95478?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95478
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95465?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95465
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95487?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95487
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95456?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95456
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95445?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95445
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95434?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95434
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95476?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95476
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95454?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95454
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95432?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95432
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95443?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95443
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/95467?namespace=static-11.1.0_59095-us"
+      },
+      "id": 95467
+    }
+  ]
+}

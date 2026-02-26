@@ -1,0 +1,170 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/251096?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 251096,
+  "name": "Pendant of Aching Grief",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 108,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/251096?namespace=static-12.0.1_65617-us"
+    },
+    "id": 251096
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NECK",
+    "name": "Neck"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/251096?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251096
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": "Prismatic Socket"
+        }
+      }
+    ],
+    "context": 0,
+    "bonus_list": [
+      13668
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Pendant of Aching Grief",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/251096?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251096
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NECK",
+      "name": "Neck"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 6,
+        "display": {
+          "display_string": "+6 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 8,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+8 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 12,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+12 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1700,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "17",
+        "copper": "0"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "level": {
+      "value": 28,
+      "display_string": "Item Level 28"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249989?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249989,
+  "name": "Primal Sentry's Talonguards",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249989?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249989
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": "Hands"
+  },
+  "purchase_price": 217890,
+  "sell_price": 43578,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249989?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249989
+    },
+    "context": 0,
+    "bonus_list": [
+      13337,
+      13574
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Primal Sentry's Talonguards",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249989?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249989
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": "Hands"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 12,
+      "display": {
+        "display_string": "12 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 7,
+        "is_negated": true,
+        "display": {
+          "display_string": "+7 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 11,
+        "display": {
+          "display_string": "+11 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+4 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 20129,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "2",
+        "silver": "1",
+        "copper": "29"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hunter",
+            "id": 3
+          }
+        ],
+        "display_string": "Classes: Hunter"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1982?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Primal Sentry's Camouflage",
+        "id": 1982
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249991?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Primal Sentry's Scaleplate",
+            "id": 249991
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249989?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Primal Sentry's Talonguards",
+            "id": 249989
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249988?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Primal Sentry's Maw",
+            "id": 249988
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249987?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Primal Sentry's Legguards",
+            "id": 249987
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249986?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Primal Sentry's Trophies",
+            "id": 249986
+          }
+        }
+      ],
+      "display_string": "Primal Sentry's Camouflage (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126003?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126003
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125967?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125967
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125955?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125955
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126122?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126122
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126120?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126120
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126123?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126123
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126119?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126119
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125991?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125991
+    }
+  ]
+}

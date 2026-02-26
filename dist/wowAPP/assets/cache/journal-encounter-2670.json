@@ -1,0 +1,651 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2670?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2670,
+  "name": "Emperor Dagran Thaurissan",
+  "description": "Emperor Dagran Thaurissan rules alongside Princess Moira of the rival Bronzebeard clan. Debate rages over whether the emperor ensorcelled his bride or she willingly joined him. Whatever the truth, Thaurissan's continued presence bodes ill for the future of his clan. So long as he lives, the Dark Irons will remain pawns of Ragnaros, and a dire threat to kingdoms throughout Azeroth.",
+  "creatures": [
+    {
+      "id": 5789,
+      "name": "Emperor Dagran Thaurissan",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120764
+      }
+    },
+    {
+      "id": 5799,
+      "name": "Moira Bronzebeard",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120765
+      }
+    },
+    {
+      "id": 5815,
+      "name": "Avatar of Ragnaros",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122739
+      }
+    },
+    {
+      "id": 5814,
+      "name": "Dark Iron Imperial Guard",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122759
+      }
+    },
+    {
+      "id": 5816,
+      "name": "Twilight's Hammer Ambassador",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122741
+      }
+    },
+    {
+      "id": 5817,
+      "name": "Fireguard Destroyer",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122758
+      }
+    },
+    {
+      "id": 5818,
+      "name": "Fireling",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122772
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44827,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231438?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Swiftwalker Boots",
+        "id": 231438
+      }
+    },
+    {
+      "id": 44828,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231442?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sash of the Grand Hunt",
+        "id": 231442
+      }
+    },
+    {
+      "id": 44829,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231398?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Molten Ironfoe",
+        "id": 231398
+      }
+    },
+    {
+      "id": 44830,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231429?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Robes of the Royal Crown",
+        "id": 231429
+      }
+    },
+    {
+      "id": 44831,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231417?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Hand of Justice",
+        "id": 231417
+      }
+    },
+    {
+      "id": 44832,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231433?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Thaurissan's Royal Scepter",
+        "id": 231433
+      }
+    },
+    {
+      "id": 44833,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231437?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Emperor's Seal",
+        "id": 231437
+      }
+    },
+    {
+      "id": 44834,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231439?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Hands of the Exalted Herald",
+        "id": 231439
+      }
+    },
+    {
+      "id": 44835,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231436?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Imperial Jewel",
+        "id": 231436
+      }
+    },
+    {
+      "id": 44836,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231487?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Helm of the Molten Avatar",
+        "id": 231487
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30900,
+      "title": "Overview",
+      "body_text": "Emperor Dagran Thaurissan and Princess Moira Bronzebeard are both formidable combatants. Moira's Hspell:466504[Shadow Word: Nemesis] and Hspell:470599[Shadow Word: Necrosis] must be managed carefully or they will overwhelm the raid. Moira will attempt to heal Dagran with Hspell:470605[Radiant Infusion]. \r\n\r\nDagran is a dangerous melee combatant that will Hspell:465077[Call Imperial Guard] and Hspell:465079[Call Twilight's Hammer Ambassadors] to repel the invaders. When Moira is defeated, Dagran will transform into a powerful Hspell:465069[Avatar of Flame], empowering all his abilities.\r\n\r\nWhen he becomes desperate, Dagran willl Hspell:466332[Beseech The Firelord] to save him. The Avatar of Ragnaros unleashes devastation that will slowly consume the entire room in molten fire until Dagran is defeated. Dagran will no longer call Imperial Guard or Twilight's Hammer Ambassadors to his side once Ragnaros joins the battle.",
+      "sections": [
+        {
+          "id": 30901,
+          "title": "Tanks",
+          "body_text": "$bullet; Moira and Dagran's abilities are more difficult to avoid if they are near one another.\r\n$bullet; Hspell:465077[Imperial Guards] will arrive in mole machines on both ends of the room.\r\n$bullet; Hspell:465060[Ironfoe's] multiattack inflicts bursts of physical damage to Dagran's tank.\r\n$bullet; Hspell:465070[Iron Brand] will become lethal if it stacks too high.\r\n$bullet; Hspell:465099[Fireguard Destroyers] summoned by the Avatar of Ragnaros are powerful melee combatants in addition to inflicting high Fire damage to the entire raid."
+        },
+        {
+          "id": 30902,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; If Moira is not defeated quickly, Hspell:466504[Shadow Word: Nemesis] and Hspell:470599[Shadow Word: Necrosis] will overwhelm the raid.\r\n$bullet; Hspell:465079[Twilight's Hammer Ambassadors] inflict high damage with Hspell:465091[Pyroblast] and they must be killed before they finish casting Hspell:466371[Moment of Twilight].\r\n$bullet; Dagran's abilities will be more difficult to avoid and inflict higher damage when he becomes an Hspell:465069[Avatar of Flame].\r\n$bullet; The damage of Avatar of Ragnaros' Hspell:465225[Volcanic Blast] must be split and it will create Hspell:466382[Volcanic Stone] beneath the target's feet.\r\n$bullet; When a Fireguard Destroyer is destroyed, it will erupt in a Hspell:465268[Fiery Demise]."
+        },
+        {
+          "id": 30903,
+          "title": "Healers",
+          "body_text": "$bullet; If Hspell:466504[Shadow Word: Nemesis] is dispelled, it will jump to two players. Try to delay removal as long as possible.\r\n$bullet; When Hspell:470599[Shadow Word: Necrosis] is passed, it will inflict raid wide damage, but target's cannot be healed while they suffer from it.\r\n$bullet; Dagran's tank will suffer frequent burst of high damage.\r\n$bullet; Once the Avatar of Ragnaros is summoned, the damage to the raid will spike significantly. All of his abilities inflict raid wide damage."
+        }
+      ]
+    },
+    {
+      "id": 30904,
+      "title": "Emperor Dagran Thaurissan",
+      "sections": [
+        {
+          "id": 30920,
+          "title": "Ironfoe",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465060?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Ironfoe",
+            "id": 465060
+          }
+        },
+        {
+          "id": 30918,
+          "title": "Hand of Thaurissan",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465066?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Hand of Thaurissan",
+            "id": 465066
+          }
+        },
+        {
+          "id": 30923,
+          "title": "Magma Clap",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465065?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Magma Clap",
+            "id": 465065
+          }
+        },
+        {
+          "id": 30912,
+          "title": "Avatar of Flame",
+          "sections": [
+            {
+              "id": 30921,
+              "title": "Iron Brand",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465070?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Iron Brand",
+                "id": 465070
+              }
+            },
+            {
+              "id": 30996,
+              "title": "Molten Hand",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466493?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Molten Hand",
+                "id": 466493
+              }
+            },
+            {
+              "id": 30997,
+              "title": "Magma Shock",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470658?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Magma Shock",
+                "id": 470658
+              }
+            },
+            {
+              "id": 30999,
+              "title": "Magma Shower",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/465072?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Magma Shower",
+                "id": 465072
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465069?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Avatar of Flame",
+            "id": 465069
+          }
+        },
+        {
+          "id": 30913,
+          "title": "Call Imperial Guard",
+          "sections": [
+            {
+              "id": 30907,
+              "title": "Dark Iron Imperial Guard",
+              "sections": [
+                {
+                  "id": 30930,
+                  "title": "Shrapnel Blast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465089?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Shrapnel Blast",
+                    "id": 465089
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122759?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122759
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465077?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Call Imperial Guard",
+            "id": 465077
+          }
+        },
+        {
+          "id": 30914,
+          "title": "Call Twilight's Hammer Ambassador",
+          "sections": [
+            {
+              "id": 30908,
+              "title": "Twilight's Hammer Ambassador",
+              "sections": [
+                {
+                  "id": 30926,
+                  "title": "Pyroblast",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465091?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Pyroblast",
+                    "id": 465091
+                  }
+                },
+                {
+                  "id": 30925,
+                  "title": "Moment of Twilight",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/466371?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Moment of Twilight",
+                    "id": 466371
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122741?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122741
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465079?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Call Twilight's Hammer Ambassador",
+            "id": 465079
+          }
+        },
+        {
+          "id": 30911,
+          "title": "Beseech the Firelord",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466332?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Beseech the Firelord",
+            "id": 466332
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120764?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120764
+      }
+    },
+    {
+      "id": 30905,
+      "title": "Princess Moira Bronzebeard",
+      "sections": [
+        {
+          "id": 30924,
+          "title": "Mind Blast",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465086?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Mind Blast",
+            "id": 465086
+          }
+        },
+        {
+          "id": 30928,
+          "title": "Shadow Word: Nemesis",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/466504?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Shadow Word: Nemesis",
+            "id": 466504
+          }
+        },
+        {
+          "id": 30929,
+          "title": "Shadow Word: Necrosis",
+          "sections": [
+            {
+              "id": 30990,
+              "title": "Necrotic Blast",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470602?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Necrotic Blast",
+                "id": 470602
+              }
+            },
+            {
+              "id": 30927,
+              "title": "Lingering Necrosis",
+              "sections": [
+                {
+                  "id": 30919,
+                  "title": "Festering Necrosis",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/470624?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Festering Necrosis",
+                    "id": 470624
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470603?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Lingering Necrosis",
+                "id": 470603
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470599?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Shadow Word: Necrosis",
+            "id": 470599
+          }
+        },
+        {
+          "id": 30991,
+          "title": "Mind Shattering Screams",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470609?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Mind Shattering Screams",
+            "id": 470609
+          }
+        },
+        {
+          "id": 30992,
+          "title": "Radiant Infusion",
+          "sections": [
+            {
+              "id": 30993,
+              "title": "Radiant Burn",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470608?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Radiant Burn",
+                "id": 470608
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470605?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Radiant Infusion",
+            "id": 470605
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120765?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120765
+      }
+    },
+    {
+      "id": 30906,
+      "title": "Avatar of Ragnaros",
+      "sections": [
+        {
+          "id": 30922,
+          "title": "Volcanic Blast",
+          "sections": [
+            {
+              "id": 30995,
+              "title": "Volcanic Stone",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470646?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Volcanic Stone",
+                "id": 470646
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465225?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Volcanic Blast",
+            "id": 465225
+          }
+        },
+        {
+          "id": 30994,
+          "title": "Volcanic Volley",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470649?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Volcanic Volley",
+            "id": 470649
+          }
+        },
+        {
+          "id": 30931,
+          "title": "Summon Fireguard Destroyer",
+          "sections": [
+            {
+              "id": 30909,
+              "title": "Fireguard Destroyer",
+              "sections": [
+                {
+                  "id": 30917,
+                  "title": "Fire Nova",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465093?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Fire Nova",
+                    "id": 465093
+                  }
+                },
+                {
+                  "id": 30916,
+                  "title": "Fiery Demise",
+                  "sections": [
+                    {
+                      "id": 30910,
+                      "title": "Fireling",
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122772?namespace=static-11.1.0_59095-us"
+                        },
+                        "id": 122772
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/465268?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Fiery Demise",
+                    "id": 465268
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122758?namespace=static-11.1.0_59095-us"
+                },
+                "id": 122758
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/465099?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Summon Fireguard Destroyer",
+            "id": 465099
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122739?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122739
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

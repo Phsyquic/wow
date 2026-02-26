@@ -1,0 +1,218 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/251082?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 251082,
+  "name": "Snapvine Cinch",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 108,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/251082?namespace=static-12.0.1_65617-us"
+    },
+    "id": 251082
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "WAIST",
+    "name": "Waist"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/251082?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251082
+    },
+    "context": 0,
+    "bonus_list": [
+      13578
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Snapvine Cinch",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/251082?namespace=static-12.0.1_65617-us"
+      },
+      "id": 251082
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "WAIST",
+      "name": "Waist"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 6,
+      "display": {
+        "display_string": "6 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 5,
+        "display": {
+          "display_string": "+5 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 5,
+        "is_negated": true,
+        "display": {
+          "display_string": "+5 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 8,
+        "display": {
+          "display_string": "+8 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+4 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 2039,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "20",
+        "copper": "39"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "level": {
+      "value": 28,
+      "display_string": "Item Level 28"
+    },
+    "durability": {
+      "value": 50,
+      "display_string": "Durability 50 / 50"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/120885?namespace=static-12.0.1_65617-us"
+      },
+      "id": 120885
+    }
+  ]
+}

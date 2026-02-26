@@ -1,0 +1,265 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/244611?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 244611,
+  "name": "World Tender's Barkclasp",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/244611?namespace=static-12.0.1_65617-us"
+    },
+    "id": 244611
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "WAIST",
+    "name": "Waist"
+  },
+  "purchase_price": 2498145,
+  "sell_price": 499629,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/244611?namespace=static-12.0.1_65617-us"
+      },
+      "id": 244611
+    },
+    "context": 0,
+    "bonus_list": [
+      12214,
+      8960
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "World Tender's Barkclasp",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/244611?namespace=static-12.0.1_65617-us"
+      },
+      "id": 244611
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "WAIST",
+      "name": "Waist"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "limit_category": "Unique-Equipped: Embellished (2)",
+    "armor": {
+      "value": 96,
+      "display": {
+        "display_string": "96 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 62,
+        "display": {
+          "display_string": "+62 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 62,
+        "is_negated": true,
+        "display": {
+          "display_string": "+62 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 773,
+        "display": {
+          "display_string": "+773 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 42,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+42 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 56,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+56 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 499629,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "49",
+        "silver": "96",
+        "copper": "29"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1967?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Root Warden's Regalia",
+        "id": 1967
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/244609?namespace=static-12.0.1_65617-us"
+            },
+            "name": "World Tender's Trunkplate",
+            "id": 244609
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/244610?namespace=static-12.0.1_65617-us"
+            },
+            "name": "World Tender's Rootslippers",
+            "id": 244610
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/244611?namespace=static-12.0.1_65617-us"
+            },
+            "name": "World Tender's Barkclasp",
+            "id": 244611
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: Your spells and abilities can beseech the World Trees for a fragment of their power, granting you 35 of a random secondary stat for 15 sec.",
+          "required_count": 2
+        }
+      ],
+      "display_string": "Root Warden's Regalia (0/3)"
+    },
+    "level": {
+      "value": 246,
+      "display_string": "Item Level 246"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/120785?namespace=static-12.0.1_65617-us"
+      },
+      "id": 120785
+    }
+  ]
+}

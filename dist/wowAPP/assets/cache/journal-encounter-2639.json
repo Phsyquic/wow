@@ -1,0 +1,589 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2639?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2639,
+  "name": "Vexie and the Geargrinders",
+  "description": "Vexie Fullthrottle has been paving a path of terror through the hearts of anyone her gang encounters. Answering Gallywix's call for aid, she and her crew are here to repay an old favor, and add a few new grease stains to Undermine's streets.",
+  "creatures": [
+    {
+      "id": 5760,
+      "name": "The Geargrinder",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122476?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122476
+      }
+    },
+    {
+      "id": 5747,
+      "name": "Vexie Fullthrottle",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122443?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122443
+      }
+    },
+    {
+      "id": 5759,
+      "name": "Geargrinder Biker",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122477?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122477
+      }
+    },
+    {
+      "id": 5741,
+      "name": "Pit Mechanic",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121716?namespace=static-11.1.0_59095-us"
+        },
+        "id": 121716
+      }
+    },
+    {
+      "id": 5838,
+      "name": "Support Rig",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-11.1.0_59095-us"
+        },
+        "id": 121758
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45131,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223048?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Plans: Siphoning Stiletto",
+        "id": 223048
+      }
+    },
+    {
+      "id": 44696,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228876?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dragster's Last Stride",
+        "id": 228876
+      }
+    },
+    {
+      "id": 44697,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231268?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Blastfurious Machete",
+        "id": 231268
+      }
+    },
+    {
+      "id": 44698,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228875?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Vandal's Skullplating",
+        "id": 228875
+      }
+    },
+    {
+      "id": 44699,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228858?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Fullthrottle Facerig",
+        "id": 228858
+      }
+    },
+    {
+      "id": 44700,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228862?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Shrapnel-Ridden Sabatons",
+        "id": 228862
+      }
+    },
+    {
+      "id": 44701,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228861?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Tune-Up Toolbelt",
+        "id": 228861
+      }
+    },
+    {
+      "id": 44702,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228892?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Greasemonkey's Shift-Stick",
+        "id": 228892
+      }
+    },
+    {
+      "id": 44703,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228839?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Undercircuit Racing Flag",
+        "id": 228839
+      }
+    },
+    {
+      "id": 44704,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228865?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Pit Doctor's Petticoat",
+        "id": 228865
+      }
+    },
+    {
+      "id": 44705,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/230197?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Geargrinder's Spare Keys",
+        "id": 230197
+      }
+    },
+    {
+      "id": 44706,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228852?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Blazer of Glory",
+        "id": 228852
+      }
+    },
+    {
+      "id": 44707,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228868?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Revved-Up Vambraces",
+        "id": 228868
+      }
+    },
+    {
+      "id": 44630,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/230019?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Vexie's Pit Whistle",
+        "id": 230019
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30089,
+      "title": "Overview",
+      "body_text": "The Geargrinder begins the encounter encased in Hspell:466615[Protective Plating], slowly generating energy in preparation for Hspell:471403[Unrelenting CAR-nage]. While atop her war-tank, Vexie calls in Geargrinder Bikers to assist her. When a biker is defeated they surrender their ride, allowing players to unleash a Hspell:459453[Blaze of Glory] and removing an application of Hspell:466615[Protective Plating]. Once all Hspell:466615[Protective Plating] is removed, the Geargrinder suffers a Hspell:460603[Mechanical Breakdown].\r\n\r\nWhile broken down, Vexie begins to Hspell:460116[Tune-Up] the war-tank and calls Pit Mechanics to Hspell:460153[Repair] the Geargrinder. Once fully repaired Vexie commands the Geargrinder to continue its assault!",
+      "sections": [
+        {
+          "id": 31555,
+          "title": "Tanks",
+          "body_text": "$bullet;Defeated Geargrinder Bikers surrender their bikes, allowing for Hspell:459453[Blaze of Glory].\r\n$bullet;Vexie's Hspell:460116[Tune-Up] and Pit Mechanics' Hspell:460153[Repair] the Geargrinder's Hspell:466615[Protective Plating]."
+        },
+        {
+          "id": 30090,
+          "title": "Tanks",
+          "body_text": "$bullet;Defeated Geargrinder Bikers surrender their bikes, allowing for Hspell:459453[Blaze of Glory].\r\n$bullet;Hspell:459627[Tank Buster] leaves an Hspell:468129[Oil Slick] at the caster's location.\r\n$bullet;Vexie's Hspell:460116[Tune-Up] and Pit Mechanics' Hspell:460153[Repair] the Geargrinder's Hspell:466615[Protective Plating]."
+        },
+        {
+          "id": 30091,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Defeated Geargrinder Bikers surrender their bikes, allowing for Hspell:459453[Blaze of Glory].\r\n$bullet;Vexie's Hspell:460116[Tune-Up] and Pit Mechanics' Hspell:460153[Repair] the Geargrinder's Hspell:466615[Protective Plating].\r\n$bullet;Hspell:460603[Mechanical Breakdown] causes the Geargrinder to take increased damage."
+        },
+        {
+          "id": 30092,
+          "title": "Healers",
+          "body_text": "$bullet;Defeated Geargrinder Bikers surrender their bikes, allowing for Hspell:459453[Blaze of Glory].\r\n$bullet;Hspell:459666[Spew Oil] inflicts moderate damage to afflicted players.\r\n$bullet;While the Geargrinder suffers from a Hspell:460603[Mechanical Breakdown] all players take damage from Hspell:460386[Backfire].\r\n$bullet;Hspell:460603[Mechanical Breakdown] causes the Geargrinder to take increased damage."
+        }
+      ]
+    },
+    {
+      "id": 30093,
+      "title": "Stage One: Fury Road",
+      "sections": [
+        {
+          "id": 30778,
+          "title": "The Geargrinder",
+          "sections": [
+            {
+              "id": 30117,
+              "title": "Protective Plating",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/466615?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Protective Plating",
+                "id": 466615
+              }
+            },
+            {
+              "id": 31038,
+              "title": "Unrelenting CAR-nage",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/471403?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Unrelenting CAR-nage",
+                "id": 471403
+              }
+            },
+            {
+              "id": 31556,
+              "title": "Call Bikers",
+              "sections": [
+                {
+                  "id": 30118,
+                  "title": "Geargrinder Biker",
+                  "sections": [
+                    {
+                      "id": 31343,
+                      "title": "Oil Canister",
+                      "sections": [
+                        {
+                          "id": 31344,
+                          "title": "Soaked in Oil",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/473507?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Soaked in Oil",
+                            "id": 473507
+                          }
+                        },
+                        {
+                          "id": 30144,
+                          "title": "Oil Slick",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/459679?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Oil Slick",
+                            "id": 459679
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1216731?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Oil Canister",
+                        "id": 1216731
+                      }
+                    },
+                    {
+                      "id": 30121,
+                      "title": "Blaze of Glory",
+                      "sections": [
+                        {
+                          "id": 30173,
+                          "title": "Burning Shrapnel",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/460625?namespace=static-11.1.0_59095-us"
+                            },
+                            "name": "Burning Shrapnel",
+                            "id": 460625
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/459453?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Blaze of Glory",
+                        "id": 459453
+                      }
+                    },
+                    {
+                      "id": 30119,
+                      "title": "Hot Wheels",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/459994?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Hot Wheels",
+                        "id": 459994
+                      }
+                    }
+                  ],
+                  "creature_display": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/71816?namespace=static-11.1.0_59095-us"
+                    },
+                    "id": 71816
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459943?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Call Bikers",
+                "id": 459943
+              }
+            },
+            {
+              "id": 30122,
+              "title": "Spew Oil",
+              "sections": [
+                {
+                  "id": 31557,
+                  "title": "Oil Slick",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/459679?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Oil Slick",
+                    "id": 459679
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459666?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Spew Oil",
+                "id": 459666
+              }
+            },
+            {
+              "id": 30713,
+              "title": "Incendiary Fire",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/468207?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Incendiary Fire",
+                "id": 468207
+              }
+            },
+            {
+              "id": 30120,
+              "title": "Bomb Voyage!",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459974?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Bomb Voyage!",
+                "id": 459974
+              }
+            },
+            {
+              "id": 30123,
+              "title": "Tank Buster",
+              "sections": [
+                {
+                  "id": 30711,
+                  "title": "Exhaust Fumes",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/468147?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Exhaust Fumes",
+                    "id": 468147
+                  }
+                },
+                {
+                  "id": 30124,
+                  "title": "Oil Slick",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/468129?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Oil Slick",
+                    "id": 468129
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/459627?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Tank Buster",
+                "id": 459627
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122137?namespace=static-11.1.0_59095-us"
+            },
+            "id": 122137
+          }
+        }
+      ]
+    },
+    {
+      "id": 30094,
+      "title": "Stage Two: Pit Stop",
+      "sections": [
+        {
+          "id": 30779,
+          "title": "The Geargrinder",
+          "sections": [
+            {
+              "id": 30474,
+              "title": "Mechanical Breakdown",
+              "sections": [
+                {
+                  "id": 30162,
+                  "title": "Backfire",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460386?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Backfire",
+                    "id": 460386
+                  }
+                },
+                {
+                  "id": 30163,
+                  "title": "Burning Shrapnel",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/460625?namespace=static-11.1.0_59095-us"
+                    },
+                    "name": "Burning Shrapnel",
+                    "id": 460625
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460603?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Mechanical Breakdown",
+                "id": 460603
+              }
+            },
+            {
+              "id": 30116,
+              "title": "Tune-Up",
+              "sections": [
+                {
+                  "id": 31097,
+                  "title": "Support Rig",
+                  "sections": [
+                    {
+                      "id": 31099,
+                      "title": "High Maintenance",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/473636?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "High Maintenance",
+                        "id": 473636
+                      }
+                    }
+                  ],
+                  "creature_display": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-11.1.0_59095-us"
+                    },
+                    "id": 121758
+                  }
+                },
+                {
+                  "id": 30131,
+                  "title": "Pit Mechanic",
+                  "sections": [
+                    {
+                      "id": 31098,
+                      "title": "Repair",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/460153?namespace=static-11.1.0_59095-us"
+                        },
+                        "name": "Repair",
+                        "id": 460153
+                      }
+                    }
+                  ],
+                  "creature_display": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/57071?namespace=static-11.1.0_59095-us"
+                    },
+                    "id": 57071
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460116?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Tune-Up",
+                "id": 460116
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122137?namespace=static-11.1.0_59095-us"
+            },
+            "id": 122137
+          }
+        }
+      ]
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1296?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Liberation of Undermine",
+    "id": 1296
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}
