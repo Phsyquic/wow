@@ -12,6 +12,7 @@ export class LocalDataService {
   jsonURL = 'assets/json/';
   private generatedBisListStorageKey = 'wowapp.generated.bisList.txt';
   private generatedBisSourceStorageKey = 'wowapp.generated.bisSources.json';
+  private generatedBisSlotStorageKey = 'wowapp.generated.bisSlots.json';
 
   constructor(private http: HttpClient) { }
 
@@ -60,6 +61,30 @@ export class LocalDataService {
   getGeneratedBisSources(): Record<string, string[]> {
     try {
       const raw = localStorage.getItem(this.generatedBisSourceStorageKey);
+      if (!raw) {
+        return {};
+      }
+      const parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object') {
+        return {};
+      }
+      return parsed as Record<string, string[]>;
+    } catch {
+      return {};
+    }
+  }
+
+  saveGeneratedBisSlots(map: Record<string, string[]>): void {
+    localStorage.setItem(this.generatedBisSlotStorageKey, JSON.stringify(map));
+  }
+
+  clearGeneratedBisSlots(): void {
+    localStorage.removeItem(this.generatedBisSlotStorageKey);
+  }
+
+  getGeneratedBisSlots(): Record<string, string[]> {
+    try {
+      const raw = localStorage.getItem(this.generatedBisSlotStorageKey);
       if (!raw) {
         return {};
       }

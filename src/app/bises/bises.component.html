@@ -42,6 +42,12 @@
       <ng-template #adminConfigEntry>
         <button class="btn ghost" title="Configuración admin" (click)="openAdminModal()">⚙</button>
       </ng-template>
+      <button
+        class="btn ghost"
+        *ngIf="selectedSpec && getSelectedSpecWowheadUrl()"
+        title="Abrir BiS de esta spec en Wowhead"
+        (click)="openSelectedSpecWowhead()"
+      >🔗</button>
       <button class="btn ghost" *ngIf="tableBisList != tableBisList_full" (click)="resetFiltros()">Reset</button>
       <button class="btn primary" (click)="goMain()">Main</button>
     </div>

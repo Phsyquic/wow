@@ -31,6 +31,7 @@ export class BisesComponent implements OnInit {
   encounterLibrary: any[] = [];
   specsLibrary: any[] = [];
   slotsLibrary: any[] = [];
+  raidBossesByInstance: Record<string, string[]> = {};
   tierItems: any[] = [];
   tierBreakGroups: any[] = [];
   tierSlots = ['head', 'shoulder', 'chest', 'hands', 'legs'];
@@ -55,7 +56,44 @@ export class BisesComponent implements OnInit {
   wowIconBase = 'https://wow.zamimg.com/images/wow/icons/large/';
   private cacheApiBase = environment.cacheApiBase;
   private generatedBisSources: Record<string, string[]> = {};
+  private generatedBisSlots: Record<string, string[]> = {};
+  private bundledBisSources: Record<string, string[]> = {};
   private encounterNameCache: Record<number, string> = {};
+  private missingMetadataWarnedItemIds = new Set<number>();
+  private fallbackBossToRaidAliases: Record<string, string> = {
+    "Belo'ren": "March on Quel'Danas",
+    "Belo'ren, Child of Al'ar": "March on Quel'Danas",
+    "Midnight Falls": "March on Quel'Danas",
+    "Chimaerus": "The Dreamrift",
+    "Chimaerus the Undreamt God": "The Dreamrift",
+    "Crown of the Cosmos": "The Voidspire",
+    "Fallen-King Salhadaar": "The Voidspire",
+    "Imperator Averzian": "The Voidspire",
+    "Lightblinded Vanguard": "The Voidspire",
+    "Vaelgor & Ezzorak": "The Voidspire",
+    "Vorasius": "The Voidspire",
+  };
+  private staticRaidBosses: Record<string, string[]> = {
+    "The Voidspire": [
+      "Imperator Averzian",
+      "Vorasius",
+      "Fallen-King Salhadaar",
+      "Vaelgor & Ezzorak",
+      "Lightblinded Vanguard",
+      "Crown of the Cosmos",
+    ],
+    "The Dreamrift": [
+      "Chimaerus the Undreamt God",
+    ],
+    "March on Quel'Danas": [
+      "Belo'ren, Child of Al'ar",
+      "Midnight Falls",
+    ],
+  };
+  private bossDisplayAliases: Record<string, string> = {
+    "Belo'ren": "Belo'ren, Child of Al'ar",
+    "Chimaerus": "Chimaerus the Undreamt God",
+  };
   private adminConfigStorageKey = 'config';
   private adminPassword = '6190';
   canReloadBisFromCurrentRuntime = false;
@@ -90,6 +128,8 @@ export class BisesComponent implements OnInit {
   async loadInitialData() {
     try {
       this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
+      this.generatedBisSlots = this.LocalDataService.getGeneratedBisSlots();
+      await this.loadBundledBisSources();
       await this.getBisListData();
       await this.getBosses();
     } catch (error) {
@@ -469,13 +509,34 @@ export class BisesComponent implements OnInit {
     this.tableBisList.forEach((element: any) => {
       var itemID = parseInt(element.id);
       var itemEncontrado = this.itemList.find((item: any) => itemID === item.id);
-      const sourceFallback = this.getFallbackSourceByItemId(itemID);
+      const fullItem = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
+      const iType = fullItem?.inventoryType;
+      const slotKey = this.resolveEffectiveSlotKey(itemID, iType);
+      const sourceFallbackInfo = this.getFallbackSourceInfoByItemId(itemID, iType);
+      const sourceFallback = this.normalizeFallbackSourceBySlot(sourceFallbackInfo.instance, iType, slotKey);
       if (itemEncontrado) {
         var item = {};
-        const fullItem = this.itemList_full.find((itemFull: any) => itemFull.id === itemID);
-        var iType = fullItem?.inventoryType;
         const itemName = fullItem?.name ?? element.name;
         const itemImg = fullItem?.icon ? `${this.wowIconBase}${fullItem.icon}.jpg` : element.img;
+
+        // Prioridad: si el source indica Tier Set y el slot es tier, lo tratamos como Tier
+        // aunque el item también tenga source de raid/boss.
+        if (sourceFallback === 'Tier Set' && this.isTierSlotKey(slotKey)) {
+          const bossTier = this.comprobarTierBySlotKey(slotKey, element.spec[0]);
+          item = {
+            id: itemID,
+            spec: element.spec,
+            img: this.getTierImg(bossTier[1]),
+            name: bossTier[2],
+            instance: 'Tier',
+            iType: iType,
+            iTier: bossTier[1],
+            sourceType: 'tier'
+          };
+          realTableBistList.push(item);
+          return;
+        }
+
         const instanceType = itemEncontrado.instance?.type;
         if (instanceType == "dungeon") {
           item = {
@@ -512,7 +573,7 @@ export class BisesComponent implements OnInit {
           }
           realTableBistList.push(item);
         } else if (instanceType == "catalyst") {
-          var bossTier = this.comprobarTier(fullItem?.inventoryType, element.spec[0]);
+          var bossTier = this.comprobarTierBySlotKey(slotKey, element.spec[0]);
           if (bossTier[0] == -1) {
             item = {
               id: itemID,
@@ -538,25 +599,57 @@ export class BisesComponent implements OnInit {
             realTableBistList.push(item);
           }
         } else {
-          item = {
-            id: itemID,
-            spec: element.spec,
-            img: itemImg,
-            name: itemName,
-            instance: sourceFallback || 'Crafted',
-            iType: iType,
-            sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
-          }   
+          if (sourceFallback === 'Tier Set' && this.isTierSlotKey(slotKey)) {
+            const bossTier = this.comprobarTierBySlotKey(slotKey, element.spec[0]);
+            item = {
+              id: itemID,
+              spec: element.spec,
+              img: this.getTierImg(bossTier[1]),
+              name: bossTier[2],
+              instance: 'Tier',
+              iType: iType,
+              iTier: bossTier[1],
+              sourceType: 'tier'
+            };
+          } else {
+            item = {
+              id: itemID,
+              spec: element.spec,
+              img: itemImg,
+              name: itemName,
+              instance: sourceFallback || 'Crafted',
+              boss: (sourceFallback ? sourceFallbackInfo.boss : '') || undefined,
+              iType: iType,
+              sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
+            };
+          }
           realTableBistList.push(item);
         }
       } else {
-        var item2: any = {
-          id: itemID,
-          spec: element.spec,
-          img: element.img,
-          name: element.name,
-          instance: sourceFallback || 'Crafted',
-          sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
+        var item2: any = {};
+        if (sourceFallback === 'Tier Set' && this.isTierSlotKey(slotKey)) {
+          const bossTier = this.comprobarTierBySlotKey(slotKey, element.spec[0]);
+          item2 = {
+            id: itemID,
+            spec: element.spec,
+            img: this.getTierImg(bossTier[1]),
+            name: bossTier[2],
+            instance: 'Tier',
+            iType: iType,
+            iTier: bossTier[1],
+            sourceType: 'tier'
+          };
+        } else {
+          item2 = {
+            id: itemID,
+            spec: element.spec,
+            img: element.img,
+            name: element.name,
+            instance: sourceFallback || 'Crafted',
+            boss: (sourceFallback ? sourceFallbackInfo.boss : '') || undefined,
+            iType: iType,
+            sourceType: sourceFallback ? 'fallback' : 'crafted-fallback'
+          };
         }
         realTableBistList.push(item2);
       }
@@ -659,11 +752,11 @@ export class BisesComponent implements OnInit {
           item.sourceType === 'fallback'
           && item.instance
           && item.instance !== 'Desconocido'
+          && !/questline/i.test(String(item.instance))
           && !mDungeonPool.includes(item.instance)
         )
         .map((item: any) => item.instance)
     )];
-
     this.instancesLibrary = ['M+ Dungeons'];
     if (availableInstances.includes('Catalyst')) {
       this.instancesLibrary.push('Catalyst');
@@ -677,17 +770,63 @@ export class BisesComponent implements OnInit {
 
     const raidNamesWithData = this.instances
       .filter((ins: any) => ins.type === "raid" && availableInstances.includes(ins.name))
-      .map((ins: any) => ins.name);
+      .map((ins: any) => ins.name)
+      .sort((a: string, b: string) => a.localeCompare(b));
+    const staticRaidNamesWithData = [...new Set(
+      bisList
+        .map((item: any) => this.getRaidAliasForBossName(item?.boss || item?.instance))
+        .filter((x: string) => !!x)
+    )];
     this.instancesLibrary.push(...raidNamesWithData);
     this.instancesLibrary.push(...fallbackLocations);
+    this.instancesLibrary.push(...staticRaidNamesWithData);
+    this.instancesLibrary = [...new Set(this.instancesLibrary)];
+    this.instancesLibrary = this.instancesLibrary.filter((x: string) => !/questline/i.test(String(x)));
+
+    // Bosses por raid (dinámico desde encounter-items + journal-encounter).
+    const raidsWithDataSet = new Set([...raidNamesWithData, ...staticRaidNamesWithData]);
+    const bossMap = new Map<string, Set<string>>();
+    this.itemList.forEach((item: any) => {
+      const ins = item?.instance;
+      if (!ins || ins.type !== 'raid' || !ins.name) {
+        return;
+      }
+      if (!raidsWithDataSet.has(ins.name)) {
+        return;
+      }
+
+      const boss = String(item?.boss ?? '').trim();
+      if (!boss || boss === 'BoE' || boss.toLowerCase() === 'catalyst' || boss.startsWith('Encounter ')) {
+        return;
+      }
+      const canonicalBoss = this.getCanonicalBossDisplayName(boss);
+      if (!canonicalBoss) {
+        return;
+      }
+
+      if (!bossMap.has(ins.name)) {
+        bossMap.set(ins.name, new Set<string>());
+      }
+      bossMap.get(ins.name)?.add(canonicalBoss);
+    });
+
+    this.raidBossesByInstance = {};
+    bossMap.forEach((bosses, instanceName) => {
+      this.raidBossesByInstance[instanceName] = [...bosses].sort((a, b) => a.localeCompare(b));
+    });
+    Object.entries(this.staticRaidBosses).forEach(([raidName, bosses]) => {
+      if (!raidsWithDataSet.has(raidName)) {
+        return;
+      }
+      const existing = this.raidBossesByInstance[raidName] ?? [];
+      this.raidBossesByInstance[raidName] = [...new Set([...existing, ...bosses])].sort((a, b) => a.localeCompare(b));
+    });
 
     //Cargar filtro encounters
-    var bossLibrary = [...new Set(
-      bisList
-        .map(item => item.boss) // Extrae la propiedad 'boss'
-        .filter(boss => boss) // Filtra valores nulos o indefinidos
-    )];
-    this.encounterLibrary = [bossLibrary, mDungeonPool];
+    const allRaidBosses = [...new Set(
+      Object.values(this.raidBossesByInstance).flatMap((bosses: string[]) => bosses)
+    )].sort((a: string, b: string) => a.localeCompare(b));
+    this.encounterLibrary = [allRaidBosses, mDungeonPool];
 
     // Cargar filtro specs
     this.specsLibrary = [...new Set(
@@ -802,7 +941,7 @@ export class BisesComponent implements OnInit {
     if (slot == 7) {
       return 'Hands';
     }
-    if (slot == 5 || slot == 20) {
+    if (slot == 5) {
       return 'Chest';
     }
     if (slot == 10) {
@@ -815,6 +954,95 @@ export class BisesComponent implements OnInit {
       return 'Head';
     }
     return '';
+  }
+
+  private isTierInventoryType(inventoryType: any): boolean {
+    const slot = Number(inventoryType);
+    return slot === 1 || slot === 3 || slot === 5 || slot === 7 || slot === 10;
+  }
+
+  private isTierSlotKey(slotKey: string): boolean {
+    return this.tierSlots.includes(String(slotKey || '').toLowerCase());
+  }
+
+  private resolveEffectiveSlotKey(itemId: number, inventoryType: any): string {
+    const byInventoryType = this.resolveSlotKeyByInventoryType(Number(inventoryType));
+    if (byInventoryType) {
+      return byInventoryType;
+    }
+
+    const scrapedSlots = this.generatedBisSlots[String(itemId)] ?? [];
+    const normalizedFromScrape = scrapedSlots
+      .map((slot) => this.normalizeWowheadSlotToKey(slot))
+      .find((slot) => !!slot);
+    if (normalizedFromScrape) {
+      return normalizedFromScrape;
+    }
+
+    return '';
+  }
+
+  private normalizeWowheadSlotToKey(rawSlot: string): string {
+    const slot = String(rawSlot ?? '').trim().toLowerCase();
+    if (!slot) {
+      return '';
+    }
+    if (slot === 'head') return 'head';
+    if (slot === 'neck') return 'neck';
+    if (slot === 'shoulder' || slot === 'shoulders') return 'shoulder';
+    if (slot === 'back' || slot === 'cloak') return 'back';
+    if (slot === 'chest') return 'chest';
+    if (slot === 'wrist' || slot === 'wrists') return 'wrist';
+    if (slot === 'hands' || slot === 'hand') return 'hands';
+    if (slot === 'waist' || slot === 'belt') return 'waist';
+    if (slot === 'legs' || slot === 'leg') return 'legs';
+    if (slot === 'feet' || slot === 'foot') return 'feet';
+    if (slot === 'ring' || slot === 'finger') return 'finger';
+    if (slot === 'trinket') return 'trinket';
+    if (slot.includes('off-hand') || slot.includes('off hand')) return 'off_hand';
+    if (slot.includes('weapon') || slot.includes('main-hand') || slot.includes('main hand')) return 'main_hand';
+    return '';
+  }
+
+  private resolveTierInventoryTypeBySlotKey(slotKey: string): number {
+    switch (slotKey) {
+      case 'head':
+        return 1;
+      case 'shoulder':
+        return 3;
+      case 'chest':
+        return 5;
+      case 'hands':
+        return 7;
+      case 'legs':
+        return 10;
+      default:
+        return -1;
+    }
+  }
+
+  private comprobarTierBySlotKey(slotKey: string, spec: any) {
+    const inventoryType = this.resolveTierInventoryTypeBySlotKey(slotKey);
+    return this.comprobarTier(inventoryType, spec);
+  }
+
+  private normalizeFallbackSourceBySlot(source: string, inventoryType: any, slotKey: string = ''): string {
+    const normalized = String(source ?? '').trim();
+    if (!normalized) {
+      return '';
+    }
+    const isTierLikeSource = /^tier set$/i.test(normalized)
+      || /catalyst/i.test(normalized)
+      || /raid catalyst vault/i.test(normalized)
+      || /catalyst raid vault/i.test(normalized);
+
+    if (isTierLikeSource) {
+      if (this.isTierInventoryType(inventoryType) || this.isTierSlotKey(slotKey)) {
+        return 'Tier Set';
+      }
+      return 'Catalyst';
+    }
+    return normalized;
   }
 
 
@@ -831,7 +1059,7 @@ export class BisesComponent implements OnInit {
     if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter') {
       return 1;
     }
-    if (spec == 'Mastery Hunter-Beast' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
+    if (spec == 'Mastery Hunter-Beast' || spec == 'Beast-Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
       return 2;
     }
     if (spec == 'Enhancement Shaman' || spec == 'Elemental Shaman' || spec == 'Restoration Shaman') {
@@ -904,16 +1132,52 @@ export class BisesComponent implements OnInit {
     this.applyFilters();
   }
 
+  getSelectedSpecWowheadUrl(): string {
+    if (!this.selectedSpec) {
+      return '';
+    }
+    const matrix = this.getWowheadSpecMatrix();
+    const matched = matrix.find((entry) => `${entry.specLabel} ${entry.classLabel}` === this.selectedSpec);
+    if (!matched) {
+      return '';
+    }
+    return `https://www.wowhead.com/guide/classes/${matched.classSlug}/${matched.specSlug}/bis-gear`;
+  }
+
+  openSelectedSpecWowhead(): void {
+    const url = this.getSelectedSpecWowheadUrl();
+    if (!url) {
+      return;
+    }
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
   applyFilters() {
     let dataFiltrada = [...this.tableBisList_full];
+    const selectedInstanceInfo = this.instances.find((ins: any) => ins.name === this.selectedInstance);
+    const isStaticRaid = !!this.staticRaidBosses[this.selectedInstance];
 
     if (this.selectedInstance) {
       if (this.selectedInstance === 'M+ Dungeons') {
         const mDungeons = this.encounterLibrary[1] || [];
         dataFiltrada = dataFiltrada.filter((i: any) => mDungeons.includes(i.instance));
         this.encounterFlag = 1;
+      } else if (selectedInstanceInfo?.type === 'raid' || isStaticRaid) {
+        dataFiltrada = dataFiltrada.filter((i: any) =>
+          i.instance === this.selectedInstance
+          || this.getRaidAliasForBossName(i?.boss) === this.selectedInstance
+          || this.getRaidAliasForBossName(i?.instance) === this.selectedInstance
+        );
+        this.encounterFlag = 0;
+        this.encounterLibrary[0] = this.raidBossesByInstance[this.selectedInstance]
+          || this.staticRaidBosses[this.selectedInstance]
+          || [];
       } else {
-        dataFiltrada = dataFiltrada.filter((i: any) => i.instance === this.selectedInstance);
+        dataFiltrada = dataFiltrada.filter((i: any) =>
+          i.instance === this.selectedInstance
+          || this.getRaidAliasForBossName(i?.boss) === this.selectedInstance
+          || this.getRaidAliasForBossName(i?.instance) === this.selectedInstance
+        );
         const hasRaidBosses = dataFiltrada.some((i: any) => !!i.boss);
         this.encounterFlag = hasRaidBosses ? 0 : -1;
       }
@@ -923,7 +1187,10 @@ export class BisesComponent implements OnInit {
 
     if (this.selectedEncounter) {
       if (this.encounterFlag === 0) {
-        dataFiltrada = dataFiltrada.filter((i: any) => i.boss === this.selectedEncounter);
+        const selectedCanonicalBoss = this.normalizeSourceToken(this.selectedEncounter);
+        dataFiltrada = dataFiltrada.filter((i: any) =>
+          this.normalizeSourceToken(this.getCanonicalBossDisplayName(i.boss)) === selectedCanonicalBoss
+        );
       } else if (this.encounterFlag === 1) {
         dataFiltrada = dataFiltrada.filter((i: any) => i.instance === this.selectedEncounter);
       }
@@ -938,7 +1205,7 @@ export class BisesComponent implements OnInit {
       const slotIndex = parseInt(this.selectedSlot, 10);
       const selectedSlotKey = this.slotsLibrary[slotIndex];
       dataFiltrada = dataFiltrada.filter((i: any) =>
-        this.resolveSlotKeyByInventoryType(Number(i.iType)) === selectedSlotKey
+        this.resolveEffectiveSlotKey(Number(i.id), Number(i.iType)) === selectedSlotKey
       );
     }
 
@@ -965,13 +1232,13 @@ export class BisesComponent implements OnInit {
       case 6:
         return 'waist';
       case 7:
-        return 'legs';
+        return 'hands';
       case 8:
         return 'feet';
       case 9:
         return 'wrist';
       case 10:
-        return 'hands';
+        return 'legs';
       case 11:
         return 'finger';
       case 12:
@@ -1013,10 +1280,12 @@ export class BisesComponent implements OnInit {
     this.isLoading = true;
     const isDev = !environment.production;
     const sourceMap: Record<string, string[]> = {};
+    const slotMap: Record<string, string[]> = {};
 
     // Requisito: borrar siempre la bislist actual al recargar (no caché de items).
     this.LocalDataService.clearGeneratedBisListTxt();
     this.LocalDataService.clearGeneratedBisSources();
+    this.LocalDataService.clearGeneratedBisSlots();
     if (isDev) {
       console.log('[BiS Reload] Start: limpiando bislist generada actual');
     }
@@ -1063,9 +1332,16 @@ export class BisesComponent implements OnInit {
             if (!sourceMap[key]) {
               sourceMap[key] = [];
             }
+            if (!slotMap[key]) {
+              slotMap[key] = [];
+            }
             const source = this.selectSourceFallback(item.source);
             if (source && !sourceMap[key].includes(source)) {
               sourceMap[key].push(source);
+            }
+            const normalizedSlot = this.normalizeWowheadSlotToKey(item.slot);
+            if (normalizedSlot && !slotMap[key].includes(normalizedSlot)) {
+              slotMap[key].push(normalizedSlot);
             }
           });
           okCount++;
@@ -1088,8 +1364,10 @@ export class BisesComponent implements OnInit {
 
       this.LocalDataService.saveGeneratedBisListTxt(generatedBisList);
       this.LocalDataService.saveGeneratedBisSources(sourceMap);
+      this.LocalDataService.saveGeneratedBisSlots(slotMap);
       await this.persistGeneratedBisListSnapshot(generatedBisList, sourceMap);
       this.generatedBisSources = sourceMap;
+      this.generatedBisSlots = slotMap;
       if (isDev) {
         console.log(`[BiS Reload] Guardado bisList generada. Specs OK: ${okCount}, fallidas/sin datos: ${failCount}`);
       }
@@ -1121,6 +1399,7 @@ export class BisesComponent implements OnInit {
     this.specsLibrary = [];
     this.slotsLibrary = [];
     this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
+    this.generatedBisSlots = this.LocalDataService.getGeneratedBisSlots();
     this.resetFiltros();
 
     await this.getBisListData();
@@ -1248,8 +1527,15 @@ export class BisesComponent implements OnInit {
             }
           }
         });
+        if ((!name || !iconUrl) && !this.missingMetadataWarnedItemIds.has(itemId)) {
+          this.missingMetadataWarnedItemIds.add(itemId);
+          console.warn(`[BiS] Item ${itemId} sin metadata completa en cache (name/icon).`);
+        }
       } catch {
-        // Silencioso en UI: si no hay cache/backend disponible, mantenemos placeholder.
+        if (!this.missingMetadataWarnedItemIds.has(itemId)) {
+          this.missingMetadataWarnedItemIds.add(itemId);
+          console.warn(`[BiS] Item ${itemId} no cargado desde cache/API; se mantiene placeholder.`);
+        }
       }
     }
 
@@ -1310,10 +1596,86 @@ export class BisesComponent implements OnInit {
     }
   }
 
-  private getFallbackSourceByItemId(itemId: number): string {
-    const sources = this.generatedBisSources[String(itemId)] ?? [];
-    const fallback = sources.find((s) => !!s && s !== 'Unknown' && s !== 'Desconocido');
-    return fallback ?? '';
+  private getFallbackSourceInfoByItemId(itemId: number, inventoryType?: any): { instance: string; boss: string } {
+    const sources = [
+      ...(this.generatedBisSources[String(itemId)] ?? []),
+      ...(this.bundledBisSources[String(itemId)] ?? []),
+    ];
+    const tierLikeSource = sources.find((s) => {
+      const normalized = this.normalizeSourceToken(s);
+      return normalized === 'tier set'
+        || normalized.includes('catalyst')
+        || normalized.includes('raid catalyst vault')
+        || normalized.includes('catalyst raid vault');
+    }) ?? '';
+    const fallback = sources.find((s) => !!s && s !== 'Unknown' && s !== 'Desconocido') ?? '';
+    const preferredSource = tierLikeSource || fallback;
+    const cleaned = String(preferredSource).replace(/\s+/g, ' ').trim();
+    if (!cleaned) {
+      return { instance: '', boss: '' };
+    }
+
+    const normalizedBoss = cleaned.replace(/\s*\(Raid\)\s*$/i, '').trim();
+    const raidFromAlias = this.getRaidAliasForBossName(normalizedBoss);
+    if (raidFromAlias) {
+      return { instance: raidFromAlias, boss: this.getCanonicalBossDisplayName(normalizedBoss) };
+    }
+
+    return { instance: cleaned, boss: '' };
+  }
+
+  private getRaidAliasForBossName(rawName: any): string {
+    const normalized = this.normalizeSourceToken(this.getCanonicalBossDisplayName(rawName));
+    if (!normalized) {
+      return '';
+    }
+
+    for (const [bossName, raidName] of Object.entries(this.fallbackBossToRaidAliases)) {
+      if (this.normalizeSourceToken(bossName) === normalized) {
+        return raidName;
+      }
+    }
+
+    return '';
+  }
+
+  private getCanonicalBossDisplayName(rawName: any): string {
+    const cleaned = String(rawName ?? '')
+      .replace(/[’`]/g, "'")
+      .replace(/\s*\(Raid\)\s*$/i, '')
+      .replace(/\s*-\s*$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (!cleaned) {
+      return '';
+    }
+
+    for (const [alias, canonical] of Object.entries(this.bossDisplayAliases)) {
+      if (this.normalizeSourceToken(alias) === this.normalizeSourceToken(cleaned)) {
+        return canonical;
+      }
+    }
+
+    return cleaned;
+  }
+
+  private normalizeSourceToken(rawName: any): string {
+    return String(rawName ?? '')
+      .replace(/[’`]/g, "'")
+      .replace(/\s*\(Raid\)\s*$/i, '')
+      .replace(/\s*-\s*$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+  }
+
+  async loadBundledBisSources() {
+    try {
+      const data = await firstValueFrom(this.http.get<Record<string, string[]>>('assets/json/bisSources.json'));
+      this.bundledBisSources = data && typeof data === 'object' ? data : {};
+    } catch {
+      this.bundledBisSources = {};
+    }
   }
 
   private selectSourceFallback(rawSource: string): string {
