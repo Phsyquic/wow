@@ -1,0 +1,378 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2568?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2568,
+  "name": "Voidstone Monstrosity",
+  "description": "A grotesque amalgamation of corrupted stormriders, this towering mass of void power knows only pain and how to inflict it. Taking it down is the only way to cleanse the Stormperch and its rookery.",
+  "creatures": [
+    {
+      "id": 5692,
+      "name": "Voidstone Monstrosity",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114324?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114324
+      }
+    },
+    {
+      "id": 5865,
+      "name": "Voidstone Fragment",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121219?namespace=static-12.0.1_65617-us"
+        },
+        "id": 121219
+      }
+    },
+    {
+      "id": 5695,
+      "name": "Voidstone Awakened",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114860?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114860
+      }
+    },
+    {
+      "id": 5693,
+      "name": "Stormrider Vokmar",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116266?namespace=static-12.0.1_65617-us"
+        },
+        "id": 116266
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44053,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219296?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Entropic Skardyn Core",
+        "id": 219296
+      }
+    },
+    {
+      "id": 44204,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221050?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ancient Hardened Legwraps",
+        "id": 221050
+      }
+    },
+    {
+      "id": 44205,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221044?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shadowskean of the Colossus",
+        "id": 221044
+      }
+    },
+    {
+      "id": 44206,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221197?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hoop of the Blighted",
+        "id": 221197
+      }
+    },
+    {
+      "id": 44207,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221047?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Monstrosity's Gaze",
+        "id": 221047
+      }
+    },
+    {
+      "id": 44208,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221046?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Behemoth Kneebender",
+        "id": 221046
+      }
+    },
+    {
+      "id": 44209,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221048?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Amice of Oblivion",
+        "id": 221048
+      }
+    },
+    {
+      "id": 44210,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221049?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Jerkin of Awakened Stone",
+        "id": 221049
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27558,
+      "title": "Overview",
+      "body_text": "The Voidstone Monstrosity assaults players with corrupted attacks while shielding itself in a [Void Shell] from Stomrider Vokmar's [Storm's Vengeance].",
+      "sections": [
+        {
+          "id": 27560,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Stormrider Vokmar's [Stormrider's Charge] destroys nearby Voidstone Fragments.\r\n$bullet; Shattering [Void Shell] allows Stormrider Vokmar's to strike with [Storm's Vengeance]"
+        },
+        {
+          "id": 27561,
+          "title": "Healers",
+          "body_text": "$bullet; Stormrider Vokmar's [Stormrider's Charge] destroys nearby Voidstone Fragments.\r\n$bullet; [Unleash Corruption] inflicts moderate Shadow damage to players.\r\n$bullet; Voidstone Awakened inflict increasing damage from [Corruption Overload]."
+        },
+        {
+          "id": 27559,
+          "title": "Tanks",
+          "body_text": "$bullet; [Oblivion Wave] inflicts Shadow damage to players in its path.\r\n$bullet; The Monstrosity irradiates all players with [Entropy] while no players are in melee range."
+        },
+        {
+          "id": 31370,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Stormrider Vokmar's [Stormrider's Charge] destroys nearby Voidstone Fragments.\r\n$bullet; Shattering [Void Shell] allows Stormrider Vokmar's to strike with [Storm's Vengeance]"
+        },
+        {
+          "id": 31371,
+          "title": "Healers",
+          "body_text": "$bullet; Stormrider Vokmar's [Stormrider's Charge] destroys nearby Voidstone Fragments.\r\n$bullet; [Unleash Corruption] inflicts moderate Shadow damage to players and creates a pool of [Seeping Corruption] when removed.\r\n$bullet; Voidstone Awakened inflict increasing damage from [Corruption Overload]."
+        },
+        {
+          "id": 31372,
+          "title": "Tanks",
+          "body_text": "$bullet; [Oblivion Wave] inflicts Shadow damage to players in its path.\r\n$bullet; The Monstrosity irradiates all players with [Entropy] while no players are in melee range."
+        }
+      ]
+    },
+    {
+      "id": 30041,
+      "title": "Null Upheaval",
+      "sections": [
+        {
+          "id": 30046,
+          "title": "Voidstone Fragment",
+          "sections": [
+            {
+              "id": 31362,
+              "title": "Reshape",
+              "sections": [
+                {
+                  "id": 31363,
+                  "title": "Voidstone Awakened",
+                  "sections": [
+                    {
+                      "id": 31364,
+                      "title": "Corruption Overload",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/429029?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Corruption Overload",
+                        "id": 429029
+                      }
+                    }
+                  ],
+                  "creature_display": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114860?namespace=static-12.0.1_65617-us"
+                    },
+                    "id": 114860
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/428269?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Reshape",
+                "id": 428269
+              }
+            },
+            {
+              "id": 30048,
+              "title": "Stormrider Vokmar",
+              "sections": [
+                {
+                  "id": 30047,
+                  "title": "Stormrider's Charge",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/458088?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Stormrider's Charge",
+                    "id": 458088
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116266?namespace=static-12.0.1_65617-us"
+                },
+                "id": 116266
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121219?namespace=static-12.0.1_65617-us"
+            },
+            "id": 121219
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/423305?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Null Upheaval",
+        "id": 423305
+      }
+    },
+    {
+      "id": 29706,
+      "title": "Void Shell",
+      "sections": [
+        {
+          "id": 27791,
+          "title": "Stormrider Vokmar",
+          "sections": [
+            {
+              "id": 29097,
+              "title": "Storm's Vengeance",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/424371?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Storm's Vengeance",
+                "id": 424371
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/116266?namespace=static-12.0.1_65617-us"
+            },
+            "id": 116266
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/445262?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Void Shell",
+        "id": 445262
+      }
+    },
+    {
+      "id": 30044,
+      "title": "Unleash Corruption",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/429487?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Unleash Corruption",
+        "id": 429487
+      }
+    },
+    {
+      "id": 28354,
+      "title": "Unleash Corruption",
+      "sections": [
+        {
+          "id": 31365,
+          "title": "Seeping Corruption",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/433067?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Seeping Corruption",
+            "id": 433067
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/429487?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Unleash Corruption",
+        "id": 429487
+      }
+    },
+    {
+      "id": 27788,
+      "title": "Oblivion Wave",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/445457?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Oblivion Wave",
+        "id": 445457
+      }
+    },
+    {
+      "id": 27789,
+      "title": "Entropy",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/423393?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Entropy",
+        "id": 423393
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1268?namespace=static-12.0.1_65617-us"
+    },
+    "name": "The Rookery",
+    "id": 1268
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

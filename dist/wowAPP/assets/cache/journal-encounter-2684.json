@@ -1,0 +1,470 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2684?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2684,
+  "name": "Plexus Sentinel",
+  "description": "The Plexus Sentinel patrols the colossal machinery of Manaforge Omega, ensuring that energy from the shattered world of K'aresh is filtered through the structure's conduits. All incoming energy must be sterilized. All pollutants must be purged.",
+  "creatures": [
+    {
+      "id": 5945,
+      "name": "Plexus Sentinel",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/127837?namespace=static-12.0.1_65617-us"
+        },
+        "id": 127837
+      }
+    },
+    {
+      "id": 5946,
+      "name": "Volatile Manifestation",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/106365?namespace=static-12.0.1_65617-us"
+        },
+        "id": 106365
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45183,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242394?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Eradicating Arcanocore",
+        "id": 242394
+      }
+    },
+    {
+      "id": 45184,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237813?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Factory-Issue Plexhammer",
+        "id": 237813
+      }
+    },
+    {
+      "id": 45185,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237534?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Singed Sievecuffs",
+        "id": 237534
+      }
+    },
+    {
+      "id": 45186,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237533?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Atomic Phasebelt",
+        "id": 237533
+      }
+    },
+    {
+      "id": 45187,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237523?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Arcanotech Wrist-Matrix",
+        "id": 237523
+      }
+    },
+    {
+      "id": 45188,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237551?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sterilized Expulsion Boots",
+        "id": 237551
+      }
+    },
+    {
+      "id": 45189,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237736?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Overclocked Plexhammer",
+        "id": 237736
+      }
+    },
+    {
+      "id": 45190,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237739?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Obliteration Beamglaive",
+        "id": 237739
+      }
+    },
+    {
+      "id": 45191,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237567?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Logic Gate: Alpha",
+        "id": 237567
+      }
+    },
+    {
+      "id": 45192,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237547?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mounted Manacannons",
+        "id": 237547
+      }
+    },
+    {
+      "id": 45193,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237525?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Irradiated Impurity Filter",
+        "id": 237525
+      }
+    },
+    {
+      "id": 45194,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237543?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Chambersieve Waistcoat",
+        "id": 237543
+      }
+    },
+    {
+      "id": 45195,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237528?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Manaforged Displacement Chassis",
+        "id": 237528
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 31594,
+      "title": "Overview",
+      "body_text": "The [Arcanomatrix Atomizer] will [Atomize] all beings not made of energy who come into contact with it.\r\n\r\nThe Plexus Sentinel will continue to gain energy while attacking players with [Obliteration Arcanocannon] and [Eradicating Salvo]\r\n\r\nUpon reaching 100 Energy, the Plexus Sentinel begins channelling [Protocol: Purge] as it activates the [Arcanomatrix Atomizer]",
+      "sections": [
+        {
+          "id": 31981,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; [Manifest Matrices] leaves behind a [Displacement Matrix].\r\n\r\n$bullet; [Purging Lightning] inflicts increasing damage while the Plexus Sentinel's shield holds.\r\n\r\n$bullet; The Reshii Wraps allow[Phase Blinking] reducing the damage taken from [Atomize]"
+        },
+        {
+          "id": 31982,
+          "title": "Healers",
+          "body_text": "$bullet; The Plexus Sentinel inflicts increasing damage with [Purging Lightning] during [Protocol: Purge].\r\n\r\n$bullet; [Eradication Salvo] inflicts heavy damage to players hit by it.\r\n\r\n$bullet; The Reshii Wraps allow[Phase Blinking] reducing the damage taken from [Atomize]"
+        },
+        {
+          "id": 31983,
+          "title": "Tanks",
+          "body_text": "$bullet; [Obliteration Arcanocannon] inflicts heavy damage to players near the impact.\r\n\r\n$bullet; The Reshii Wraps allow[Phase Blinking] reducing the damage taken from [Atomize]"
+        }
+      ]
+    },
+    {
+      "id": 31625,
+      "title": "Phase Blink",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1218148?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Phase Blink",
+        "id": 1218148
+      }
+    },
+    {
+      "id": 31622,
+      "title": "Arcanomatrix Atomizer",
+      "sections": [
+        {
+          "id": 31623,
+          "title": "Atomize",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219223?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Atomize",
+            "id": 1219223
+          }
+        },
+        {
+          "id": 31624,
+          "title": "Arcane Radiation",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219248?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Arcane Radiation",
+            "id": 1219248
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1217649?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Arcanomatrix Atomizer",
+        "id": 1217649
+      }
+    },
+    {
+      "id": 32407,
+      "title": "Arcane Lightning",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/1227794?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Arcane Lightning",
+        "id": 1227794
+      }
+    },
+    {
+      "id": 31626,
+      "title": "Stage One: Purge The Intruders",
+      "sections": [
+        {
+          "id": 33705,
+          "title": "Cleanse the Chamber",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234733?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cleanse the Chamber",
+            "id": 1234733
+          }
+        },
+        {
+          "id": 31631,
+          "title": "Eradicating Salvo",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219532?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Eradicating Salvo",
+            "id": 1219532
+          }
+        },
+        {
+          "id": 32370,
+          "title": "Eradicating Salvo",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229761?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Eradicating Salvo",
+            "id": 1229761
+          }
+        },
+        {
+          "id": 32371,
+          "title": "Eradicating Salvo",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229762?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Eradicating Salvo",
+            "id": 1229762
+          }
+        },
+        {
+          "id": 31629,
+          "title": "Manifest Matrices",
+          "sections": [
+            {
+              "id": 31630,
+              "title": "Displacement Matrix",
+              "sections": [
+                {
+                  "id": 31984,
+                  "title": "Potent Mana Residue",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1219354?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Potent Mana Residue",
+                    "id": 1219354
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1218626?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Displacement Matrix",
+                "id": 1218626
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219450?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Manifest Matrices",
+            "id": 1219450
+          }
+        },
+        {
+          "id": 31627,
+          "title": "Obliteration Arcanocannon",
+          "sections": [
+            {
+              "id": 31628,
+              "title": "Potent Mana Residue",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1219354?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Potent Mana Residue",
+                "id": 1219354
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1219263?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Obliteration Arcanocannon",
+            "id": 1219263
+          }
+        },
+        {
+          "id": 31633,
+          "title": "Powered Automaton",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1223364?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Powered Automaton",
+            "id": 1223364
+          }
+        }
+      ]
+    },
+    {
+      "id": 31634,
+      "title": "Stage Two: The Sieve Awakens",
+      "sections": [
+        {
+          "id": 31635,
+          "title": "Protocol: Purge",
+          "sections": [
+            {
+              "id": 31636,
+              "title": "Energy Cutter",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1218669?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Energy Cutter",
+                "id": 1218669
+              }
+            },
+            {
+              "id": 32682,
+              "title": "Purging Lightning",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233110?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Purging Lightning",
+                "id": 1233110
+              }
+            },
+            {
+              "id": 31637,
+              "title": "Expulsion Zone",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1219471?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Expulsion Zone",
+                "id": 1219471
+              }
+            },
+            {
+              "id": 32680,
+              "title": "Volatile Manifestation",
+              "sections": [
+                {
+                  "id": 32681,
+                  "title": "Energy Overload",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1235816?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Energy Overload",
+                    "id": 1235816
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/106365?namespace=static-12.0.1_65617-us"
+                },
+                "id": 106365
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1220489?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Protocol: Purge",
+            "id": 1220489
+          }
+        }
+      ]
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1302?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Manaforge Omega",
+    "id": 1302
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

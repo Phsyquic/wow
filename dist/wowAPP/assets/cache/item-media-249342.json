@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249342?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_12_trinket_raid_voidspire_strdps_hearthofancienthunger.jpg",
+      "file_data_id": 7636710
+    }
+  ],
+  "id": 249342
+}

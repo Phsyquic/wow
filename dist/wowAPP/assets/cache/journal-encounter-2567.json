@@ -1,0 +1,261 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2567?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2567,
+  "name": "Stormguard Gorren",
+  "description": "Once Stormward Baelgrim's second, Stormguard Gorren has been corrupted by void magic, causing his hate for Baelgrim to fester. Using his newfound void powers, he seeks to overrun the Stormperch and command his own army of Voidriders created from corrupted Stormriders.",
+  "creatures": [
+    {
+      "id": 5587,
+      "name": "Stormguard Gorren",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114403?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114403
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44052,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219295?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sigil of Algari Concordance",
+        "id": 219295
+      }
+    },
+    {
+      "id": 44211,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221041?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Boltbreaker Armor",
+        "id": 221041
+      }
+    },
+    {
+      "id": 44212,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221042?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Squallrider's Kilt",
+        "id": 221042
+      }
+    },
+    {
+      "id": 44213,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221040?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Lightning-Conductor's Bands",
+        "id": 221040
+      }
+    },
+    {
+      "id": 44214,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221038?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Crashing Thunderhammer",
+        "id": 221038
+      }
+    },
+    {
+      "id": 44215,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221045?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Galebreaker Bulwark",
+        "id": 221045
+      }
+    },
+    {
+      "id": 44216,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221039?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ireborne Stormbow",
+        "id": 221039
+      }
+    },
+    {
+      "id": 44217,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221043?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Cloudstrider Soles",
+        "id": 221043
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27552,
+      "title": "Overview",
+      "body_text": "Stormguard Gorren, empowered by the Void, attempts to periodically twist a player's soul with [Chaotic Corruption] latching on to nearby players.\r\n\r\nGorren will use [Dark Gravity] to pull in all his foes and crush them with his hammer's might.",
+      "sections": [
+        {
+          "id": 27554,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Upon expiration, [Chaotic Corruption] erupts and leaps to the closest player.\r\n$bullet; [Dark Gravity] pulls players towards Stormguard Gorren before erupting."
+        },
+        {
+          "id": 27555,
+          "title": "Healers",
+          "body_text": "$bullet; Upon expiration, [Chaotic Corruption] erupts and leaps to the closest player.\r\n$bullet;[Chaotic Corruption] inflicts moderate periodic damage to its current target.\r\n$bullet;[Dark Gravity] inflicts moderate damage to all players for its duration."
+        },
+        {
+          "id": 27553,
+          "title": "Tanks",
+          "body_text": "$bullet; Upon expiration, [Chaotic Corruption] erupts and leaps to the closest player.\r\n$bullet; [Dark Gravity] pulls players towards Stormguard Gorren before erupting."
+        }
+      ]
+    },
+    {
+      "id": 27862,
+      "title": "Chaotic Corruption",
+      "sections": [
+        {
+          "id": 27869,
+          "title": "Chaotic Vulnerability",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/424797?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Chaotic Vulnerability",
+            "id": 424797
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/424737?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Chaotic Corruption",
+        "id": 424737
+      }
+    },
+    {
+      "id": 31118,
+      "title": "Chaotic Corruption",
+      "sections": [
+        {
+          "id": 31119,
+          "title": "Chaotic Explosion",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426171?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Chaotic Explosion",
+            "id": 426171
+          }
+        },
+        {
+          "id": 31120,
+          "title": "Chaotic Vulnerability",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/424797?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Chaotic Vulnerability",
+            "id": 424797
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/424739?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Chaotic Corruption",
+        "id": 424739
+      }
+    },
+    {
+      "id": 27557,
+      "title": "Dark Gravity",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/425048?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dark Gravity",
+        "id": 425048
+      }
+    },
+    {
+      "id": 27861,
+      "title": "Crush Reality",
+      "sections": [
+        {
+          "id": 28075,
+          "title": "Reality Tear",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426136?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Reality Tear",
+            "id": 426136
+          }
+        },
+        {
+          "id": 28076,
+          "title": "Lingering Void",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/424966?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Lingering Void",
+            "id": 424966
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/424958?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Crush Reality",
+        "id": 424958
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1268?namespace=static-12.0.1_65617-us"
+    },
+    "name": "The Rookery",
+    "id": 1268
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

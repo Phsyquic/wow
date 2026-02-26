@@ -1,0 +1,329 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2648?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2648,
+  "name": "Big M.O.M.M.A.",
+  "description": "A prototype mech code-named Big M.O.M.M.A., piloted by Silva Stratospark, has been deployed to the Waterworks as operational security in service of Gallywix's schemes. The mech boasts a dizzying array of communications equipment, bolstered by the Darkfuse's Black Blood experiments.",
+  "creatures": [
+    {
+      "id": 5751,
+      "name": "Big M.O.M.M.A.",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122867?namespace=static-12.0.1_65617-us"
+        },
+        "id": 122867
+      }
+    },
+    {
+      "id": 5750,
+      "name": "Darkfuse Mechadrone",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-12.0.1_65617-us"
+        },
+        "id": 121758
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45027,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/234491?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sonic Ka-BOOM!-erang",
+        "id": 234491
+      }
+    },
+    {
+      "id": 45028,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/234500?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mechanized Junkpads",
+        "id": 234500
+      }
+    },
+    {
+      "id": 45029,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/234503?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Skystreak's Hidden Missiles",
+        "id": 234503
+      }
+    },
+    {
+      "id": 45030,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/234497?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Nonconductive Kill-o-Socks",
+        "id": 234497
+      }
+    },
+    {
+      "id": 45031,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/232542?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Darkfuse Medichopper",
+        "id": 232542
+      }
+    },
+    {
+      "id": 45500,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/246278?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Overpressure Platelegs",
+        "id": 246278
+      }
+    },
+    {
+      "id": 46012,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/251880?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Momma's Mega Medallion",
+        "id": 251880
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30319,
+      "title": "Overview",
+      "body_text": "Big M.O.M.M.A. commands an army of drones that, when defeated, cause Big M.O.M.M.A. to [Jumpstart], inflicting heavy damage to all players but causing Big M.O.M.M.A. to take increased damage.\r\n\r\nAfterwards, Big M.O.M.M.A. requisitions an additional squadron of drones with [Mobilize Mechadrones].",
+      "sections": [
+        {
+          "id": 30944,
+          "title": "Tanks",
+          "body_text": "$bullet;Big M.O.M.M.A. will [Jumpstart] after all Darkfuse Mechadrones are defeated.\r\n$bullet;[Jumpstart] leaves behind an area of [Excessive Electrification].\r\n$bullet;[Sonic Boom] continues until it collides with an obstacle."
+        },
+        {
+          "id": 30945,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Big M.O.M.M.A. will [Jumpstart] after all Darkfuse Mechadrones are defeated.\r\n$bullet;[Jumpstart] causes Big M.O.M.M.A. to take significantly increased damage.\r\n$bullet;[Sonic Boom] continues until it collides with an obstacle."
+        },
+        {
+          "id": 30943,
+          "title": "Healers",
+          "body_text": "$bullet;Big M.O.M.M.A. will [Jumpstart] after all Darkfuse Mechadrones are defeated.\r\n$bullet;[Jumpstart] inflicts significant damage to all players.\r\n$bullet;[Sonic Boom] continues until it collides with an obstacle."
+        }
+      ]
+    },
+    {
+      "id": 30973,
+      "title": "Jumpstart",
+      "sections": [
+        {
+          "id": 31092,
+          "title": "Excessive Electrification",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/473287?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Excessive Electrification",
+            "id": 473287
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/460156?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Jumpstart",
+        "id": 460156
+      }
+    },
+    {
+      "id": 31373,
+      "title": "Mobilize Mechadrones",
+      "sections": [
+        {
+          "id": 31374,
+          "title": "Darkfuse Mechadrone",
+          "sections": [
+            {
+              "id": 31377,
+              "title": "Maximum Distortion",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214780?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Maximum Distortion",
+                "id": 1214780
+              }
+            },
+            {
+              "id": 31375,
+              "title": "Shoot",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460393?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Shoot",
+                "id": 460393
+              }
+            },
+            {
+              "id": 31376,
+              "title": "Doom Storm",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/472452?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Doom Storm",
+                "id": 472452
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-12.0.1_65617-us"
+            },
+            "id": 121758
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/471585?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mobilize Mechadrones",
+        "id": 471585
+      }
+    },
+    {
+      "id": 30315,
+      "title": "Mobilize Mechadrones",
+      "sections": [
+        {
+          "id": 30316,
+          "title": "Darkfuse Mechadrone",
+          "sections": [
+            {
+              "id": 30318,
+              "title": "Maximum Distortion",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1214780?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Maximum Distortion",
+                "id": 1214780
+              }
+            },
+            {
+              "id": 31203,
+              "title": "Shoot",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/460393?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Shoot",
+                "id": 460393
+              }
+            },
+            {
+              "id": 31196,
+              "title": "Doom Storm",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/472452?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Doom Storm",
+                "id": 472452
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/121758?namespace=static-12.0.1_65617-us"
+            },
+            "id": 121758
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/471585?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Mobilize Mechadrones",
+        "id": 471585
+      }
+    },
+    {
+      "id": 31091,
+      "title": "Electrocrush",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/473351?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Electrocrush",
+        "id": 473351
+      }
+    },
+    {
+      "id": 30311,
+      "title": "Sonic Boom",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/473220?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sonic Boom",
+        "id": 473220
+      }
+    },
+    {
+      "id": 31199,
+      "title": "Kill-o-Block Barrier",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/469981?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Kill-o-Block Barrier",
+        "id": 469981
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1298?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Operation: Floodgate",
+    "id": 1298
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

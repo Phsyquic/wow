@@ -1,0 +1,208 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/258514?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 258514,
+  "name": "Umbral Spire of Zuraal",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 50,
+  "required_level": 78,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/258514?namespace=static-12.0.1_65617-us"
+    },
+    "id": 258514
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Staff",
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "TWOHWEAPON",
+    "name": "Two-Hand"
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/258514?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258514
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Umbral Spire of Zuraal",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/258514?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258514
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Staff",
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "TWOHWEAPON",
+      "name": "Two-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 15,
+        "max_value": 21,
+        "display_string": "15 - 21 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 3600,
+        "display_string": "Speed 3.60"
+      },
+      "dps": {
+        "value": 5,
+        "display_string": "(5 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 58,
+        "display": {
+          "display_string": "+58 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 20,
+        "display": {
+          "display_string": "+20 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 16,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+16 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 250671,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "25",
+        "silver": "6",
+        "copper": "71"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 78,
+        "display_string": "Requires Level 78"
+      }
+    },
+    "level": {
+      "value": 62,
+      "display_string": "Item Level 62"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/42510?namespace=static-12.0.1_65617-us"
+      },
+      "id": 42510
+    }
+  ]
+}
