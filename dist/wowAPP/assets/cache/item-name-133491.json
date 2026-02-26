@@ -1,0 +1,204 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/133491?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 133491,
+  "name": "Krick's Beetle Stabber",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 35,
+  "required_level": 30,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/133491?namespace=static-12.0.1_65617-us"
+    },
+    "id": 133491
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Dagger",
+    "id": 15
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": "One-Hand"
+  },
+  "purchase_price": 112109,
+  "sell_price": 22421,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/133491?namespace=static-12.0.1_65617-us"
+      },
+      "id": 133491
+    },
+    "context": 0,
+    "bonus_list": [
+      12380,
+      6652
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Krick's Beetle Stabber",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/133491?namespace=static-12.0.1_65617-us"
+      },
+      "id": 133491
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Dagger",
+      "id": 15
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": "One-Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 12,
+        "max_value": 21,
+        "display_string": "12 - 21 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 1800,
+        "display_string": "Speed 1.80"
+      },
+      "dps": {
+        "value": 9.166666,
+        "display_string": "(9.2 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 8,
+        "is_negated": true,
+        "display": {
+          "display_string": "+8 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 12,
+        "display": {
+          "display_string": "+12 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 8,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+8 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 9,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+9 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 22421,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "2",
+        "silver": "24",
+        "copper": "21"
+      }
+    },
+    "level": {
+      "value": 73,
+      "display_string": "Item Level 73"
+    },
+    "durability": {
+      "value": 40,
+      "display_string": "Durability 40 / 65"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/12172?namespace=static-12.0.1_65617-us"
+      },
+      "id": 12172
+    }
+  ]
+}
