@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  cacheApiBase: 'http://localhost:3000'
+  cacheApiBase: ''
 };
 
 /*

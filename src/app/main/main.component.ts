@@ -67,8 +67,6 @@ export class MainComponent implements OnInit {
   ignoredTierEncounterIds = new Set<number>();
   encounterAliases: Record<number, number> = {};
   droptimizerMetaByReport: Record<string, any> = {};
-  // TODO: desactivar en cuanto se vuelva al flujo real por TXT/URL.
-  useMockDroptimizer = true;
   weekRangeLabel = '';
 
   constructor(
@@ -159,11 +157,6 @@ export class MainComponent implements OnInit {
 
 
   getTxt() {
-    if (this.useMockDroptimizer) {
-      this.loadMockDroptimizer();
-      return;
-    }
-
     this.getBisListData();
     this.LocalDataService.getDroptimizers().subscribe((data: any) => {
       var str = data.split(/[\r\n\s]+/);
@@ -174,22 +167,6 @@ export class MainComponent implements OnInit {
         this.RaidbotsApiService.getDroptimizer(report).subscribe((data) => {
           this.processDroptimizerData(data, report);
         });
-      });
-    });
-  }
-
-  loadMockDroptimizer() {
-    this.getBisListData();
-    const mockConfigs = [
-      { reportId: 'report/mock-manaforge-omega', file: 'assets/json/mock-droptimizer-manaforge.json' },
-      { reportId: 'report/mock-warrior-omega', file: 'assets/json/mock-droptimizer-warrior.json' },
-      { reportId: 'report/mock-warlock-omega', file: 'assets/json/mock-droptimizer-warlock.json' },
-    ];
-
-    this.reports = mockConfigs.map((x) => x.reportId);
-    mockConfigs.forEach((mock) => {
-      this.http.get(mock.file).subscribe((data: any) => {
-        this.processDroptimizerData(data, mock.reportId);
       });
     });
   }
