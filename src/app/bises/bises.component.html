@@ -14,7 +14,7 @@
       <select *ngIf="encounterFlag != -1" name="Bosses" id="bosses" (change)="filtrar(1, $event)">
         <option *ngIf="encounterFlag == 0" value="">Bosses</option>
         <option *ngIf="encounterFlag == 1" value="">Dungeons</option>
-        <option [value]="boss" *ngFor="let boss of encounterLibrary[encounterFlag]">{{boss}}</option>
+        <option [value]="boss" *ngFor="let boss of encounterLibrary[encounterFlag]">{{ normalizeDisplaySourceLabel(boss) }}</option>
       </select>
 
       <select name="Specs" id="specs" (change)="filtrar(2, $event)">
@@ -85,7 +85,7 @@
       <img *ngIf="item.img" [src]="item.img" alt="Item Image">
       <div class="item-content">
         <h3>{{capitalizeFirstLetter(item.name)}}</h3>
-        <p>{{ item.boss ? item.boss : item.instance }}</p>
+        <p>{{ normalizeDisplaySourceLabel(item.boss ? item.boss : item.instance) }}</p>
         <div class="spec-tags">
           <span *ngFor="let spec of item.spec" [ngStyle]="{'color': generateColor(spec)}">{{spec}}</span>
         </div>

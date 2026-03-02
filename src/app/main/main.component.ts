@@ -1293,6 +1293,11 @@ export class MainComponent implements OnInit {
     this.showRotationMatrix = false;
   }
 
+  backToMainView() {
+    this.checkDiv = false;
+    this.showRotationMatrix = false;
+  }
+
   buildBossRotationMatrix() {
     const uniquePlayers = new Map<string, string>();
     this.playersLibrary.forEach((p: any) => {

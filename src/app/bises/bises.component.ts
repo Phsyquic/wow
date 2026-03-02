@@ -852,6 +852,17 @@ export class BisesComponent implements OnInit {
     this.instancesLibrary.push(...staticRaidNamesWithData);
     this.instancesLibrary = [...new Set(this.instancesLibrary)];
     this.instancesLibrary = this.instancesLibrary.filter((x: string) => !/questline/i.test(String(x)));
+    const normalizedLocationLabels = this.instancesLibrary.map((x: string) => this.normalizeFilterLabel(x));
+    const locationTokenSet = new Set(normalizedLocationLabels.map((x: string) => this.normalizeSourceToken(x)));
+
+    // 2nd dropdown must only contain options not present in 1st dropdown.
+    const normalizedMDungeonPool = mDungeonPool.map((name: any) => this.normalizeFilterLabel(name));
+    const mDungeonPoolFiltered = [...new Set(normalizedMDungeonPool)]
+      .filter((name: string) => {
+        const token = this.normalizeSourceToken(name);
+        return !!token && !locationTokenSet.has(token);
+      })
+      .sort((a: string, b: string) => a.localeCompare(b));
 
     // Bosses por raid (dinámico desde encounter-items + journal-encounter).
     const raidsWithDataSet = new Set([...raidNamesWithData, ...staticRaidNamesWithData]);
@@ -896,7 +907,7 @@ export class BisesComponent implements OnInit {
     const allRaidBosses = [...new Set(
       Object.values(this.raidBossesByInstance).flatMap((bosses: string[]) => bosses)
     )].sort((a: string, b: string) => a.localeCompare(b));
-    this.encounterLibrary = [allRaidBosses, mDungeonPool];
+    this.encounterLibrary = [allRaidBosses, mDungeonPoolFiltered];
 
     // Cargar filtro specs
     this.specsLibrary = [...new Set(
@@ -1737,6 +1748,33 @@ export class BisesComponent implements OnInit {
       .replace(/\s+/g, ' ')
       .trim()
       .toLowerCase();
+  }
+
+  private normalizeFilterLabel(rawName: any): string {
+    const cleaned = String(rawName ?? '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (!cleaned) {
+      return '';
+    }
+
+    const normalized = this.normalizeSourceToken(cleaned);
+    if (
+      normalized === 'crafted'
+      || normalized.includes('crafting')
+      || normalized.includes('profession')
+    ) {
+      return 'Crafted';
+    }
+
+    return cleaned;
+  }
+
+  normalizeDisplaySourceLabel(rawName: any): string {
+    return String(rawName ?? '')
+      .replace(/\([^)]*\)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
 
   async loadBundledBisSources() {

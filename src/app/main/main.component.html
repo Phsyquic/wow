@@ -43,6 +43,7 @@
       <button class="btn ghost" (click)="goBises()">Bises</button>
       <button class="btn ghost" *ngIf="playerCargado" (click)="cargarRutaDroptimizer()">Droptimizer</button>
       <button class="btn ghost" *ngIf="bossCargado && !checkDiv" (click)="getRotation()">Rotacion</button>
+      <button class="btn ghost" *ngIf="checkDiv" (click)="backToMainView()">Main</button>
       <button class="btn ghost" *ngIf="!checkDiv && !showRotationMatrix && !hasAnyMainFilter()" (click)="showBossRotationMatrix()">Rotacion Tabla</button>
       <button class="btn ghost" *ngIf="showRotationMatrix" (click)="hideBossRotationMatrix()">Cerrar Tabla</button>
       <button class="btn primary" (click)="resetAll()">Reset</button>
