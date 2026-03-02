@@ -67,6 +67,10 @@ export class MainComponent implements OnInit {
   ignoredTierEncounterIds = new Set<number>();
   encounterAliases: Record<number, number> = {};
   droptimizerMetaByReport: Record<string, any> = {};
+  metaValidationLogged = false;
+  hasMetaIssues = false;
+  metaIssueCount = 0;
+  metaIssueMessages: string[] = [];
   weekRangeLabel = '';
 
   constructor(
@@ -172,7 +176,11 @@ export class MainComponent implements OnInit {
   }
 
   processDroptimizerData(data: any, report: string) {
-    this.droptimizerMetaByReport[report] = this.extractDroptimizerMeta(data);
+    const meta: any = this.extractDroptimizerMeta(data);
+    meta.playerName = data?.sim?.players?.[0]?.name ?? 'unknown';
+    meta.playerSpec = data?.sim?.players?.[0]?.specialization ?? 'unknown';
+    this.droptimizerMetaByReport[report] = meta;
+    this.logMetaValidationAgainstMajority();
     if (this.encounterLibrary.length == 0) {
       this.getBossLibrary(data);
     }
@@ -514,29 +522,109 @@ export class MainComponent implements OnInit {
 
   extractDroptimizerMeta(data: any) {
     const sim = data?.sim ?? {};
-    const serialized = JSON.stringify({
+    const simSerialized = JSON.stringify({
       options: sim?.options ?? {},
       profile: sim?.profile ?? {},
       profileSets: sim?.profilesets ?? {}
     }).toLowerCase();
+    const simbotMeta = data?.simbot?.meta ?? {};
+    const rawFormData = simbotMeta?.rawFormData ?? {};
+    const rawSerialized = JSON.stringify(rawFormData).toLowerCase();
+    const itemLibrary = Array.isArray(simbotMeta?.itemLibrary) ? simbotMeta.itemLibrary : [];
+
+    const difficultySource = [
+      simbotMeta?.title,
+      simbotMeta?.reportDetails,
+      rawFormData?.reportName,
+      simSerialized
+    ].join(' ').toLowerCase();
 
     let difficulty = 'unknown';
-    if (serialized.includes('mythic')) {
+    if (difficultySource.includes('mythic')) {
       difficulty = 'mythic';
-    } else if (serialized.includes('heroic')) {
+    } else if (difficultySource.includes('heroic')) {
       difficulty = 'heroic';
-    } else if (serialized.includes('normal')) {
+    } else if (difficultySource.includes('normal')) {
       difficulty = 'normal';
     }
 
-    const hasUpgrades = serialized.includes('upgrade') || serialized.includes('crest') || serialized.includes('track=');
-    const hasCatalyst = serialized.includes('catalyst') || serialized.includes('encounterid=-67');
+    const upgradeItemsCount = itemLibrary.filter((item: any) => !!item?.upgrade).length;
+    const catalystItemsCount = itemLibrary.filter((item: any) =>
+      Array.isArray(item?.tags) && item.tags.some((tag: any) => String(tag).toLowerCase() === 'catalyst')
+    ).length;
+
+    const rawUpgradeLevel = Number(rawFormData?.upgradeLevel ?? 0);
+    const rawUpgradeEquipped = rawFormData?.upgradeEquipped === true;
+    const reportName = String(rawFormData?.reportName ?? '').toLowerCase();
+    const reportNameHasUpgradeRank = /\b\d+\s*\/\s*\d+\b/.test(reportName);
+    const hasRawUpgradeSignal = rawUpgradeEquipped || rawUpgradeLevel > 0 || reportNameHasUpgradeRank;
+
+    // Important: "item has upgrade track available" is not the same as "upgrades enabled in this sim".
+    // If rawFormData has explicit upgrade controls, prioritize those.
+    const hasUpgrades = Object.keys(rawFormData).length > 0
+      ? hasRawUpgradeSignal
+      : (
+        rawSerialized.includes('levelselectorsetupgradetrack') ||
+        rawSerialized.includes('hero dawncrest') ||
+        simSerialized.includes('track=')
+      );
+
+    const hasCatalyst =
+      catalystItemsCount > 0 ||
+      rawSerialized.includes('"catalyst":true') ||
+      simSerialized.includes('encounterid=-67');
 
     return {
       difficulty,
       hasUpgrades,
       hasCatalyst,
+      upgradeItemsCount,
+      catalystItemsCount,
+      rawUpgradeLevel,
+      rawUpgradeEquipped,
     };
+  }
+
+  logMetaValidationAgainstMajority() {
+    if (this.metaValidationLogged) {
+      return;
+    }
+
+    const entries = Object.entries(this.droptimizerMetaByReport || {});
+    if (entries.length === 0 || entries.length < this.reports.length) {
+      return;
+    }
+
+    const catalystTrueCount = entries.filter(([, meta]: any) => meta?.hasCatalyst === true).length;
+    const catalystFalseCount = entries.length - catalystTrueCount;
+    const upgradesTrueCount = entries.filter(([, meta]: any) => meta?.hasUpgrades === true).length;
+    const upgradesFalseCount = entries.length - upgradesTrueCount;
+
+    const expectedCatalyst = catalystTrueCount >= catalystFalseCount;
+    const expectedUpgrades = upgradesTrueCount >= upgradesFalseCount;
+
+    let issueCount = 0;
+    const issueMessages: string[] = [];
+    entries.forEach(([report, meta]: any) => {
+      const playerName = meta?.playerName ?? report;
+      if (meta?.hasCatalyst !== expectedCatalyst) {
+        issueCount++;
+        const message = `${playerName} tiene el catalyst mal (esperado: ${expectedCatalyst}, actual: ${meta?.hasCatalyst})`;
+        issueMessages.push(message);
+        console.log(message);
+      }
+      if (meta?.hasUpgrades !== expectedUpgrades) {
+        issueCount++;
+        const message = `${playerName} tiene el upgrades mal (esperado: ${expectedUpgrades}, actual: ${meta?.hasUpgrades})`;
+        issueMessages.push(message);
+        console.log(message);
+      }
+    });
+
+    this.metaIssueCount = issueCount;
+    this.hasMetaIssues = issueCount > 0;
+    this.metaIssueMessages = issueMessages;
+    this.metaValidationLogged = true;
   }
 
   comprobarSlot(slot: any) {

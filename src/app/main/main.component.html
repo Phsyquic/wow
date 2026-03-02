@@ -3,7 +3,10 @@
     <div class="panel-title">
       <div class="title-row">
         <h1>Skill Issue Droptimizers</h1>
-        <span class="date-badge">{{weekRangeLabel}}</span>
+        <div class="title-badges">
+          <span class="warning-badge" *ngIf="hasMetaIssues" [title]="metaIssueMessages.join('\n')">⚠</span>
+          <span class="date-badge">{{weekRangeLabel}}</span>
+        </div>
       </div>
       <p>Droptimizer insights and upgrade priority by boss, slot and player.</p>
     </div>

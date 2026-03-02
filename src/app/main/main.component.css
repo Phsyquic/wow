@@ -22,11 +22,31 @@
   gap: 1rem;
 }
 
+.title-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .panel-title h1 {
   margin: 0;
   font-size: clamp(1.5rem, 2vw, 2.2rem);
   letter-spacing: 0.02em;
   color: #f4f7ff;
+}
+
+.warning-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: #3a160f;
+  border: 1px solid #ff8a5b;
+  color: #ffb48f;
+  font-size: 1.1rem;
+  font-weight: 800;
 }
 
 .date-badge {
