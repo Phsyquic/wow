@@ -1,0 +1,283 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2587?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2587,
+  "name": "I'pa",
+  "description": "The product of an industrial accident, mead elemental I'pa is as angry about its existence as it is about its meadery being disturbed. It is the full-bodied embodiment of the fiery punch of cinderbrew mead, and will lay anyone who tangles with it out flat.",
+  "creatures": [
+    {
+      "id": 5645,
+      "name": "I'pa",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117177?namespace=static-12.0.1_65617-us"
+        },
+        "id": 117177
+      }
+    },
+    {
+      "id": 5644,
+      "name": "Brew Drop",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117828?namespace=static-12.0.1_65617-us"
+        },
+        "id": 117828
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44125,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221056?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Vessel of the Beverage",
+        "id": 221056
+      }
+    },
+    {
+      "id": 44126,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221057?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Sticky Stirring Stick",
+        "id": 221057
+      }
+    },
+    {
+      "id": 44127,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221058?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Brewery Toiler's Waistband",
+        "id": 221058
+      }
+    },
+    {
+      "id": 44128,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221060?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Strapped Rescue-Keg",
+        "id": 221060
+      }
+    },
+    {
+      "id": 44129,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221055?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Cinderbrew-Soaked Cowl",
+        "id": 221055
+      }
+    },
+    {
+      "id": 44130,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221059?namespace=static-12.0.1_65617-us"
+        },
+        "name": "I'pa's Pale Aleguards",
+        "id": 221059
+      }
+    },
+    {
+      "id": 44131,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221061?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hops-Laden Greatboots",
+        "id": 221061
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 28421,
+      "title": "Overview",
+      "body_text": null,
+      "sections": [
+        {
+          "id": 28422,
+          "title": "Tanks",
+          "body_text": "$bullet;[Bottoms Uppercut] inflicts high Physical damage and knocks the targeted player back.\r\n$bullet;[Spouting Stout] creates Brew Drops and inflicts moderate Fire damage to all players."
+        },
+        {
+          "id": 28423,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;[Spouting Stout] creates Brew Drops and inflicts moderate Fire damage to all players.\r\n$bullet;Brew Drops cause [Fill 'Er Up]  if they reach I'pa."
+        },
+        {
+          "id": 28424,
+          "title": "Healers",
+          "body_text": "$bullet;[Burning Fermentation] inflicts high Fire damage to afflicted players unless dispelled.\r\n$bullet;[Spouting Stout] creates Brew Drops and inflicts moderate Fire damage to all players."
+        }
+      ]
+    },
+    {
+      "id": 28426,
+      "title": "Spouting Stout",
+      "sections": [
+        {
+          "id": 29566,
+          "title": "Brew Drop",
+          "body_text": "Brew Drops move towards I'pa upon forming.",
+          "sections": [
+            {
+              "id": 29567,
+              "title": "Oozing Honey",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/441171?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Oozing Honey",
+                "id": 441171
+              }
+            },
+            {
+              "id": 29569,
+              "title": "Frothy",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/442122?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Frothy",
+                "id": 442122
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117828?namespace=static-12.0.1_65617-us"
+            },
+            "id": 117828
+          }
+        },
+        {
+          "id": 28427,
+          "title": "Brew Drop",
+          "body_text": "Brew Drops move towards I'pa upon forming.",
+          "sections": [
+            {
+              "id": 30226,
+              "title": "Oozing Honey",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440082?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Oozing Honey",
+                "id": 440082
+              }
+            },
+            {
+              "id": 28917,
+              "title": "Oozing Honey",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/440082?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Oozing Honey",
+                "id": 440082
+              }
+            },
+            {
+              "id": 28957,
+              "title": "Frothy",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/442122?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Frothy",
+                "id": 442122
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117828?namespace=static-12.0.1_65617-us"
+            },
+            "id": 117828
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/439365?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Spouting Stout",
+        "id": 439365
+      }
+    },
+    {
+      "id": 28918,
+      "title": "Fill 'Er Up",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/440104?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fill 'Er Up",
+        "id": 440104
+      }
+    },
+    {
+      "id": 28915,
+      "title": "Burning Fermentation",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/439202?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Burning Fermentation",
+        "id": 439202
+      }
+    },
+    {
+      "id": 28916,
+      "title": "Bottoms Uppercut",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/439031?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Bottoms Uppercut",
+        "id": 439031
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1272?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cinderbrew Meadery",
+    "id": 1272
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

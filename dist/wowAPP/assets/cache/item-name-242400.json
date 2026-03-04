@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/242400?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 242400,
+  "name": "Nexus-King's Command",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/242400?namespace=static-12.0.1_65617-us"
+    },
+    "id": 242400
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4270646,
+  "sell_price": 854129,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/242400?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242400
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Nexus-King's Command",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/242400?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242400
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 32,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+32 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1232776?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Nexus-King's Command",
+          "id": 1232776
+        },
+        "description": "Equip: Become Oath-Bound to a nearby ally every 30 sec.\r\n\r\nDirectly healing the ally fulfills the oath to grant you 52 Intellect for 12 sec and shields your ally for 100% of any overhealing done."
+      }
+    ],
+    "sell_price": {
+      "value": 425977,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "42",
+        "silver": "59",
+        "copper": "77"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

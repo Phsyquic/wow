@@ -1,0 +1,269 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2561?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2561,
+  "name": "The Darkness",
+  "description": "What terrors lurk in shadows? Why do kobolds keep candles lit? Tiny creatures huddle around campfires, telling tales of ancient evil. THE DARKNESS can be defeated but never destroyed. Instead, it inevitably returns in a new terrifying shape. Stay in the light. THE DARKNESS WAITS.",
+  "creatures": [
+    {
+      "id": 5649,
+      "name": "The Darkness",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117773?namespace=static-12.0.1_65617-us"
+        },
+        "id": 117773
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44050,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219307?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Remnant of Darkness",
+        "id": 219307
+      }
+    },
+    {
+      "id": 44224,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221111?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Poleaxe of Somber Fate",
+        "id": 221111
+      }
+    },
+    {
+      "id": 44225,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221110?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Crepuscular Carver",
+        "id": 221110
+      }
+    },
+    {
+      "id": 44226,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221114?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shadowspawn Leggings",
+        "id": 221114
+      }
+    },
+    {
+      "id": 44227,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221115?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Photophobic Amice",
+        "id": 221115
+      }
+    },
+    {
+      "id": 44228,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221113?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Gloaming Visage",
+        "id": 221113
+      }
+    },
+    {
+      "id": 44229,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221112?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Caliginous Claspers",
+        "id": 221112
+      }
+    },
+    {
+      "id": 44598,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225548?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Wick's Lead",
+        "id": 225548
+      }
+    },
+    {
+      "id": 46678,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/258268?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Waxmaster's Candle Rack",
+        "id": 258268
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 27366,
+      "title": "Overview",
+      "body_text": "The Darkness enwreathes the area in smothering shadows, reducing combat abilities of anyone without a light source. It uses a variety of Shadow attacks to devour its foes and weaken the light.",
+      "sections": [
+        {
+          "id": 27367,
+          "title": "Tanks",
+          "body_text": "$bullet;Players without [Candlelight] suffer the debilitating effects of [Smothering Shadows].\r\n$bullet;[Umbral Slash] and [Shadowblast] will both damage the light if they strike it."
+        },
+        {
+          "id": 27368,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Players without [Candlelight] suffer the debilitating effects of [Smothering Shadows].\r\n$bullet;The Darkness uses [Call Darkspawn], which approach the light and cast [Drain Light].\r\n$bullet;[Umbral Slash] and [Shadowblast] will both damage the light if they strike it."
+        },
+        {
+          "id": 27369,
+          "title": "Healers",
+          "body_text": "$bullet;Players without [Candlelight] suffer the debilitating effects of [Smothering Shadows].\r\n$bullet;[Umbral Slash] and [Shadowblast] will both damage the light if they strike it."
+        }
+      ]
+    },
+    {
+      "id": 28099,
+      "title": "Smothering Shadows",
+      "sections": [
+        {
+          "id": 28144,
+          "title": "Rising Gloom",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426943?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Rising Gloom",
+            "id": 426943
+          }
+        },
+        {
+          "id": 27370,
+          "title": "Candlelight",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426866?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Candlelight",
+            "id": 426866
+          }
+        },
+        {
+          "id": 28100,
+          "title": "Wax Lump",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426941?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Wax Lump",
+            "id": 426941
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/422806?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Smothering Shadows",
+        "id": 422806
+      }
+    },
+    {
+      "id": 28219,
+      "title": "Eternal Darkness",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/428266?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Eternal Darkness",
+        "id": 428266
+      }
+    },
+    {
+      "id": 28102,
+      "title": "Call Darkspawn",
+      "sections": [
+        {
+          "id": 28103,
+          "title": "Drain Light",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/427176?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Drain Light",
+            "id": 427176
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/427157?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Call Darkspawn",
+        "id": 427157
+      }
+    },
+    {
+      "id": 28105,
+      "title": "Umbral Slash",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/427100?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Umbral Slash",
+        "id": 427100
+      }
+    },
+    {
+      "id": 28104,
+      "title": "Shadowblast",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/427011?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shadowblast",
+        "id": 427011
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1210?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Darkflame Cleft",
+    "id": 1210
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

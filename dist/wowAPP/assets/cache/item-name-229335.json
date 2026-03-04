@@ -1,0 +1,336 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229335?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229335,
+  "name": "Confessor's Unshakable Mitts",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229335?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229335
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": "Hands"
+  },
+  "purchase_price": 2503825,
+  "sell_price": 500765,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229335?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229335
+    },
+    "context": 0,
+    "bonus_list": [
+      11959
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Confessor's Unshakable Mitts",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229335?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229335
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": "Hands"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 1317,
+      "display": {
+        "display_string": "1,317 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 2452,
+        "display": {
+          "display_string": "+2,452 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 14597,
+        "display": {
+          "display_string": "+14,597 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 440,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+440 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 968,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+968 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 500765,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "50",
+        "silver": "7",
+        "copper": "65"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Priest",
+            "id": 5
+          }
+        ],
+        "display_string": "Classes: Priest"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1875?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Confessor's Unshakable Virtue",
+        "id": 1875
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229337?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Confessor's Unshakable Vestment",
+            "id": 229337
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229335?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Confessor's Unshakable Mitts",
+            "id": 229335
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229334?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Confessor's Unshakable Halo",
+            "id": 229334
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229333?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Confessor's Unshakable Leggings",
+            "id": 229333
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229332?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Confessor's Unshakable Radiance",
+            "id": 229332
+          }
+        }
+      ],
+      "display_string": "Confessor's Unshakable Virtue (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98992?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98992
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98970?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98970
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98981?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98981
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98970?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98970
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98981?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98981
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99003?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99003
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98959?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98959
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98948?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98948
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/99003?namespace=static-11.1.0_59095-us"
+      },
+      "id": 99003
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98992?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98992
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98959?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98959
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/98948?namespace=static-11.1.0_59095-us"
+      },
+      "id": 98948
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 219502,
+  "name": "Adrenal Surge Clasp",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-12.0.1_65617-us"
+    },
+    "id": 219502
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "WAIST",
+    "name": "Waist"
+  },
+  "purchase_price": 2443103,
+  "sell_price": 488620,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/219502?namespace=static-12.0.1_65617-us"
+      },
+      "id": 219502
+    },
+    "context": 0,
+    "bonus_list": [
+      10421,
+      8960
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Adrenal Surge Clasp",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/219502?namespace=static-12.0.1_65617-us"
+      },
+      "id": 219502
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "WAIST",
+      "name": "Waist"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "limit_category": "Unique-Equipped: Embellished (2)",
+    "armor": {
+      "value": 15,
+      "display": {
+        "display_string": "15 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 14,
+        "display": {
+          "display_string": "+14 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 14,
+        "is_negated": true,
+        "display": {
+          "display_string": "+14 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 23,
+        "display": {
+          "display_string": "+23 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 16,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+16 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 12,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+12 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/443762?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Adrenal Surge",
+          "id": 443762
+        },
+        "description": "Equip: Taking damage has a chance to grant you an Adrenal Surge, causing you to gain 10 Intellect and lose 2 Mastery for 12 sec.\r\n\r\nThis is a Nerubian embellishment."
+      }
+    ],
+    "sell_price": {
+      "value": 488620,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "48",
+        "silver": "86",
+        "copper": "20"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 83,
+      "display_string": "Item Level 83"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/91161?namespace=static-12.0.1_65617-us"
+      },
+      "id": 91161
+    }
+  ]
+}

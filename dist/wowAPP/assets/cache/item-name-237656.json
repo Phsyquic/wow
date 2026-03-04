@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237656?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237656,
+  "name": "Spellweaver's Immaculate Scaleguards",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237656?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237656
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": "Hands"
+  },
+  "purchase_price": 2718194,
+  "sell_price": 543638,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237656?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237656
+    },
+    "context": 0,
+    "bonus_list": [
+      12230,
+      12675
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Spellweaver's Immaculate Scaleguards",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237656?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237656
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": "Hands"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 25,
+      "display": {
+        "display_string": "25 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 17,
+        "display": {
+          "display_string": "+17 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 17,
+        "is_negated": true,
+        "display": {
+          "display_string": "+17 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 74,
+        "display": {
+          "display_string": "+74 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 11,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+11 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 23,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+23 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 271127,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "27",
+        "silver": "11",
+        "copper": "27"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/13?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Evoker",
+            "id": 13
+          }
+        ],
+        "display_string": "Classes: Evoker"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1922?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Spellweaver's Immaculate Design",
+        "id": 1922
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237658?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Spellweaver's Immaculate Crestward",
+            "id": 237658
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237656?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Spellweaver's Immaculate Scaleguards",
+            "id": 237656
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237655?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Spellweaver's Immaculate Focus",
+            "id": 237655
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237654?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Spellweaver's Immaculate Runeslacks",
+            "id": 237654
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237653?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Spellweaver's Immaculate Pauldrons",
+            "id": 237653
+          }
+        }
+      ],
+      "display_string": "Spellweaver's Immaculate Design (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 55,
+      "display_string": "Durability 55 / 55"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104843?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104843
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104865?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104865
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104887?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104887
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104865?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104865
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104887?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104887
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104854?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104854
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104832?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104832
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104876?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104876
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104854?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104854
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104843?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104843
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104832?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104832
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104876?namespace=static-12.0.1_65617-us"
+      },
+      "id": 104876
+    }
+  ]
+}
