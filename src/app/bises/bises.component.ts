@@ -385,7 +385,8 @@ export class BisesComponent implements OnInit {
               var instance = {
                 id: element.id,
                 name: element.name,
-                type: element.type
+                type: element.type,
+                encounters: Array.isArray(element.encounters) ? element.encounters : []
               };
               this.instances.push(instance);
             });
@@ -431,6 +432,17 @@ export class BisesComponent implements OnInit {
 
   async getItemsDrop() {
     var realItemList: any[] = [];
+    const encounterNameByIdFromInstances: Record<number, string> = {};
+    this.instances.forEach((ins: any) => {
+      (ins?.encounters || []).forEach((enc: any) => {
+        const encId = Number(enc?.id);
+        const encName = String(enc?.name ?? '').trim();
+        if (Number.isInteger(encId) && encId > 0 && encName) {
+          encounterNameByIdFromInstances[encId] = encName;
+        }
+      });
+    });
+
     const encounterIds: number[] = [...new Set<number>(
       this.itemList
         .map((element: any) => Number(element?.drop?.encounterId))
@@ -439,6 +451,12 @@ export class BisesComponent implements OnInit {
 
     const encounterNameMap: Record<number, string> = {};
     await Promise.all(encounterIds.map(async (encounterId: number) => {
+      if (encounterNameByIdFromInstances[encounterId]) {
+        const name = encounterNameByIdFromInstances[encounterId];
+        this.encounterNameCache[encounterId] = name;
+        encounterNameMap[encounterId] = name;
+        return;
+      }
       if (this.encounterNameCache[encounterId]) {
         encounterNameMap[encounterId] = this.encounterNameCache[encounterId];
         return;
