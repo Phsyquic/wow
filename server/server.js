@@ -5,7 +5,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000; // Puerto donde correrá el servidor
+const PORT = Number(process.env.PORT) || 3000; // Render injects PORT in production
 app.use(cors());
 app.use(express.json({ limit: '1mb' }));
 
