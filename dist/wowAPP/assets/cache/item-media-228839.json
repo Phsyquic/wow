@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228839?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_cloth_raidmagegoblin_d_01_cape.jpg",
+      "file_data_id": 5889418
+    }
+  ],
+  "id": 228839
+}

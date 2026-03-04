@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249809?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249809,
+  "name": "Locus-Walker's Ribbon",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249809?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249809
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 389355,
+  "sell_price": 77871,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "\"Do you wish to learn more of the Void? It has many lessons to teach us amongst its maddening whispers.\" - Locus-Walker",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249809?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249809
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Locus-Walker's Ribbon",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249809?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249809
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1259314?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Locus-Walker's Ribbon",
+          "id": 1259314
+        },
+        "description": "Equip: Casting spells has a high chance to tempt you with the power of the Void, increasing your Intellect by 21 for 10 sec.\r\n\r\nEach temptation permanently increases this effect by 5%, up to 10 times, diminishing quickly upon leaving combat."
+      }
+    ],
+    "sell_price": {
+      "value": 35969,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "59",
+        "copper": "69"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "description": "\"Do you wish to learn more of the Void? It has many lessons to teach us amongst its maddening whispers.\" - Locus-Walker",
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

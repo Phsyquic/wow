@@ -1,0 +1,211 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2625?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2625,
+  "name": "Orta, the Broken Mountain",
+  "description": "Long has this deepwalker strode through the chasms and legends of Azj-Kahet. His voice an earthquake, his will diamond, his strength adamant. Yet now he comes before Azj-Kahet, contaminated by the dark pustules of the black blood, in need of a good death. Who will rise to face him?",
+  "creatures": [
+    {
+      "id": 5702,
+      "name": "Orta",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119835?namespace=static-11.1.0_59095-us"
+        },
+        "id": 119835
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44569,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225734?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Sturdy Chitinous Striders",
+        "id": 225734
+      }
+    },
+    {
+      "id": 44570,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225735?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Dornish Warden's Coat",
+        "id": 225735
+      }
+    },
+    {
+      "id": 44571,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225751?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Seal of the Broken Mountain",
+        "id": 225751
+      }
+    },
+    {
+      "id": 44572,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225733?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Abyssal Tendril Tights",
+        "id": 225733
+      }
+    },
+    {
+      "id": 44573,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225731?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Lightseeker's Robes",
+        "id": 225731
+      }
+    },
+    {
+      "id": 44574,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225745?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Crystal Star Cuisses",
+        "id": 225745
+      }
+    },
+    {
+      "id": 44575,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225732?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Deep Dweller's Tabi",
+        "id": 225732
+      }
+    },
+    {
+      "id": 44576,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225746?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Girdle of the Gleaming Dawn",
+        "id": 225746
+      }
+    },
+    {
+      "id": 44577,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/225730?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Stone Gaze Ceinture",
+        "id": 225730
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 29746,
+      "title": "Overview",
+      "body_text": "Orta rattles against the shackles of his infection, shattering the ground with Hspell:450407[Colossal Slam] and invoking Hspell:450677[Rupturing Runes].\r\n\r\nAt 100 energy, Orta will cast Hspell:450454[Tectonic Roar], knocking all players away with his bellow.",
+      "sections": [
+        {
+          "id": 29747,
+          "title": "Tanks",
+          "body_text": "$bullet;Hspell:450677[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;Hspell:450454[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in Hspell:450929[Mountain's Grasp] will be thrown by Hspell:451702[Discard Weaklings]."
+        },
+        {
+          "id": 29749,
+          "title": "Healers",
+          "body_text": "$bullet;Hspell:450677[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;Hspell:450454[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in Hspell:450929[Mountain's Grasp] will be thrown by Hspell:451702[Discard Weaklings]."
+        },
+        {
+          "id": 29748,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Hspell:450677[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;Hspell:450454[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in Hspell:450929[Mountain's Grasp] will be thrown by Hspell:451702[Discard Weaklings]."
+        }
+      ]
+    },
+    {
+      "id": 29750,
+      "title": "Tectonic Roar",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/450454?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Tectonic Roar",
+        "id": 450454
+      }
+    },
+    {
+      "id": 29752,
+      "title": "Colossal Slam",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/450407?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Colossal Slam",
+        "id": 450407
+      }
+    },
+    {
+      "id": 29753,
+      "title": "Rupturing Runes",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/450677?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Rupturing Runes",
+        "id": 450677
+      }
+    },
+    {
+      "id": 29754,
+      "title": "Mountain's Grasp",
+      "sections": [
+        {
+          "id": 29755,
+          "title": "Discard Weaklings",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/451702?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Discard Weaklings",
+            "id": 451702
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/450929?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Mountain's Grasp",
+        "id": 450929
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Khaz Algar",
+    "id": 1278
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    }
+  ]
+}

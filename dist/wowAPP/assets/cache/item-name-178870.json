@@ -1,0 +1,159 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/178870?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 178870,
+  "name": "Ritual Bone Band",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 158,
+  "required_level": 60,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/178870?namespace=static-11.1.0_59095-us"
+    },
+    "id": 178870
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": "Finger"
+  },
+  "purchase_price": 1874436,
+  "sell_price": 374887,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/178870?namespace=static-11.1.0_59095-us"
+      },
+      "id": 178870
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Ritual Bone Band",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/178870?namespace=static-11.1.0_59095-us"
+      },
+      "id": 178870
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": "Finger"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 14,
+        "display": {
+          "display_string": "+14 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 31,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+31 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 14537,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "1",
+        "silver": "45",
+        "copper": "37"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 60,
+        "display_string": "Requires Level 60"
+      }
+    },
+    "level": {
+      "value": 158,
+      "display_string": "Item Level 158"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}
