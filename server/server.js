@@ -120,8 +120,7 @@ app.get('/wowhead/scrape', async (req, res) => {
     }
 });
 
-// Proxy para data.json de Raidbots (evita CORS en frontend público).
-app.get('/raidbots/simbot/:report/data.json', async (req, res) => {
+async function handleRaidbotsReportProxy(req, res) {
     const report = String(req.params?.report || '').trim();
     if (!report) {
         return res.status(400).json({ error: 'Missing report id.' });
@@ -145,7 +144,12 @@ app.get('/raidbots/simbot/:report/data.json', async (req, res) => {
         console.error(`[Raidbots Proxy] ${report} -> ${status}`, detail);
         return res.status(status).json({ error: 'raidbots_fetch_failed', report, status });
     }
-});
+}
+
+// Proxy para data.json de Raidbots (evita CORS en frontend público).
+app.get('/raidbots/simbot/:report/data.json', handleRaidbotsReportProxy);
+// Backward compatibility for clients that still send "report/:id".
+app.get('/raidbots/simbot/report/:report/data.json', handleRaidbotsReportProxy);
 
 // Endpoint para obtener media de un item
 app.get('/item-media/:id', async (req, res) => {
