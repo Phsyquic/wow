@@ -120,6 +120,33 @@ app.get('/wowhead/scrape', async (req, res) => {
     }
 });
 
+// Proxy para data.json de Raidbots (evita CORS en frontend público).
+app.get('/raidbots/simbot/:report/data.json', async (req, res) => {
+    const report = String(req.params?.report || '').trim();
+    if (!report) {
+        return res.status(400).json({ error: 'Missing report id.' });
+    }
+
+    const endpoint = `https://www.raidbots.com/simbot/report/${encodeURIComponent(report)}/data.json`;
+    try {
+        const response = await axios.get(endpoint, {
+            headers: {
+                Accept: 'application/json',
+                'User-Agent': 'wow-skill-issue-proxy/1.0',
+            },
+            responseType: 'json',
+            timeout: 20000,
+            maxRedirects: 5,
+        });
+        return res.json(response.data);
+    } catch (error) {
+        const status = error?.response?.status || 502;
+        const detail = error?.response?.data || error?.message || 'Failed to fetch Raidbots report.';
+        console.error(`[Raidbots Proxy] ${report} -> ${status}`, detail);
+        return res.status(status).json({ error: 'raidbots_fetch_failed', report, status });
+    }
+});
+
 // Endpoint para obtener media de un item
 app.get('/item-media/:id', async (req, res) => {
     const itemId = req.params.id;
