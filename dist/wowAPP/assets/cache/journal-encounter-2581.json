@@ -1,0 +1,262 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2581?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2581,
+  "name": "Anub'ikkaj",
+  "description": "Anub'ikkaj is one of Queen Ansurek's most brilliant tacticians. A meticulous planner known for creative use of indigenous resources. His soldiers are fanatically loyal.",
+  "creatures": [
+    {
+      "id": 5733,
+      "name": "Anub'ikkaj",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114315?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114315
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44060,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219312?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Empowering Crystal of Anub'ikkaj",
+        "id": 219312
+      }
+    },
+    {
+      "id": 44158,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221141?namespace=static-12.0.1_65617-us"
+        },
+        "name": "High Nerubian Signet",
+        "id": 221141
+      }
+    },
+    {
+      "id": 44159,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221142?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Scheming Assailer's Bands",
+        "id": 221142
+      }
+    },
+    {
+      "id": 44160,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221140?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shadowblight Mantle",
+        "id": 221140
+      }
+    },
+    {
+      "id": 44161,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221137?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Black Shepherd's Guisarme",
+        "id": 221137
+      }
+    },
+    {
+      "id": 44162,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221139?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Dark Priest's Carapace",
+        "id": 221139
+      }
+    },
+    {
+      "id": 44163,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221138?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Parson's Ornamented Blade",
+        "id": 221138
+      }
+    },
+    {
+      "id": 44164,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221202?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Defiance Crusher's Sabatons",
+        "id": 221202
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 28178,
+      "title": "Overview",
+      "body_text": "Anub'ikkaj patrols the streets of Mereldar, strengthened through [Empowered Might] from his nerubian lieutenants. Each of his allies grants formidable power while alive.",
+      "sections": [
+        {
+          "id": 28179,
+          "title": "Healers",
+          "body_text": "$bullet;[Dark Orb]'s final explosion inflicts less damage the farther it travels.\r\n$bullet;[Shadowy Decay] inflicts substantial damage to all players."
+        },
+        {
+          "id": 28180,
+          "title": "Tanks",
+          "body_text": "$bullet;[Dark Orb]'s final explosion inflicts less damage the farther it travels.\r\n$bullet;[Terrifying Slam] inflicts substantial damage and knocks back, fearing other players caught near the primary target."
+        },
+        {
+          "id": 28181,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;[Dark Orb]'s final explosion inflicts less damage the farther it travels.\r\n$bullet;[Terrifying Slam] inflicts substantial damage and fears other players caught near the primary target."
+        }
+      ]
+    },
+    {
+      "id": 28183,
+      "title": "Empowered Nerubians",
+      "body_text": "Anub'ikkaj gains increased power from his nerubian lieutenants: Ascendant Vis'coxria, Deathscreamer Iken'tak, and Ixkreten the Unbreakable. Defeating them removes this power.",
+      "sections": [
+        {
+          "id": 28191,
+          "title": "Empowered Might",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/427192?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Empowered Might",
+            "id": 427192
+          }
+        }
+      ]
+    },
+    {
+      "id": 28182,
+      "title": "Anub'ikkaj",
+      "sections": [
+        {
+          "id": 28187,
+          "title": "Dark Orb",
+          "sections": [
+            {
+              "id": 30129,
+              "title": "Dark Scars",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/427378?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Dark Scars",
+                "id": 427378
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426860?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Dark Orb",
+            "id": 426860
+          }
+        },
+        {
+          "id": 28190,
+          "title": "Terrifying Slam",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/427001?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Terrifying Slam",
+            "id": 427001
+          }
+        },
+        {
+          "id": 28189,
+          "title": "Shadowy Decay",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/426787?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Shadowy Decay",
+            "id": 426787
+          }
+        },
+        {
+          "id": 29759,
+          "title": "Animate Shadows",
+          "sections": [
+            {
+              "id": 29760,
+              "title": "Congealed Darkness",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/452099?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Congealed Darkness",
+                "id": 452099
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/452127?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Animate Shadows",
+            "id": 452127
+          },
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114556?namespace=static-12.0.1_65617-us"
+            },
+            "id": 114556
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/114315?namespace=static-12.0.1_65617-us"
+        },
+        "id": 114315
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1270?namespace=static-12.0.1_65617-us"
+    },
+    "name": "The Dawnbreaker",
+    "id": 1270
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

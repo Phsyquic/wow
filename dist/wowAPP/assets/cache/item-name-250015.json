@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/250015?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 250015,
+  "name": "Fearsome Visage of Ra-den's Chosen",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/250015?namespace=static-12.0.1_65617-us"
+    },
+    "id": 250015
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 340069,
+  "sell_price": 68013,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/250015?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250015
+    },
+    "context": 0,
+    "bonus_list": [
+      13338,
+      13575
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Fearsome Visage of Ra-den's Chosen",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/250015?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250015
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 11,
+      "display": {
+        "display_string": "11 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 10,
+        "is_negated": true,
+        "display": {
+          "display_string": "+10 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 31416,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "14",
+        "copper": "16"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Monk",
+            "id": 10
+          }
+        ],
+        "display_string": "Classes: Monk"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1984?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Way of Ra-den's Chosen",
+        "id": 1984
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250018?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Battle Garb of Ra-den's Chosen",
+            "id": 250018
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250016?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Thunderfists of Ra-den's Chosen",
+            "id": 250016
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250015?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fearsome Visage of Ra-den's Chosen",
+            "id": 250015
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250014?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Swiftsweepers of Ra-den's Chosen",
+            "id": 250014
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250013?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Aurastones of Ra-den's Chosen",
+            "id": 250013
+          }
+        }
+      ],
+      "display_string": "Way of Ra-den's Chosen (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125535?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125535
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125595?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125595
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125559?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125559
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125580?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125580
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125604?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125604
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125544?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125544
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125568?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125568
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125571?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125571
+    }
+  ]
+}

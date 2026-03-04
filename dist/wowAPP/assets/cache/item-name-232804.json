@@ -1,0 +1,201 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/232804?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 232804,
+  "name": "Capo's Molten Knuckles",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/232804?namespace=static-11.1.0_59095-us"
+    },
+    "id": 232804
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Fist Weapon",
+    "id": 13
+  },
+  "inventory_type": {
+    "type": "WEAPONMAINHAND",
+    "name": "Main Hand"
+  },
+  "purchase_price": 7464682,
+  "sell_price": 1492936,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/232804?namespace=static-11.1.0_59095-us"
+      },
+      "id": 232804
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Capo's Molten Knuckles",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/232804?namespace=static-11.1.0_59095-us"
+      },
+      "id": 232804
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Fist Weapon",
+      "id": 13
+    },
+    "inventory_type": {
+      "type": "WEAPONMAINHAND",
+      "name": "Main Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "weapon": {
+      "damage": {
+        "min_value": 3985,
+        "max_value": 5677,
+        "display_string": "3,985 - 5,677 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": "Speed 2.60"
+      },
+      "dps": {
+        "value": 1857.8845,
+        "display_string": "(1,857 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 1634,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,634 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 1634,
+        "is_negated": true,
+        "display": {
+          "display_string": "+1,634 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 9732,
+        "display": {
+          "display_string": "+9,732 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/467774?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Capo's Molten Knuckles",
+          "id": 467774
+        },
+        "description": "Equip: Gain a high chance to follow up your attacks with a fiery gilded uppercut, dealing 256,974 Fire damage to your target. Molten gold continues to splatter to deal 71,382 Fire damage over 5 sec to all nearby enemies. Damage reduced beyond 8 enemies."
+      }
+    ],
+    "sell_price": {
+      "value": 1492936,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "149",
+        "silver": "29",
+        "copper": "36"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 80,
+      "display_string": "Durability 80 / 80"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/97827?namespace=static-11.1.0_59095-us"
+      },
+      "id": 97827
+    }
+  ]
+}

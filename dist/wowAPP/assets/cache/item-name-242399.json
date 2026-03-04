@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/242399?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 242399,
+  "name": "Screams of a Forgotten Sky",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/242399?namespace=static-12.0.1_65617-us"
+    },
+    "id": 242399
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4254081,
+  "sell_price": 850816,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/242399?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242399
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Screams of a Forgotten Sky",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/242399?namespace=static-12.0.1_65617-us"
+      },
+      "id": 242399
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 32,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+32 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/1235272?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Screams of a Forgotten Sky",
+          "id": 1235272
+        },
+        "description": "Equip: Your harmful spells and abilities have a chance to strike your target with an abyssal comet, dealing 6,361 Cosmic damage and amplifying their gravity to increase the damage of future comets by 5%.\r\n\r\nUpon death, enemies implode to deal 5,080 Cosmic damage per gravity stack split between nearby enemies. Damage increased by 30% per additional enemy, up to 150%."
+      }
+    ],
+    "sell_price": {
+      "value": 424324,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "42",
+        "silver": "43",
+        "copper": "24"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

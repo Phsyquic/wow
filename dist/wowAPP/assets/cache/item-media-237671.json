@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237671?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_shoulder_leather_raidmonkethereal_d_01.jpg",
+      "file_data_id": 6926622
+    }
+  ],
+  "id": 237671
+}
