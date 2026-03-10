@@ -244,6 +244,61 @@ function shouldProcessDiscordMessage(message) {
     return guildMatches && (channelIdMatches || channelNameMatches);
 }
 
+async function runDiscordStartupChecks(token) {
+    const configuredChannelId = String(process.env.DISCORD_CHANNEL_ID || '').trim();
+    const configuredGuildId = String(process.env.DISCORD_GUILD_ID || '').trim();
+    const headers = {
+        Authorization: `Bot ${token}`,
+        Accept: 'application/json',
+        'User-Agent': 'wow-skill-issue-proxy/1.0',
+    };
+
+    try {
+        const meResponse = await axios.get('https://discord.com/api/v10/users/@me', {
+            headers,
+            timeout: 15000,
+        });
+        console.log('[Discord Bot] REST /users/@me ok:', JSON.stringify({
+            id: meResponse.data?.id || null,
+            username: meResponse.data?.username || null,
+        }));
+    } catch (error) {
+        console.error('[Discord Bot] REST /users/@me failed:', error?.response?.status || error?.message || error);
+    }
+
+    if (configuredGuildId) {
+        try {
+            const guildResponse = await axios.get(`https://discord.com/api/v10/guilds/${configuredGuildId}`, {
+                headers,
+                timeout: 15000,
+            });
+            console.log('[Discord Bot] REST guild ok:', JSON.stringify({
+                id: guildResponse.data?.id || null,
+                name: guildResponse.data?.name || null,
+            }));
+        } catch (error) {
+            console.error('[Discord Bot] REST guild failed:', error?.response?.status || error?.message || error);
+        }
+    }
+
+    if (configuredChannelId) {
+        try {
+            const channelResponse = await axios.get(`https://discord.com/api/v10/channels/${configuredChannelId}`, {
+                headers,
+                timeout: 15000,
+            });
+            console.log('[Discord Bot] REST channel ok:', JSON.stringify({
+                id: channelResponse.data?.id || null,
+                name: channelResponse.data?.name || null,
+                type: channelResponse.data?.type ?? null,
+                guild_id: channelResponse.data?.guild_id || null,
+            }));
+        } catch (error) {
+            console.error('[Discord Bot] REST channel failed:', error?.response?.status || error?.message || error);
+        }
+    }
+}
+
 function startDiscordBot() {
     const token = String(process.env.DISCORD_BOT_TOKEN || '').trim();
     const configuredChannelId = String(process.env.DISCORD_CHANNEL_ID || '').trim();
@@ -355,6 +410,9 @@ function startDiscordBot() {
     });
 
     console.log('[Discord Bot] Attempting login...');
+    runDiscordStartupChecks(token).catch((error) => {
+        console.error('[Discord Bot] Startup REST checks failed:', error?.message || error);
+    });
     client.login(token).catch((error) => {
         console.error('[Discord Bot] Login failed:', error?.message || error);
     });
