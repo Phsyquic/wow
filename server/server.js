@@ -245,58 +245,7 @@ function shouldProcessDiscordMessage(message) {
 }
 
 async function runDiscordStartupChecks(token) {
-    const configuredChannelId = String(process.env.DISCORD_CHANNEL_ID || '').trim();
-    const configuredGuildId = String(process.env.DISCORD_GUILD_ID || '').trim();
-    const headers = {
-        Authorization: `Bot ${token}`,
-        Accept: 'application/json',
-        'User-Agent': 'wow-skill-issue-proxy/1.0',
-    };
-
-    try {
-        const meResponse = await axios.get('https://discord.com/api/v10/users/@me', {
-            headers,
-            timeout: 15000,
-        });
-        console.log('[Discord Bot] REST /users/@me ok:', JSON.stringify({
-            id: meResponse.data?.id || null,
-            username: meResponse.data?.username || null,
-        }));
-    } catch (error) {
-        console.error('[Discord Bot] REST /users/@me failed:', error?.response?.status || error?.message || error);
-    }
-
-    if (configuredGuildId) {
-        try {
-            const guildResponse = await axios.get(`https://discord.com/api/v10/guilds/${configuredGuildId}`, {
-                headers,
-                timeout: 15000,
-            });
-            console.log('[Discord Bot] REST guild ok:', JSON.stringify({
-                id: guildResponse.data?.id || null,
-                name: guildResponse.data?.name || null,
-            }));
-        } catch (error) {
-            console.error('[Discord Bot] REST guild failed:', error?.response?.status || error?.message || error);
-        }
-    }
-
-    if (configuredChannelId) {
-        try {
-            const channelResponse = await axios.get(`https://discord.com/api/v10/channels/${configuredChannelId}`, {
-                headers,
-                timeout: 15000,
-            });
-            console.log('[Discord Bot] REST channel ok:', JSON.stringify({
-                id: channelResponse.data?.id || null,
-                name: channelResponse.data?.name || null,
-                type: channelResponse.data?.type ?? null,
-                guild_id: channelResponse.data?.guild_id || null,
-            }));
-        } catch (error) {
-            console.error('[Discord Bot] REST channel failed:', error?.response?.status || error?.message || error);
-        }
-    }
+    return token;
 }
 
 function startDiscordBot() {
@@ -326,10 +275,6 @@ function startDiscordBot() {
         partials: [Partials.Channel],
     });
 
-    client.on('debug', (message) => {
-        console.log(`[Discord Bot][debug] ${message}`);
-    });
-
     client.on('error', (error) => {
         console.error('[Discord Bot] Client error:', error?.message || error);
     });
@@ -338,63 +283,26 @@ function startDiscordBot() {
         console.warn(`[Discord Bot][warn] ${message}`);
     });
 
-    client.on('shardReady', (id, unavailableGuilds) => {
-        console.log(`[Discord Bot] Shard ${id} ready. unavailableGuilds=${unavailableGuilds?.size ?? 0}`);
-    });
-
-    client.on('shardDisconnect', (event, id) => {
-        console.warn(`[Discord Bot] Shard ${id} disconnected. code=${event?.code ?? 'unknown'} reason=${event?.reason || 'unknown'}`);
-    });
-
-    client.on('shardReconnecting', (id) => {
-        console.log(`[Discord Bot] Shard ${id} reconnecting...`);
-    });
-
-    client.on('shardResume', (id, replayedEvents) => {
-        console.log(`[Discord Bot] Shard ${id} resumed. replayedEvents=${replayedEvents ?? 0}`);
-    });
-
-    client.on('shardError', (error, id) => {
-        console.error(`[Discord Bot] Shard ${id} error:`, error?.message || error);
-    });
-
-    client.on('invalidated', () => {
-        console.error('[Discord Bot] Session invalidated.');
-    });
-
-    client.once('ready', () => {
+    client.once('clientReady', () => {
         console.log(`[Discord Bot] Connected as ${client.user?.tag || 'unknown-user'}.`);
     });
 
     client.on('messageCreate', async (message) => {
-        console.log('[Discord Bot] Message received:', JSON.stringify({
-            guildId: message?.guildId || null,
-            channelId: message?.channelId || null,
-            channelName: message?.channel?.name || null,
-            author: message?.author?.tag || null,
-            isBot: Boolean(message?.author?.bot),
-            contentPreview: String(message?.content || '').slice(0, 120),
-        }));
-
         if (!shouldProcessDiscordMessage(message)) {
-            console.log('[Discord Bot] Message ignored by channel/guild filter.');
             return;
         }
 
         if (message.author?.bot) {
-            console.log('[Discord Bot] Message ignored because author is a bot.');
             return;
         }
 
         const urls = extractUrlsFromMessage(message);
         if (urls.length === 0) {
-            console.log('[Discord Bot] Message ignored because it does not contain URLs.');
             return;
         }
 
         for (const url of urls) {
             try {
-                console.log(`[Discord Bot] Processing URL: ${url}`);
                 const result = await persistDroptimizerUrl(url);
                 if (result.ok && result.stored) {
                     console.log(`[Discord Bot] Added droptimizer ${result.reportId} from #${message.channel?.name || message.channelId}.`);
@@ -409,10 +317,6 @@ function startDiscordBot() {
         }
     });
 
-    console.log('[Discord Bot] Attempting login...');
-    runDiscordStartupChecks(token).catch((error) => {
-        console.error('[Discord Bot] Startup REST checks failed:', error?.message || error);
-    });
     client.login(token).catch((error) => {
         console.error('[Discord Bot] Login failed:', error?.message || error);
     });
