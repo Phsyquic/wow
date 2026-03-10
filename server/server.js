@@ -3,6 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
+const { Client, GatewayIntentBits, Partials } = require('discord.js');
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000; // Render injects PORT in production
@@ -19,6 +20,7 @@ const CACHE_DIR = path.join(__dirname, 'cache');
 const ASSETS_JSON_DIR = path.join(__dirname, '..', 'src', 'assets', 'json');
 const BIS_LIST_FILE = path.join(ASSETS_JSON_DIR, 'bisList.txt');
 const BIS_SOURCES_FILE = path.join(ASSETS_JSON_DIR, 'bisSources.json');
+const DROPTIMIZERS_FILE = path.join(ASSETS_JSON_DIR, 'droptimizers.txt');
 
 // Asegurar que la carpeta de caché existe
 if (!fs.existsSync(CACHE_DIR)) {
@@ -27,6 +29,11 @@ if (!fs.existsSync(CACHE_DIR)) {
 if (!fs.existsSync(ASSETS_JSON_DIR)) {
     fs.mkdirSync(ASSETS_JSON_DIR, { recursive: true });
 }
+if (!fs.existsSync(DROPTIMIZERS_FILE)) {
+    fs.writeFileSync(DROPTIMIZERS_FILE, '', 'utf8');
+}
+
+let droptimizerWriteQueue = Promise.resolve();
 
 // Función para obtener un token de acceso
 async function getAccessToken() {
@@ -86,6 +93,210 @@ function getItemCachePaths(itemId) {
         media: path.join(CACHE_DIR, `item-media-${itemId}.json`),
         name: path.join(CACHE_DIR, `item-name-${itemId}.json`),
     };
+}
+
+function readDroptimizerUrls() {
+    if (!fs.existsSync(DROPTIMIZERS_FILE)) {
+        return [];
+    }
+
+    return fs.readFileSync(DROPTIMIZERS_FILE, 'utf8')
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter(Boolean);
+}
+
+function writeDroptimizerUrls(urls) {
+    const normalized = [...new Set(urls.map((line) => String(line || '').trim()).filter(Boolean))];
+    const content = normalized.length > 0 ? `${normalized.join('\n')}\n` : '';
+    fs.writeFileSync(DROPTIMIZERS_FILE, content, 'utf8');
+}
+
+function extractRaidbotsReportId(rawUrl) {
+    let parsed;
+    try {
+        parsed = new URL(String(rawUrl || '').trim());
+    } catch {
+        return null;
+    }
+
+    const hostname = parsed.hostname.toLowerCase();
+    if (hostname !== 'raidbots.com' && hostname !== 'www.raidbots.com') {
+        return null;
+    }
+
+    const match = parsed.pathname.match(/^\/simbot\/(?:report\/)?([A-Za-z0-9]+)\/?$/);
+    if (!match) {
+        return null;
+    }
+
+    return match[1];
+}
+
+function normalizeDroptimizerUrl(reportId) {
+    return `https://www.raidbots.com/simbot/report/${reportId}`;
+}
+
+async function fetchRaidbotsReportData(reportId) {
+    const endpoint = `https://www.raidbots.com/simbot/report/${encodeURIComponent(reportId)}/data.json`;
+    const response = await axios.get(endpoint, {
+        headers: {
+            Accept: 'application/json',
+            'User-Agent': 'wow-skill-issue-proxy/1.0',
+        },
+        responseType: 'json',
+        timeout: 20000,
+        maxRedirects: 5,
+    });
+    return response.data;
+}
+
+async function validateDroptimizerUrl(rawUrl) {
+    const reportId = extractRaidbotsReportId(rawUrl);
+    if (!reportId) {
+        return {
+            ok: false,
+            reason: 'invalid_raidbots_report_url',
+        };
+    }
+
+    try {
+        const data = await fetchRaidbotsReportData(reportId);
+        const simType = data?.simbot?.simType || data?.simbot?.meta?.type || '';
+        if (simType !== 'droptimizer') {
+            return {
+                ok: false,
+                reason: 'report_is_not_droptimizer',
+                reportId,
+                simType: simType || 'unknown',
+            };
+        }
+
+        return {
+            ok: true,
+            reportId,
+            normalizedUrl: normalizeDroptimizerUrl(reportId),
+            title: data?.simbot?.publicTitle || data?.simbot?.title || '',
+            player: data?.simbot?.player || data?.sim?.players?.[0]?.name || '',
+        };
+    } catch (error) {
+        return {
+            ok: false,
+            reason: 'raidbots_validation_failed',
+            reportId,
+            status: error?.response?.status || 502,
+        };
+    }
+}
+
+function enqueueDroptimizerWrite(task) {
+    droptimizerWriteQueue = droptimizerWriteQueue.then(task, task);
+    return droptimizerWriteQueue;
+}
+
+async function persistDroptimizerUrl(rawUrl) {
+    return enqueueDroptimizerWrite(async () => {
+        const validation = await validateDroptimizerUrl(rawUrl);
+        if (!validation.ok) {
+            return validation;
+        }
+
+        const existing = readDroptimizerUrls();
+        if (existing.includes(validation.normalizedUrl)) {
+            return {
+                ...validation,
+                stored: false,
+                duplicate: true,
+            };
+        }
+
+        existing.push(validation.normalizedUrl);
+        writeDroptimizerUrls(existing);
+
+        return {
+            ...validation,
+            stored: true,
+            duplicate: false,
+        };
+    });
+}
+
+function extractUrlsFromMessage(message) {
+    const values = [
+        message?.content || '',
+        ...(Array.isArray(message?.embeds) ? message.embeds.map((embed) => embed?.url || '') : []),
+    ];
+
+    const matches = values.flatMap((value) => String(value || '').match(/https?:\/\/[^\s<>()]+/g) || []);
+    return [...new Set(matches)];
+}
+
+function shouldProcessDiscordMessage(message) {
+    const configuredChannelId = String(process.env.DISCORD_CHANNEL_ID || '').trim();
+    const configuredGuildId = String(process.env.DISCORD_GUILD_ID || '').trim();
+    const configuredChannelName = String(process.env.DISCORD_CHANNEL_NAME || 'general').trim().toLowerCase();
+
+    const channelIdMatches = configuredChannelId && message?.channelId === configuredChannelId;
+    const channelNameMatches = !configuredChannelId
+        && String(message?.channel?.name || '').trim().toLowerCase() === configuredChannelName;
+    const guildMatches = !configuredGuildId || String(message?.guildId || '') === configuredGuildId;
+
+    return guildMatches && (channelIdMatches || channelNameMatches);
+}
+
+function startDiscordBot() {
+    const token = String(process.env.DISCORD_BOT_TOKEN || '').trim();
+    if (!token) {
+        console.log('[Discord Bot] Disabled: DISCORD_BOT_TOKEN not configured.');
+        return;
+    }
+
+    const client = new Client({
+        intents: [
+            GatewayIntentBits.Guilds,
+            GatewayIntentBits.GuildMessages,
+            GatewayIntentBits.MessageContent,
+        ],
+        partials: [Partials.Channel],
+    });
+
+    client.once('ready', () => {
+        console.log(`[Discord Bot] Connected as ${client.user?.tag || 'unknown-user'}.`);
+    });
+
+    client.on('messageCreate', async (message) => {
+        if (!shouldProcessDiscordMessage(message)) {
+            return;
+        }
+
+        if (message.author?.bot) {
+            return;
+        }
+
+        const urls = extractUrlsFromMessage(message);
+        if (urls.length === 0) {
+            return;
+        }
+
+        for (const url of urls) {
+            try {
+                const result = await persistDroptimizerUrl(url);
+                if (result.ok && result.stored) {
+                    console.log(`[Discord Bot] Added droptimizer ${result.reportId} from #${message.channel?.name || message.channelId}.`);
+                } else if (result.ok && result.duplicate) {
+                    console.log(`[Discord Bot] Duplicate droptimizer ignored: ${result.reportId}.`);
+                } else {
+                    console.log(`[Discord Bot] Ignored URL (${result.reason}): ${url}`);
+                }
+            } catch (error) {
+                console.error('[Discord Bot] Failed processing message URL:', url, error?.message || error);
+            }
+        }
+    });
+
+    client.login(token).catch((error) => {
+        console.error('[Discord Bot] Login failed:', error?.message || error);
+    });
 }
 
 // Proxy para scrape de Wowhead (evita CORS desde frontend).
@@ -150,6 +361,32 @@ async function handleRaidbotsReportProxy(req, res) {
 app.get('/raidbots/simbot/:report/data.json', handleRaidbotsReportProxy);
 // Backward compatibility for clients that still send "report/:id".
 app.get('/raidbots/simbot/report/:report/data.json', handleRaidbotsReportProxy);
+
+app.get('/droptimizers', (req, res) => {
+    const content = fs.existsSync(DROPTIMIZERS_FILE)
+        ? fs.readFileSync(DROPTIMIZERS_FILE, 'utf8')
+        : '';
+    res.type('text/plain').send(content);
+});
+
+app.post('/droptimizers/append', async (req, res) => {
+    const rawUrl = String(req.body?.url || '').trim();
+    if (!rawUrl) {
+        return res.status(400).json({ error: 'url is required' });
+    }
+
+    try {
+        const result = await persistDroptimizerUrl(rawUrl);
+        if (!result.ok) {
+            return res.status(400).json(result);
+        }
+
+        return res.json(result);
+    } catch (error) {
+        console.error('Error guardando droptimizer:', error);
+        return res.status(500).json({ error: 'droptimizer_save_failed' });
+    }
+});
 
 // Endpoint para obtener media de un item
 app.get('/item-media/:id', async (req, res) => {
@@ -270,4 +507,5 @@ app.post('/bislist/save', (req, res) => {
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+    startDiscordBot();
 });

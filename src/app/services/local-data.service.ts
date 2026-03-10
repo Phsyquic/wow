@@ -13,12 +13,36 @@ export class LocalDataService {
   private generatedBisListStorageKey = 'wowapp.generated.bisList.txt';
   private generatedBisSourceStorageKey = 'wowapp.generated.bisSources.json';
   private generatedBisSlotStorageKey = 'wowapp.generated.bisSlots.json';
+  private serverUrl = environment.cacheApiBase;
 
   constructor(private http: HttpClient) { }
 
+  private canUseServerApi(): boolean {
+    if (!this.serverUrl) {
+      return false;
+    }
+
+    if (typeof window === 'undefined') {
+      return true;
+    }
+
+    const currentHost = window.location.hostname.toLowerCase();
+    const isLocalRuntime = currentHost === 'localhost' || currentHost === '127.0.0.1';
+    const target = this.serverUrl.toLowerCase();
+    const isLocalServer = target.includes('localhost') || target.includes('127.0.0.1');
+
+    return !(isLocalServer && !isLocalRuntime);
+  }
+
   getDroptimizers(): Observable<any> {
-    var _url = this.jsonURL + 'droptimizers.txt';
-    return this.http.get(_url, { responseType: 'text' });
+    const staticUrl = this.jsonURL + 'droptimizers.txt';
+    if (!this.canUseServerApi()) {
+      return this.http.get(staticUrl, { responseType: 'text' });
+    }
+
+    return this.http.get(`${this.serverUrl}/droptimizers`, { responseType: 'text' }).pipe(
+      catchError(() => this.http.get(staticUrl, { responseType: 'text' }))
+    );
   }
 
   getBisListTxt(): Observable<any> {
