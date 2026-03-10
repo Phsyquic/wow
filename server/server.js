@@ -246,6 +246,17 @@ function shouldProcessDiscordMessage(message) {
 
 function startDiscordBot() {
     const token = String(process.env.DISCORD_BOT_TOKEN || '').trim();
+    const configuredChannelId = String(process.env.DISCORD_CHANNEL_ID || '').trim();
+    const configuredGuildId = String(process.env.DISCORD_GUILD_ID || '').trim();
+    const configuredChannelName = String(process.env.DISCORD_CHANNEL_NAME || 'general').trim();
+
+    console.log('[Discord Bot] Startup check:', JSON.stringify({
+        hasToken: Boolean(token),
+        channelId: configuredChannelId || null,
+        guildId: configuredGuildId || null,
+        channelName: configuredChannelName,
+    }));
+
     if (!token) {
         console.log('[Discord Bot] Disabled: DISCORD_BOT_TOKEN not configured.');
         return;
@@ -260,26 +271,51 @@ function startDiscordBot() {
         partials: [Partials.Channel],
     });
 
+    client.on('debug', (message) => {
+        console.log(`[Discord Bot][debug] ${message}`);
+    });
+
+    client.on('error', (error) => {
+        console.error('[Discord Bot] Client error:', error?.message || error);
+    });
+
+    client.on('warn', (message) => {
+        console.warn(`[Discord Bot][warn] ${message}`);
+    });
+
     client.once('ready', () => {
         console.log(`[Discord Bot] Connected as ${client.user?.tag || 'unknown-user'}.`);
     });
 
     client.on('messageCreate', async (message) => {
+        console.log('[Discord Bot] Message received:', JSON.stringify({
+            guildId: message?.guildId || null,
+            channelId: message?.channelId || null,
+            channelName: message?.channel?.name || null,
+            author: message?.author?.tag || null,
+            isBot: Boolean(message?.author?.bot),
+            contentPreview: String(message?.content || '').slice(0, 120),
+        }));
+
         if (!shouldProcessDiscordMessage(message)) {
+            console.log('[Discord Bot] Message ignored by channel/guild filter.');
             return;
         }
 
         if (message.author?.bot) {
+            console.log('[Discord Bot] Message ignored because author is a bot.');
             return;
         }
 
         const urls = extractUrlsFromMessage(message);
         if (urls.length === 0) {
+            console.log('[Discord Bot] Message ignored because it does not contain URLs.');
             return;
         }
 
         for (const url of urls) {
             try {
+                console.log(`[Discord Bot] Processing URL: ${url}`);
                 const result = await persistDroptimizerUrl(url);
                 if (result.ok && result.stored) {
                     console.log(`[Discord Bot] Added droptimizer ${result.reportId} from #${message.channel?.name || message.channelId}.`);
@@ -294,6 +330,7 @@ function startDiscordBot() {
         }
     });
 
+    console.log('[Discord Bot] Attempting login...');
     client.login(token).catch((error) => {
         console.error('[Discord Bot] Login failed:', error?.message || error);
     });
