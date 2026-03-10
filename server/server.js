@@ -283,6 +283,30 @@ function startDiscordBot() {
         console.warn(`[Discord Bot][warn] ${message}`);
     });
 
+    client.on('shardReady', (id, unavailableGuilds) => {
+        console.log(`[Discord Bot] Shard ${id} ready. unavailableGuilds=${unavailableGuilds?.size ?? 0}`);
+    });
+
+    client.on('shardDisconnect', (event, id) => {
+        console.warn(`[Discord Bot] Shard ${id} disconnected. code=${event?.code ?? 'unknown'} reason=${event?.reason || 'unknown'}`);
+    });
+
+    client.on('shardReconnecting', (id) => {
+        console.log(`[Discord Bot] Shard ${id} reconnecting...`);
+    });
+
+    client.on('shardResume', (id, replayedEvents) => {
+        console.log(`[Discord Bot] Shard ${id} resumed. replayedEvents=${replayedEvents ?? 0}`);
+    });
+
+    client.on('shardError', (error, id) => {
+        console.error(`[Discord Bot] Shard ${id} error:`, error?.message || error);
+    });
+
+    client.on('invalidated', () => {
+        console.error('[Discord Bot] Session invalidated.');
+    });
+
     client.once('ready', () => {
         console.log(`[Discord Bot] Connected as ${client.user?.tag || 'unknown-user'}.`);
     });
