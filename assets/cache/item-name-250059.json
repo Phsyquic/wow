@@ -1,0 +1,323 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/250059?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 250059,
+  "name": "Voidbreaker's Britches",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/250059?namespace=static-12.0.1_65617-us"
+    },
+    "id": 250059
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": "Legs"
+  },
+  "purchase_price": 417174,
+  "sell_price": 83434,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/250059?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250059
+    },
+    "context": 0,
+    "bonus_list": [
+      13339,
+      13575
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Voidbreaker's Britches",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/250059?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250059
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": "Legs"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 8,
+      "display": {
+        "display_string": "8 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 13,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+13 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 38539,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "85",
+        "copper": "39"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Mage",
+            "id": 8
+          }
+        ],
+        "display_string": "Classes: Mage"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1983?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Voidbreaker's Accordance",
+        "id": 1983
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250063?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Robe",
+            "id": 250063
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250061?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Gloves",
+            "id": 250061
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250060?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Veil",
+            "id": 250060
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250059?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Britches",
+            "id": 250059
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250058?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidbreaker's Leyline Nexi",
+            "id": 250058
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: Each Arcane Charge increases your critical strike chance by 1.0%.",
+          "required_count": 2
+        },
+        {
+          "display_string": "(4) Set: The critical strike damage of your Arcane spells is increased by 10%.",
+          "required_count": 4
+        }
+      ],
+      "display_string": "Voidbreaker's Accordance (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125412?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125412
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125448?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125448
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125460?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125460
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125436?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125436
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125448?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125448
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125412?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125412
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125460?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125460
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/125436?namespace=static-12.0.1_65617-us"
+      },
+      "id": 125436
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/185813?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_jewelcrafting_80_maxlvlring_blue.jpg",
+      "file_data_id": 2004909
+    }
+  ],
+  "id": 185813
+}

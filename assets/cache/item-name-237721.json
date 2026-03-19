@@ -1,0 +1,347 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237721?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237721,
+  "name": "Augur's Ephemeral Habiliments",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237721?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237721
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "ROBE",
+    "name": "Chest"
+  },
+  "purchase_price": 5114568,
+  "sell_price": 1022913,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237721?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237721
+    },
+    "context": 0,
+    "bonus_list": [
+      12229,
+      12676
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Augur's Ephemeral Habiliments",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237721?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237721
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "ROBE",
+      "name": "Chest"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 18,
+      "display": {
+        "display_string": "18 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 22,
+        "display": {
+          "display_string": "+22 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 99,
+        "display": {
+          "display_string": "+99 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 29,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+29 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 16,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+16 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 510154,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "51",
+        "silver": "1",
+        "copper": "54"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Mage",
+            "id": 8
+          }
+        ],
+        "display_string": "Classes: Mage"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1924?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Augur's Ephemeral Plumage",
+        "id": 1924
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237721?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Augur's Ephemeral Habiliments",
+            "id": 237721
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237719?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Augur's Ephemeral Mitts",
+            "id": 237719
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237718?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Augur's Ephemeral Wide-Brim",
+            "id": 237718
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237717?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Augur's Ephemeral Trousers",
+            "id": 237717
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237716?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Augur's Ephemeral Orbs of Power",
+            "id": 237716
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "(2) Set: Damage done increased by 6%.",
+          "required_count": 2
+        },
+        {
+          "display_string": "(4) Set: Damage done increased by 10%.\r\n",
+          "required_count": 4
+        }
+      ],
+      "display_string": "Augur's Ephemeral Plumage (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 165,
+      "display_string": "Durability 165 / 165"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116946?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116946
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116933?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116933
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116972?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116972
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116933?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116933
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116972?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116972
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116920?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116920
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116959?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116959
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116985?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116985
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116920?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116920
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116946?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116946
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116959?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116959
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116985?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116985
+    }
+  ]
+}

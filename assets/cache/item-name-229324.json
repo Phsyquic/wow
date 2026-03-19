@@ -1,0 +1,336 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229324?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229324,
+  "name": "Spliced Fiendtrader's Skin Tights",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229324?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229324
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": "Legs"
+  },
+  "purchase_price": 5146451,
+  "sell_price": 1029290,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229324?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229324
+    },
+    "context": 0,
+    "bonus_list": [
+      11961
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Spliced Fiendtrader's Skin Tights",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229324?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229324
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": "Legs"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2049,
+      "display": {
+        "display_string": "2,049 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 1331,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,331 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 546,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+546 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1029290,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "102",
+        "silver": "92",
+        "copper": "90"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/9?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Warlock",
+            "id": 9
+          }
+        ],
+        "display_string": "Classes: Warlock"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1878?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spliced Fiendtrader's Influence",
+        "id": 1878
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229326?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spliced Fiendtrader's Demonic Grasp",
+            "id": 229326
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229325?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spliced Fiendtrader's Transcendence",
+            "id": 229325
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229324?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spliced Fiendtrader's Skin Tights",
+            "id": 229324
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229328?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spliced Fiendtrader's Surgical Gown",
+            "id": 229328
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229323?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spliced Fiendtrader's Loyal Servants",
+            "id": 229323
+          }
+        }
+      ],
+      "display_string": "Spliced Fiendtrader's Influence (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 120,
+      "display_string": "Durability 120 / 120"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96152?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96152
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96200?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96200
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96176?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96176
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96200?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96200
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96176?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96176
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96164?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96164
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96140?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96140
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96188?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96188
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96164?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96164
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96152?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96152
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96140?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96140
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/96188?namespace=static-11.1.0_59095-us"
+      },
+      "id": 96188
+    }
+  ]
+}
