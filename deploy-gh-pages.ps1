@@ -72,7 +72,9 @@ try {
     New-Item -Path $tempDeployDir -ItemType Directory -Force | Out-Null
     Copy-Item -Path (Join-Path -Path $buildOutputDir -ChildPath "*") -Destination $tempDeployDir -Recurse -Force
 
+    Invoke-CheckedCommand -Command { git fetch origin gh-pages } -ErrorMessage "No se pudo actualizar la referencia remota de gh-pages."
     Invoke-CheckedCommand -Command { git switch gh-pages } -ErrorMessage "No se pudo cambiar a la rama gh-pages."
+    Invoke-CheckedCommand -Command { git reset --hard origin/gh-pages } -ErrorMessage "No se pudo sincronizar gh-pages local con origin/gh-pages."
     Invoke-CheckedCommand -Command { git rm -r . } -ErrorMessage "No se pudieron limpiar los archivos en gh-pages."
 
     Copy-Item -Path (Join-Path -Path $tempDeployDir -ChildPath "*") -Destination $PSScriptRoot -Recurse -Force
