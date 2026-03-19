@@ -58,6 +58,7 @@ export class BisesComponent implements OnInit {
   private generatedBisSources: Record<string, string[]> = {};
   private generatedBisSlots: Record<string, string[]> = {};
   private bundledBisSources: Record<string, string[]> = {};
+  private bundledBisSlots: Record<string, string[]> = {};
   private encounterNameCache: Record<number, string> = {};
   private missingMetadataWarnedItemIds = new Set<number>();
   private inventoryTypeFallbackByItemId: Record<number, number> = {};
@@ -98,6 +99,7 @@ export class BisesComponent implements OnInit {
   private adminConfigStorageKey = 'config';
   private adminPassword = '6190';
   canReloadBisFromCurrentRuntime = false;
+  reloadBisError = '';
 
   constructor(
     private http: HttpClient,
@@ -109,21 +111,12 @@ export class BisesComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadAdminConfigState();
-    this.canReloadBisFromCurrentRuntime = this.canScrapeFromCurrentRuntime();
+    this.canReloadBisFromCurrentRuntime = this.canPersistBisSnapshotFromCurrentRuntime();
     this.loadInitialData();
   }
 
-  private canScrapeFromCurrentRuntime(): boolean {
-    if (this.cacheApiBase) {
-      return true;
-    }
-
-    if (typeof window === 'undefined') {
-      return false;
-    }
-
-    const host = window.location.hostname.toLowerCase();
-    return host === 'localhost' || host === '127.0.0.1';
+  private canPersistBisSnapshotFromCurrentRuntime(): boolean {
+    return !!this.cacheApiBase;
   }
 
   async loadInitialData() {
@@ -131,6 +124,7 @@ export class BisesComponent implements OnInit {
       this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
       this.generatedBisSlots = this.LocalDataService.getGeneratedBisSlots();
       await this.loadBundledBisSources();
+      await this.loadBundledBisSlots();
       await this.getBisListData();
       await this.getBosses();
     } catch (error) {
@@ -339,7 +333,7 @@ export class BisesComponent implements OnInit {
     if (spec == 'Unholy Death-Knight' || spec == 'Frost Death-Knight' || spec == 'Blood Death-Knight') {
       return '#c41f3b';
     }
-    if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter') {
+    if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter' || spec == 'Devourer Demon-Hunter') {
       return '#a330c9';
     }
     if (spec == 'Beast-Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
@@ -1070,7 +1064,10 @@ export class BisesComponent implements OnInit {
       return byInventoryType;
     }
 
-    const scrapedSlots = this.generatedBisSlots[String(itemId)] ?? [];
+    const scrapedSlots = [
+      ...(this.generatedBisSlots[String(itemId)] ?? []),
+      ...(this.bundledBisSlots[String(itemId)] ?? []),
+    ];
     const normalizedFromScrape = scrapedSlots
       .map((slot) => this.normalizeWowheadSlotToKey(slot))
       .find((slot) => !!slot);
@@ -1155,7 +1152,7 @@ export class BisesComponent implements OnInit {
     if (spec == 'Unholy Death-Knight' || spec == 'Frost Death-Knight' || spec == 'Blood Death-Knight') {
       return 1;
     }
-    if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter') {
+    if (spec == 'Havoc Demon-Hunter' || spec == 'Vengeance Demon-Hunter' || spec == 'Devourer Demon-Hunter') {
       return 1;
     }
     if (spec == 'Mastery Hunter-Beast' || spec == 'Beast-Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {
@@ -1370,8 +1367,10 @@ export class BisesComponent implements OnInit {
       return;
     }
 
+    this.reloadBisError = '';
     if (!this.canReloadBisFromCurrentRuntime) {
-      console.error('BiS reload disabled: no backend configured for Wowhead scraping in this environment.');
+      this.reloadBisError = 'No hay backend configurado para guardar la BiS generada en bisList.txt.';
+      console.error('BiS reload disabled: no backend configured for Wowhead scraping and snapshot persistence in this environment.');
       return;
     }
 
@@ -1461,12 +1460,14 @@ export class BisesComponent implements OnInit {
         throw new Error('No se pudo generar ninguna bislist desde Wowhead.');
       }
 
+      await this.persistGeneratedBisListSnapshot(generatedBisList, sourceMap, slotMap);
       this.LocalDataService.saveGeneratedBisListTxt(generatedBisList);
       this.LocalDataService.saveGeneratedBisSources(sourceMap);
       this.LocalDataService.saveGeneratedBisSlots(slotMap);
-      await this.persistGeneratedBisListSnapshot(generatedBisList, sourceMap);
       this.generatedBisSources = sourceMap;
       this.generatedBisSlots = slotMap;
+      this.bundledBisSources = sourceMap;
+      this.bundledBisSlots = slotMap;
       if (isDev) {
         console.log(`[BiS Reload] Guardado bisList generada. Specs OK: ${okCount}, fallidas/sin datos: ${failCount}`);
       }
@@ -1475,6 +1476,7 @@ export class BisesComponent implements OnInit {
         console.log('[BiS Reload] Recarga de vista completada');
       }
     } catch (error) {
+      this.reloadBisError = 'La recarga desde Wowhead no se pudo guardar en los archivos del proyecto.';
       console.error('Error recargando bislist desde Wowhead', error);
       // Si algo falla, restauramos estado de UI con datos actuales.
       await this.reloadBisViewData();
@@ -1499,31 +1501,33 @@ export class BisesComponent implements OnInit {
     this.slotsLibrary = [];
     this.generatedBisSources = this.LocalDataService.getGeneratedBisSources();
     this.generatedBisSlots = this.LocalDataService.getGeneratedBisSlots();
+    await this.loadBundledBisSources();
+    await this.loadBundledBisSlots();
     this.resetFiltros();
 
     await this.getBisListData();
     await this.getBosses();
   }
 
-  async persistGeneratedBisListSnapshot(content: string, sources: Record<string, string[]>) {
+  async persistGeneratedBisListSnapshot(
+    content: string,
+    sources: Record<string, string[]>,
+    slots: Record<string, string[]>
+  ) {
     if (!this.cacheApiBase) {
-      return;
+      throw new Error('No cache API base configured for snapshot persistence.');
     }
 
-    try {
-      const response = await fetch(`${this.cacheApiBase}/bislist/save`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ content, sources }),
-      });
+    const response = await fetch(`${this.cacheApiBase}/bislist/save`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ content, sources, slots }),
+    });
 
-      if (!response.ok) {
-        throw new Error(`Snapshot save failed (${response.status})`);
-      }
-    } catch (error) {
-      console.warn('No se pudo guardar snapshot estático de BiS en local.', error);
+    if (!response.ok) {
+      throw new Error(`Snapshot save failed (${response.status})`);
     }
   }
 
@@ -1535,6 +1539,7 @@ export class BisesComponent implements OnInit {
 
       { classLabel: 'Demon-Hunter', classSlug: 'demon-hunter', specLabel: 'Havoc', specSlug: 'havoc' },
       { classLabel: 'Demon-Hunter', classSlug: 'demon-hunter', specLabel: 'Vengeance', specSlug: 'vengeance' },
+      { classLabel: 'Demon-Hunter', classSlug: 'demon-hunter', specLabel: 'Devourer', specSlug: 'devourer' },
 
       { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Balance', specSlug: 'balance' },
       { classLabel: 'Druid', classSlug: 'druid', specLabel: 'Feral', specSlug: 'feral' },
@@ -1801,6 +1806,15 @@ export class BisesComponent implements OnInit {
       this.bundledBisSources = data && typeof data === 'object' ? data : {};
     } catch {
       this.bundledBisSources = {};
+    }
+  }
+
+  async loadBundledBisSlots() {
+    try {
+      const data = await firstValueFrom(this.LocalDataService.getBisSlotsJson());
+      this.bundledBisSlots = data && typeof data === 'object' ? data : {};
+    } catch {
+      this.bundledBisSlots = {};
     }
   }
 

@@ -32,7 +32,7 @@
       <ng-container *ngIf="isAdminConfigEnabled; else adminConfigEntry">
         <button
           class="btn ghost"
-          [title]="canReloadBisFromCurrentRuntime ? 'Recargar BiS desde Wowhead' : 'No disponible sin backend/proxy de scraping'"
+          [title]="canReloadBisFromCurrentRuntime ? 'Recargar BiS desde Wowhead y guardar bisList.txt' : 'No disponible sin backend de guardado'"
           [disabled]="!canReloadBisFromCurrentRuntime"
           (click)="reloadBisFromWowhead()"
         >↻</button>
@@ -51,6 +51,8 @@
       <button class="btn ghost" *ngIf="tableBisList != tableBisList_full" (click)="resetFiltros()">Reset</button>
       <button class="btn primary" (click)="goMain()">Main</button>
     </div>
+
+    <p class="modal-error" *ngIf="reloadBisError">{{ reloadBisError }}</p>
   </section>
 
   <section class="tier-breaks" *ngIf="!isLoading && tierBreakGroups.length > 0 && !hasActiveFilters()">

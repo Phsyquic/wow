@@ -20,6 +20,7 @@ const CACHE_DIR = path.join(__dirname, 'cache');
 const ASSETS_JSON_DIR = path.join(__dirname, '..', 'src', 'assets', 'json');
 const BIS_LIST_FILE = path.join(ASSETS_JSON_DIR, 'bisList.txt');
 const BIS_SOURCES_FILE = path.join(ASSETS_JSON_DIR, 'bisSources.json');
+const BIS_SLOTS_FILE = path.join(ASSETS_JSON_DIR, 'bisSlots.json');
 const DROPTIMIZERS_FILE = path.join(ASSETS_JSON_DIR, 'droptimizers.txt');
 
 // Asegurar que la carpeta de caché existe
@@ -31,6 +32,9 @@ if (!fs.existsSync(ASSETS_JSON_DIR)) {
 }
 if (!fs.existsSync(DROPTIMIZERS_FILE)) {
     fs.writeFileSync(DROPTIMIZERS_FILE, '', 'utf8');
+}
+if (!fs.existsSync(BIS_SLOTS_FILE)) {
+    fs.writeFileSync(BIS_SLOTS_FILE, '{}', 'utf8');
 }
 
 let droptimizerWriteQueue = Promise.resolve();
@@ -508,6 +512,7 @@ app.delete('/cache/items', (req, res) => {
 app.post('/bislist/save', (req, res) => {
     const content = typeof req.body?.content === 'string' ? req.body.content : '';
     const sources = req.body?.sources ?? {};
+    const slots = req.body?.slots ?? {};
 
     if (!content.trim()) {
         return res.status(400).json({ error: 'content is required' });
@@ -516,10 +521,12 @@ app.post('/bislist/save', (req, res) => {
     try {
         fs.writeFileSync(BIS_LIST_FILE, content, 'utf8');
         fs.writeFileSync(BIS_SOURCES_FILE, JSON.stringify(sources, null, 2), 'utf8');
+        fs.writeFileSync(BIS_SLOTS_FILE, JSON.stringify(slots, null, 2), 'utf8');
         return res.json({
             ok: true,
             bisListFile: BIS_LIST_FILE,
             bisSourcesFile: BIS_SOURCES_FILE,
+            bisSlotsFile: BIS_SLOTS_FILE,
         });
     } catch (error) {
         console.error('Error guardando bislist estática:', error);

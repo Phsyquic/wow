@@ -11,6 +11,12 @@
   "49810": [
     "Pit of Saron"
   ],
+  "49812": [
+    "Pit of Saron"
+  ],
+  "49817": [
+    "Pit of Saron"
+  ],
   "50228": [
     "Pit of Saron"
   ],
@@ -26,8 +32,8 @@
   "133499": [
     "Pit of Saron"
   ],
-  "151308": [
-    "Seat of the Triumvirate"
+  "133506": [
+    "Pit of Saron"
   ],
   "151309": [
     "Seat of the Triumvirate"
@@ -50,7 +56,7 @@
   "151323": [
     "Seat of the Triumvirate"
   ],
-  "151333": [
+  "151332": [
     "Seat of the Triumvirate"
   ],
   "151336": [
@@ -65,9 +71,6 @@
   "193708": [
     "Algeth'ar Academy"
   ],
-  "193709": [
-    "Algeth'ar Academy"
-  ],
   "193710": [
     "Algeth'ar Academy"
   ],
@@ -77,48 +80,21 @@
   "193722": [
     "Algeth'ar Academy"
   ],
-  "193723": [
-    "Algeth'ar Academy"
-  ],
-  "222431": [],
-  "222435": [],
-  "235499": [
-    "Questline"
-  ],
-  "237567": [
-    "Plexus Sentinel"
-  ],
-  "237570": [
-    "Forgeweaver Araz"
-  ],
-  "237617": [
-    "Catalyst Raid Vault"
-  ],
-  "237618": [
-    "Catalyst Raid Vault"
-  ],
-  "237619": [
-    "Catalyst Raid Vault"
-  ],
-  "237620": [
-    "Catalyst Raid Vault"
-  ],
-  "237622": [
-    "Catalyst Raid Vault"
-  ],
-  "237737": [
-    "Forgeweaver Araz"
-  ],
   "237834": [
     "Crafting/Misc"
   ],
   "237837": [],
-  "237845": [
-    "Crafting -"
-  ],
+  "237840": [],
+  "237845": [],
+  "237846": [],
   "237850": [],
   "239648": [],
   "239656": [
+    "Crafting/Misc"
+  ],
+  "239660": [],
+  "239661": [],
+  "239664": [
     "Crafting/Misc"
   ],
   "240949": [],
@@ -126,40 +102,26 @@
     "Crafted"
   ],
   "241140": [],
-  "242395": [
-    "Loom'ithar"
-  ],
-  "242402": [
-    "Forgeweaver Araz"
-  ],
-  "242406": [
-    "Nexus-King Salhadaar"
-  ],
-  "243307": [
-    "The Soul Hunters"
-  ],
   "244569": [],
   "244573": [],
   "244575": [
     "Crafting/Misc"
   ],
   "244576": [
-    "Crafting/Misc",
-    "Crafted"
+    "Crafting/Misc"
   ],
   "244577": [],
   "244584": [],
   "244610": [],
   "244611": [],
-  "244750": [],
+  "245769": [
+    "Crafting/Misc"
+  ],
   "249276": [],
   "249277": [
     "Lightblinded Vanguard"
   ],
   "249278": [],
-  "249279": [
-    "Imperator Averzian"
-  ],
   "249280": [
     "Vaelgor & Ezzorak"
   ],
@@ -170,11 +132,20 @@
     "Belo'ren",
     "Belo'ren (Raid)"
   ],
+  "249284": [
+    "Belo'ren"
+  ],
   "249286": [
     "Midnight Falls"
   ],
   "249287": [
     "Vaelgor & Ezzorak"
+  ],
+  "249288": [
+    "Crown of the Cosmos"
+  ],
+  "249293": [
+    "Imperator Averzian (Raid)"
   ],
   "249295": [
     "Crown of the Cosmos"
@@ -194,18 +165,17 @@
   "249314": [
     "Fallen-King Salhadaar (Raid)"
   ],
-  "249315": [],
+  "249315": [
+    "Vorasius (Raid)"
+  ],
   "249316": [
     "Fallen-King Salhadaar"
   ],
-  "249318": [
-    "Vaelgor & Ezzorak"
-  ],
   "249320": [
-    "Imperator Averzian"
+    "Imperator Averzian (Raid)"
   ],
   "249321": [
-    "Vaelgor & Ezzorak -"
+    "Vaelgor & Ezzorak"
   ],
   "249324": [
     "Belo'ren"
@@ -216,9 +186,7 @@
   "249326": [
     "Imperator Averzian"
   ],
-  "249327": [
-    "Vorasius -"
-  ],
+  "249327": [],
   "249328": [
     "Belo'ren"
   ],
@@ -230,9 +198,12 @@
     "Imperator Averzian"
   ],
   "249335": [
-    "Imperator Averzian"
+    "Imperator Averzian",
+    "Imperator Averzian (Raid)"
   ],
-  "249336": [],
+  "249336": [
+    "Vorasius (Raid)"
+  ],
   "249337": [
     "Fallen-King Salhadaar",
     "Fallen-King Salhadaar (Raid)"
@@ -240,12 +211,8 @@
   "249339": [
     "Vaelgor & Ezzorak"
   ],
-  "249341": [
-    "Fallen-King Salhadaar"
-  ],
   "249342": [],
   "249343": [
-    "Chimaerus -",
     "Chimaerus (Raid)"
   ],
   "249344": [
@@ -256,7 +223,8 @@
     "Vaelgor & Ezzorak (Raid)"
   ],
   "249368": [
-    "Crown of the Cosmos"
+    "Crown of the Cosmos",
+    "Crown of the Cosmos (Raid)"
   ],
   "249369": [
     "Lightblinded Vanguard",
@@ -274,8 +242,7 @@
     "Belo'ren (Raid)"
   ],
   "249377": [
-    "Belo'ren",
-    "Belo'ren (Raid)"
+    "Belo'ren"
   ],
   "249380": [
     "Crown of the Cosmos"
@@ -287,8 +254,13 @@
   "249806": [
     "Belo'ren"
   ],
+  "249808": [
+    "Lightblinded Vanguard",
+    "Lightblinded Vanguard (Raid)"
+  ],
   "249809": [
-    "Crown of the Cosmos (Raid)"
+    "Crown of the Cosmos (Raid)",
+    "Crown of the Cosmos"
   ],
   "249810": [
     "Midnight Falls"
@@ -309,13 +281,11 @@
   ],
   "249919": [
     "Belo'ren",
-    "Belo'ren -",
     "Belo'ren (Raid)"
   ],
   "249920": [
     "Midnight Falls",
-    "Midnight Falls (Raid)",
-    "Seat of the Triumvirate"
+    "Midnight Falls (Raid)"
   ],
   "249921": [
     "Belo'ren"
@@ -324,9 +294,7 @@
     "Chimaerus (Raid)"
   ],
   "249925": [],
-  "249949": [
-    "Tier Set"
-  ],
+  "249949": [],
   "249950": [
     "Tier Set"
   ],
@@ -349,7 +317,8 @@
     "Tier Set"
   ],
   "249961": [
-    "Lightblinded Vanguard"
+    "Lightblinded Vanguard",
+    "Tier Set"
   ],
   "249962": [
     "Tier Set"
@@ -398,15 +367,6 @@
     "Catalyst Raid Vault",
     "Raid Catalyst Vault"
   ],
-  "249984": [
-    "Tier Set"
-  ],
-  "249985": [
-    "Tier Set"
-  ],
-  "249986": [
-    "Tier Set"
-  ],
   "249987": [
     "Tier Set"
   ],
@@ -431,7 +391,8 @@
     "Tier Set"
   ],
   "249998": [
-    "Raid Catalyst Vault"
+    "Raid Catalyst Vault",
+    "Tier Set"
   ],
   "249999": [
     "The Catalyst"
@@ -458,18 +419,17 @@
   "250010": [
     "The Catalyst"
   ],
+  "250011": [],
   "250013": [
     "Catalyst Raid Vault",
-    "Tier Set",
-    "Tier Set - Catalyst Raid Vault"
+    "Tier Set"
   ],
   "250014": [
-    "Tier Set",
-    "Tier Set - Catalyst Raid Vault"
+    "Tier Set"
   ],
   "250015": [
     "Catalyst Raid Vault",
-    "Tier Set - Catalyst Raid Vault"
+    "Tier Set"
   ],
   "250016": [
     "Catalyst Raid Vault",
@@ -480,8 +440,7 @@
   ],
   "250018": [
     "Catalyst Raid Vault",
-    "Tier Set",
-    "Tier Set - Catalyst Raid Vault"
+    "Tier Set"
   ],
   "250022": [
     "Tier Set",
@@ -507,16 +466,18 @@
     "Fallen-King Salhadaar ( Tier Set )"
   ],
   "250032": [
+    "Tier Set",
     "Vaelgor & Ezzorak ( Tier Set )"
   ],
   "250033": [
-    "Tier Set",
-    "Lightblinded Vanguard ( Tier Set )"
+    "Lightblinded Vanguard ( Tier Set )",
+    "Tier Set"
   ],
   "250034": [
     "Tier Set",
     "Vorasius ( Tier Set )"
   ],
+  "250035": [],
   "250036": [
     "Tier Set"
   ],
@@ -531,6 +492,9 @@
   ],
   "250045": [
     "Tier Set"
+  ],
+  "250047": [
+    "Raid Catalyst Vault"
   ],
   "250049": [
     "Raid Catalyst Vault"
@@ -568,16 +532,14 @@
   "250144": [
     "Windrunner Spire"
   ],
-  "250246": [
-    "Magister's Terrace"
-  ],
   "250247": [
     "Seat of the Triumvirate",
     "Midnight Falls",
     "Midnight Falls (Raid)"
   ],
   "250256": [
-    "Windrunner Spire"
+    "Windrunner Spire",
+    "Magister's Terrace"
   ],
   "251077": [
     "Windrunner Spire"
@@ -605,7 +567,8 @@
     "Windrunner Spire"
   ],
   "251093": [
-    "Nexus Point Xenas"
+    "Nexus Point Xenas",
+    "Nexus-Point Xenas"
   ],
   "251094": [
     "Windrunner Spire"
@@ -619,11 +582,17 @@
   "251108": [
     "Magister's Terrace"
   ],
+  "251109": [
+    "Magister's Terrace"
+  ],
   "251113": [
     "Magister's Terrace"
   ],
   "251115": [
     "Magister's Terrace"
+  ],
+  "251162": [
+    "Maisara Caverns"
   ],
   "251174": [
     "Maisara Caverns"
@@ -631,8 +600,8 @@
   "251178": [
     "Maisara Caverns"
   ],
-  "251179": [
-    "Maisara Caverns"
+  "251202": [
+    "Nexus Point Xenas"
   ],
   "251206": [
     "Nexus Point Xenas"
@@ -654,13 +623,14 @@
     "Nexus Point Xenas"
   ],
   "251217": [
-    "Nexus Point Xenas"
+    "Nexus Point Xenas",
+    "Nexus-Point Xenas"
   ],
   "251513": [
-    "Crafting/Misc"
+    "Crafted"
   ],
-  "258047": [],
   "258049": [],
+  "258050": [],
   "258218": [],
   "258514": [
     "Seat of the Triumvirate"

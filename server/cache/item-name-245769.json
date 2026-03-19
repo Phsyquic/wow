@@ -1,0 +1,198 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/245769?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 245769,
+  "name": "Aln'hara Lantern",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 197,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/245769?namespace=static-12.0.1_65617-us"
+    },
+    "id": 245769
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "HOLDABLE",
+    "name": "Held In Off-hand"
+  },
+  "purchase_price": 10182662,
+  "sell_price": 2036532,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/245769?namespace=static-12.0.1_65617-us"
+      },
+      "id": 245769
+    },
+    "context": 0,
+    "bonus_list": [
+      12214
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Aln'hara Lantern",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/245769?namespace=static-12.0.1_65617-us"
+      },
+      "id": 245769
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "HOLDABLE",
+      "name": "Held In Off-hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 127,
+        "display": {
+          "display_string": "+127 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 515,
+        "display": {
+          "display_string": "+515 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 32,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+32 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 32,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+32 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 2036532,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "203",
+        "silver": "65",
+        "copper": "32"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "level": {
+      "value": 246,
+      "display_string": "Item Level 246"
+    },
+    "is_subclass_hidden": true,
+    "modified_crafting_stat": [
+      {
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": "Versatility"
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": "Haste"
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/122690?namespace=static-12.0.1_65617-us"
+      },
+      "id": 122690
+    }
+  ]
+}

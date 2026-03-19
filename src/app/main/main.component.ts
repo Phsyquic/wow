@@ -181,9 +181,7 @@ export class MainComponent implements OnInit {
     meta.playerSpec = data?.sim?.players?.[0]?.specialization ?? 'unknown';
     this.droptimizerMetaByReport[report] = meta;
     this.logMetaValidationAgainstMajority();
-    if (this.encounterLibrary.length == 0) {
-      this.getBossLibrary(data);
-    }
+    this.getBossLibrary(data);
     this.addPlayer(data, report);
     this.playersLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
     this.getItemsLibrary(data);
@@ -254,33 +252,19 @@ export class MainComponent implements OnInit {
   }
 
   getBossLibrary(data: any) {
-    var bosses = data.simbot.meta.itemLibrary[0].instance.encounters;
-    const realBosses = bosses.filter((enc: any) => !this.isPseudoEncounter(enc?.name));
-    const finalRealBoss = realBosses.length > 0 ? realBosses[realBosses.length - 1] : null;
+    const itemLibrary = Array.isArray(data?.simbot?.meta?.itemLibrary) ? data.simbot.meta.itemLibrary : [];
 
-    bosses.forEach((element: any) => {
-      if (this.isPseudoEncounter(element?.name)) {
-        if (finalRealBoss) {
-          const fromId = Number(element.id);
-          const toId = Number(finalRealBoss.id);
-          this.encounterAliases[fromId] = toId;
+    itemLibrary.forEach((item: any) => {
+      const encounters = Array.isArray(item?.instance?.encounters) ? item.instance.encounters : [];
+      this.registerEncounterCollection(encounters);
 
-          if (this.tierEncounterIds.has(fromId)) {
-            this.tierEncounterIds.add(toId);
-          }
-          if (this.ignoredTierEncounterIds.has(fromId)) {
-            this.ignoredTierEncounterIds.add(toId);
-          }
-        }
-        return;
+      const directEncounter = item?.encounter;
+      if (directEncounter?.id && directEncounter?.name) {
+        this.registerEncounter(directEncounter.id, directEncounter.name);
       }
-
-      var boss = {
-        id: element.id,
-        name: element.name
-      };
-      this.encounterLibrary.push(boss);
     });
+
+    this.encounterLibrary.sort((a: any, b: any) => a.name.localeCompare(b.name));
   }
 
   getItemsLibrary(data: any) {
@@ -297,7 +281,7 @@ export class MainComponent implements OnInit {
           id: item.id,
           name: item.name,
           icon: item.icon,
-          boss: item.encounter.id,
+          boss: this.normalizeEncounterId(item.encounter.id),
           stats: item.stats
         }
         this.itemsLibrary.push(itemReal);
@@ -305,7 +289,7 @@ export class MainComponent implements OnInit {
         if (this.comprobarTierItem(item)) {
           const existingItem = this.itemsLibrary.find((element: any) => element.id === item.id);
           if (existingItem) {
-            existingItem.boss = item.encounter.id;
+            existingItem.boss = this.normalizeEncounterId(item.encounter.id);
           }
         }
       }
@@ -359,7 +343,7 @@ export class MainComponent implements OnInit {
     var str = item.name.split("/", 7);
     var item_id = str[3];
     const numericItemId = Number(item_id);
-    var item_boss = this.normalizeEncounterId(str[1]);
+    var item_boss = this.resolveBossIdForItem(numericItemId, str[1]);
     var item_slot: string = this.comprobarSlot(str[6]);
     var item_dps = Math.round(item.mean);
     var item_realDPS = item_dps - player.dps;
@@ -655,6 +639,59 @@ export class MainComponent implements OnInit {
     return retorna;
   }
 
+  resolveBossIdForItem(itemId: number, fallbackBossId: any) {
+    const normalizedFallbackBossId = this.normalizeEncounterId(fallbackBossId);
+    const itemFromLibrary = this.itemsLibrary.find((element: any) => Number(element.id) === Number(itemId));
+    if (itemFromLibrary?.boss) {
+      return this.normalizeEncounterId(itemFromLibrary.boss);
+    }
+    return normalizedFallbackBossId;
+  }
+
+  registerEncounterCollection(encounters: any[]) {
+    const realBosses = encounters.filter((enc: any) => !this.isPseudoEncounter(enc?.name));
+    const finalRealBoss = realBosses.length > 0 ? realBosses[realBosses.length - 1] : null;
+
+    encounters.forEach((encounter: any) => {
+      if (this.isPseudoEncounter(encounter?.name)) {
+        if (finalRealBoss) {
+          const fromId = Number(encounter.id);
+          const toId = Number(finalRealBoss.id);
+          this.encounterAliases[fromId] = toId;
+
+          if (this.tierEncounterIds.has(fromId)) {
+            this.tierEncounterIds.add(toId);
+          }
+          if (this.ignoredTierEncounterIds.has(fromId)) {
+            this.ignoredTierEncounterIds.add(toId);
+          }
+        }
+        return;
+      }
+
+      this.registerEncounter(encounter?.id, encounter?.name);
+    });
+  }
+
+  registerEncounter(id: any, name: any) {
+    const normalizedId = Number(this.normalizeEncounterId(id));
+    const normalizedName = String(name ?? '').trim();
+    if (!Number.isInteger(normalizedId) || normalizedId <= 0 || !normalizedName || this.isPseudoEncounter(normalizedName)) {
+      return;
+    }
+
+    const existingEncounter = this.encounterLibrary.find((encounter: any) => Number(encounter.id) === normalizedId);
+    if (existingEncounter) {
+      existingEncounter.name = normalizedName;
+      return;
+    }
+
+    this.encounterLibrary.push({
+      id: normalizedId,
+      name: normalizedName
+    });
+  }
+
   sortChart(items: any) {
     var sorted = items.sort((a: any, b: any) => (a.dps > b.dps ? -1 : 1));
     return sorted;
@@ -778,7 +815,7 @@ export class MainComponent implements OnInit {
     if (spec == 'Unholy Death Knight' || spec == 'Frost Death Knight' || spec == 'Blood Death Knight') {
       return '#c41f3b';
     }
-    if (spec == 'Havoc Demon Hunter' || spec == 'Vengeance Demon Hunter') {
+    if (spec == 'Havoc Demon Hunter' || spec == 'Vengeance Demon Hunter' || spec == 'Devourer Demon Hunter') {
       return '#a330c9';
     }
     if (spec == 'Beast Mastery Hunter' || spec == 'Marksmanship Hunter' || spec == 'Survival Hunter') {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
@@ -46,20 +46,15 @@ export class LocalDataService {
   }
 
   getBisListTxt(): Observable<any> {
-    if (environment.production) {
-      var staticUrl = this.jsonURL + 'bisList.txt';
-      return this.http.get(staticUrl, { responseType: 'text' }).pipe(
-        catchError(() => of(''))
-      );
-    }
-
     const generatedBisList = this.getGeneratedBisListTxt();
     if (generatedBisList) {
       return of(generatedBisList);
     }
 
-    var _url = this.jsonURL + 'bisList.txt';
-    return this.http.get(_url, { responseType: 'text' });
+    const staticUrl = this.jsonURL + 'bisList.txt';
+    return this.http.get(staticUrl, { responseType: 'text' }).pipe(
+      catchError(() => of(''))
+    );
   }
 
   saveGeneratedBisListTxt(content: string): void {
@@ -120,5 +115,12 @@ export class LocalDataService {
     } catch {
       return {};
     }
+  }
+
+  getBisSlotsJson(): Observable<Record<string, string[]>> {
+    const staticUrl = this.jsonURL + 'bisSlots.json';
+    return this.http.get<Record<string, string[]>>(staticUrl).pipe(
+      catchError(() => of({}))
+    );
   }
 }
