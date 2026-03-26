@@ -1,0 +1,219 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/133506?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 133506,
+  "name": "Horns of the Spurned Val'kyr",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 35,
+  "required_level": 30,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/133506?namespace=static-12.0.1_65617-us"
+    },
+    "id": 133506
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 58122,
+  "sell_price": 11624,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/133506?namespace=static-12.0.1_65617-us"
+      },
+      "id": 133506
+    },
+    "context": 0,
+    "bonus_list": [
+      13610,
+      6652
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Horns of the Spurned Val'kyr",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/133506?namespace=static-12.0.1_65617-us"
+      },
+      "id": 133506
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 28,
+      "display": {
+        "display_string": "28 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 16,
+        "display": {
+          "display_string": "+16 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 16,
+        "is_negated": true,
+        "display": {
+          "display_string": "+16 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 25,
+        "display": {
+          "display_string": "+25 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 18,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+18 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 11624,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "1",
+        "silver": "16",
+        "copper": "24"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 30,
+        "display_string": "Requires Level 30"
+      }
+    },
+    "level": {
+      "value": 73,
+      "display_string": "Item Level 73"
+    },
+    "durability": {
+      "value": 85,
+      "display_string": "Durability 85 / 85"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/12183?namespace=static-12.0.1_65617-us"
+      },
+      "id": 12183
+    }
+  ]
+}
