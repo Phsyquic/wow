@@ -1,0 +1,270 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2588?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2588,
+  "name": "Benk Buzzbee",
+  "description": "Benk's qualifications for beekeeping may be dubious, but he does seem to have a knack for controlling bees and streamlining honey-extracting operations. But, his tampering has limited the bees' freedom and sacrificed the mead's quality, and this cannot stand.",
+  "creatures": [
+    {
+      "id": 5697,
+      "name": "Benk Buzzbee",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117818?namespace=static-12.0.1_65617-us"
+        },
+        "id": 117818
+      }
+    },
+    {
+      "id": 5698,
+      "name": "Cindy",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/119263?namespace=static-12.0.1_65617-us"
+        },
+        "id": 119263
+      }
+    },
+    {
+      "id": 5699,
+      "name": "Ravenous Cinderbee",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/113896?namespace=static-12.0.1_65617-us"
+        },
+        "id": 113896
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44067,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/219298?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ravenous Honey Buzzer",
+        "id": 219298
+      }
+    },
+    {
+      "id": 44118,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221064?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fuzzy Cindercuffs",
+        "id": 221064
+      }
+    },
+    {
+      "id": 44119,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221201?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fireproof Cinderbee Perch",
+        "id": 221201
+      }
+    },
+    {
+      "id": 44121,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221067?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Punctured Apiary Gloves",
+        "id": 221067
+      }
+    },
+    {
+      "id": 44122,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221065?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Pollen-Lugger Treads",
+        "id": 221065
+      }
+    },
+    {
+      "id": 44123,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221063?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hivebreaker's Dipper",
+        "id": 221063
+      }
+    },
+    {
+      "id": 44124,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/221062?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Scalding Queenmaker's Shiv",
+        "id": 221062
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 28428,
+      "title": "Overview",
+      "body_text": "Benk Buzzbee distributes barrels of delicious honey during [Snack Time], attracting Ravenous Cinderbees.\r\n\r\nDefeated Cinderbees become docile enough to be mounted by players and will charge forward with a [Bee-Haw!] command.",
+      "sections": [
+        {
+          "id": 28429,
+          "title": "Tanks",
+          "body_text": "$bullet;[Honey Marinade]  drips off targeted players on expiration, creating pools of flaming honey that inflict Fire Damage.\r\n$bullet;[Snack Time] barrels in the arena will periodically attract Ravenous Cinderbees."
+        },
+        {
+          "id": 28430,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;At 1 HP, Ravenous Cinderbees become tame enough to be ridden by players.\r\n$bullet;[Snack Time] barrels are destroyed by the impact of a Ravenous Cinderbee charging forward with a [Bee-Haw!]"
+        },
+        {
+          "id": 28431,
+          "title": "Healers",
+          "body_text": "$bullet;[Fluttering Wing] inflicts moderate Nature damage to all players.\r\n$bullet;Ravenous Cinderbees dart between random players with [Shredding Sting], afflicting them with a stacking Bleed debuff."
+        }
+      ]
+    },
+    {
+      "id": 28852,
+      "title": "Snack Time",
+      "sections": [
+        {
+          "id": 28853,
+          "title": "Ravenous Cinderbee",
+          "sections": [
+            {
+              "id": 28855,
+              "title": "Shredding Sting",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438971?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Shredding Sting",
+                "id": 438971
+              }
+            },
+            {
+              "id": 30180,
+              "title": "Tamed",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/439006?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Tamed",
+                "id": 439006
+              }
+            },
+            {
+              "id": 28856,
+              "title": "Bee-Haw!",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/438763?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Bee-Haw!",
+                "id": 438763
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/81971?namespace=static-12.0.1_65617-us"
+            },
+            "id": 81971
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/438025?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Snack Time",
+        "id": 438025
+      }
+    },
+    {
+      "id": 29039,
+      "title": "Honey Marinade",
+      "sections": [
+        {
+          "id": 29040,
+          "title": "Honey Gorged",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/443983?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Honey Gorged",
+            "id": 443983
+          }
+        }
+      ],
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/440134?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Honey Marinade",
+        "id": 440134
+      }
+    },
+    {
+      "id": 28854,
+      "title": "Fluttering Wing",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/439524?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Fluttering Wing",
+        "id": 439524
+      }
+    },
+    {
+      "id": 28857,
+      "title": "Honey Marinade",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/440134?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Honey Marinade",
+        "id": 440134
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1272?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cinderbrew Meadery",
+    "id": 1272
+  },
+  "category": {
+    "type": "DUNGEON"
+  },
+  "modes": [
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    },
+    {
+      "type": "MYTHIC_KEYSTONE",
+      "name": "Mythic+ Dungeons"
+    }
+  ]
+}

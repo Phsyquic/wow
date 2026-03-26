@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/219297?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_1h_earthenpitcher_b_01.jpg",
+      "file_data_id": 5846566
+    }
+  ],
+  "id": 219297
+}

@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/242391?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_112_raidtrinkets_manaforge_tanktrinket1.jpg",
+      "file_data_id": 7137533
+    }
+  ],
+  "id": 242391
+}

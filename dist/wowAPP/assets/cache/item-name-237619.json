@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237619?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237619,
+  "name": "Lightmane of the Lucent Battalion",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237619?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237619
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3986581,
+  "sell_price": 797316,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237619?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237619
+    },
+    "context": 0,
+    "bonus_list": [
+      12231,
+      12676
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Lightmane of the Lucent Battalion",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237619?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237619
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 50,
+      "display": {
+        "display_string": "50 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 22,
+        "display": {
+          "display_string": "+22 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 22,
+        "is_negated": true,
+        "display": {
+          "display_string": "+22 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 99,
+        "display": {
+          "display_string": "+99 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 31,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+31 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 397643,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "39",
+        "silver": "76",
+        "copper": "43"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Paladin",
+            "id": 2
+          }
+        ],
+        "display_string": "Classes: Paladin"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1926?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Vows of the Lucent Battalion",
+        "id": 1926
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237622?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cuirass of the Lucent Battalion",
+            "id": 237622
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237620?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Protectors of the Lucent Battalion",
+            "id": 237620
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237619?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Lightmane of the Lucent Battalion",
+            "id": 237619
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237618?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cuisses of the Lucent Battalion",
+            "id": 237618
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237617?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Chargers of the Lucent Battalion",
+            "id": 237617
+          }
+        }
+      ],
+      "display_string": "Vows of the Lucent Battalion (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115879?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115879
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115927?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115927
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115912?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115912
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115936?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115936
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115903?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115903
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115891?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115891
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115915?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115915
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115876?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115876
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115900?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115900
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115888?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115888
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115924?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115924
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115867?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115867
+    }
+  ]
+}

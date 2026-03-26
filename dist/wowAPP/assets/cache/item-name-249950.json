@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249950?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249950,
+  "name": "Night Ender's Pauldrons",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249950?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249950
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 325657,
+  "sell_price": 65131,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249950?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249950
+    },
+    "context": 0,
+    "bonus_list": [
+      13340,
+      13574
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Night Ender's Pauldrons",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249950?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249950
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 23,
+      "display": {
+        "display_string": "23 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 7,
+        "is_negated": true,
+        "display": {
+          "display_string": "+7 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 11,
+        "display": {
+          "display_string": "+11 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+5 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 30085,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "0",
+        "copper": "85"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Warrior",
+            "id": 1
+          }
+        ],
+        "display_string": "Classes: Warrior"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1990?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Rage of the Night Ender",
+        "id": 1990
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249955?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Night Ender's Breastplate",
+            "id": 249955
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249953?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Night Ender's Fists",
+            "id": 249953
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249952?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Night Ender's Tusks",
+            "id": 249952
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249951?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Night Ender's Chausses",
+            "id": 249951
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/249950?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Night Ender's Pauldrons",
+            "id": 249950
+          }
+        }
+      ],
+      "display_string": "Rage of the Night Ender (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127327?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127327
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127338?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127338
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127294?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127294
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127292?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127292
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127347?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127347
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127336?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127336
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127303?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127303
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127283?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127283
+    }
+  ]
+}

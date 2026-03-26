@@ -1,0 +1,458 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2666?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 2666,
+  "name": "Golem Lord Argelmach",
+  "description": "Argelmach's lifelong obsession with immortality drove him to forge enchanted constructs in his own image. Rumor has it that he has also dabbled in some form of black magic that would allow the golem lord's new creations to act as vessels for his spirit should his flesh-and-blood body be destroyed.",
+  "creatures": [
+    {
+      "id": 5800,
+      "name": "Golem Lord Argelmach",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120762
+      }
+    },
+    {
+      "id": 5801,
+      "name": "Magmatron Mk. II",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122309
+      }
+    },
+    {
+      "id": 5804,
+      "name": "Arcanotron Mk. II",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122310
+      }
+    },
+    {
+      "id": 5802,
+      "name": "Toxitron Mk. II",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122311
+      }
+    },
+    {
+      "id": 5803,
+      "name": "Electron Mk. II",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122312
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 44801,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231389?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Luminary Robe",
+        "id": 231389
+      }
+    },
+    {
+      "id": 44802,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231396?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Naglering",
+        "id": 231396
+      }
+    },
+    {
+      "id": 44803,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231470?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spare Golem Frame",
+        "id": 231470
+      }
+    },
+    {
+      "id": 44804,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231472?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Argelmach's Breaking Bar",
+        "id": 231472
+      }
+    },
+    {
+      "id": 44805,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231471?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Golem Gearbox",
+        "id": 231471
+      }
+    },
+    {
+      "id": 44806,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231423?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Omnicast Boots",
+        "id": 231423
+      }
+    },
+    {
+      "id": 44807,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231420?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Second Wind",
+        "id": 231420
+      }
+    },
+    {
+      "id": 44808,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/231469?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spare Golem Pauldrons",
+        "id": 231469
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 30751,
+      "title": "Overview",
+      "body_text": "When Golem Lord Argelmach's spirit is released from his mortal coil, he will possess the golems around the Mold Foundry. The golem that is Hspell:464938[Possessed] will gain energy over time. At maximum energy, it will unleash a powerful ability.\r\n\r\nToxitron and Electron are stationary casters, while Magmatron and Arcanatron are powerful melee combatants. Moving the golems too close together will active Hspell:463852[Golem Overdrive], increasing their combat prowess.",
+      "sections": [
+        {
+          "id": 30752,
+          "title": "Tanks",
+          "body_text": "$bullet; Each time Arcanotron's Hspell:470014[Arcane Overcharge] is caught, the explosion that occurs when it hits the ground will be reduced.\r\n$bullet; Magmatron's Hspell:467919[Flamethrower] can be used to burn away Hspell:463829[Chemical Bombs] before Hspell:463823[Incineration] combusts all of them at once.\r\n$bullet; Moving golems too close together will activate Hspell:463852[Golem Overdrive]."
+        },
+        {
+          "id": 30753,
+          "title": "Damage Dealers",
+          "body_text": "$bullet; Hspell:470073[Power Generator] will empower golems or players that intercept the energy orbs moving towards Arcanotron.\r\n$bullet; Hspell:467918[Poison-Soaked] must be burned away from players with Magmatron's Hspell:467919[Flamethrower].\r\n$bullet; Players afflicted by Hspell:467926[Livewire] will emit an Hspell:467930[Electrical Discharge] when it is dispelled or expires.\r\n$bullet; Players paired by Hspell:463847[Lethal Attraction] must stand together or suffer lethal damage."
+        },
+        {
+          "id": 30754,
+          "title": "Healers",
+          "body_text": "$bullet; Hspell:463823[Incineration] and Hspell:463837[Poison Mist] will inflict heavy damage to the entire raid.\r\n$bullet; Hspell:467918[Poison-Soaked] must be burned away from players with Magmatron's Hspell:467919[Flamethrower].\r\n$bullet; Players afflicted by Hspell:467926[Livewire] will emit an Hspell:467930[Electrical Discharge] when it is dispelled or expires.\r\n$bullet; Players paired by Hspell:463847[Lethal Attraction] must stand together or suffer lethal damage."
+        }
+      ]
+    },
+    {
+      "id": 30783,
+      "title": "Golem Lord Argelmach",
+      "sections": [
+        {
+          "id": 30756,
+          "title": "Chain Lightning",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463821?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Chain Lightning",
+            "id": 463821
+          }
+        },
+        {
+          "id": 30784,
+          "title": "Possessed",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/464938?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Possessed",
+            "id": 464938
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/120762?namespace=static-11.1.0_59095-us"
+        },
+        "id": 120762
+      }
+    },
+    {
+      "id": 30785,
+      "title": "Arcanotron Mk. II",
+      "sections": [
+        {
+          "id": 30755,
+          "title": "Arcane Overcharge",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470014?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Arcane Overcharge",
+            "id": 470014
+          }
+        },
+        {
+          "id": 30786,
+          "title": "Power Generator",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/470073?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Power Generator",
+            "id": 470073
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122310?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122310
+      }
+    },
+    {
+      "id": 30787,
+      "title": "Magmatron Mk. II",
+      "sections": [
+        {
+          "id": 30759,
+          "title": "Flamethrower",
+          "sections": [
+            {
+              "id": 30989,
+              "title": "Melt Armor",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/470655?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Melt Armor",
+                "id": 470655
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467919?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Flamethrower",
+            "id": 467919
+          }
+        },
+        {
+          "id": 30788,
+          "title": "Incineration",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463823?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Incineration",
+            "id": 463823
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122309?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122309
+      }
+    },
+    {
+      "id": 30789,
+      "title": "Toxitron Mk. II",
+      "sections": [
+        {
+          "id": 30757,
+          "title": "Chemical Bomb",
+          "sections": [
+            {
+              "id": 30987,
+              "title": "Chemical Pool",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464489?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Chemical Pool",
+                "id": 464489
+              }
+            },
+            {
+              "id": 30758,
+              "title": "Chemical Explosion",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/464485?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Chemical Explosion",
+                "id": 464485
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463829?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Chemical Bomb",
+            "id": 463829
+          }
+        },
+        {
+          "id": 30790,
+          "title": "Poison Mist",
+          "sections": [
+            {
+              "id": 30791,
+              "title": "Poison-Soaked",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467918?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Poison-Soaked",
+                "id": 467918
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463837?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Poison Mist",
+            "id": 463837
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122311?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122311
+      }
+    },
+    {
+      "id": 30792,
+      "title": "Electron Mk. II",
+      "sections": [
+        {
+          "id": 30793,
+          "title": "Chain Lightning",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463820?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Chain Lightning",
+            "id": 463820
+          }
+        },
+        {
+          "id": 30794,
+          "title": "Livewire",
+          "sections": [
+            {
+              "id": 30795,
+              "title": "Electrical Discharge",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/467930?namespace=static-11.1.0_59095-us"
+                },
+                "name": "Electrical Discharge",
+                "id": 467930
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/467926?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Livewire",
+            "id": 467926
+          }
+        },
+        {
+          "id": 30761,
+          "title": "Lethal Attraction",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/463847?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Lethal Attraction",
+            "id": 463847
+          }
+        }
+      ],
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/122312?namespace=static-11.1.0_59095-us"
+        },
+        "id": 122312
+      }
+    },
+    {
+      "id": 30760,
+      "title": "Golem Overdrive",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/463852?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Golem Overdrive",
+        "id": 463852
+      }
+    },
+    {
+      "id": 30988,
+      "title": "Shared Health",
+      "spell": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/470654?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Shared Health",
+        "id": 470654
+      }
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1301?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Blackrock Depths",
+    "id": 1301
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    }
+  ]
+}

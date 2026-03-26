@@ -1,0 +1,214 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/234498?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 234498,
+  "name": "Waterworks Filtration Mask",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/234498?namespace=static-11.1.0_59095-us"
+    },
+    "id": 234498
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3797639,
+  "sell_price": 759527,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/234498?namespace=static-11.1.0_59095-us"
+      },
+      "id": 234498
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Waterworks Filtration Mask",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/234498?namespace=static-11.1.0_59095-us"
+      },
+      "id": 234498
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 3016,
+      "display": {
+        "display_string": "3,016 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3269,
+        "display": {
+          "display_string": "+3,269 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3269,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,269 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 19463,
+        "display": {
+          "display_string": "+19,463 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 697,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+697 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 1180,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+1,180 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 779499,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "77",
+        "silver": "94",
+        "copper": "99"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/104635?namespace=static-11.1.0_59095-us"
+      },
+      "id": 104635
+    }
+  ]
+}

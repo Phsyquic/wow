@@ -1,0 +1,261 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/249914?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 249914,
+  "name": "Oblivion Guise",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/249914?namespace=static-12.0.1_65617-us"
+    },
+    "id": 249914
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Mail",
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 321892,
+  "sell_price": 64378,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/249914?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249914
+    },
+    "context": 0,
+    "bonus_list": [
+      13578,
+      41
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Oblivion Guise",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/249914?namespace=static-12.0.1_65617-us"
+      },
+      "id": 249914
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Mail",
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 16,
+      "display": {
+        "display_string": "16 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 10,
+        "is_negated": true,
+        "display": {
+          "display_string": "+10 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 19,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+19 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "COMBAT_RATING_LIFESTEAL",
+          "name": "Leech"
+        },
+        "value": 8,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+8 Leech",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 29737,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "2",
+        "silver": "97",
+        "copper": "37"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      }
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127101?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127101
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127113?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127113
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127077?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127077
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127099?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127099
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127123?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127123
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127111?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127111
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127087?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127087
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/127089?namespace=static-12.0.1_65617-us"
+      },
+      "id": 127089
+    }
+  ]
+}

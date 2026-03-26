@@ -1,0 +1,173 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/190958?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 190958,
+  "name": "So'leah's Secret Technique",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 155,
+  "required_level": 60,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/190958?namespace=static-12.0.1_65617-us"
+    },
+    "id": 190958
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 101523,
+  "sell_price": 20304,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "Lead with an open hand, not a closed fist.",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/190958?namespace=static-12.0.1_65617-us"
+      },
+      "id": 190958
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "So'leah's Secret Technique",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/190958?namespace=static-12.0.1_65617-us"
+      },
+      "id": 190958
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 8,
+        "display": {
+          "display_string": "+8 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 8,
+        "is_negated": true,
+        "display": {
+          "display_string": "+8 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 8,
+        "is_negated": true,
+        "display": {
+          "display_string": "+8 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/368509?namespace=static-12.0.1_65617-us"
+          },
+          "name": "So'leah's Secret Technique",
+          "id": 368509
+        },
+        "description": "Use: Select a player in your party or raid, granting them 1 of their highest secondary stat, and granting you 10 of that same stat, for 1 hour. (1 Sec Cooldown)"
+      }
+    ],
+    "sell_price": {
+      "value": 9284,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "92",
+        "copper": "84"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 60,
+        "display_string": "Requires Level 60"
+      }
+    },
+    "description": "Lead with an open hand, not a closed fist.",
+    "level": {
+      "value": 36,
+      "display_string": "Item Level 36"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,173 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/230194?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 230194,
+  "name": "Reverb Radio",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/230194?namespace=static-11.1.0_59095-us"
+    },
+    "id": 230194
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Miscellaneous",
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": "Trinket"
+  },
+  "purchase_price": 4189057,
+  "sell_price": 837811,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "description": "Rik & Roll, baby!",
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/230194?namespace=static-11.1.0_59095-us"
+      },
+      "id": 230194
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Reverb Radio",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/230194?namespace=static-11.1.0_59095-us"
+      },
+      "id": 230194
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Miscellaneous",
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": "Trinket"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 3108,
+        "display": {
+          "display_string": "+3,108 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 3108,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,108 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 3108,
+        "is_negated": true,
+        "display": {
+          "display_string": "+3,108 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/471567?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Reverb Radio",
+          "id": 471567
+        },
+        "description": "Equip: Your spells and abilities have a high chance to Hype you up, granting 314 Haste up to 5 times. Upon reaching maximum Hype, amp it up by 100% for 15 sec before starting again."
+      }
+    ],
+    "sell_price": {
+      "value": 837811,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "83",
+        "silver": "78",
+        "copper": "11"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      }
+    },
+    "description": "Rik & Roll, baby!",
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}
