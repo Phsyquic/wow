@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237626?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237626,
+  "name": "Hollow Sentinel's Perches",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237626?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237626
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3799686,
+  "sell_price": 759937,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237626?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237626
+    },
+    "context": 0,
+    "bonus_list": [
+      12233,
+      12675
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Hollow Sentinel's Perches",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237626?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237626
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 46,
+      "display": {
+        "display_string": "46 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 17,
+        "display": {
+          "display_string": "+17 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 17,
+        "is_negated": true,
+        "display": {
+          "display_string": "+17 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 74,
+        "display": {
+          "display_string": "+74 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 24,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+24 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 379001,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "37",
+        "silver": "90",
+        "copper": "1"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Death Knight",
+            "id": 6
+          }
+        ],
+        "display_string": "Classes: Death Knight"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1919?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hollow Sentinel's Wake",
+        "id": 1919
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237631?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hollow Sentinel's Breastplate",
+            "id": 237631
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237629?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hollow Sentinel's Gauntlets",
+            "id": 237629
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237628?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hollow Sentinel's Stonemask",
+            "id": 237628
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237627?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hollow Sentinel's Stonekilt",
+            "id": 237627
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237626?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hollow Sentinel's Perches",
+            "id": 237626
+          }
+        }
+      ],
+      "display_string": "Hollow Sentinel's Wake (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115142?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115142
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115109?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115109
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115096?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115096
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115118?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115118
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115087?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115087
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115098?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115098
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115120?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115120
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115140?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115140
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115107?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115107
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115151?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115151
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115129?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115129
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/115131?namespace=static-12.0.1_65617-us"
+      },
+      "id": 115131
+    }
+  ]
+}

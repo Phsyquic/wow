@@ -1,0 +1,121 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/228638?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 228638,
+  "name": "Stormbringer's Runed Citrine",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 619,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228638?namespace=static-11.1.0_59095-us"
+    },
+    "id": 228638
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Gem",
+    "id": 3
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/3/item-subclass/9?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Other",
+    "id": 9
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": "Non-equippable"
+  },
+  "purchase_price": 400000,
+  "sell_price": 100000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/228638?namespace=static-11.1.0_59095-us"
+      },
+      "id": 228638
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Stormbringer's Runed Citrine",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228638?namespace=static-11.1.0_59095-us"
+      },
+      "id": 228638
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Gem",
+      "id": 3
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/3/item-subclass/9?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Other",
+      "id": 9
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": "Non-equippable"
+    },
+    "binding": {
+      "type": "TO_ACCOUNT",
+      "name": "Binds to Warband"
+    },
+    "unique_equipped": "Unique-Equipped",
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/462536?namespace=static-11.1.0_59095-us"
+          },
+          "name": "Stormbringer's Runed Citrine",
+          "id": 462536
+        },
+        "description": "Equip: Grants 472 of every secondary stat."
+      }
+    ],
+    "sell_price": {
+      "value": 100000,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "10",
+        "silver": "0",
+        "copper": "0"
+      }
+    },
+    "is_subclass_hidden": true,
+    "name_description": {
+      "display_string": "Singing Thunder Citrine",
+      "color": {
+        "r": 255,
+        "g": 245,
+        "b": 105,
+        "a": 1
+      }
+    },
+    "gem_properties": {
+      "effect": "tormbringer's Runed Citrine"
+    }
+  },
+  "purchase_quantity": 1
+}

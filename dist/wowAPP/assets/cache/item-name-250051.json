@@ -1,0 +1,313 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/250051?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 250051,
+  "name": "Blind Oath's Winged Crest",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 219,
+  "required_level": 90,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/250051?namespace=static-12.0.1_65617-us"
+    },
+    "id": 250051
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Cloth",
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 335232,
+  "sell_price": 67046,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/250051?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250051
+    },
+    "context": 0,
+    "bonus_list": [
+      13338,
+      13575
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Blind Oath's Winged Crest",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/250051?namespace=static-12.0.1_65617-us"
+      },
+      "id": 250051
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Cloth",
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 6,
+      "display": {
+        "display_string": "6 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 10,
+        "display": {
+          "display_string": "+10 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 15,
+        "display": {
+          "display_string": "+15 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 13,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+13 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 30969,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "3",
+        "silver": "9",
+        "copper": "69"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 90,
+        "display_string": "Requires Level 90"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Priest",
+            "id": 5
+          }
+        ],
+        "display_string": "Classes: Priest"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1986?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Blind Oath's Burden",
+        "id": 1986
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250052?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blind Oath's Touch",
+            "id": 250052
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250051?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blind Oath's Winged Crest",
+            "id": 250051
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250050?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blind Oath's Leggings",
+            "id": 250050
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250054?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blind Oath's Raiment",
+            "id": 250054
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/250049?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Blind Oath's Seraphguards",
+            "id": 250049
+          }
+        }
+      ],
+      "display_string": "Blind Oath's Burden (0/5)"
+    },
+    "level": {
+      "value": 48,
+      "display_string": "Item Level 48"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126906?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126906
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126918?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126918
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126930?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126930
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126964?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126964
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126928?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126928
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126916?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126916
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126940?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126940
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/126954?namespace=static-12.0.1_65617-us"
+      },
+      "id": 126954
+    }
+  ]
+}

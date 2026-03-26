@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237662?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237662,
+  "name": "Smokemantle of the Sudden Eclipse",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237662?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237662
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3741036,
+  "sell_price": 748207,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237662?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237662
+    },
+    "context": 0,
+    "bonus_list": [
+      12233,
+      12675
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Smokemantle of the Sudden Eclipse",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237662?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237662
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 21,
+      "display": {
+        "display_string": "21 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 17,
+        "display": {
+          "display_string": "+17 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 17,
+        "is_negated": true,
+        "display": {
+          "display_string": "+17 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 74,
+        "display": {
+          "display_string": "+74 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 11,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+11 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 22,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+22 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 373151,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "37",
+        "silver": "31",
+        "copper": "51"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/4?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Rogue",
+            "id": 4
+          }
+        ],
+        "display_string": "Classes: Rogue"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1928?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Shroud of the Sudden Eclipse",
+        "id": 1928
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237667?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Tactical Vest of the Sudden Eclipse",
+            "id": 237667
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237665?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Deathgrips of the Sudden Eclipse",
+            "id": 237665
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237664?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Hood of the Sudden Eclipse",
+            "id": 237664
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237663?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Pants of the Sudden Eclipse",
+            "id": 237663
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237662?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Smokemantle of the Sudden Eclipse",
+            "id": 237662
+          }
+        }
+      ],
+      "display_string": "Shroud of the Sudden Eclipse (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117774?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117774
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117814?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117814
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117812?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117812
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117822?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117822
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117804?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117804
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117784?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117784
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117764?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117764
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117802?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117802
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117792?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117792
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117782?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117782
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117772?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117772
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117794?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117794
+    }
+  ]
+}

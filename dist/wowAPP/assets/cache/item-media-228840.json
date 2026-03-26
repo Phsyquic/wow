@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/228840?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_111_ring_bilgewater.jpg",
+      "file_data_id": 6383533
+    }
+  ],
+  "id": 228840
+}

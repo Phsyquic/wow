@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/240950?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_jewelcrafting_necklace2_gold.jpg",
+      "file_data_id": 7549118
+    }
+  ],
+  "id": 240950
+}

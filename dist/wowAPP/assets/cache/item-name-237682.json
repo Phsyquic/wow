@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237682?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237682,
+  "name": "Skymane of the Mother Eagle",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237682?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237682
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3740645,
+  "sell_price": 748129,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237682?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237682
+    },
+    "context": 0,
+    "bonus_list": [
+      12231,
+      12676
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Skymane of the Mother Eagle",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237682?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237682
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 23,
+      "display": {
+        "display_string": "23 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 22,
+        "display": {
+          "display_string": "+22 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 22,
+        "is_negated": true,
+        "display": {
+          "display_string": "+22 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 99,
+        "display": {
+          "display_string": "+99 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 32,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+32 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 13,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+13 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 373112,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "37",
+        "silver": "31",
+        "copper": "12"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Druid",
+            "id": 11
+          }
+        ],
+        "display_string": "Classes: Druid"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1921?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ornaments of the Mother Eagle",
+        "id": 1921
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237685?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Vest of the Mother Eagle",
+            "id": 237685
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237683?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Wings of the Mother Eagle",
+            "id": 237683
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237682?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Skymane of the Mother Eagle",
+            "id": 237682
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237681?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Breeches of the Mother Eagle",
+            "id": 237681
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237680?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Ritual Pauldrons of the Mother Eagle",
+            "id": 237680
+          }
+        }
+      ],
+      "display_string": "Ornaments of the Mother Eagle (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118319?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118319
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118331?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118331
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118378?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118378
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118340?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118340
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118368?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118368
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118343?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118343
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118381?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118381
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118365?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118365
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118353?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118353
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118328?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118328
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118390?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118390
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/118356?namespace=static-12.0.1_65617-us"
+      },
+      "id": 118356
+    }
+  ]
+}

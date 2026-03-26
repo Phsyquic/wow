@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237610?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237610,
+  "name": "Living Weapon's Faceshield",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237610?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237610
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Plate",
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 3857553,
+  "sell_price": 771510,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237610?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237610
+    },
+    "context": 0,
+    "bonus_list": [
+      12231,
+      12676
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Living Weapon's Faceshield",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237610?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237610
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Plate",
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 50,
+      "display": {
+        "display_string": "50 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 22,
+        "display": {
+          "display_string": "+22 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 22,
+        "is_negated": true,
+        "display": {
+          "display_string": "+22 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 99,
+        "display": {
+          "display_string": "+99 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 31,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+31 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 384773,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "38",
+        "silver": "47",
+        "copper": "73"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Warrior",
+            "id": 1
+          }
+        ],
+        "display_string": "Classes: Warrior"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1931?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Chains of the Living Weapon",
+        "id": 1931
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237613?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Living Weapon's Bulwark",
+            "id": 237613
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237611?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Living Weapon's Crushers",
+            "id": 237611
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237610?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Living Weapon's Faceshield",
+            "id": 237610
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237609?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Living Weapon's Legguards",
+            "id": 237609
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237608?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Living Weapon's Ramparts",
+            "id": 237608
+          }
+        }
+      ],
+      "display_string": "Chains of the Living Weapon (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116701?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116701
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116657?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116657
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116677?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116677
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116666?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116666
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116668?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116668
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116679?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116679
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116712?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116712
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116699?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116699
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116688?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116688
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116710?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116710
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116721?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116721
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/116690?namespace=static-12.0.1_65617-us"
+      },
+      "id": 116690
+    }
+  ]
+}

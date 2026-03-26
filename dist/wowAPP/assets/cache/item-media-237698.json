@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237698?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "assets": [
+    {
+      "key": "icon",
+      "value": "https://render.worldofwarcraft.com/us/icons/56/inv_shoulder_cloth_raidwarlockethereal_d_01.jpg",
+      "file_data_id": 6995550
+    }
+  ],
+  "id": 237698
+}

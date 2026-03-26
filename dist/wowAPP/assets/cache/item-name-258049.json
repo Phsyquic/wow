@@ -1,0 +1,232 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/258049?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 258049,
+  "name": "Viryx's Indomitable Bulwark",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 44,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/258049?namespace=static-12.0.1_65617-us"
+    },
+    "id": 258049
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Shield",
+    "id": 6
+  },
+  "inventory_type": {
+    "type": "SHIELD",
+    "name": "Off Hand"
+  },
+  "purchase_price": 2726174,
+  "sell_price": 545234,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/258049?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258049
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Viryx's Indomitable Bulwark",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/258049?namespace=static-12.0.1_65617-us"
+      },
+      "id": 258049
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Shield",
+      "id": 6
+    },
+    "inventory_type": {
+      "type": "SHIELD",
+      "name": "Off Hand"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 54,
+      "display": {
+        "display_string": "54 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "shield_block": {
+      "value": 135,
+      "display": {
+        "display_string": "135 Block",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 7,
+        "display": {
+          "display_string": "+7 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": "Strength"
+        },
+        "value": 2,
+        "is_negated": true,
+        "display": {
+          "display_string": "+2 Strength",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 3,
+        "display": {
+          "display_string": "+3 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+2 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+2 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 168,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "0",
+        "silver": "1",
+        "copper": "68"
+      }
+    },
+    "level": {
+      "value": 16,
+      "display_string": "Item Level 16"
+    },
+    "durability": {
+      "value": 65,
+      "display_string": "Durability 65 / 65"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/22183?namespace=static-12.0.1_65617-us"
+      },
+      "id": 22183
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/22183?namespace=static-12.0.1_65617-us"
+      },
+      "id": 22183
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/22186?namespace=static-12.0.1_65617-us"
+      },
+      "id": 22186
+    }
+  ]
+}
