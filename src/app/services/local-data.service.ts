@@ -27,9 +27,14 @@ export class LocalDataService {
     }
 
     const currentHost = window.location.hostname.toLowerCase();
+    const isGithubPagesRuntime = currentHost.endsWith('github.io');
     const isLocalRuntime = currentHost === 'localhost' || currentHost === '127.0.0.1';
     const target = this.serverUrl.toLowerCase();
     const isLocalServer = target.includes('localhost') || target.includes('127.0.0.1');
+
+    if (isGithubPagesRuntime) {
+      return false;
+    }
 
     return !(isLocalServer && !isLocalRuntime);
   }
