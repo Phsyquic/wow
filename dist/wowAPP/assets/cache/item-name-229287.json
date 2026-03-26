@@ -1,0 +1,353 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/229287?namespace=static-11.1.0_59095-us"
+    }
+  },
+  "id": 229287,
+  "name": "Spectral Gambler's Bladed Mantle",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 623,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/229287?namespace=static-11.1.0_59095-us"
+    },
+    "id": 229287
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": "Shoulder"
+  },
+  "purchase_price": 3895228,
+  "sell_price": 779045,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/229287?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229287
+    },
+    "context": 0,
+    "bonus_list": [
+      11962
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Spectral Gambler's Bladed Mantle",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/229287?namespace=static-11.1.0_59095-us"
+      },
+      "id": 229287
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.0_59095-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": "Shoulder"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 2764,
+      "display": {
+        "display_string": "2,764 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 2452,
+        "display": {
+          "display_string": "+2,452 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 2452,
+        "is_negated": true,
+        "display": {
+          "display_string": "+2,452 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 14597,
+        "display": {
+          "display_string": "+14,597 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 471,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+471 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        },
+        "value": 936,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+936 Mastery",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 779045,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "77",
+        "silver": "90",
+        "copper": "45"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/4?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Rogue",
+            "id": 4
+          }
+        ],
+        "display_string": "Classes: Rogue"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1876?namespace=static-11.1.0_59095-us"
+        },
+        "name": "Spectral Gambler's Last Call",
+        "id": 1876
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229292?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spectral Gambler's Vest",
+            "id": 229292
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229290?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spectral Gambler's Gloves",
+            "id": 229290
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229289?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spectral Gambler's Damned Visage",
+            "id": 229289
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229288?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spectral Gambler's Pantaloons",
+            "id": 229288
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/229287?namespace=static-11.1.0_59095-us"
+            },
+            "name": "Spectral Gambler's Bladed Mantle",
+            "id": 229287
+          }
+        }
+      ],
+      "display_string": "Spectral Gambler's Last Call (0/5)"
+    },
+    "level": {
+      "value": 623,
+      "display_string": "Item Level 623"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94335?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94335
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94305?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94305
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94303?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94303
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94313?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94313
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94295?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94295
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94285?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94285
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94315?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94315
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94333?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94333
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94293?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94293
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94343?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94343
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94323?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94323
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/94325?namespace=static-11.1.0_59095-us"
+      },
+      "id": 94325
+    }
+  ]
+}

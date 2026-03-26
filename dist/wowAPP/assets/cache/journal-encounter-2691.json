@@ -1,0 +1,1822 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-encounter/2691?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 2691,
+  "name": "Dimensius, the All-Devouring",
+  "description": "Deep within Manaforge Omega, Dimensius--the All-Devouring and destroyer of K'aresh--is slowly waking as his devoted ethereal followers use the Dark Heart to give him sustenance. If they succeed, they will unleash a being of unfathomable power that could destroy the very fabric of reality.",
+  "creatures": [
+    {
+      "id": 5951,
+      "name": "Dimensius",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/128867?namespace=static-12.0.1_65617-us"
+        },
+        "id": 128867
+      }
+    },
+    {
+      "id": 5952,
+      "name": "Artoshion",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129591?namespace=static-12.0.1_65617-us"
+        },
+        "id": 129591
+      }
+    },
+    {
+      "id": 5950,
+      "name": "Pargoth",
+      "creature_display": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129569?namespace=static-12.0.1_65617-us"
+        },
+        "id": 129569
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 45429,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/246565?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Cosmic Hearthstone",
+        "id": 246565
+      }
+    },
+    {
+      "id": 45288,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242404?namespace=static-12.0.1_65617-us"
+        },
+        "name": "All-Devouring Nucleus",
+        "id": 242404
+      }
+    },
+    {
+      "id": 45289,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242405?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Band of the Shattered Soul",
+        "id": 242405
+      }
+    },
+    {
+      "id": 45290,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237731?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ergospheric Cudgel",
+        "id": 237731
+      }
+    },
+    {
+      "id": 45291,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237559?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Singularity Cincture",
+        "id": 237559
+      }
+    },
+    {
+      "id": 45292,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237562?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Time-Compressed Wristguards",
+        "id": 237562
+      }
+    },
+    {
+      "id": 45293,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237560?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Greaves of Shattered Space",
+        "id": 237560
+      }
+    },
+    {
+      "id": 45294,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237535?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Artoshion's Abyssal Stare",
+        "id": 237535
+      }
+    },
+    {
+      "id": 45295,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/242399?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Screams of a Forgotten Sky",
+        "id": 242399
+      }
+    },
+    {
+      "id": 45296,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237725?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Supermassive Starcrusher",
+        "id": 237725
+      }
+    },
+    {
+      "id": 45297,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237542?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Stellar Navigation Slacks",
+        "id": 237542
+      }
+    },
+    {
+      "id": 45298,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237540?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Winged Gamma Handlers",
+        "id": 237540
+      }
+    },
+    {
+      "id": 45299,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237537?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Claws of Failed Resistance",
+        "id": 237537
+      }
+    },
+    {
+      "id": 45300,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237563?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Ultradense Fission Girdle",
+        "id": 237563
+      }
+    },
+    {
+      "id": 45301,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/237602?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Hungering Void Curio",
+        "id": 237602
+      }
+    },
+    {
+      "id": 45428,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/243061?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Unbound Star-Eater",
+        "id": 243061
+      }
+    },
+    {
+      "id": 45560,
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/223144?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Formula: Enchant Weapon - Authority of the Depths",
+        "id": 223144
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 32287,
+      "title": "Overview",
+      "body_text": "Dimensius attempts to [Devour] players almost immediately, and again every time he reaches 100 energy. His [Growing Hunger] increases with each cast, pushing the players' [Collective Gravity] to its limits.\r\n\r\nWhen Dimensius' health is depleted, he pulls players into the Dark Heart where they must quickly fly with Xal'atath to safety. He releases his conquered rivals to halt players' advance and attempts to obliterate them with [Extinction] and [Gamma Burst].\r\n\r\nAfter a devastating counter-attack from the players and Xal'atath, Dimensius begins to [Extinguish the Stars]. Upon reaching 100 energy he again attempts to [Devour] everything around him, pulling his [Accretion Disk] ever closer.",
+      "sections": [
+        {
+          "id": 32288,
+          "title": "Tanks",
+          "body_text": "$bullet;[Massive Smash] knocks all players away from Dimensius' target.\r\n$bullet;Players who receive too many applications of [Touch of Oblivion] are killed instantly.\r\n$bullet;[Fists of the Voidlord] damages and knocks away players near Dimensius' target with every melee attack."
+        },
+        {
+          "id": 32289,
+          "title": "Damage Dealers",
+          "body_text": "$bullet;Living Mass leaves behind [Excess Mass] when defeated, which can be used to gain [Collective Gravity] and rescue [Airborne] players.\r\n$bullet;Players can stand in [Antimatter] to reduce its raidwide damage.\r\n$bullet;[Fists of the Voidlord] damages and knocks away players near Dimensius' target with every melee attack."
+        },
+        {
+          "id": 32290,
+          "title": "Healers",
+          "body_text": "$bullet;[Devour] and [Extinguish the Stars] inflict heavy damage to all players.\r\n$bullet;Players can stand in [Antimatter] to reduce its raidwide damage.\r\n$bullet;[Fists of the Voidlord] damages and knocks away players near Dimensius' target with every melee attack."
+        }
+      ]
+    },
+    {
+      "id": 32292,
+      "title": "Stage One: Critical Mass",
+      "sections": [
+        {
+          "id": 32359,
+          "title": "Oblivion",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229327?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Oblivion",
+            "id": 1229327
+          }
+        },
+        {
+          "id": 33479,
+          "title": "Massive Smash",
+          "sections": [
+            {
+              "id": 33480,
+              "title": "Living Mass",
+              "sections": [
+                {
+                  "id": 33481,
+                  "title": "Fission",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1231005?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Fission",
+                    "id": 1231005
+                  }
+                },
+                {
+                  "id": 33482,
+                  "title": "Excess Mass",
+                  "sections": [
+                    {
+                      "id": 33483,
+                      "title": "Collective Gravity",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1228207?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Collective Gravity",
+                        "id": 1228207
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1228206?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Excess Mass",
+                    "id": 1228206
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/128399?namespace=static-12.0.1_65617-us"
+                },
+                "id": 128399
+              }
+            },
+            {
+              "id": 33484,
+              "title": "Mortal Fragility",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1230168?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Mortal Fragility",
+                "id": 1230168
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1230087?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Massive Smash",
+            "id": 1230087
+          }
+        },
+        {
+          "id": 32408,
+          "title": "Massive Smash",
+          "sections": [
+            {
+              "id": 33474,
+              "title": "Living Mass",
+              "sections": [
+                {
+                  "id": 33475,
+                  "title": "Fission",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1231005?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Fission",
+                    "id": 1231005
+                  }
+                },
+                {
+                  "id": 33485,
+                  "title": "Infinite Possibilities",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1248240?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Infinite Possibilities",
+                    "id": 1248240
+                  }
+                },
+                {
+                  "id": 33476,
+                  "title": "Excess Mass",
+                  "sections": [
+                    {
+                      "id": 33477,
+                      "title": "Collective Gravity",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1228207?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Collective Gravity",
+                        "id": 1228207
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1228206?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Excess Mass",
+                    "id": 1228206
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/128399?namespace=static-12.0.1_65617-us"
+                },
+                "id": 128399
+              }
+            },
+            {
+              "id": 32409,
+              "title": "Mortal Fragility",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1230168?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Mortal Fragility",
+                "id": 1230168
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1230087?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Massive Smash",
+            "id": 1230087
+          }
+        },
+        {
+          "id": 32358,
+          "title": "Devour",
+          "sections": [
+            {
+              "id": 32362,
+              "title": "Growing Hunger",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1229674?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Growing Hunger",
+                "id": 1229674
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229038?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Devour",
+            "id": 1229038
+          }
+        },
+        {
+          "id": 32447,
+          "title": "Dark Matter",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1230979?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Dark Matter",
+            "id": 1230979
+          }
+        },
+        {
+          "id": 33414,
+          "title": "Dark Matter",
+          "sections": [
+            {
+              "id": 33415,
+              "title": "Dark Energy",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1231002?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Dark Energy",
+                "id": 1231002
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1230999?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Dark Matter",
+            "id": 1230999
+          }
+        },
+        {
+          "id": 32451,
+          "title": "Shattered Space",
+          "sections": [
+            {
+              "id": 33149,
+              "title": "Antimatter",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1243704?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Antimatter",
+                "id": 1243704
+              }
+            },
+            {
+              "id": 33150,
+              "title": "Spatial Fragment",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1243699?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Spatial Fragment",
+                "id": 1243699
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1243690?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Shattered Space",
+            "id": 1243690
+          }
+        },
+        {
+          "id": 33675,
+          "title": "Reverse Gravity",
+          "sections": [
+            {
+              "id": 33676,
+              "title": "Airborne",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1243609?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Airborne",
+                "id": 1243609
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1243577?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Reverse Gravity",
+            "id": 1243577
+          }
+        },
+        {
+          "id": 33147,
+          "title": "Reverse Gravity",
+          "sections": [
+            {
+              "id": 33148,
+              "title": "Airborne",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1243609?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Airborne",
+                "id": 1243609
+              }
+            },
+            {
+              "id": 33674,
+              "title": "Anomalous Force",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1250614?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Anomalous Force",
+                "id": 1250614
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1243577?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Reverse Gravity",
+            "id": 1243577
+          }
+        },
+        {
+          "id": 32291,
+          "title": "Fists of the Voidlord",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227665?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fists of the Voidlord",
+            "id": 1227665
+          }
+        },
+        {
+          "id": 32336,
+          "title": "Cosmic Radiation",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1228367?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cosmic Radiation",
+            "id": 1228367
+          }
+        }
+      ]
+    },
+    {
+      "id": 32735,
+      "title": "Intermission: Event Horizon",
+      "sections": [
+        {
+          "id": 32714,
+          "title": "Xal'atath",
+          "sections": [
+            {
+              "id": 32715,
+              "title": "Soaring Reshii",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1235114?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Soaring Reshii",
+                "id": 1235114
+              }
+            },
+            {
+              "id": 32716,
+              "title": "Umbral Gate",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1235467?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Umbral Gate",
+                "id": 1235467
+              }
+            }
+          ],
+          "creature_display": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/creature-display/117121?namespace=static-12.0.1_65617-us"
+            },
+            "id": 117121
+          }
+        },
+        {
+          "id": 32478,
+          "title": "Oblivion",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229327?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Oblivion",
+            "id": 1229327
+          }
+        },
+        {
+          "id": 32991,
+          "title": "Endless Darkness",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1241188?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Endless Darkness",
+            "id": 1241188
+          }
+        },
+        {
+          "id": 32713,
+          "title": "Broken World",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1237080?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Broken World",
+            "id": 1237080
+          }
+        },
+        {
+          "id": 32717,
+          "title": "Astrophysical Jet",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1235490?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Astrophysical Jet",
+            "id": 1235490
+          }
+        },
+        {
+          "id": 33391,
+          "title": "Black Hole",
+          "sections": [
+            {
+              "id": 33408,
+              "title": "Spaghettification",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1230674?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Spaghettification",
+                "id": 1230674
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1232987?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Black Hole",
+            "id": 1232987
+          }
+        },
+        {
+          "id": 33409,
+          "title": "Stellar Core",
+          "sections": [
+            {
+              "id": 33410,
+              "title": "Shooting Star",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1246948?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Shooting Star",
+                "id": 1246948
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1246930?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Stellar Core",
+            "id": 1246930
+          }
+        }
+      ]
+    },
+    {
+      "id": 32477,
+      "title": "Stage Two: The Dark Heart",
+      "sections": [
+        {
+          "id": 32922,
+          "title": "Extinction",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1238765?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Extinction",
+            "id": 1238765
+          }
+        },
+        {
+          "id": 32736,
+          "title": "Gamma Burst",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1237319?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Gamma Burst",
+            "id": 1237319
+          }
+        },
+        {
+          "id": 32577,
+          "title": "Gravitational Distortion",
+          "sections": [
+            {
+              "id": 32578,
+              "title": "Crushing Gravity",
+              "sections": [
+                {
+                  "id": 32579,
+                  "title": "Crushed",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1234251?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Crushed",
+                    "id": 1234251
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234243?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Crushing Gravity",
+                "id": 1234243
+              }
+            },
+            {
+              "id": 32580,
+              "title": "Inverse Gravity",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234244?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Inverse Gravity",
+                "id": 1234244
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234242?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Gravitational Distortion",
+            "id": 1234242
+          }
+        },
+        {
+          "id": 32738,
+          "title": "The Devoured Lords",
+          "body_text": "Dimensius releases his conquered rivals to halt the players' advance.",
+          "sections": [
+            {
+              "id": 32739,
+              "title": "Eclipse",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1237690?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Eclipse",
+                "id": 1237690
+              }
+            },
+            {
+              "id": 32741,
+              "title": "Artoshion",
+              "sections": [
+                {
+                  "id": 33385,
+                  "title": "Mass Ejection",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1237694?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Mass Ejection",
+                    "id": 1237694
+                  }
+                },
+                {
+                  "id": 33559,
+                  "title": "Mass Ejection",
+                  "sections": [
+                    {
+                      "id": 33560,
+                      "title": "Debris Field",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1237696?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Debris Field",
+                        "id": 1237696
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1237694?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Mass Ejection",
+                    "id": 1237694
+                  }
+                },
+                {
+                  "id": 33589,
+                  "title": "Mass Destruction",
+                  "sections": [
+                    {
+                      "id": 33590,
+                      "title": "Debris Field",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1237696?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Debris Field",
+                        "id": 1237696
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1249423?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Mass Destruction",
+                    "id": 1249423
+                  }
+                },
+                {
+                  "id": 33561,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33562,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33563,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33564,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33565,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33566,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33567,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33568,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    },
+                    {
+                      "id": 33569,
+                      "title": "Nullbinder",
+                      "sections": [
+                        {
+                          "id": 33570,
+                          "title": "Null Binding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246541?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Null Binding",
+                            "id": 1246541
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129778?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129778
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33571,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33572,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33573,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33574,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    },
+                    {
+                      "id": 33575,
+                      "title": "Nullbinder",
+                      "sections": [
+                        {
+                          "id": 33576,
+                          "title": "Null Binding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246541?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Null Binding",
+                            "id": 1246541
+                          }
+                        },
+                        {
+                          "id": 33577,
+                          "title": "Boundless",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1249248?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Boundless",
+                            "id": 1249248
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129778?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129778
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33336,
+                  "title": "Touch of Oblivion",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1246143?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Touch of Oblivion",
+                    "id": 1246143
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129570?namespace=static-12.0.1_65617-us"
+                },
+                "id": 129570
+              }
+            },
+            {
+              "id": 32745,
+              "title": "Pargoth",
+              "sections": [
+                {
+                  "id": 32947,
+                  "title": "Stardust Nova",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1237695?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Stardust Nova",
+                    "id": 1237695
+                  }
+                },
+                {
+                  "id": 33389,
+                  "title": "Stardust Nova",
+                  "sections": [
+                    {
+                      "id": 33591,
+                      "title": "Debris Field",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1237696?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Debris Field",
+                        "id": 1237696
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1237695?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Stardust Nova",
+                    "id": 1237695
+                  }
+                },
+                {
+                  "id": 33592,
+                  "title": "Starshard Nova",
+                  "sections": [
+                    {
+                      "id": 33593,
+                      "title": "Starshard",
+                      "sections": [
+                        {
+                          "id": 33986,
+                          "title": "Star Burst",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1254384?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Star Burst",
+                            "id": 1254384
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1254385?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Starshard",
+                        "id": 1254385
+                      }
+                    },
+                    {
+                      "id": 33390,
+                      "title": "Debris Field",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1237696?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Debris Field",
+                        "id": 1237696
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1249454?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Starshard Nova",
+                    "id": 1249454
+                  }
+                },
+                {
+                  "id": 33578,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33579,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33580,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33581,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33328,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33329,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33330,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33331,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    },
+                    {
+                      "id": 33332,
+                      "title": "Nullbinder",
+                      "sections": [
+                        {
+                          "id": 33333,
+                          "title": "Null Binding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246541?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Null Binding",
+                            "id": 1246541
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129778?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129778
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33582,
+                  "title": "Conqueror's Cross",
+                  "sections": [
+                    {
+                      "id": 33583,
+                      "title": "Voidwarden",
+                      "sections": [
+                        {
+                          "id": 33584,
+                          "title": "Voidwarding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1239270?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Voidwarding",
+                            "id": 1239270
+                          }
+                        },
+                        {
+                          "id": 33585,
+                          "title": "Entropic Unity",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246537?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Entropic Unity",
+                            "id": 1246537
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129772?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129772
+                      }
+                    },
+                    {
+                      "id": 33586,
+                      "title": "Nullbinder",
+                      "sections": [
+                        {
+                          "id": 33587,
+                          "title": "Null Binding",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1246541?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Null Binding",
+                            "id": 1246541
+                          }
+                        },
+                        {
+                          "id": 33588,
+                          "title": "Boundless",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1249248?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Boundless",
+                            "id": 1249248
+                          }
+                        }
+                      ],
+                      "creature_display": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129778?namespace=static-12.0.1_65617-us"
+                        },
+                        "id": 129778
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1239262?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Conqueror's Cross",
+                    "id": 1239262
+                  }
+                },
+                {
+                  "id": 33337,
+                  "title": "Touch of Oblivion",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1246143?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Touch of Oblivion",
+                    "id": 1246143
+                  }
+                }
+              ],
+              "creature_display": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/media/creature-display/129591?namespace=static-12.0.1_65617-us"
+                },
+                "id": 129591
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32479,
+      "title": "Stage Three: Singularity",
+      "sections": [
+        {
+          "id": 32480,
+          "title": "Oblivion",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1229327?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Oblivion",
+            "id": 1229327
+          }
+        },
+        {
+          "id": 33260,
+          "title": "Destabilized",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1245292?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Destabilized",
+            "id": 1245292
+          }
+        },
+        {
+          "id": 32532,
+          "title": "Accretion Disk",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233292?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Accretion Disk",
+            "id": 1233292
+          }
+        },
+        {
+          "id": 33500,
+          "title": "Extinguish The Stars",
+          "sections": [
+            {
+              "id": 33501,
+              "title": "Gravity Well",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232394?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Gravity Well",
+                "id": 1232394
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1231716?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Extinguish The Stars",
+            "id": 1231716
+          }
+        },
+        {
+          "id": 32489,
+          "title": "Extinguish The Stars",
+          "sections": [
+            {
+              "id": 32490,
+              "title": "Gravity Well",
+              "sections": [
+                {
+                  "id": 33502,
+                  "title": "Stellar Overload",
+                  "sections": [
+                    {
+                      "id": 32528,
+                      "title": "Black Hole",
+                      "sections": [
+                        {
+                          "id": 32529,
+                          "title": "Spaghettification",
+                          "spell": {
+                            "key": {
+                              "href": "https://us.api.blizzard.com/data/wow/spell/1230674?namespace=static-12.0.1_65617-us"
+                            },
+                            "name": "Spaghettification",
+                            "id": 1230674
+                          }
+                        }
+                      ],
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1232987?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Black Hole",
+                        "id": 1232987
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1248479?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Stellar Overload",
+                    "id": 1248479
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232394?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Gravity Well",
+                "id": 1232394
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1231716?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Extinguish The Stars",
+            "id": 1231716
+          }
+        },
+        {
+          "id": 33505,
+          "title": "Devour",
+          "sections": [
+            {
+              "id": 33506,
+              "title": "Density",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233557?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Density",
+                "id": 1233557
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233539?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Devour",
+            "id": 1233539
+          }
+        },
+        {
+          "id": 32540,
+          "title": "Devour",
+          "sections": [
+            {
+              "id": 32541,
+              "title": "Density",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1233557?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Density",
+                "id": 1233557
+              }
+            },
+            {
+              "id": 33507,
+              "title": "Supernova",
+              "sections": [
+                {
+                  "id": 33503,
+                  "title": "Black Hole",
+                  "sections": [
+                    {
+                      "id": 33504,
+                      "title": "Spaghettification",
+                      "spell": {
+                        "key": {
+                          "href": "https://us.api.blizzard.com/data/wow/spell/1230674?namespace=static-12.0.1_65617-us"
+                        },
+                        "name": "Spaghettification",
+                        "id": 1230674
+                      }
+                    }
+                  ],
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1232987?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Black Hole",
+                    "id": 1232987
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232973?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Supernova",
+                "id": 1232973
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1233539?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Devour",
+            "id": 1233539
+          }
+        },
+        {
+          "id": 32572,
+          "title": "Darkened Sky",
+          "sections": [
+            {
+              "id": 32573,
+              "title": "Shadowquake",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234054?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Shadowquake",
+                "id": 1234054
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234052?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Darkened Sky",
+            "id": 1234052
+          }
+        },
+        {
+          "id": 33498,
+          "title": "Cosmic Collapse",
+          "sections": [
+            {
+              "id": 33499,
+              "title": "Cosmic Fragility",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234266?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Cosmic Fragility",
+                "id": 1234266
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234263?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cosmic Collapse",
+            "id": 1234263
+          }
+        },
+        {
+          "id": 32585,
+          "title": "Cosmic Collapse",
+          "sections": [
+            {
+              "id": 32586,
+              "title": "Cosmic Fragility",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234266?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Cosmic Fragility",
+                "id": 1234266
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234263?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cosmic Collapse",
+            "id": 1234263
+          }
+        },
+        {
+          "id": 32527,
+          "title": "Supernova",
+          "sections": [
+            {
+              "id": 33508,
+              "title": "Black Hole",
+              "sections": [
+                {
+                  "id": 33509,
+                  "title": "Spaghettification",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1230674?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Spaghettification",
+                    "id": 1230674
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1232987?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Black Hole",
+                "id": 1232987
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1232973?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Supernova",
+            "id": 1232973
+          }
+        },
+        {
+          "id": 33666,
+          "title": "Voidgrasp",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1250055?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Voidgrasp",
+            "id": 1250055
+          }
+        },
+        {
+          "id": 32581,
+          "title": "Gravitational Distortion",
+          "sections": [
+            {
+              "id": 32582,
+              "title": "Crushing Gravity",
+              "sections": [
+                {
+                  "id": 32583,
+                  "title": "Crushed",
+                  "spell": {
+                    "key": {
+                      "href": "https://us.api.blizzard.com/data/wow/spell/1234251?namespace=static-12.0.1_65617-us"
+                    },
+                    "name": "Crushed",
+                    "id": 1234251
+                  }
+                }
+              ],
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234243?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Crushing Gravity",
+                "id": 1234243
+              }
+            },
+            {
+              "id": 32584,
+              "title": "Inverse Gravity",
+              "spell": {
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1234244?namespace=static-12.0.1_65617-us"
+                },
+                "name": "Inverse Gravity",
+                "id": 1234244
+              }
+            }
+          ],
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1234242?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Gravitational Distortion",
+            "id": 1234242
+          }
+        },
+        {
+          "id": 32481,
+          "title": "Fists of the Voidlord",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1227665?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Fists of the Voidlord",
+            "id": 1227665
+          }
+        },
+        {
+          "id": 32526,
+          "title": "Cosmic Radiation",
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1232894?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Cosmic Radiation",
+            "id": 1232894
+          }
+        }
+      ]
+    }
+  ],
+  "instance": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/journal-instance/1302?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Manaforge Omega",
+    "id": 1302
+  },
+  "category": {
+    "type": "RAID"
+  },
+  "modes": [
+    {
+      "type": "LFR",
+      "name": "Raid Finder"
+    },
+    {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    {
+      "type": "HEROIC",
+      "name": "Heroic"
+    },
+    {
+      "type": "MYTHIC",
+      "name": "Mythic"
+    }
+  ]
+}

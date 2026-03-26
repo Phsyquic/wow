@@ -1,0 +1,354 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/237673?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 237673,
+  "name": "Half-Mask of Fallen Storms",
+  "quality": {
+    "type": "EPIC",
+    "name": "Epic"
+  },
+  "level": 662,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/237673?namespace=static-12.0.1_65617-us"
+    },
+    "id": 237673
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Armor",
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Leather",
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": "Head"
+  },
+  "purchase_price": 4002612,
+  "sell_price": 800522,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/237673?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237673
+    },
+    "context": 0,
+    "bonus_list": [
+      12231,
+      12676
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": "Epic"
+    },
+    "name": "Half-Mask of Fallen Storms",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/237673?namespace=static-12.0.1_65617-us"
+      },
+      "id": 237673
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Armor",
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Leather",
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": "Head"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "armor": {
+      "value": 23,
+      "display": {
+        "display_string": "23 Armor",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": "Intellect"
+        },
+        "value": 22,
+        "display": {
+          "display_string": "+22 Intellect",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 22,
+        "is_negated": true,
+        "display": {
+          "display_string": "+22 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 99,
+        "display": {
+          "display_string": "+99 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+14 Critical Strike",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 30,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+30 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 399242,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "39",
+        "silver": "92",
+        "copper": "42"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": "Requires Level 80"
+      },
+      "playable_classes": {
+        "links": [
+          {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Monk",
+            "id": 10
+          }
+        ],
+        "display_string": "Classes: Monk"
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1925?namespace=static-12.0.1_65617-us"
+        },
+        "name": "Crash of Fallen Storms",
+        "id": 1925
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237676?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Gi of Fallen Storms",
+            "id": 237676
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237674?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Grasp of Fallen Storms",
+            "id": 237674
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237673?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Half-Mask of Fallen Storms",
+            "id": 237673
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237672?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Legwraps of Fallen Storms",
+            "id": 237672
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/237671?namespace=static-12.0.1_65617-us"
+            },
+            "name": "Glyphs of Fallen Storms",
+            "id": 237671
+          }
+        }
+      ],
+      "display_string": "Crash of Fallen Storms (0/5)"
+    },
+    "level": {
+      "value": 104,
+      "display_string": "Item Level 104"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117531?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117531
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117579?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117579
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117576?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117576
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117588?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117588
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117567?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117567
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117543?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117543
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117555?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117555
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117600?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117600
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117552?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117552
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117540?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117540
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117564?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117564
+    },
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/117591?namespace=static-12.0.1_65617-us"
+      },
+      "id": 117591
+    }
+  ]
+}

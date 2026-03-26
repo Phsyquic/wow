@@ -1,0 +1,217 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/data/wow/item/185783?namespace=static-12.0.1_65617-us"
+    }
+  },
+  "id": 185783,
+  "name": "Yasahm the Riftbreaker",
+  "quality": {
+    "type": "RARE",
+    "name": "Rare"
+  },
+  "level": 155,
+  "required_level": 60,
+  "media": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/media/item/185783?namespace=static-12.0.1_65617-us"
+    },
+    "id": 185783
+  },
+  "item_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Weapon",
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-12.0.1_65617-us"
+    },
+    "name": "Crossbow",
+    "id": 18
+  },
+  "inventory_type": {
+    "type": "RANGEDRIGHT",
+    "name": "Ranged"
+  },
+  "purchase_price": 208308,
+  "sell_price": 41661,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/185783?namespace=static-12.0.1_65617-us"
+      },
+      "id": 185783
+    },
+    "quality": {
+      "type": "RARE",
+      "name": "Rare"
+    },
+    "name": "Yasahm the Riftbreaker",
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/185783?namespace=static-12.0.1_65617-us"
+      },
+      "id": 185783
+    },
+    "item_class": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Weapon",
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/18?namespace=static-12.0.1_65617-us"
+      },
+      "name": "Crossbow",
+      "id": 18
+    },
+    "inventory_type": {
+      "type": "RANGEDRIGHT",
+      "name": "Ranged"
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": "Binds when picked up"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 14,
+        "max_value": 21,
+        "display_string": "14 - 21 Damage",
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": "Physical"
+        }
+      },
+      "attack_speed": {
+        "value": 3000,
+        "display_string": "Speed 3.00"
+      },
+      "dps": {
+        "value": 5.833333,
+        "display_string": "(5.8 damage per second)"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": "Agility"
+        },
+        "value": 8,
+        "is_negated": true,
+        "display": {
+          "display_string": "+8 Agility",
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": "Stamina"
+        },
+        "value": 12,
+        "display": {
+          "display_string": "+12 Stamina",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        "value": 10,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+10 Haste",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": "+6 Versatility",
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/spell/351527?namespace=static-12.0.1_65617-us"
+          },
+          "name": "Preternatural Charge",
+          "id": 351527
+        },
+        "description": "Equip: Your damaging critical strikes grant you a stack of Preternatural Charge. When you reach 5 stacks of Preternatural Charge, your next critical strike will consume all stacks to tear open a rift near your target, inflicting 18 Arcane damage."
+      }
+    ],
+    "sell_price": {
+      "value": 19050,
+      "display_strings": {
+        "header": "Sell Price:",
+        "gold": "1",
+        "silver": "90",
+        "copper": "50"
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 60,
+        "display_string": "Requires Level 60"
+      }
+    },
+    "level": {
+      "value": 36,
+      "display_string": "Item Level 36"
+    },
+    "durability": {
+      "value": 100,
+      "display_string": "Durability 100 / 100"
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/44427?namespace=static-12.0.1_65617-us"
+      },
+      "id": 44427
+    }
+  ]
+}
